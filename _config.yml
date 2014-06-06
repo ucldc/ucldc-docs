@@ -5,8 +5,8 @@ project_wiki: https://wiki.library.ucsf.edu/display/UCLDC/UCLDC+Implementation
 date: June 5, 2014
 email: your-email@domain.com
 description: ""
-baseurl: "/ucldc"
-url: "http://localhost:4000"
+baseurl: "/ucldc-docs"
+url: "http://ucldc.github.io"
 
 # Build settings
 markdown: kramdown
