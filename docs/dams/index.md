@@ -5,7 +5,7 @@ next_section: dams/organization
 permalink: /docs/dams/index/
 ---
 
-The Nuxeo Digital Asset Management System (DAMS) is a tool for object-level metadata management. Upload and store content files and their affiliated metadata records in the DAMS. If you have an account already, use your Single Sign-On account to login at [https://nuxeo.cdlib.org/nuxeo/](https://nuxeo.cdlib.org/nuxeo/). If you do not already have an account, please [create an account]({{ site.url }}/docs/create-account/).
+The Nuxeo Digital Asset Management System (DAMS) is a tool for object-level metadata management. Upload and store content files and their affiliated metadata records in the DAMS. If you have an account already, use your Single Sign-On account to login at [https://nuxeo.cdlib.org/nuxeo/](https://nuxeo.cdlib.org/nuxeo/). If you do not already have an account, please [create an account]({{ site.url }}{{ site.baseurl }}/docs/create-account/).
 
 On login, you should see a screen that looks like this: 
 

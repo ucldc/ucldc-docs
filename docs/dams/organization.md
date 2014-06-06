@@ -20,7 +20,14 @@ For collections we have loaded into the DAMS, each object in a collection is enc
 
 <div class="walkthrough">Banana Slug Walkthrough</div>
 
-<p>To create a new project folder, navigate to your campus' folder, click on the 'Content' tab if it is not already selected by default, and press 'New'. There is only one available document type for children of a campus' folder - a project folder. Click 'Project Folder'. For the required 'Title' field, input "Banana Slug" and for the optional 'Description' field, input "A trial project folder for testing the features of the Banana Slug release." Then press 'Create'. </p>
+To create a new project folder 
+
+1. Navigate to your campus' folder
+2. Click on the 'Content' tab if it is not already selected by default, and press 'New'.
+3. There is only one available document type for children of a campus' folder - a project folder. Click 'Project Folder'. 
+4. For the required 'Title' field, input "Banana Slug".
+5. For the optional 'Description' field, input "A trial project folder for testing the features of the Banana Slug release." 
+6. Then press 'Create'. 
 
 <p>You should then be directed to that project folder's page, with the 'Content' tab selected. In the hierarchy sidebar, you should see 'Banana Slug' underneath your campus' folder.</p>
 

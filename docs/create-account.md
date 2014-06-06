@@ -13,4 +13,4 @@ permalink: /docs/create-account/
 
 3. A UCLDC Project Implementation team member will send a follow-up e-mail to you, to confirm once your account has been activated. At that point, you can log into the Nuxeo DAMS <span style="color: red">(as described further below) -- and in subsequent releases, you will be able to log into the Collection Registry to manage collection details.</span>
 
-<p style="text-align: center"><a href="https://nuxeo.cdlib.org/nuxeo/">Nuxeo DAMS</a> - <a href="{{site.baseurl}}/docs/dams/index/">Documentation</a><br><a href="https://registry.cdlib.org/">Collection Registry</a> - <a href="{{site.baseurl}}/docs/registry/index/">Documentation</a></p>
+<p style="text-align: center"><a href="https://nuxeo.cdlib.org/nuxeo/">Nuxeo DAMS</a> - <a href="{{ site.url }}{{site.baseurl}}/docs/dams/index/">Documentation</a><br><a href="https://registry.cdlib.org/">Collection Registry</a> - <a href="{{ site.url }}{{site.baseurl}}/docs/registry/index/">Documentation</a></p>

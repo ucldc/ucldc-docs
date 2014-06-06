@@ -2,14 +2,14 @@
 title: Documentation
 project_title: UC Libraries Digital Collections
 project_wiki: https://wiki.library.ucsf.edu/display/UCLDC/UCLDC+Implementation
-date: June 5, 2014
+date: June 6, 2014
 email: your-email@domain.com
 description: ""
 baseurl: "/ucldc-docs"
 url: "http://ucldc.github.io"
+username: ucldc
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 highlighter: pygments
-username: ucldc
