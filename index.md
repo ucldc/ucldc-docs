@@ -8,16 +8,16 @@ The UCLDC project is a shared system of three tools for managing and providing a
 Nuxeo DAMS - Digital Asset Management System
 ==============================================================================
 
-A tool for object-level metadata management. Upload and store content files and their affiliated metadata records in the DAMS. Get started by [creating an account]({{site.url}}/docs/create-account/).
+A tool for object-level metadata management. Upload and store content files and their affiliated metadata records in the DAMS. Get started by [creating an account]({{site.baseurl}}/docs/create-account/).
 
-<p style="text-align: center"><a href="https://nuxeo.cdlib.org/nuxeo/">Nuxeo DAMS</a> - <a href="{{site.url}}/docs/dams/index/">Documentation</a></p>
+<p style="text-align: center"><a href="https://nuxeo.cdlib.org/nuxeo/">Nuxeo DAMS</a> - <a href="{{site.baseurl}}/docs/dams/index/">Documentation</a></p>
 
 Collection Registry
 ===================
 
-A tool for collection-level metadata management. Input the details of your archival and curated collections - regardless of whether or not their content is in the UCLDC DAMS, in another system, or simply in the planning stages of digitization. Use the Collection Registry to plan digitization projects and provide a harvest URL for a collection's objects to be made available to Calisphere. Get started by [creating an account]({{site.url}}/docs/create-account/).
+A tool for collection-level metadata management. Input the details of your archival and curated collections - regardless of whether or not their content is in the UCLDC DAMS, in another system, or simply in the planning stages of digitization. Use the Collection Registry to plan digitization projects and provide a harvest URL for a collection's objects to be made available to Calisphere. Get started by [creating an account]({{site.baseurl}}/docs/create-account/).
 
-<p style="text-align: center"><a href="https://registry.cdlib.org/">Collection Registry</a> - <a href="{{site.url}}/docs/registry/index/">Documentation</a></p>
+<p style="text-align: center"><a href="https://registry.cdlib.org/">Collection Registry</a> - <a href="{{site.baseurl}}/docs/registry/index/">Documentation</a></p>
 
 Calisphere
 ================
