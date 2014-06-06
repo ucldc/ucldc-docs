@@ -2,7 +2,7 @@
 layout: doc
 title: Create an Account
 date: 6/4/2014
-permalink: docs/create-account/
+permalink: /docs/create-account/
 ---
 
 <span style="color: red">At this time, accounts are limited to UCLDC Implementation Project collaborators (members of SAG2 and the UCLDC Product Stakeholder Group and their designees). Members of these groups can request UCLDC accounts using the following steps:</span>
