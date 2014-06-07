@@ -2,7 +2,6 @@
 layout: doc
 title: DAMS Objects
 date: 6/4/2014
-next_section: dams/create-objects
 prev_section: dams/organization
 permalink: /objects/
 ---
