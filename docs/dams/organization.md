@@ -3,7 +3,7 @@ layout: doc
 title: Organizational Paradigms for Managing Objects
 next_section: dams/objects
 prev_section: dams/index
-permalink: /docs/dams/organization/
+permalink: /organization/
 ---
 
 ## Project Folders

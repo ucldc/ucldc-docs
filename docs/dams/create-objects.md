@@ -4,7 +4,7 @@ title: Create an Object in the DAMS
 date: 6/4/2014
 next_section: 
 prev_section: dams/objects
-permalink: /docs/dams/create-objects/
+permalink: /create-objects/
 ---
 
 # Creating a single object
