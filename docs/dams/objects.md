@@ -1,12 +1,10 @@
 ---
 layout: doc
-title: DAMS Objects
+title: Objects in the DAMS
 date: 6/4/2014
 prev_section: dams/organization
 permalink: /objects/
 ---
-
-# Objects in the DAMS
 
 The Nuxeo DAMS allows you to create objects of four different document types: 
 
