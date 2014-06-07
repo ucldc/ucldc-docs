@@ -5,13 +5,19 @@ Written using Jekyll (http://jekyllrb.com/)
 I've used rbenv to get the correct version of Ruby running on my mac:
 
   1. Use Homebrew to install rbenv (note: incompatible with rvm): 
+
       brew update
       brew install rbenv ruby-build
+
   2. Following the instructions from the rbenv install, I added to my .bash_profile:
+
       if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
       source ~/.bash_profile
+
   3. Navigate to the folder I'm using to develop these pages in:
+
       cd ~/Projects/ucldc-docs
+
   4. Set up a local ruby environment in this folder:
       rbenv local 1.9.3-p125
       rbenv rehash
@@ -21,8 +27,11 @@ Then I followed the instructions [here](https://help.github.com/articles/using-j
   1. gem install bundler
   2. rbenv rehash
   3. Bundler wasn't playing nice with rbenv for the bundle install command, so I ran:
+
       gem install github-pages
+
   4. make a file named Gemfile and add 
+
       source 'https://rubygems.org'
       gem 'github-pages'
 
