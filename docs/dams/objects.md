@@ -23,7 +23,7 @@ Each document type can contain sub-objects of any of the four document types. Th
 
 <div class="walkthrough">Banana Slug Walkthrough</div>
 
-**Creating a New Object** - We'll start by creating a picture object. A sample image is available [here](), and some basic metadata is available below:
+**Creating a New Object** - We'll start by creating a picture object. A sample image is available [here]({{ site.url }}/images/Medium_uc-davis-student-farm-49.jpg), and some basic metadata is available below:
 
 | Identifier          | Local Identifier | Title               | Alternative Title                | Type  |
 |---------------------|------------------|---------------------|----------------------------------|-------|
