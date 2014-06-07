@@ -31,6 +31,8 @@ To create a new project folder
 
 <p>You should then be directed to that project folder's page, with the 'Content' tab selected. In the hierarchy sidebar, you should see 'Banana Slug' underneath your campus' folder.</p>
 
+<!---
 ### Project Folder Access Restrictions & The Other Tabs
 
 ## Tags
+--->
