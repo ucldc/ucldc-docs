@@ -2,3 +2,4 @@ _site
 .DS_Store
 images/_negatives
 .ruby-version
+Gemfile*
