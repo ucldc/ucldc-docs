@@ -1,7 +1,7 @@
 ---
 layout: doc
-title: Viewing and Editing Objects in the DAMS
-next_section: 
+title: Viewing and Editing Objects
+next_section: dams/complex-objects
 prev_section: dams/create-objects
 permalink: /edit-objects/
 ---
@@ -9,6 +9,10 @@ permalink: /edit-objects/
 ## Viewing Objects
 
 Once an object is created, if you have read/write access to the object, you should see the following tabs: Summary, Publish, Comments, History, and Manage. You may also see the View and Picture Metadata tabs (if looking at a Picture object) or the Files tab (if looking at a File object). 
+
+<!---
+TODO: screenshot
+--->
 
 **Summary** - View a representation of the uploaded content file, create child objects, view and edit object-level metadata. The Summary tab also includes process metadata such as relevant dates (created and modified), users (creator, last contributor, and a list of all contributors), and tags. Currently, all registered users have read access to all the objects in the DAMS. Only registered users from a particular campus will see edit buttons to modify the metadata, though. 
 
@@ -21,6 +25,10 @@ Once an object is created, if you have read/write access to the object, you shou
 **History** - An ongoing record of the object's history - when it was created, modified, and who performed the action. 
 
 **Manage** - On the Manage tab, you'll be able to see who has what level of access to your object. Access restrictions are inherited, unless the 'Block permissions inheritance' checkbox is checked, so these same restrictions apply for all children in the hierarchy. <span style="color: red">See permissions for more information about the Manage tab.</span>
+
+<!---
+TODO: put together information about how permissions work.
+--->
 
 **View** - (Picture objects only) Shows the various derivatives of an image content file - Medium, Original, Small, Thumbnail, and OriginalJpeg. The derivatives produced are all JPEGs in various sizes. 'Original' is the original file's size and file format. 'OriginalJpeg' is the JPEG version of the original file, maintaining width and height values. 'Medium', 'Small' and 'Thumbnail' are all JPEG derivatives of specific width and height values. You can select a derivative and press the download button to download the content file to your computer. <span style="color: red">Can all users download content files?</span> If the user has write access, the View tab provides 90° rotation options for the image file. 
 

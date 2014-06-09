@@ -252,6 +252,7 @@ div .walkthrough::before {
 .sidebar li {
     list-style-type: none;
     margin: 0 7px 3px;
+    font-size: 14px;
 }
 
 article ul, article ol {
@@ -268,6 +269,7 @@ article table, article td, article th {
 }
 
 article td, article th {
+    font-size: 12px;
     padding: 5px;
 }
 
