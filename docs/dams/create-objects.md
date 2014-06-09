@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: Objects in the DAMS
-date: 6/4/2014
+title: Creating Objects in the DAMS
+next_section: dams/edit-objects
 prev_section: dams/organization
-permalink: /objects/
+permalink: /create-objects/
 ---
 
 The Nuxeo DAMS allows you to create objects of four different document types: 
@@ -21,7 +21,9 @@ Each document type can contain sub-objects of any of the four document types. Th
 
 <div class="walkthrough">Banana Slug Walkthrough</div>
 
-**Creating a New Object** - We'll start by creating a picture object. A sample image is available [here]({{ site.url }}/images/Medium_uc-davis-student-farm-49.jpg), and some basic metadata is available below:
+#### Creating a New Object
+
+We'll start by creating a picture object. A sample image is available [here]({{ site.url }}{{ site.baseurl }}/images/Medium_uc-davis-student-farm-49.jpg), and some basic metadata is available below:
 
 | Identifier          | Local Identifier | Title               | Alternative Title                | Type  |
 |---------------------|------------------|---------------------|----------------------------------|-------|
@@ -63,7 +65,6 @@ Each document type can contain sub-objects of any of the four document types. Th
   <li>Press 'Create'.</li>
 </ol>
 
-<p>You should then be directed to that object's page, with the 'Summary' tab selected. In the hierarchy sidebar, you should see your new object underneath the Banana Slug folder. Under the metadata section of the Summary tab, you should see the metadata you inputted.</p>
+<p>You should then be directed to that object's page, with the 'Summary' tab selected, as shown in the below screenshot. In the hierarchy sidebar, you should see your new object underneath the Banana Slug folder. Under the metadata section of the Summary tab, you should see the metadata you inputted. The next section discusses editing objects in the DAMS.</p>
 
-<div class="note">There are no required fields on an object page, meaning that metadata entry and content upload can happen in any order convenient to your workflow. You could create a bunch of objects and only upload their content files, and then go back through and input metadata. Or vice-versa, you could create a bunch of objects with complete metadata records, and as you digitize your content, upload the files to the appropriate objects.</div>
-
+<div class="note">There are no required fields on an object page, meaning that metadata entry and content upload can happen in any order convenient to your workflow. You could create a bunch of objects and only upload their content files, and then go back through and input metadata. Or vice-versa: you could create a bunch of objects with complete metadata records, and as you digitize your content, upload the files to the appropriate objects.</div>

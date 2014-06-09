@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Organizational Paradigms for Managing Objects
-next_section: dams/objects
+next_section: dams/create-objects
 prev_section: dams/index
 permalink: /organization/
 ---

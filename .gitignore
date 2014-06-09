@@ -1,5 +1,8 @@
-_site
-.DS_Store
-images/_negatives
 .ruby-version
 Gemfile*
+
+_site
+.tm_properties
+images/_negatives
+
+.DS_Store
