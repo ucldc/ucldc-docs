@@ -33,7 +33,7 @@ Despite the fact that the parent object must have a document type, the parent ob
 #### Create a Complex Object
 
 1. From within your Banana Slug project folder, create a new Picture object. 
-2. On the create object form, fill out the following metadata, and upload [this photograph]({{ site.url }}{{ site.baseurl }}/images/Original_complex-flat.jpg), as described in the [create objects section]({{ site.url }}{{ site.baseurl }}/docs/dams/create-objects/).
+2. On the create object form, fill out the following metadata, and upload <a href="{{ site.url }}{{ site.baseurl }}/images/Original_complex-flat.jpg" download>this photograph</a>, as described in the [create objects section]({{ site.url }}{{ site.baseurl }}/docs/dams/create-objects/).
 
 <table>
   <thead>
@@ -65,10 +65,10 @@ Despite the fact that the parent object must have a document type, the parent ob
   <li>Select the Picture document type from the list.</li>
   <li>On the create object form, fill out only the title to 'Photograph 1', then press 'Save'.</li>
   <li>Navigate back to the 'Complex object (flat)', and repeat steps 3-6 for 'Photograph 2' and 'Photograph 3'</li>
-  <li>Navigate back to the summary tab for Photograph 1, and drag and drop <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-43.jpg">Original_anr2_UCOP-43.jpg</a>.</li>
+  <li>Navigate back to the summary tab for Photograph 1, and drag and drop <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-43.jpg" download>Original_anr2_UCOP-43.jpg</a> onto the available drop zone.</li>
   <li>Navigate back to the summary tab for Photograph 2, scroll down to Metadata, and press the 'Edit' button.</li>
-  <li>Press the upload button, and select wherever you have downloaded <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-44.jpg">this photograph</a> to on your computer. Then scroll down to press 'Save'</li>
-  <li>Return to the summary tab for Photograph 3, and choose one of the two methods for uploading the <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-45.jpg">third content file</a>.</li> 
+  <li>Press the upload button, and select wherever you have downloaded <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-44.jpg" download>this photograph</a> to on your computer. Then scroll down to press 'Save'</li>
+  <li>Return to the summary tab for Photograph 3, and choose one of the two methods for uploading the <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-45.jpg" download>third content file</a>.</li> 
 </ol>
 
 Now the hierarchy sidebar should contain the following under your campus' name:

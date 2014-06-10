@@ -8,4 +8,4 @@ permalink: /index/
 
 # Registry Documentation Home
 
-Registry documentation home
+Registry Documentation Coming Soon

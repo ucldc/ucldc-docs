@@ -19,7 +19,7 @@ For the purpose of this documentation an object is a content file and its affili
 TODO: metadata model document - link to ucldc wiki excel spreadsheet? 
 --->
 
-The document types vary in the type of content file you can upload ([Supported File Formats - Nuxeo Documentation](http://doc.nuxeo.com/display/public/USERDOC/Supported+File+Formats)), and the kinds of derivatives Nuxeo automatically creates. Most common filetypes are supported. 
+The document types vary in the type of content file you can upload (<a href="http://doc.nuxeo.com/display/public/USERDOC/Supported+File+Formats" target="_blank"> Supported File Formats - Nuxeo Documentation</a>), and the kinds of derivatives Nuxeo automatically creates. Most common filetypes are supported. 
 
 Each document type can contain sub-objects of any of the four document types. There is no limit on the number of child objects. Child objects are viewable and orderable via the Summary tab of their parent object. 
 
@@ -27,7 +27,7 @@ Each document type can contain sub-objects of any of the four document types. Th
 
 #### Creating a New Object
 
-We'll start by creating a picture object. A sample image is available [here]({{ site.url }}{{ site.baseurl }}/images/Medium_uc-davis-student-farm-49.jpg), and some basic metadata is available below:
+We'll start by creating a picture object. A sample image is available <a href="{{ site.url }}{{ site.baseurl }}/images/Medium_uc-davis-student-farm-49.jpg" download>here</a>, and some basic metadata is available below:
 
 | Identifier          | Local Identifier | Title               | Alternative Title                | Type  |
 |---------------------|------------------|---------------------|----------------------------------|-------|
