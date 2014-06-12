@@ -278,7 +278,7 @@ article th {
     color: #3C3C3C;
 }
 
-.img-popup {
+.img-popup img, .img-popup-tall img {
     border: 1px solid black;
 }
 
