@@ -31,7 +31,7 @@ Despite the fact that the parent-level object must have a document type, it does
 #### Create a Complex Object
 
 1. From within your Banana Slug project folder, create a new Picture object. 
-2. On the create object form, fill out the following metadata, and upload <a href="{{ site.url }}{{ site.baseurl }}/images/Original_complex-flat.jpg" download>this photograph</a>, as described in the [create objects section]({{ site.url }}{{ site.baseurl }}/docs/dams/create-objects/).
+2. On the create object form, fill out the following metadata, upload <a href="{{ site.url }}{{ site.baseurl }}/images/Original_complex-flat.jpg" download>this photograph</a>, and press the 'Create' button as described in the [create objects section]({{ site.url }}{{ site.baseurl }}/docs/dams/create-objects/).
 
 <table>
   <thead>
@@ -61,7 +61,7 @@ Despite the fact that the parent-level object must have a document type, it does
   <li>Navigate to this object's Summary tab, and scroll down to find the section labeled 'Component Objects'.</li>
   <li>Press the 'New' button.</li>
   <li>Select the Picture document type from the list.</li>
-  <li>On the create object form, fill out only the title to 'Photograph 1', then press 'Save'.</li>
+  <li>On the create object form, fill out only the title to 'Photograph 1', then press 'Create'.</li>
   <li>Navigate back to the 'Complex object (flat)', and repeat steps 3-6 for 'Photograph 2' and 'Photograph 3'</li>
   <li>Navigate back to the summary tab for Photograph 1, and drag and drop <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-43.jpg" download>Original_anr2_UCOP-43.jpg</a> onto the available drop zone.</li>
   <li>Navigate back to the summary tab for Photograph 2, scroll down to Metadata, and press the 'Edit' button.</li>
