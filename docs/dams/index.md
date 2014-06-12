@@ -26,4 +26,4 @@ The DAMS are hierarchically organized. We are at the root of the hierarchy, look
 - Sidebar
   - Digital objects within the DAMS are hierarchically organized. By default, the sidebar displays this hierarchy.
 - Breadcrumbs: Used to reveal where the object or folder you are currently viewing exists in the hierarchy.
-- Current object or project folder & its tabs: These tabs change depending on the kind of object or folder you are viewing and will be discussed in subsequent sections for [project folders]({{ site.url }}{{ site.baseurl }}/docs/dams/organization/), [objects]({{ site.url }}{{ site.baseurl }}/docs/dams/edit-objects/).
+- Current object or project folder & its tabs: These tabs change depending on the kind of object or folder you are viewing and will be discussed in subsequent sections for [project folders]({{ site.url }}{{ site.baseurl }}/docs/dams/organization/) and [objects]({{ site.url }}{{ site.baseurl }}/docs/dams/edit-objects/).

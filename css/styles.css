@@ -281,3 +281,12 @@ article th {
 .img-popup {
     border: 1px solid black;
 }
+
+a.notelink {
+    color: #fff;
+    text-decoration: underline;
+}
+a.notelink:hover {
+    color: #e3e3e3;
+    text-decoration: none;
+}

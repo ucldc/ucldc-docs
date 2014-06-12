@@ -12,7 +12,8 @@ Projects folders are for your own internal organizational and access restriction
 
 <div class="note">In order to contain an object in more than one project folder, the object must be duplicated. The duplicate <b>does not</b> link back to the original in any way, so changes made to the duplicate will not be made to the original, and vice versa. We strongly advise using <a href="">tags</a> to organize your objects in multiple categories.</div>
 
-Project folders can be used for a wide range of use cases:
+#### Project folders can be used for a wide range of use cases:
+
   - To organize digital objects by collection. For collections we have loaded into the DAMS, each object in a collection is encapsulated in a project folder of the same name as the collection. 
   - To define a particular workspace for a group of users with limited access rights to a subset of digital objects. 
   - For organizing objects by specific digitization projects. 
@@ -20,7 +21,7 @@ Project folders can be used for a wide range of use cases:
   - For organizing digital objects by completeness of metadata records in the DAMS or method of digitization. 
   - For organizing subsets of a collection for a specific project or staff member.
   
-<div class="note">A folder does not necessarily have to encapsulate a particular collection - for example, an archival collection defined by provenance, or a curated collection where materials are related by topic or other valence. The Nuxeo DAMS are used for object-level metadata entry, so what <i>really</i> matters in publishing a collection to Calisphere, or preserving a collection in Merritt, is that the <a href="">'Collection/Unit'</a> field and access restriction fields in an object's metadata record are filled out accurately.</div>
+<div class="note">A folder does not necessarily have to encapsulate a particular collection - for example, an archival collection defined by provenance, or a curated collection where materials are related by topic or other valence. The Nuxeo DAMS are used for object-level metadata entry, so what <i>really</i> matters in publishing a collection to Calisphere, or preserving a collection in Merritt, is that the <a href="" class="notelink">'Collection/Unit'</a> field and access restriction fields in an object's metadata record are filled out accurately.</div>
 
 From within your campus' folder, you can create as many project folders (and nested project folders) as you need. In order to create new project folders, navigate to your campus' folder, and press the 'New' button. 
 
