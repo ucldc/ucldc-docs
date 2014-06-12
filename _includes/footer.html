@@ -65,7 +65,16 @@
 <script>
   $(document).ready(function() {
     $('.img-popup').magnificPopup({
-      type: 'image'
+      type: 'image',
+      closeOnContentClick: true
+    });
+    
+    $('.img-popup-tall').magnificPopup({
+      type: 'image',
+      closeOnContentClick: true,
+      image: {
+        verticalFit: false
+      }
     });
   });
 </script>

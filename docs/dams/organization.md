@@ -25,8 +25,8 @@ Projects folders are for your own internal organizational and access restriction
 
 From within your campus' folder, you can create as many project folders (and nested project folders) as you need. In order to create new project folders, navigate to your campus' folder, and press the 'New' button. 
 
-<a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/3_UCOP-folder.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/3_UCOP-folder.png" alt="Screenshot of UCOP folder contents" style="width: 500px">
+<a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/2_UCOP-folder.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/2_UCOP-folder.png" alt="Screenshot of UCOP folder contents" style="width: 500px">
 </a>
 <br>(click to enlarge)
 
@@ -48,8 +48,3 @@ To create a new project folder
 ## Tags
 
 In order to organize your digital objects in multiple categories, you can create tags and add them to your objects via their [Summary Tab](). 
-
-
-<!---
-### Project Folder Access Restrictions & The Other Tabs
---->

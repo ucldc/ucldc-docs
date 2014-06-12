@@ -10,31 +10,23 @@ permalink: /edit-objects/
 
 Once an object is created, if you have read/write access to the object, you should see the following tabs: Summary, Publish, Comments, History, and Manage. You may also see the View and Picture Metadata tabs (if looking at a Picture object) or the Files tab (if looking at a File object). 
 
-<!---
-TODO: screenshot
---->
-
 **Summary** - View a representation of the uploaded content file, create child objects, view and edit object-level metadata. The Summary tab also includes process metadata such as relevant dates (created and modified), users (creator, last contributor, and a list of all contributors), and tags. Currently, all registered users have read access to all the objects in the DAMS. Only registered users from a particular campus will see edit buttons to modify the metadata, though. 
 
 <div class="note">The State and Workflow Process are also included on the Summary tab. These are built-in Nuxeo features we see as potentially useful, though we haven't fully built out their functionality just yet. For now, you can mostly ignore those sections, but they may provide useful functionality in future releases.</div>
 
 **Publish** - The publish tab is a built-in Nuxeo feature. Currently, no accounts are set up to allow publishing to any sections. We imagine this tab will allow you to publish content to Merritt for preservation, or to the new Calisphere interface. This tab will get built out in future releases. 
 
-**Comments** - The comment tab is a place to view and write comments on an object. <span style="color: red">Who can comment on an object?</span>
+**Comments** - The comment tab is a place to view and write comments on an object. 
 
 **History** - An ongoing record of the object's history - when it was created, modified, and who performed the action. 
 
-**Manage** - On the Manage tab, you'll be able to see who has what level of access to your object. Access restrictions are inherited, unless the 'Block permissions inheritance' checkbox is checked, so these same restrictions apply for all children in the hierarchy. <span style="color: red">See permissions for more information about the Manage tab.</span>
+**Manage** - On the Manage tab, you'll be able to see who has what level of access to your object. Access restrictions are inherited, unless the 'Block permissions inheritance' checkbox is checked, so these same restrictions apply for all children in the hierarchy. See [permissions]() for more information about the Manage tab. 
 
-<!---
-TODO: put together information about how permissions work.
---->
-
-**View** - (Picture objects only) Shows the various derivatives of an image content file - Medium, Original, Small, Thumbnail, and OriginalJpeg. The derivatives produced are all JPEGs in various sizes. 'Original' is the original file's size and file format. 'OriginalJpeg' is the JPEG version of the original file, maintaining width and height values. 'Medium', 'Small' and 'Thumbnail' are all JPEG derivatives of specific width and height values. You can select a derivative and press the download button to download the content file to your computer. <span style="color: red">Can all users download content files?</span> If the user has write access, the View tab provides 90° rotation options for the image file. 
+**View** - (Picture objects only) Shows the various derivatives of an image content file - Medium, Original, Small, Thumbnail, and OriginalJpeg. The derivatives produced are all JPEGs in various sizes. 'Original' is the original file's size and file format. 'OriginalJpeg' is the JPEG version of the original file, maintaining width and height values. 'Medium', 'Small' and 'Thumbnail' are all JPEG derivatives of specific width and height values. You can select a derivative and press the download button to download the content file to your computer. Any user with a minimum of Read permissions for an object can download the associated content file. If the user has write access, the View tab provides 90° rotation options for the image file. 
 
 **Picture Metadata** - (Picture objects only) Shows any metadata that was embedded in the image content file on upload. 
 
-**Files** - (File objects only) Provides an interface for uploading one or more files at a given time as attachments to the File object. These files are attachments, and different than the main content file. <span style="color: red">Should we remove this tab, and consequently hide this functionality? It seems potentially confusing. Not sure what the story is for 'attachments' (many, attached to one object/metadata record) vs 'content file' (one, attached to one object/metadata record) vs 'children files' (many, hierarchically related to one object, but with their own metadata record).</span>
+**Files** - (File objects only) Provides an interface for uploading one or more files at a given time as attachments to the File object. These files are attachments, and different than the main content file. <span style="color: red">Should we remove the 'Files' tab (visible for 'File' document type only), and consequently hide the built-in functionality for attachments to a File object? It seems potentially confusing. I'm not sure what the story is for a Simple Object (of File doctype) with attachments (which have no metadata record) vs a Complex Object with many children (of File doctype), each with their own metadata record. The File 'attachments' are different than the object's content file, as I understand it. </span>
 
 <div class="walkthrough">Banana Slug Walkthrough</div>
 

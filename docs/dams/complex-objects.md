@@ -82,10 +82,3 @@ Now the hierarchy sidebar should contain the following under your campus' name:
 From any given parent object, you can order, reorder, and delete children by navigating to the 'Component Object' section on the Summary tab, selecting the checkbox next to the component object you would like to order or delete, and then pressing the 'Move to top', 'Move up', Move to bottom', 'Move down', or 'Delete' buttons accordingly. 
 
 <div class="note">Only the components of a complex object are orderable. Children of project folders, such as Banana Slug, are not orderable. To delete an object in a Project Folder, navigate to the 'Content' tab on the Project Folder, select the checkbox next to the object you would like to delete, and press the 'Delete' button.</div>
-
-<!---
-TODO: 
-Also need to touch on searching for an object
-
-Also need to touch on this campus/unit registry-hook-up business (and bulk editing?)
---->

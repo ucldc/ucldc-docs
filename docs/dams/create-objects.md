@@ -15,10 +15,6 @@ The Nuxeo DAMS allows you to create objects of four different document types of 
 
 For the purpose of this documentation an object is a content file and its affiliated metadata record. Each of these document types has the same metadata model. The [metadata model]() follows Dublin Core standards, and includes Descriptive, Technical, and Rights Information. Unicode is supported in metadata. 
 
-<!---
-TODO: metadata model document - link to ucldc wiki excel spreadsheet? 
---->
-
 The document types vary in the type of content file you can upload (<a href="http://doc.nuxeo.com/display/public/USERDOC/Supported+File+Formats" target="_blank"> Supported File Formats - Nuxeo Documentation</a>), and the kinds of derivatives Nuxeo automatically creates. Most common file types are supported. 
 
 Each document type can function as a complex object and can contain child-level components of any of the four document types. There is no limit on the number of components. Child-level components are viewable and orderable via the Summary tab of their parent-level object. 
@@ -73,8 +69,9 @@ We'll start by creating a simple object using the Picture document type. A sampl
 
 <p>You should then be directed to that object's page, with the 'Summary' tab selected, as shown in the below screenshot. In the hierarchy sidebar, you should see your new object underneath the Banana Slug folder. Under the metadata section of the Summary tab, you should see the metadata you inputted. The next section discusses editing objects in the DAMS.</p>
 
-<!--- 
-TODO: screenshot
---->
+<a class="img-popup-tall" href="{{ site.url }}{{ site.baseurl }}/images/3_simple-object.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/3_simple-object.png" alt="Screenshot after logging in" style="width: 500px">
+</a>
+<br>(click to enlarge)
 
 <div class="note">There are no required fields on an object page, meaning that metadata entry and content upload can happen in any order convenient to your workflow. You could create a bunch of objects and only upload their content files, and then go back through and input metadata. Or vice-versa: you could create a bunch of objects with complete metadata records, and as you digitize your content, upload the files to the appropriate objects.</div>
