@@ -5,7 +5,7 @@ date: 6/4/2014
 permalink: /create-account/
 ---
 
-<span style="color: red">At this time, accounts are limited to UCLDC Implementation Project collaborators (members of SAG2 and the UCLDC Product Stakeholder Group and their designees). Members of these groups can request UCLDC accounts using the following steps:</span>
+At this time, accounts are limited to UCLDC Implementation Project collaborators (members of SAG2 and the UCLDC Product Stakeholder Group and their designees). Members of these groups can request UCLDC accounts using the following steps:
 
 1. Start at the Collection Registry administration URL: [https://registry.cdlib.org/edit/](https://registry.cdlib.org/edit/). Request an account by logging in using your Single Sign-On account.
 
