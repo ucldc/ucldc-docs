@@ -1,33 +1,35 @@
 ---
 layout: doc
 title: Creating a Simple Object
-next_section: dams/edit-objects
+next_section: dams/complex-objects
 prev_section: dams/organization
 permalink: /create-objects/
 ---
 
-The Nuxeo DAMS allows you to create objects of four different document types: 
+The Nuxeo DAMS allows you to create objects of four different document types of digital objects: 
 
-- Picture
-- File
-- Video 
-- Audio
+- Picture: use for graphic image-based objects (JPG, PNG, GIF, JPG2000, TIF, etc.)
+- File: use for moving images (OGG, AVI, MP4, FLV, etc.)
+- Audio: use for sound recordings (MP3, WAV, M4A, etc.)
+- File: use for text and other document formats (PDF, RTF, etc.)
 
-For the purpose of this documentation an object is a content file and its affiliated metadata record. Each of these document types have the same metadata model. The [metadata model]() follows Dublin Core standards, and includes Descriptive, Technical, and Rights Information. Unicode is supported in metadata. 
+For the purpose of this documentation an object is a content file and its affiliated metadata record. Each of these document types has the same metadata model. The [metadata model]() follows Dublin Core standards, and includes Descriptive, Technical, and Rights Information. Unicode is supported in metadata. 
 
 <!---
 TODO: metadata model document - link to ucldc wiki excel spreadsheet? 
 --->
 
-The document types vary in the type of content file you can upload (<a href="http://doc.nuxeo.com/display/public/USERDOC/Supported+File+Formats" target="_blank"> Supported File Formats - Nuxeo Documentation</a>), and the kinds of derivatives Nuxeo automatically creates. Most common filetypes are supported. 
+The document types vary in the type of content file you can upload (<a href="http://doc.nuxeo.com/display/public/USERDOC/Supported+File+Formats" target="_blank"> Supported File Formats - Nuxeo Documentation</a>), and the kinds of derivatives Nuxeo automatically creates. Most common file types are supported. 
 
-Each document type can contain sub-objects of any of the four document types. There is no limit on the number of child objects. Child objects are viewable and orderable via the Summary tab of their parent object. 
+Each document type can function as a complex object and can contain child-level components of any of the four document types. There is no limit on the number of components. Child-level components are viewable and orderable via the Summary tab of their parent-level object. 
+
+In the documentation, we'll use Simple Object to refer to objects that are just a single content file and metadata record and Complex Object to refer to objects that have child-level components. We'll discuss [Complex Objects]({{ site.url }}{{ site.url }}/docs/dams/complex-objects/) more in the next section. 
 
 <div class="walkthrough">Banana Slug Walkthrough</div>
 
-#### Creating a New Object
+#### Creating a New Simple Object
 
-We'll start by creating a picture object. A sample image is available <a href="{{ site.url }}{{ site.baseurl }}/images/Medium_uc-davis-student-farm-49.jpg" download>here</a>, and some basic metadata is available below:
+We'll start by creating a simple object using the Picture document type. A sample image is available <a href="{{ site.url }}{{ site.baseurl }}/images/Medium_uc-davis-student-farm-49.jpg" download>here</a>, and some basic metadata is available below:
 
 | Identifier          | Local Identifier | Title               | Alternative Title                | Type  |
 |---------------------|------------------|---------------------|----------------------------------|-------|
