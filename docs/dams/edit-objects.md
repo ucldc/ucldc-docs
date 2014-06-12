@@ -32,7 +32,7 @@ Once an object is created, if you have read/write access to the object, you shou
 
 ## Editing an Object
 
-Let's navigate through the hierarchy back to the image object we created above: Root > Asset Library > Your campus' folder > Banana Slug > Simple image object. 
+Let's navigate through the hierarchy back to the image object we created above: Root > Asset Library > Your campus's folder > Banana Slug > Simple image object. 
 
 1. On the Summary tab, scroll down to 'Metadata' and press the 'Edit' button. 
 2. Under the Content and Characteristics heading, input the following metadata. 

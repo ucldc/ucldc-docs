@@ -31,7 +31,7 @@ We'll start by creating a simple object using the Picture document type. A sampl
 |---------------------|------------------|---------------------|----------------------------------|-------|
 | ark:/13030/c8w66nzb | 5585817          | Simple image object | UC Davis Student Farm photograph | Image |
 
-1. Navigate to the Banana Slug project folder within your campus' folder. 
+1. Navigate to the Banana Slug project folder within your campus's folder. 
 2. Click on the 'Content' tab if it is not already selected by default, and press 'New'.
 3. Since our content file is an image, select the Picture document type. 
 4. Fill out the Basic Information metadata fields with the above data. 

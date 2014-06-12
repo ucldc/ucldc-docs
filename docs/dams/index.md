@@ -14,7 +14,7 @@ On login, you should see a screen that looks like this:
 </a>
 <br>(click to enlarge)
 
-The DAMS are hierarchically organized. We are at the root of the hierarchy, looking at a list of its contents. From here, click on 'Asset Library' to navigate into specific [project folders]({{ site.url }}{{ site.baseurl }}/docs/dams/organization/). Now you should see a list of all 10 campuses and UCOP. Navigate to the project folder for your particular campus. You will then see a list of project folders named for individual collections that we have loaded into the DAMS. Notice how the sidebar reflects where you are in the hierarchy. Feel free to explore the your campus' project folders -- and other campuses' folders. 
+The DAMS are hierarchically organized. We are at the root of the hierarchy, looking at a list of its contents. From here, click on 'Asset Library' to navigate into specific [project folders]({{ site.url }}{{ site.baseurl }}/docs/dams/organization/). Now you should see a list of all 10 campuses and UCOP. Navigate to the project folder for your particular campus. You will then see a list of project folders named for individual collections that we have loaded into the DAMS. Notice how the sidebar reflects where you are in the hierarchy. Feel free to explore the your campus's project folders -- and other campuses' folders. 
 
 ### Key Elements to the DAMS interface:
 

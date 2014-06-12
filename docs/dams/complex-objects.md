@@ -69,7 +69,7 @@ Despite the fact that the parent-level object must have a document type, it does
   <li>Return to the summary tab for Photograph 3, and choose one of the two methods for uploading the <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-45.jpg" download>third content file</a>.</li> 
 </ol>
 
-Now the hierarchy sidebar should contain the following under your campus' name:
+Now the hierarchy sidebar should contain the following under your campus's name:
 
 - Banana Slug
   - Complex object (flat)

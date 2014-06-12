@@ -23,14 +23,14 @@ Projects folders are for your own internal organizational and access restriction
   
 <div class="note">A folder does not necessarily have to encapsulate a particular collection - for example, an archival collection defined by provenance, or a curated collection where materials are related by topic or other valence. The Nuxeo DAMS are used for object-level metadata entry, so what <i>really</i> matters in publishing a collection to Calisphere, or preserving a collection in Merritt, is that the <a href="" class="notelink">'Collection/Unit'</a> field and access restriction fields in an object's metadata record are filled out accurately.</div>
 
-From within your campus' folder, you can create as many project folders (and nested project folders) as you need. In order to create new project folders, navigate to your campus' folder, and press the 'New' button. 
+From within your campus's folder, you can create as many project folders (and nested project folders) as you need. In order to create new project folders, navigate to your campus's folder, and press the 'New' button. 
 
 <a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/2_UCOP-folder.png">
   <img src="{{ site.url }}{{ site.baseurl }}/images/2_UCOP-folder.png" alt="Screenshot of UCOP folder contents" style="width: 500px">
 </a>
 <br>(click to enlarge)
 
-<div class="note">You'll notice if you navigate to another campus' folder, the 'New' button won't be present. That is because you have read-only access to other campus' folders.</div>
+<div class="note">You'll notice if you navigate to another campus's folder, the 'New' button won't be present. That is because you have read-only access to other campuses' folders.</div>
 
 <div class="walkthrough">Banana Slug Walkthrough</div>
 
@@ -38,12 +38,12 @@ To create a new project folder
 
 1. Navigate to your campus's folder
 2. Click on the 'Content' tab if it is not already selected by default, and press 'New'.
-3. There is only one available document type for children of a campus' folder - a project folder. Click 'Project Folder'. 
+3. There is only one available document type for children of a campus's folder - a project folder. Click 'Project Folder'. 
 4. For the required 'Title' field, input "Banana Slug".
 5. For the optional 'Description' field, input "A trial project folder for testing the features of the Banana Slug release." 
 6. Then press 'Create'. 
 
-<p>You should then be directed to that project folder's page, with the 'Content' tab selected. In the hierarchy sidebar, you should see 'Banana Slug' underneath your campus' folder.</p>
+<p>You should then be directed to that project folder's page, with the 'Content' tab selected. In the hierarchy sidebar, you should see 'Banana Slug' underneath your campus's folder.</p>
 
 ## Tags
 
