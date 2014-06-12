@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Creating Objects
+title: Creating a Simple Object
 next_section: dams/edit-objects
 prev_section: dams/organization
 permalink: /create-objects/

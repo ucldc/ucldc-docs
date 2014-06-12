@@ -1,12 +1,10 @@
 ---
 layout: doc
-title: Creating Complex Objects
+title: Creating a Complex Object
 next_section: 
 prev_section: dams/edit-objects
 permalink: /complex-objects/
 ---
-
-## Creating Complex Objects
 
 Any of the document types (Picture, File, Audio, Video) can contain any number of component objects of any document type. This structure can be flat: 
 

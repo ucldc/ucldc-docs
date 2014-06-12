@@ -5,10 +5,10 @@ date: 3/6/2014
 
 The UCLDC project is a shared system of three tools for managing and providing access to unique digital content from the ten UC campus libraries:
 
-Nuxeo DAMS - Digital Asset Management System
+Nuxeo Digital Asset Management System (DAMS)
 ==============================================================================
 
-A tool for object-level metadata management. Upload and store content files and their affiliated metadata records in the DAMS. Get started by [creating an account]({{ site.url }}{{site.baseurl}}/docs/create-account/).
+A tool for object-level metadata and associated content file management. Use the DAMS to build simple to complex objects -- images, texts, audio, video, etc. -- import or create metadata records, import or upload content files. Get started by [creating an account]({{ site.url }}{{site.baseurl}}/docs/create-account/).
 
 <p style="text-align: center"><a href="https://nuxeo.cdlib.org/nuxeo/">Nuxeo DAMS</a> - <a href="{{ site.url }}{{site.baseurl}}/docs/dams/index/">Documentation</a></p>
 
