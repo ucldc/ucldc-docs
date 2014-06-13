@@ -23,14 +23,17 @@ The first thing you'll notice is that the DAMS is organized hierarchically. Here
 
 Now you should see a list of all 10 campuses and UCOP. These are campus folders, which are the spaces where we'll be getting to work. Navigate to the folder for your campus. You will then see a list of project folders, named for collections that we have pre-loaded into the DAMS. (We'll talk more about [project folders]({{ site.url }}{{ site.baseurl }}/docs/dams/organization/) in the next section.) Notice how the sidebar reflects where you are in the hierarchy. Feel free to explore the folders of your campus and those of the other campuses. 
 
+<a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/asset-library.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/asset-library.png" alt="Screenshot after logging in" style="width: 500px">
+</a>
+<br>(click to enlarge)
+
 ### Key Elements of the DAMS interface:
 Take a moment to familiarize yourself with the DAMS interface.
 
 - Navigation Bar
   - Home: use this to return to the default landing page for the DAMS.
   - Document Management: this is the primary, functional area of the DAMS for creating and managing digital objects.
-  - Quick & Advanced Search: See the [search]() section for further details. 
 - Sidebar
   - Digital objects within the DAMS are hierarchically organized. By default, the sidebar displays this hierarchy.
-- Breadcrumbs: Used to reveal where the object or folder you are currently viewing exists in the hierarchy.
 - Current object or project folder & its tabs: These tabs change depending on the kind of object or folder you are viewing and will be discussed in subsequent sections for [project folders]({{ site.url }}{{ site.baseurl }}/docs/dams/organization/) and [objects]({{ site.url }}{{ site.baseurl }}/docs/dams/edit-objects/).
