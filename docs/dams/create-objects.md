@@ -8,17 +8,17 @@ permalink: /create-objects/
 
 #### Digital objects: some definitions
 
-For the purposes of documentation, let's define digital objects: a digital object is a content file(s) and affiliated metadata record(s). Simple objects comprise one file and one metadata record. Complex objects comprise multiple files and even multiple metadata records which are "bundled" together; in the DAMS, they are objects with child-level components. We'll discuss [Complex Objects]({{ site.url }}{{ site.url }}/docs/dams/complex-objects/) more in a later section. 
+For the purposes of documentation, let's "digital object": a digital object is a content file(s) and affiliated metadata record(s). Simple objects comprise one file and one metadata record. Complex objects comprise multiple files and even multiple metadata records which are "bundled" together; in the DAMS, they are objects with child-level components. We'll discuss [Complex Objects]({{ site.url }}{{ site.url }}/docs/dams/complex-objects/) more in a later section. 
 
 
 #### Understanding document types
 
 The Nuxeo DAMS allows you to create four different kinds of digital objects, called document types: 
 
-- Picture: use for graphic objects/images
-- Video: use for moving images
-- Audio: use for sound recordings
-- File: use for text and document formats
+- <b>Picture:</b> use for graphic objects/images
+- <b>Video:</b> use for moving images
+- <b>Audio:</b> use for sound recordings
+- <b>File:</b> use for text and document formats
 
 The document types vary in the type of content file you can upload (see <a href="http://doc.nuxeo.com/display/public/USERDOC/Supported+File+Formats" target="_blank">Supported File Formats - Nuxeo Documentation</a>), and the kinds of derivatives Nuxeo automatically creates. Nuxeo supports most common file types. 
 
