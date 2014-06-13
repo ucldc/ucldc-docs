@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Viewing and Editing Objects
-next_section: dams/permissions/
+next_section: dams/permissions
 prev_section: dams/complex-objects
 permalink: /edit-objects/
 ---
