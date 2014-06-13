@@ -8,7 +8,7 @@ permalink: /organization/
 
 ## Project Folders
 
-Projects folders are the building blocks for organizing digital objects in the DAMS, based on your own internal needs for organizing and accessing objects--as distinct from how these objects appear in the public interface or in Merritt.
+Projects folders are the building blocks for organizing digital objects in the DAMS, based on your own internal needs for organizing and accessing objects--as distinct from how these objects appear on Calisphere and in Merritt.
 
 Project folders can contain both objects and other project folders, and you can grant read and/or write privileges to them as needed. Every object must be contained within one, and only one, project folder.
 
