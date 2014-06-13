@@ -12,7 +12,7 @@ Projects folders are the building blocks for organizing digital objects in the D
 
 Project folders can contain both objects and other project folders, and you can grant read and/or write privileges to them as needed. Every object must be contained within one, and only one, project folder.
 
-<div class="note">In order to contain an object in more than one project folder, the object must be duplicated. The duplicate <b>does not</b> link back to the original in any way, so changes made to the duplicate will not be made to the original, and vice versa. We strongly advise using <a href="">tags</a> to represent the association of your objects within multiple groups or categories.</div>
+<div class="note">In order to contain an object in more than one project folder, the object must be duplicated. The duplicate <b>does not</b> link back to the original in any way, so changes made to the duplicate will not be made to the original, and vice versa. We strongly advise using tags to represent the association of your objects within multiple groups or categories. You can tag an object or project folder via its summary tab.</div>
 
 #### Project folders are flexible.
 They can be used for a wide range of use cases, for example:
@@ -48,6 +48,3 @@ To create a new project folder
 
 <p>You should then be directed to that project folder's page, with the 'Content' tab selected. In the hierarchy sidebar, you should see 'Banana Slug' underneath your campus's folder.</p>
 
-## Tags
-
-In order to organize your digital objects in multiple categories, you can create tags and add them to your objects via their [Summary Tab](). 
