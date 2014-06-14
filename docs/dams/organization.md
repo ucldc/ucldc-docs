@@ -12,7 +12,7 @@ Our shared DAMS makes heavy use of something called project folders. Projects fo
 
 Project folders can contain both objects and other project folders, and you can grant read and/or write privileges to them as needed. Every object must be contained within one, and only one, project folder.
 
-<div class="note">In order to contain an object in more than one project folder, the object must be duplicated. The duplicate <b>does not</b> link back to the original in any way, so changes made to the duplicate will not be made to the original, and vice versa. We strongly advise using tags to represent the association of your objects within multiple groups or categories. You can tag an object or project folder via its summary tab.</div>
+<div class="note">In order to contain an object in more than one project folder, the object must be duplicated. The duplicate <b>does not</b> link back to the original in any way, so changes made to the duplicate will not be made to the original, and vice versa. We strongly advise using tags to represent the association of your objects within multiple groups or categories. You can tag an object or project folder via its <a href="{{ site.url }}{{ site.baseurl}}/docs/dams/edit-objects" class="notelink">summary tab</a>.</div>
 
 ### Use cases
 Project folders are flexible. They can be used in a variety of ways, for example:

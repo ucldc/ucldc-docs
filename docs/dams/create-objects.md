@@ -15,10 +15,10 @@ For the purposes of documentation, let's define "digital object": a digital obje
 
 The Nuxeo DAMS allows you to create four different kinds of digital objects, called document types: 
 
-- <b>Picture:</b> use for graphic objects/images
-- <b>Video:</b> use for moving images
-- <b>Audio:</b> use for sound recordings
-- <b>File:</b> use for text and document formats
+- **Picture:** use for graphic objects/images
+- **Video:** use for moving images
+- **Audio:** use for sound recordings
+- **File:** use for text and document formats
 
 The document types vary in the type of content file you can upload (see <a href="http://doc.nuxeo.com/display/public/USERDOC/Supported+File+Formats" target="_blank">Supported File Formats - Nuxeo Documentation</a>), and the kinds of derivatives Nuxeo automatically creates. Nuxeo supports most common file types. 
 
@@ -71,7 +71,7 @@ We'll start by creating a simple object using the Picture document type.
 </table>
 
 <ol start="6">
-  <li>Finally, upload the sample content file you downloaded earlier. Select 'Upload', find the file in your filesystem, and then press 'Open'.</li>
+  <li>Finally, upload the sample content file you downloaded earlier. Press 'Browse' or 'Choose File', find the file in your filesystem, and then press 'Open'.</li>
   <li>Scroll down and press 'Create'.</li>
 </ol>
 
