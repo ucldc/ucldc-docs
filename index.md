@@ -17,7 +17,7 @@ Collection Registry
 
 A tool for collection-level metadata management. Input the details of your archival and curated collections - regardless of whether or not their content is in the UCLDC DAMS, in another system, or simply in the planning stages of digitization. Use the Collection Registry to plan digitization projects and provide a harvest URL for a collection's objects to be made available to Calisphere. Get started by [creating an account]({{ site.url }}{{site.baseurl}}/docs/create-account/).
 
-<p style="text-align: center"><a href="https://registry.cdlib.org/">Collection Registry</a> - <a href="{{ site.url }}{{site.baseurl}}/docs/registry/index/">Documentation</a></p>
+<p style="text-align: center"><a href="https://registry.cdlib.org/">Collection Registry</a></p>
 
 Calisphere
 ================
