@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Creating a Complex Object
+title: Creating Complex Objects
 next_section: dams/edit-objects
 prev_section: dams/create-objects
 permalink: /complex-objects/
