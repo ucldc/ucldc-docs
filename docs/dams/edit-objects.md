@@ -28,7 +28,7 @@ Once an object is created, if you have read/write access to the object, you shou
 
 **Files** - (File objects only) Provides an interface for uploading one or more files at a given time as attachments to the File object. These files are attachments, and different than the main content file. <span style="color: red">Should we remove the 'Files' tab (visible for 'File' document type only), and consequently hide the built-in functionality for attachments to a File object? It seems potentially confusing. I'm not sure what the story is for a Simple Object (of File doctype) with attachments (which have no metadata record) vs a Complex Object with many children (of File doctype), each with their own metadata record. The File 'attachments' are different than the object's content file, as I understand it. </span>
 
-<div class="walkthrough">Banana Slug Walkthrough</div>
+<div class="walkthrough">Banana Slug Features Walkthrough</div>
 
 ## Editing an Object
 
@@ -74,9 +74,27 @@ Let's navigate through the hierarchy back to the image object we created above: 
   </tr>
 </table>
 
-**Copyright Statement**: Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owner. Responsibility for any use rests exclusively with the user. 
+<table>
+  <thead>
+    <th>Copyright Statement</th>
+  </thead>
+  <tr>
+    <td>
+      Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owner. Responsibility for any use rests exclusively with the user. 
+    </td>
+  </tr>
+</table>
 
-**Copyright Contact**: University of California Office of the President Communications, External Relations. 1111 Franklin St., 12th Floor, Oakland, CA 94607. Phone: (510) 987-9200. Web: http://www.ucop.edu/communications/
+<table>
+  <thead>
+    <th>Copyright Contact</th>
+  </thead>
+  <tr>
+    <td>
+      University of California Office of the President Communications, External Relations. 1111 Franklin St., 12th Floor, Oakland, CA 94607. Phone: (510) 987-9200. Web: http://www.ucop.edu/communications/
+    </td>
+  </tr>
+</table>
 
 <ol start="4">
   <li>Scroll down to the bottom to press the 'Save' button.</li>
