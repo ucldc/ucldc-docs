@@ -6,14 +6,15 @@ prev_section: dams/create-objects
 permalink: /complex-objects/
 ---
 
-Any of the document types (Picture, File, Audio, Video) can contain any number of component objects of any document type. This structure can be flat: 
+#### Complex objects in the DAMS
+Any of the document types (Picture, File, Audio, Video) can contain any number of component objects of any document type. This structure can be flat, like this: 
 
 - UC Davis Oakville Experimental Vineyard photographs (Picture type)
   - Photograph 1 (Picture type)
   - Photograph 2 (Picture type)
   - Photograph 3 (Picture type)
 
-Or hierarchical:
+Or hierarchical, like this:
 
 - Modavi Center 2010-2011 season promotional materials (Picture type)
   - Photographs (Picture type, no content file)
@@ -24,14 +25,20 @@ Or hierarchical:
     - Document 1 (File type)
     - Document 2 (File type)
 
-Despite the fact that the parent-level object must have a document type, it does not necessarily have to have a content file. In the hierarchical example above, the "Modavi Center 2010-2011 season promotional materials" object contains a visual representation of the object's contents, while the "Photographs" and "Documents" child-level components contain no content files, and the objects at the bottom of the hierarchical tree (Photograph 1-3, Document 1-2) contain the actual content files. 
+#### Not all components need files
+Despite the fact that the parent-level object must have a document type, it does not necessarily have to have a content file. In the hierarchical example above, the "Modavi Center 2010-2011 season promotional materials" object contains a visual representation of the object's contents, while the "Photographs" and "Documents" child-level components contain no content files, and the components at the bottom of the hierarchical tree (Photograph 1-3, Document 1-2) contain the actual content files. 
 
 <div class="walkthrough">Banana Slug Features Walkthrough</div>
 
 #### Create a Complex Object
+For this exercise, you can download and use the following sample files:
+- A content file for the parent-level: <a href="{{ site.url }}{{ site.baseurl }}/images/Original_complex-flat.jpg" download>Original_complex-flat.jpg</a>
+- A content file for a component: <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-43.jpg" download>Original_anr2_UCOP-43.jpg</a>
+- Another content file for a component: <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-44.jpg" download>Original_anr2_UCOP-44.jpg</a>
+- Another content file for a component: <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-45.jpg" download>Original_anr2_UCOP-45.jpg</a>
 
 1. From within your Banana Slug project folder, create a new Picture object. 
-2. On the create object form, fill out the following metadata, upload <a href="{{ site.url }}{{ site.baseurl }}/images/Original_complex-flat.jpg" download>this photograph</a>, and press the 'Create' button as described in the [create objects section]({{ site.url }}{{ site.baseurl }}/docs/dams/create-objects/).
+2. On the create object form, fill out the following metadata, upload the content file Original_complex-flat.jpg, and press the 'Create' button as described in the [create objects section]({{ site.url }}{{ site.baseurl }}/docs/dams/create-objects/).
 
 <table>
   <thead>
@@ -61,12 +68,12 @@ Despite the fact that the parent-level object must have a document type, it does
   <li>Navigate to this object's Summary tab, and scroll down to find the section labeled 'Component Objects'.</li>
   <li>Press the 'New' button.</li>
   <li>Select the Picture document type from the list.</li>
-  <li>On the create object form, fill out only the title to 'Photograph 1', then press 'Create'.</li>
-  <li>Navigate back to the 'Complex object (flat)', and repeat steps 3-6 for 'Photograph 2' and 'Photograph 3'</li>
-  <li>Navigate back to the summary tab for Photograph 1, and drag and drop <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-43.jpg" download>Original_anr2_UCOP-43.jpg</a> onto the available drop zone.</li>
+  <li>On the create object form, add just a title: 'Photograph 1.' Then press 'Create'.</li>
+  <li>Navigate back to the 'Complex object (flat)', and repeat steps 3-6 for 'Photograph 2' and 'Photograph 3'.</li>
+  <li>Navigate back to the summary tab for Photograph 1, and drag and drop the first sample component file, Original_anr2_UCOP-43.jpg, onto the available drop zone.</li>
   <li>Navigate back to the summary tab for Photograph 2, scroll down to Metadata, and press the 'Edit' button.</li>
-  <li>Press the upload button, and select wherever you have downloaded <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-44.jpg" download>this photograph</a> to on your computer. Then scroll down to press 'Save'</li>
-  <li>Return to the summary tab for Photograph 3, and choose one of the two methods for uploading the <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-45.jpg" download>third content file</a>.</li> 
+  <li>Press the upload button, and select the second sample component file, Original_anr2_UCOP-44.jpg from the files on your computer. Then scroll down to press 'Save'</li>
+  <li>Return to the summary tab for Photograph 3, and choose one of the two methods described above for uploading the last component file, Original_anr2_UCOP-45.jpg.</li> 
 </ol>
 
 Now the hierarchy sidebar should contain the following under your campus's name:
