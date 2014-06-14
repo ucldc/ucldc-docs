@@ -28,7 +28,7 @@ Each document type can function as a complex object and can contain child-level 
 
 Each of these document types has the same metadata model. The [metadata model]() follows Dublin Core standards, and includes Descriptive, Technical, and Rights Information. Unicode is supported in metadata. 
 
-<div class="walkthrough">Banana Slug Walkthrough</div>
+<div class="walkthrough">Banana Slug Features Walkthrough</div>
 
 #### Creating a New Simple Object
 

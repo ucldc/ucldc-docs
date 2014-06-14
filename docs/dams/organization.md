@@ -36,7 +36,7 @@ From within your campus folder, you can create as many project folders (and nest
 
 <div class="note">You'll notice that if you navigate to a campus folder for another campus, the 'New' button won't be present. That is because you have read-only access to other campus folders.</div>
 
-<div class="walkthrough">Banana Slug Walkthrough</div>
+<div class="walkthrough">Banana Slug Features Walkthrough</div>
 
 To create a new project folder 
 

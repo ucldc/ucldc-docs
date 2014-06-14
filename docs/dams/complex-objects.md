@@ -26,7 +26,7 @@ Or hierarchical:
 
 Despite the fact that the parent-level object must have a document type, it does not necessarily have to have a content file. In the hierarchical example above, the "Modavi Center 2010-2011 season promotional materials" object contains a visual representation of the object's contents, while the "Photographs" and "Documents" child-level components contain no content files, and the objects at the bottom of the hierarchical tree (Photograph 1-3, Document 1-2) contain the actual content files. 
 
-<div class="walkthrough">Banana Slug Walkthrough</div>
+<div class="walkthrough">Banana Slug Features Walkthrough</div>
 
 #### Create a Complex Object
 

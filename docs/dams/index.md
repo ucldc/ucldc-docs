@@ -8,6 +8,10 @@ permalink: /index/
 #### What is the DAMS?
 The DAMS is a tool for creating and managing object-level metadata and content files. You can use it to build out objects (such as images, texts, audio, and video), create metadata, and upload content files. Our shared DAMS for the UC Libraries is a customized implementation of [Nuxeo](http://www.nuxeo.com/), a platform that is used by a variety of organizations--from media companies to the U.S. Navy--for their content management needs.
 
+<div class="walkthrough">Banana Slug Release</div>
+
+Throughout this user guide, keep a lookout for the Banana Slug! These sections contain walkthroughs specific to our most recent release, named after the UC Santa Cruz Banana Slug.
+
 #### Getting in
 You need an account to access the shared DAMS. If you have an account already, use your Single Sign-On account to login at [https://nuxeo.cdlib.org/nuxeo/](https://nuxeo.cdlib.org/nuxeo/). If you do not already have an account, please [create one]({{ site.url }}{{ site.baseurl }}/docs/create-account/).
 
@@ -38,4 +42,4 @@ Take a moment to familiarize yourself with the DAMS interface.
   - Digital objects within the DAMS are hierarchically organized. By default, the sidebar displays this hierarchy.
 - Current object or project folder and its tabs: These tabs change depending on the kind of object or folder you are viewing and will be discussed in subsequent sections for [project folders]({{ site.url }}{{ site.baseurl }}/docs/dams/organization/) and [objects]({{ site.url }}{{ site.baseurl }}/docs/dams/edit-objects/).
 
-You'll notice there are other elements of the interface you should feel free to explore, though we have not yet customized them fully. 
+You'll notice there are other elements of the interface you should feel free to explore, though we have not yet customized them fully.
