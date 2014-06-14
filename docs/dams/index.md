@@ -10,7 +10,7 @@ The DAMS is a tool for creating and managing object-level metadata and content f
 
 <div class="walkthrough">Banana Slug Release</div>
 
-Throughout this user guide, keep a lookout for the Banana Slug! These sections contain walkthroughs specific to our most recent release, named after the UC Santa Cruz Banana Slug.
+Throughout this user guide, keep a lookout for the Banana Slug! These sections contain walkthroughs specific to our most recent release (named after UC Santa Cruz’s beloved mascot). Here you can try out the latest features and developments we’ve added to the shared DAMS.
 
 #### Getting in
 You need an account to access the shared DAMS. If you have an account already, use your Single Sign-On account to login at [https://nuxeo.cdlib.org/nuxeo/](https://nuxeo.cdlib.org/nuxeo/). If you do not already have an account, please [create one]({{ site.url }}{{ site.baseurl }}/docs/create-account/).
