@@ -26,8 +26,6 @@ Once an object is created, if you have read/write access to the object, you shou
 
 **Picture Metadata** - (Picture objects only) Shows any metadata that was embedded in the image content file on upload. 
 
-**Files** - (File objects only) Provides an interface for uploading one or more files at a given time as attachments to the File object. These files are attachments, and different than the main content file. <span style="color: red">Should we remove the 'Files' tab (visible for 'File' document type only), and consequently hide the built-in functionality for attachments to a File object? It seems potentially confusing. I'm not sure what the story is for a Simple Object (of File doctype) with attachments (which have no metadata record) vs a Complex Object with many children (of File doctype), each with their own metadata record. The File 'attachments' are different than the object's content file, as I understand it. </span>
-
 <div class="walkthrough">Banana Slug Features Walkthrough</div>
 
 ## Editing an Object
