@@ -24,11 +24,17 @@ Once an object is created, if you have read/write access to the object, you shou
 
 - **Manage** - On the Manage tab, you'll be able to see who has what level of access to your object. Access restrictions are inherited, unless the 'Block permissions inheritance' checkbox is checked, so these same restrictions apply for all children in the hierarchy.
 
-- **View (Picture objects only)** - This tab shows the various derivatives of an image content file: Medium, Original, Small, Thumbnail, and OriginalJpeg. The derivatives produced are all JPEGs in various sizes.
-  - 'Original' is the original file's size and file format.
-  - 'OriginalJpeg' is the JPEG version of the original file, maintaining width and height values.
-  - 'Medium', 'Small' and 'Thumbnail' are all JPEG derivatives of specific width and height values.
-You can select a derivative and press the download button to download the content file to your computer. Any user with a minimum of Read permissions for an object can download the associated content file. If the user has write access, the View tab provides 90° rotation options for the image file. 
+<ul>
+  <li>
+    <b>View (Picture objects only)</b> - This tab shows the various derivatives of an image content file: Medium, Original, Small, Thumbnail, and OriginalJpeg. The derivatives produced are all JPEGs in various sizes.
+    <ul>
+      <li>'Original' is the original file's size and file format.</li>
+      <li>'OriginalJpeg' is the JPEG version of the original file, maintaining width and height values.</li>
+      <li>'Medium', 'Small' and 'Thumbnail' are all JPEG derivatives of specific width and height values.</li>
+    </ul>
+    You can select a derivative and press the download button to download the content file to your computer. Any user with a minimum of Read permissions for an object can download the associated content file. If the user has write access, the View tab provides 90° rotation options for the image file. 
+  </li>
+</ul>
 
 - **Picture Metadata (Picture objects only)** - This tab shows any metadata that was embedded in the image content file on upload. 
 
