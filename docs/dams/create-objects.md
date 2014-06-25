@@ -6,31 +6,31 @@ prev_section: dams/organization
 permalink: /create-objects/
 ---
 
-#### Digital objects: some definitions
+### Digital objects: some definitions
 
-For the purposes of documentation, let's define "digital object": a digital object is a content file(s) and affiliated metadata record(s). Simple objects comprise one file and one metadata record. Complex objects comprise multiple files and even multiple metadata records which are "bundled" together; in the DAMS, they are objects with child-level components. We'll discuss [Complex Objects]({{ site.url }}{{ site.url }}/docs/dams/complex-objects/) more in a later section. 
+Before we go on, let's stop to define "digital object": a digital object is a content file(s) and affiliated metadata record(s). <b>Simple objects</b> comprise one file and one metadata record. <b>Complex objects</b> comprise multiple files and even multiple metadata records which are "bundled" together. In the DAMS, these are represented as objects with child-level components. We'll discuss [Complex Objects]({{ site.url }}{{ site.url }}/docs/dams/complex-objects/) more in a later section. 
 
 
-#### Understanding document types
+### Understanding document types
 
 The Nuxeo DAMS allows you to create four different kinds of digital objects, called document types: 
 
-- **Picture:** use for graphic objects/images
-- **Video:** use for moving images
-- **Audio:** use for sound recordings
-- **File:** use for text and document formats
+- **<b>Picture:</b>** use for graphic objects/images
+- **<b>Video:</b>** use for moving images
+- **<b>Audio:</b>** use for sound recordings
+- **<b>File:</b>** use for text and document formats
 
-The document types vary in the type of content file you can upload (see <a href="http://doc.nuxeo.com/display/public/USERDOC/Supported+File+Formats" target="_blank">Supported File Formats - Nuxeo Documentation</a>), and the kinds of derivatives Nuxeo automatically creates. Nuxeo supports most common file types. 
+The document types vary in the type of content file you can upload and the kinds of derivatives Nuxeo automatically creates. As you can see from Nuxeo's documented <a href="http://doc.nuxeo.com/display/public/USERDOC/Supported+File+Formats" target="_blank">Supported File Formats</a>, the DAMS supports most common file types for each of these document types. 
 
-Each document type can function as a complex object and can contain child-level components of any of the four document types. There is no limit on the number of components. Child-level components are viewable and orderable via the Summary tab of their parent-level object. Again, we'll talk more about complex objects later on, but for now it's just important to know that each of the document types can be used to create both simple and complex objects.
+Each document type can function as a complex object and can contain child-level components of any of the four document types. Again, we'll talk more about complex objects later on, but for now it's just important to know that each of the document types can be used to create both simple and complex objects (and components therein).
 
-#### Metadata model
+### Metadata model
 
 Each of these document types has the same metadata model. The [metadata model]() follows Dublin Core standards, and includes Descriptive, Technical, and Rights Information. Unicode is supported in metadata. 
 
 <div class="walkthrough">Banana Slug Features Walkthrough</div>
 
-#### Creating a New Simple Object
+### Creating a New Simple Object
 
 We'll start by creating a simple object using the Picture document type.
 
@@ -71,7 +71,7 @@ We'll start by creating a simple object using the Picture document type.
 </table>
 
 <ol start="6">
-  <li>Finally, upload the sample content file you downloaded earlier. Press 'Browse' or 'Choose File', find the file in your filesystem, and then press 'Open'.</li>
+  <li>Finally, upload the sample content file you downloaded earlier. In the top right of the 'Basic Information' area, find the 'Content' heading. Press 'Browse' or 'Choose File', find the file in your filesystem, and then press 'Open'.</li>
   <li>Scroll down and press 'Create'.</li>
 </ol>
 
