@@ -6,7 +6,9 @@ prev_section: dams/create-objects
 permalink: /complex-objects/
 ---
 
-#### Complex objects in the DAMS
+### Complex objects in the DAMS
+As mentioned earlier, complex objects comprise multiple files and even multiple metadata records which are “bundled” together. In the DAMS, these are represented as objects that have both parent-level and child-level components. You might think of them as objects-within-objects.
+
 Any of the document types (Picture, File, Audio, Video) can contain any number of component objects of any document type. This structure can be flat, like this: 
 
 - UC Davis Oakville Experimental Vineyard photographs (Picture type)
@@ -25,13 +27,15 @@ Or hierarchical, like this:
     - Document 1 (File type)
     - Document 2 (File type)
 
-#### Not all components need files
-Despite the fact that the parent-level object must have a document type, it does not necessarily have to have a content file. In the hierarchical example above, the "Modavi Center 2010-2011 season promotional materials" object contains a visual representation of the object's contents, while the "Photographs" and "Documents" child-level components contain no content files, and the components at the bottom of the hierarchical tree (Photograph 1-3, Document 1-2) contain the actual content files. 
+There is no limit on the number of child-level components for a given complex object, and they are orderable via the 'Summary' tab for the parent-level component.
+
+### Not all components need files
+Despite the fact that the parent-level component must have a document type, it does not necessarily have to have a content file. In the hierarchical example above, the "Modavi Center 2010-2011 season promotional materials" component contains a visual representation of the object's contents, while the "Photographs" and "Documents" child-level components contain no content files, and the components at the bottom of the hierarchical tree (Photograph 1-3, Document 1-2) contain the actual content files. 
 
 <div class="walkthrough">Banana Slug Features Walkthrough</div>
 
-#### Create a Complex Object
-For this exercise, you can download and use the following sample files:
+### Create a Complex Object
+For this exercise, you use the following sample files. Download them and place them somewhere easy-to-find.
 - A content file for the parent-level: <a href="{{ site.url }}{{ site.baseurl }}/images/Original_complex-flat.jpg" download>Original_complex-flat.jpg</a>
 - A content file for a component: <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-43.jpg" download>Original_anr2_UCOP-43.jpg</a>
 - Another content file for a component: <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-44.jpg" download>Original_anr2_UCOP-44.jpg</a>
@@ -86,6 +90,6 @@ Now the hierarchy sidebar should contain the following under your campus's name:
 
 ## Reordering Complex Object Sub-Objects
 
-From any given parent object, you can order, reorder, and delete children by navigating to the 'Component Object' section on the Summary tab, selecting the checkbox next to the component object you would like to order or delete, and then pressing the 'Move to top', 'Move up', Move to bottom', 'Move down', or 'Delete' buttons accordingly. 
+From any given parent object, you can order, reorder, and delete children by navigating to the 'Component Object' section on the Summary tab, selecting the checkbox next to the component object you would like to order or delete, and then pressing the 'Move to top', 'Move up', Move to bottom', 'Move down', or 'Delete' buttons accordingly. (By default, child-level components will appear in the order in which they're added.)
 
-<div class="note">Only the components of a complex object are orderable. Children of project folders, such as Banana Slug, are not orderable. To delete an object in a Project Folder, navigate to the 'Content' tab on the Project Folder, select the checkbox next to the object you would like to delete, and press the 'Delete' button.</div>
+<div class="note">Only the components of a complex object are orderable. Objects within project folders, such as 'Banana Slug' (your test folder) are not orderable. To delete an object in a Project Folder, navigate to the 'Content' tab on the Project Folder, select the checkbox next to the object you would like to delete, and press the 'Delete' button.</div>
