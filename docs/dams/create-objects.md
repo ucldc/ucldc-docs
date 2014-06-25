@@ -38,9 +38,9 @@ We'll start by creating a simple object using the Picture document type.
 
 1. Download <a href="{{ site.url }}{{ site.baseurl }}/images/Medium_uc-davis-student-farm-49.jpg" download>this sample image</a> and put it somewhere easy-to-find on your computer
 2. Navigate to the Banana Slug project folder within your campus folder. 
-2. Click on the 'Content' tab if it is not already selected by default, and press 'New'.
-3. Since our content file is an image, select the Picture document type. 
-4. Fill out the Basic Information metadata fields with the following data: 
+3. Click on the 'Content' tab if it is not already selected by default, and press 'New'.
+4. Since our content file is an image, select the Picture document type. 
+5. Fill out the Basic Information metadata fields with the following data: 
 
 | Identifier          | Local Identifier | Title               | Alternative Title                | Type  |
 |---------------------|------------------|---------------------|----------------------------------|-------|
@@ -48,7 +48,7 @@ We'll start by creating a simple object using the Picture document type.
 
 <div class="note"><p><b>Local Identifier</b> and <b>Alternative Title</b> are both repeatable fields, meaning there can be multiple per object. Press the plus button to add a Local Identifier and an Alternative Title.</p><p><b>Date</b> and <b>Creator</b> are both repeatable groups of fields, these are denoted by a light grey border. Press the plus button to see the fields in a group.</p></div>
 
-<ol start="5">
+<ol start="6">
   <li>Add the date and creator data to the object:</li>
 </ol>
 
@@ -72,7 +72,7 @@ We'll start by creating a simple object using the Picture document type.
   </tr>
 </table>
 
-<ol start="6">
+<ol start="7">
   <li>Finally, upload the sample content file you downloaded earlier. In the top right of the 'Basic Information' area, find the 'Content' heading. Press 'Browse' or 'Choose File', find the file in your filesystem, and then press 'Open'.</li>
   <li>Scroll down and press 'Create'.</li>
 </ol>
