@@ -30,9 +30,7 @@ Once an object is created, if you have read/write access to the object, you shou
       <li>'OriginalJpeg' is the JPEG version of the original file, maintaining width and height values.</li>
       <li>'Medium', 'Small' and 'Thumbnail' are all JPEG derivatives of specific width and height values.</li>
     </ul>
-    You can select a derivative and press the download button to download the content file to your computer. Any user with a minimum of Read permissions for an object can download the associated content file. If the user has write access, the View tab provides 90° rotation options for the image file. 
-  </li>
-</ul>
+    You can select a derivative and press the download button to download the content file to your computer. Any user with a minimum of Read permissions for an object can download the associated content file. If the user has write access, the View tab provides 90° rotation options for the image file.
 
 **Picture Metadata (Picture objects only)** - This tab shows any metadata that was embedded in the image content file on upload. 
 
