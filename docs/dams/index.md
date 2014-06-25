@@ -5,37 +5,39 @@ next_section: dams/organization
 permalink: /index/
 ---
 
-#### What is the DAMS?
-The DAMS is a tool for creating and managing object-level metadata and content files. You can use it to build out digital objects (such as images, texts, audio, and video), create metadata, and upload content files. Our shared DAMS for the UC Libraries is a customized implementation of [Nuxeo](http://www.nuxeo.com/), a platform that is used by a variety of organizations--from media companies to the U.S. Navy--for their content management needs.
+### What is the DAMS?
+The digital asset management system (or DAMS) is a tool for creating and managing object-level metadata and content files. You can use it to build out digital objects (such as images, texts, audio, and video), create metadata, and upload content files. Our shared DAMS for the UC Libraries is a customized implementation of [Nuxeo](http://www.nuxeo.com/), a platform that is used by a variety of organizations--from media companies to the U.S. Navy--for their content management needs.
 
 The DAMS will also provide workflows for publishing digital objects to Calisphere for public access and depositing them in Merritt for preservation. These features will be rolled out at a later date.
 
 <div class="walkthrough">Banana Slug Release</div>
 
-Throughout this user guide, keep a lookout for the Banana Slug! These sections contain walkthroughs specific to our most recent release (named after UC Santa Cruz’s beloved mascot). Here you can try out the latest features and developments we’ve added to the shared DAMS.
+As you read through this user guide, keep on the lookout for the Banana Slug! These sections contain walkthroughs related to our most recent release (named after UC Santa Cruz’s beloved mascot). Here you can try out the latest features and developments we’ve added to the shared DAMS.
 
-#### Getting in
-You need an account to access the shared DAMS. If you have an account already, use your Single Sign-On account to login at [https://nuxeo.cdlib.org/nuxeo/](https://nuxeo.cdlib.org/nuxeo/). If you do not already have an account, please [create one]({{ site.url }}{{ site.baseurl }}/docs/create-account/).
+### Getting in
+You need an account to access the DAMS. If you have an account already, use your Single Sign-On account to login at [https://nuxeo.cdlib.org/nuxeo/](https://nuxeo.cdlib.org/nuxeo/). If you do not already have an account, please [create one]({{ site.url }}{{ site.baseurl }}/docs/create-account/).
 
-#### Navigation
-On login, you should see a screen that looks like this: 
+### Navigation
+Upon logging in to the DAMS, you will see a screen that looks like this: 
 
 <a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/1_on-login.png">
   <img src="{{ site.url }}{{ site.baseurl }}/images/1_on-login.png" alt="Screenshot after logging in" style="width: 500px">
 </a>
 <br>(click to enlarge)
 
-The first thing you'll notice is that the DAMS is organized hierarchically. Here we are at the root of the hierarchy, looking at a list of its contents. From here, click on 'Asset Library' to navigate to the spaces where we will be creating and managing objects in the DAMS.
+The first thing you'll notice is that the DAMS is organized hierarchically. We are at the root of the hierarchy, looking at a list of its contents. From here, click on 'Asset Library' to navigate to the spaces where we will be creating and managing objects in the DAMS.
 
-Now you should see a list of all 10 campuses and UCOP. These are campus folders, which are the spaces where we'll be getting to work. Navigate to the folder for your campus. You will then see a list of project folders, named for collections that we have pre-loaded into the DAMS. (We'll talk more about [project folders]({{ site.url }}{{ site.baseurl }}/docs/dams/organization/) in the next section.) Notice how the sidebar reflects where you are in the hierarchy. Feel free to explore the folders of your campus and those of the other campuses. 
+Now you should see a list of all 10 campuses (plus UCOP). These are <b>campus folders</b>, which are the spaces where we'll be getting to work.
+
+Navigate to your campus folder. You may see a list of project folders, named for collections that we have pre-loaded into the DAMS. (We'll talk more about [project folders]({{ site.url }}{{ site.baseurl }}/docs/dams/organization/) in the next section.) Notice how the sidebar reflects where you are in the hierarchy. Feel free to explore the folders of your campus and those of the other campuses. 
 
 <a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/asset-library.png">
   <img src="{{ site.url }}{{ site.baseurl }}/images/asset-library.png" alt="Screenshot after logging in" style="width: 500px">
 </a>
 <br>(click to enlarge)
 
-### Key Elements of the DAMS interface:
-Take a moment to familiarize yourself with the DAMS interface.
+### The DAMS interface
+Take a moment to familiarize yourself with the DAMS interface. Here are some of its key elements:
 
 - Navigation Bar
   - Home: use this to return to the default landing page for the DAMS.
@@ -44,4 +46,4 @@ Take a moment to familiarize yourself with the DAMS interface.
   - Digital objects within the DAMS are hierarchically organized. By default, the sidebar displays this hierarchy.
 - Current object or project folder and its tabs: These tabs change depending on the kind of object or folder you are viewing and will be discussed in subsequent sections for [project folders]({{ site.url }}{{ site.baseurl }}/docs/dams/organization/) and [objects]({{ site.url }}{{ site.baseurl }}/docs/dams/edit-objects/).
 
-You'll notice there are other elements of the interface you should feel free to explore, though we have not yet customized them fully.
+You'll notice there are other elements of the interface we have not mentioned, and this is because we have not yet customized them fully. You can feel free to explore these features as well, but just be advised they might not work perfectly right now.
