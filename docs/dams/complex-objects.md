@@ -32,7 +32,7 @@ There is no limit on the number of child-level components for a given complex ob
 ### Not all components need files
 Despite the fact that the parent-level component must have a document type, it does not necessarily have to have a content file. In the hierarchical example above, the "Modavi Center 2010-2011 season promotional materials" component contains a visual representation of the object's contents, while the "Photographs" and "Documents" child-level components contain no content files, and the components at the bottom of the hierarchical tree (Photograph 1-3, Document 1-2) contain the actual content files. 
 
-<div class="walkthrough">Banana Slug Features Walkthrough</div>
+<div class="walkthrough">Banana Slug Walkthrough</div>
 
 ### Create a Complex Object
 For this exercise, you use the following sample files. Download them and place them somewhere easy-to-find.
