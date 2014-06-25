@@ -12,7 +12,7 @@ Once an object is created, if you have read/write access to the object, you shou
 
 ### Get to know your tabs
 
-**Summary:** On this tab, you can view a representation of the uploaded content file, create child objects, and view and edit object-level metadata. The Summary tab also includes process metadata such as relevant dates, users, and tags. Currently, all registered users have read access to all the objects in the DAMS. However, only registered users from a given campus will see edit buttons to modify metadata for objects in their campus folder. 
+**Summary** - On this tab, you can view a representation of the uploaded content file, create child objects, and view and edit object-level metadata. The Summary tab also includes process metadata such as relevant dates, users, and tags. Currently, all registered users have read access to all the objects in the DAMS. However, only registered users from a given campus will see edit buttons to modify metadata for objects in their campus folder. 
 
 <div class="note">The State and Workflow Process for an object are also included on the Summary tab. These are built-in Nuxeo features we see as potentially useful, but we haven't fully built them out just yet. For now, you can mostly ignore those sections, but they may provide useful functionality in future releases.</div>
 
