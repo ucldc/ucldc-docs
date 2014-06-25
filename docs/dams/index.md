@@ -6,7 +6,9 @@ permalink: /index/
 ---
 
 #### What is the DAMS?
-The DAMS is a tool for creating and managing object-level metadata and content files. You can use it to build out objects (such as images, texts, audio, and video), create metadata, and upload content files. Our shared DAMS for the UC Libraries is a customized implementation of [Nuxeo](http://www.nuxeo.com/), a platform that is used by a variety of organizations--from media companies to the U.S. Navy--for their content management needs.
+The DAMS is a tool for creating and managing object-level metadata and content files. You can use it to build out digital objects (such as images, texts, audio, and video), create metadata, and upload content files. Our shared DAMS for the UC Libraries is a customized implementation of [Nuxeo](http://www.nuxeo.com/), a platform that is used by a variety of organizations--from media companies to the U.S. Navy--for their content management needs.
+
+The DAMS will also provide workflows for publishing digital objects to Calisphere for public access and depositing them in Merritt for preservation. These features will be rolled out at a later date.
 
 <div class="walkthrough">Banana Slug Release</div>
 
