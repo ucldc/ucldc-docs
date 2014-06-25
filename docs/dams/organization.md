@@ -8,7 +8,7 @@ permalink: /organization/
 
 ### Project folders
 
-Our shared DAMS makes heavy use of something called project folders. Projects folders are the building blocks for organizing digital objects in the DAMS.
+Our shared DAMS makes heavy use of something called project folders. Project folders are the building blocks for organizing digital objects in the DAMS.
 
 We anticipate that a common way of using folders will be to organize digital objects into collections. Collections might be defined by provenance (as in the case of many archival collections), by topic, or by other characteristics determined by your library. We have demonstrated this use of the project folder with the existing collections we've pre-loaded into the DAMS. You'll notice that for each existing collection, we have created a project folder with the same name of the collection, and all of the digital objects in that collection are contained within the corresponding folder.
 
@@ -20,8 +20,8 @@ As explained in the info box above, the organization of objects into project fol
 Here are a few ways that you might use project folders, beyond defining collections:
 
   - To define a workspace for a group of users on your staff that need limited access to a subset of objects. 
-  - To organize objects by specific digitization projects, or method of digitization. 
-  - To organize objects by completeness of metadata, to make it easier to identify and return to projects-in-process. 
+  - To organize objects by specific digitization projects or method of digitization. 
+  - To organize objects by completeness of metadata, making it easier to identify and return to projects-in-process. 
   - To organize subsets of a collection for a specific project or staff member to work on.
 
 In short, project folders are flexible in order to accomodate your workflows for creating and managing files and metadata.
