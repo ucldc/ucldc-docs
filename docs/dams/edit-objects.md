@@ -24,9 +24,7 @@ Once an object is created, if you have read/write access to the object, you shou
 
 **Manage** - On the Manage tab, you'll be able to see who has what level of access to your object. Access restrictions are inherited, unless the 'Block permissions inheritance' checkbox is checked, so these same restrictions apply for all children in the hierarchy.
 
-<ul>
-  <li>
-    <b>View (Picture objects only)</b> - This tab shows the various derivatives of an image content file: Medium, Original, Small, Thumbnail, and OriginalJpeg. The derivatives produced are all JPEGs in various sizes.
+**View (Picture objects only)** - This tab shows the various derivatives of an image content file: Medium, Original, Small, Thumbnail, and OriginalJpeg. The derivatives produced are all JPEGs in various sizes.
     <ul>
       <li>'Original' is the original file's size and file format.</li>
       <li>'OriginalJpeg' is the JPEG version of the original file, maintaining width and height values.</li>
