@@ -6,25 +6,33 @@ prev_section: dams/index
 permalink: /organization/
 ---
 
-### Project folders: a paradigm
+### Project folders
 
-Our shared DAMS makes heavy use of something called project folders. Projects folders are the building blocks for organizing digital objects in the DAMS, based on your own internal needs for organizing and accessing objects. It is important to note that these internal organizations may be distinct from how you want your objects to appear on Calisphere and in Merritt.
+Our shared DAMS makes heavy use of something called project folders. Projects folders are the building blocks for organizing digital objects in the DAMS.
 
-Project folders can contain both objects and other project folders, and you can grant read and/or write privileges to them as needed. Every object must be contained within one, and only one, project folder.
+We anticipate that a common way of using folders will be to organize digital objects into collections. Collections might be defined by provenance (as in the case of many archival collections), by topic, or by other characteristics determined by your library. We have demonstrated this use of the project folder with the existing collections we've pre-loaded into the DAMS. You'll notice that for each existing collection, we have created a project folder with the same name of the collection, and all of the digital objects in that collection are contained within the corresponding folder.
 
-<div class="note">In order to contain an object in more than one project folder, the object must be duplicated. The duplicate <b>does not</b> link back to the original in any way, so changes made to the duplicate will not be made to the original, and vice versa. We strongly advise using tags to represent the association of your objects within multiple groups or categories. You can tag an object or project folder via its <a href="{{ site.url }}{{ site.baseurl}}/docs/dams/edit-objects" class="notelink">summary tab</a>.</div>
+<div class="note">However, it is important to understand that the Nuxeo project folder is a purely internal construction--meaning creating a collection-level project folder will not alone translate to the display of a collection on Calisphere (once publication to Calisphere is enabled). In order to associate objects with collections in the public interface, you must add the requisite metadata to <i>each object</i> in the <a href="" class="notelink">'Collection/Unit'</a> field. Since the new Calisphere site will be using collections as an organizing principle for end-users, we anticipate that this will be a key metadata field for objects in the DAMS.</div>
 
-### Use cases
-Project folders are flexible. They can be used in a variety of ways, for example:
 
-  - To organize digital objects by collection -- for example, an archival collection defined by provenance, or a curated collection where materials are related by topic.
-    Note: for collections we have already loaded into the DAMS, each object is contained in a project folder of the same      name as the collection. 
-  - To define a workspace for a group of users on your campus that need limited access to a subset of objects. 
+The Nuxeo DAMS is used for object-level metadata entry, so what <i>really</i> matters in publishing a collection to Calisphere, or preserving a collection in Merritt, is that the  field and access restriction fields in an object's metadata record are filled out accurately.
+
+### Beyond collections: other use cases
+As explained in the info note above, the organization of objects into project folders within the DAMS is a separate construct from the organization of objects as they will appear on Calisphere. What this means is that project folders don't necessarily have to represent collections. In fact, you might use them to internally organize and access objects within the DAMS in ways that may differ from how you want end-users to view them on the web.
+
+Here are a few ways that you might use project folders beyond defining collections:
+
+  - To define a workspace for a group of users on your staff that need limited access to a subset of objects. 
   - To organize objects by specific digitization projects, or method of digitization. 
   - To organize objects by completeness of metadata, to make it easier to identify and return to projects-in-process. 
   - To organize subsets of a collection for a specific project or staff member to work on.
-  
-<div class="note">A folder does not necessarily have to contain or represent a particular collection. The Nuxeo DAMS is used for object-level metadata entry, so what <i>really</i> matters in publishing a collection to Calisphere, or preserving a collection in Merritt, is that the <a href="" class="notelink">'Collection/Unit'</a> field and access restriction fields in an object's metadata record are filled out accurately.</div>
+
+In short, project folders are flexible in order to accomodate your workflows for digitizing, managing, and creating metadata for digital objects.
+
+### Project folder rules
+Project folders can contain both objects and other project folders. Every object must be contained within one, and only one, project folder. You can grant read and/or write privileges to project folders as needed.
+
+<div class="note">In order to contain an object in more than one project folder, the object must be duplicated. The duplicate <b>does not</b> link back to the original in any way, so changes made to the duplicate will not be made to the original, and vice versa. In order to retrieve groups of similar objects that are stored across folders, we strongly advise leaning on the metadata for your objects and utilizing the DAMS search capabilities. If you want to indicate relationships between objects that are not represented in the metadata, you can additionally use <b>tags</b> to represent the association of your objects within multiple groups or categories. For example, if you want to be able to use the DAMS to view all of the digital objects, across project folders,  You can tag an object or project folder via its <a href="{{ site.url }}{{ site.baseurl}}/docs/dams/edit-objects" class="notelink">summary tab</a>.</div>
 
 ### Create a project folder
 From within your campus folder, you can create as many project folders (and nested project folders) as you need. To create new project folders, navigate to your campus folder and press the 'New' button. 
