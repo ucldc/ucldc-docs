@@ -80,6 +80,13 @@ strong, b {font-weight: bold;}
     border-radius: 3px;
 }
 
+.special-button {
+    padding: 5px 15px;
+    background-color: #2a7ae2;
+    color: #D4D4D4;
+    border-radius: 3px;
+}
+
 .site-date {
     background-color: #fff !important;
 }
