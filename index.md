@@ -12,7 +12,9 @@ A tool for object-level metadata and associated content file management. Use the
 <p style="text-align: center">
   <a class="button" target="_blank" href="https://nuxeo.cdlib.org/nuxeo/" style="margin-right: 5px;">
     <span class="glyphicon glyphicon-new-window" style="margin-right: 8px;"></span>Nuxeo DAMS
-  </a>  <a href="{{ site.url }}{{site.baseurl}}/docs/dams/index/" class="special-button">User Guide</a>
+  </a> &nbsp;
+  <a href="{{ site.url }}{{ site.baseurl }}/create-account/" class="button">Create Account</a> &nbsp;
+  <a href="{{ site.url }}{{site.baseurl}}/docs/dams/index/" class="special-button">User Guide</a>
 </p>
 
 
