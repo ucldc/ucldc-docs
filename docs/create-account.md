@@ -1,7 +1,6 @@
 ---
 layout: doc
 title: Create an Account
-date: 6/4/2014
 permalink: /create-account/
 ---
 

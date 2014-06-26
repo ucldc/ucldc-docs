@@ -1,6 +1,5 @@
 ---
 layout: page
-date: 3/6/2014
 ---
 
 The UC Libraries Digital Collection (UCLDC) comprises separate but related tools for managing and providing access to unique digital content within the UC Libraries.
