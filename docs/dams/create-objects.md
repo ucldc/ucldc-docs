@@ -8,7 +8,7 @@ permalink: /create-objects/
 
 ### Digital objects: some definitions
 
-Before we go on, let's stop to define "digital object": a digital object is a content file(s) and affiliated metadata record(s). <b>Simple objects</b> comprise one file and one metadata record. <b>Complex objects</b> comprise multiple files and even multiple metadata records which are "bundled" together. In the DAMS, these are represented as objects with child-level components. We'll discuss [Complex Objects]({{ site.url }}{{ site.url }}/docs/dams/complex-objects/) more in a later section. 
+Before we go on, let's stop to define "digital object": a digital object is a content file(s) and affiliated metadata record(s). <b>Simple objects</b> comprise one file and one metadata record. <b>Complex objects</b> comprise multiple files and even multiple metadata records which are "bundled" together. In the DAMS, these are represented as objects with child-level components. We'll discuss [Complex Objects]({{ site.url }}{{ site.baseurl }}/docs/dams/complex-objects/) more in a later section. 
 
 
 ### Understanding document types
