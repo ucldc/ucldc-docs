@@ -290,3 +290,14 @@ a.notelink:hover {
     color: #e3e3e3;
     text-decoration: none;
 }
+
+.label {
+    font-weight:bold;
+}
+.label:hover {
+    color: #2a7ae2; text-decoration: none;
+}
+.example {
+    font-size: 14px;
+    margin-left: 20px;
+}
