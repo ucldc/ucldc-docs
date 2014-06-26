@@ -26,7 +26,7 @@ Each document type can function as a complex object and can contain child-level 
 
 ### Metadata model and input
 
-Each of these document types has the same metadata model. The [metadata model]() follows Dublin Core standards, and includes Descriptive, Technical, and Rights Information.
+Each of these document types has the same metadata model. The [metadata model]({{ site.url }}{{ site.baseurl }}/docs/dams/metadata-model/) follows Dublin Core standards, and includes Descriptive, Technical, and Rights Information.
 
 The Nuxeo DAMS supports the input, storage, search, and display of characters in Unicode. You can input Unicode characters using several methods, such as using Unicode character inputs that are available through Windows or Mac OS systems, using a Unicode-enabled keyboard, or copying-and-pasting Unicode characters from other sources into Nuxeo fields.
 
