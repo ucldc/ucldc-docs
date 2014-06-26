@@ -177,8 +177,6 @@ a.special-button:hover {color: #e3e3e3 !important;}
     letter-spacing: -.5px; 
     margin: 20px 0 20px;
     padding: 5px 0 5px;
-    text-indent: 20px;
-    border-top: 1px solid #e8e8e8;
     border-bottom: 1px solid #e8e8e8;
 }
 
