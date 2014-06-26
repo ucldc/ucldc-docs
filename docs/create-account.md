@@ -12,4 +12,8 @@ At this time, accounts are limited to UCLDC Implementation Project collaborators
 
 3. A UCLDC Project Implementation team member will send a follow-up e-mail to you, to confirm once your account has been activated. At that point, you can log into the Nuxeo DAMS.
 
-<p style="text-align: center"><a href="https://nuxeo.cdlib.org/nuxeo/">Nuxeo DAMS</a> - <a href="{{ site.url }}{{site.baseurl}}/docs/dams/index/">Documentation</a><br><a href="https://registry.cdlib.org/">Collection Registry</a> - <a href="{{ site.url }}{{site.baseurl}}/docs/registry/index/">Documentation</a></p>
+<p style="text-align: center">
+  <a class="button" target="_blank" href="https://nuxeo.cdlib.org/nuxeo/" style="margin-right: 5px;">
+    <span class="glyphicon glyphicon-new-window" style="margin-right: 8px;"></span>Nuxeo DAMS
+  </a>  <a href="{{ site.url }}{{site.baseurl}}/docs/dams/index/" class="special-button">User Guide</a>
+</p>
