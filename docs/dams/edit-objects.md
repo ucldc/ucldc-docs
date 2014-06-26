@@ -7,11 +7,11 @@ permalink: /edit-objects/
 breadcrumbs: DAMS User Guide
 ---
 
-### Viewing objects
+## Viewing objects
 
 Once an object is created, if you have read/write access to the object, you should see the following tabs: Summary, Publish, Comments, History, and Manage. You may also see the View and Picture Metadata tabs (if looking at a Picture object) or the Files tab (if looking at a File object). 
 
-### Get to know your tabs
+## Get to know your tabs
 
 **Summary** - On this tab, you can view a representation of the uploaded content file, create child objects, and view and edit object-level metadata. The Summary tab also includes process metadata such as relevant dates, users, and tags. Currently, all registered users have read access to all the objects in the DAMS. However, only registered users from a given campus will see edit buttons to modify metadata for objects in their campus folder. 
 
@@ -39,7 +39,7 @@ You can select a derivative and press the download button to download the conten
 
 <div class="walkthrough">Banana Slug Walkthrough</div>
 
-### Editing an Object
+## Editing an Object
 
 Let's navigate through the hierarchy back to the first image object we created: Root > Asset Library > Your campus folder > Banana Slug > Simple image object. 
 

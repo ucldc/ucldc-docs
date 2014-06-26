@@ -7,12 +7,12 @@ permalink: /create-objects/
 breadcrumbs: DAMS User Guide
 ---
 
-### Digital objects: some definitions
+## Digital objects: some definitions
 
 Before we go on, let's stop to define "digital object": a digital object is a content file(s) and affiliated metadata record(s). <b>Simple objects</b> comprise one file and one metadata record. <b>Complex objects</b> comprise multiple files and even multiple metadata records which are "bundled" together. In the DAMS, these are represented as objects with child-level components. We'll discuss [Complex Objects]({{ site.url }}{{ site.baseurl }}/docs/dams/complex-objects/) more in a later section. 
 
 
-### Understanding document types
+## Understanding document types
 
 The Nuxeo DAMS allows you to create four different kinds of digital objects, called document types: 
 
@@ -25,7 +25,7 @@ The document types vary in the type of content file you can upload and the kinds
 
 Each document type can function as a complex object and can contain child-level components of any of the four document types. Again, we'll talk more about complex objects later on, but for now it's just important to know that each of the document types can be used to create both simple and complex objects (and components therein).
 
-### Metadata model and input
+## Metadata model and input
 
 Each of these document types has the same metadata model. The [metadata model]({{ site.url }}{{ site.baseurl }}/docs/dams/metadata-model/) follows Dublin Core standards, and includes Descriptive, Technical, and Rights Information.
 
@@ -33,7 +33,7 @@ The Nuxeo DAMS supports the input, storage, search, and display of characters in
 
 <div class="walkthrough">Banana Slug Walkthrough</div>
 
-### Creating a New Simple Object
+## Creating a New Simple Object
 
 We'll start by creating a simple object using the Picture document type.
 

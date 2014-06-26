@@ -44,18 +44,18 @@ The manage tab enables users with management rights to set and modify user permi
 - Delete: users denied this permission cannot delete objects or project folders. 
 - Manage everything: users have write privileges and have management privileges on a project folder. 
 
-### Permissions Inheritance
+## Permissions Inheritance
 
 Permissions are inherited down the hierarchy. Anyone that has permissions for a parent-level folder automatically gets permissions for a child-level folder when it is created. When you create a new project folder within your campus folder other users from your campus can manage everything, while users from other campuses have read-only rights. This happens automatically, without you having to specify any rights for that project folder. 
 
 You can see in the above screenshot that the Administrator user has full rights, and the Members group has read-only permissions on the UCOP folder. Since these rights are inherited, we know that the Administrator user has full rights on the Asset Library as well, and the Members group has read-only permissions on the Asset Library. 
 
-### Local Rights
+## Local Rights
 
 The administrator has granted local rights to just the UCOP folder, as well, so that specific members of the Members group have not just read permissions, but manage everything permissions. These users will have manage everything permissions on all project folders created within the UCOP campus folder due to permissions inheritance. 
 
 To grant or deny permissions, begin typing a username or group name in the autocomplete box under 'Add a new security rule'. Select the action (grant or deny), and the permission level (read, write, delete, manage everything), and then press 'Add permission'. Permissions are not saved until you press the 'Save local rights' button, so you can continue adding permissions for other users in this way. When you are ready to save your changes, press 'Save local rights'.
 
-### Blocking Inherited Permissions
+## Blocking Inherited Permissions
 
 You can block inherited permissions by selecting the checkbox 'block permissions inheritance'. That folder, and all children-level folders, will cease to inherit permissions specified higher up in the hierarchy. Any local rights you specify, however, will continue to be inherited by child-level objects and project folders. Since all users have read-only permissions to all objects and project folders in the DAMS, a project folder that contains objects that shouldn't be read by users other than the ones specified is a good candidate for blocking permissions inheritance. 

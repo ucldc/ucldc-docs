@@ -6,7 +6,7 @@ permalink: /index/
 breadcrumbs: DAMS User Guide
 ---
 
-### What is the DAMS?
+## What is the DAMS?
 The digital asset management system (or DAMS) is a tool for creating and managing object-level metadata and content files. You can use it to build out digital objects (such as images, texts, audio, and video), create metadata, and upload content files. Our shared DAMS for the UC Libraries is a customized implementation of [Nuxeo](http://www.nuxeo.com/), a platform that is used by a variety of organizations--from media companies to the U.S. Navy--for their content management needs.
 
 The DAMS will also provide workflows for publishing digital objects to Calisphere for public access and depositing them in Merritt for preservation. These features will be rolled out at a later date.
@@ -15,10 +15,10 @@ The DAMS will also provide workflows for publishing digital objects to Calispher
 
 As you read through this user guide, keep on the lookout for the Banana Slug! These sections contain walkthroughs related to our most recent release (named after UC Santa Cruz’s beloved mascot). Here you can try out the latest features and developments we’ve added to the shared DAMS.
 
-### Getting in
+## Getting in
 You need an account to access the DAMS. If you have an account already, use your Single Sign-On account to login at [https://nuxeo.cdlib.org/nuxeo/](https://nuxeo.cdlib.org/nuxeo/). If you do not already have an account, please [create one]({{ site.url }}{{ site.baseurl }}/docs/create-account/).
 
-### Navigation
+## Navigation
 Upon logging in to the DAMS, you will see a screen that looks like this: 
 
 <a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/1_on-login.png">
@@ -37,7 +37,7 @@ Navigate to your campus folder. You may see a list of project folders, named for
 </a>
 <br>(click to enlarge)
 
-### The DAMS interface
+## The DAMS interface
 Take a moment to familiarize yourself with the DAMS interface. Here are some of its key elements:
 
 - Navigation Bar
