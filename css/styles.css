@@ -82,8 +82,8 @@ strong, b {font-weight: bold;}
 
 .special-button {
     padding: 5px 15px;
-    background-color: #2a7ae2;
-    color: #D4D4D4;
+    background-color: rgba(0, 85, 129, 1);
+    color: #fff;
     border-radius: 3px;
 }
 
