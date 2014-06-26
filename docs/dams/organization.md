@@ -10,12 +10,12 @@ permalink: /organization/
 
 Project folders are the building blocks for organizing digital objects in the shared DAMS. You might use project folders to define collections and other groupings of objects, as discussed in more detail below.
 
-It is important to understand that the Nuxeo project folder is a purely internal construction, used to organize objects for management purposes, and _will have no bearing on how objects are displayed on Calisphere (once publication to Calisphere is enabled)._ Calisphere will support the grouping of objects into campuses, institutions (such as library departments), and collections--but these associations must be indicated in the item-level metadata for each object.
+It is important to understand that the Nuxeo project folder is a purely internal construction, used to organize objects for management purposes, and _will have no bearing on how objects are displayed on Calisphere_ (once publication to Calisphere is enabled). Calisphere will support the grouping of objects into campuses, institutions (such as library departments), and collections--but these associations must be indicated in the item-level metadata for each object.
 
 ### Using project folders for collections
 We anticipate that a common way of using project folders will be to organize digital objects into collections. Collections might be defined by provenance (as in the case of many archival collections), by topic, or by other characteristics determined by your library. We have demonstrated this use of the project folder with the existing collections we've pre-loaded into the DAMS. You'll notice that for each existing collection, we have created a project folder with the same name of the collection, and all of the digital objects in that collection are contained within the corresponding folder.
 
-<div class="note">In order to show the association of objects with collections in the public interface, be sure to add the requisite metadata to each object in the 'Collection/Institution' field. In the future, we plan to enhance this field so you can pull this data directly from the Collection Registry.</div>
+<div class="note">In order to show the association of objects with collections in Calisphere, be sure to add the requisite metadata to each object in the 'Collection/Institution' field. In the future, we plan to enhance this field so you can pull this data directly from the Collection Registry.</div>
 
 ### Other use cases
 Project folders don't necessarily have to represent collections. Here are a few other ways you might use them:
