@@ -87,6 +87,9 @@ strong, b {font-weight: bold;}
     border-radius: 3px;
 }
 
+.special-button a {color: #fff;}
+.special-button a:hover {color: #e3e3e3;}
+
 .site-date {
     background-color: #fff !important;
 }
