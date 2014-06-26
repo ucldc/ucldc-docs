@@ -29,6 +29,10 @@ permalink: /metadata-model/
   <br/>https://registry.cdlib.org/api/v1/repository/4/
 </div>
 
+<div class="note">
+  The contents of the Campus/Unit field are <em>crucial</em> to how an object will appear in Calisphere. Both campuses and units will have a unique URL assigned to each via the Collection Registry. Populating an object's Campus/Unit field with this URL is how an object will be linked to a campus or unit and displayed appropriately in Calisphere. For now, if you are adding new objects to the DAMS, please consult with <a href="mailto:ucldc@ucop.edu" class="notelink">ucldc@ucop.edu</a>.
+</div>
+
 <a class="label" id="Title">Title</a> - A formal or supplied title for the resource.
 
 <div class="example">
@@ -265,6 +269,10 @@ permalink: /metadata-model/
 <div class="example">
   <u>Example:</u>
   <br/>https://registry.cdlib.org/api/v1/collection/10/
+</div>
+
+<div class="note">
+  The contents of the Collection field are <em>crucial</em> to how an object will appear in Calisphere. You will be able to define collections in the Collection Registry, which will assign each collection a unique URL. Populating an object's Collection field with this URL is how an object will be linked to a collection and displayed appropriately in Calisphere. For now, if you are adding new objects to the DAMS, please consult with <a href="mailto:ucldc@ucop.edu" class="notelink">ucldc@ucop.edu</a>.
 </div>
 
 <a class="label" id="RelatedResource">Related Resource</a> - Reference to other related resources (by theme, topic, collection, etc.)
