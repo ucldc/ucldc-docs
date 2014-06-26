@@ -10,7 +10,7 @@ The digital asset management system (or DAMS) is a tool for creating and managin
 
 The DAMS will also provide workflows for publishing digital objects to Calisphere for public access and depositing them in Merritt for preservation. These features will be rolled out at a later date.
 
-<div class="walkthrough">Banana Slug Release</div>
+<div class="walkthrough">Banana Slug Walkthrough</div>
 
 As you read through this user guide, keep on the lookout for the Banana Slug! These sections contain walkthroughs related to our most recent release (named after UC Santa Cruz’s beloved mascot). Here you can try out the latest features and developments we’ve added to the shared DAMS.
 

@@ -23,6 +23,8 @@ a:visited { color: #205caa; }
 a:active  { color: #000; text-decoration: none; }
 a:hover   { color: #000; text-decoration: none; }
 
+strong, b {font-weight: bold;}
+
 /* Utility */
 
 .wrap:before,

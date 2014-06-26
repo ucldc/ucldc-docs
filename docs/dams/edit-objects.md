@@ -6,41 +6,39 @@ prev_section: dams/complex-objects
 permalink: /edit-objects/
 ---
 
-## Viewing objects
+### Viewing objects
 
 Once an object is created, if you have read/write access to the object, you should see the following tabs: Summary, Publish, Comments, History, and Manage. You may also see the View and Picture Metadata tabs (if looking at a Picture object) or the Files tab (if looking at a File object). 
 
 ### Get to know your tabs
 
-- **Summary** - On this tab, you can view a representation of the uploaded content file, create child objects, and view and edit object-level metadata. The Summary tab also includes process metadata such as relevant dates, users, and tags. Currently, all registered users have read access to all the objects in the DAMS. However, only registered users from a given campus will see edit buttons to modify metadata for objects in their campus folder. 
+**Summary** - On this tab, you can view a representation of the uploaded content file, create child objects, and view and edit object-level metadata. The Summary tab also includes process metadata such as relevant dates, users, and tags. Currently, all registered users have read access to all the objects in the DAMS. However, only registered users from a given campus will see edit buttons to modify metadata for objects in their campus folder. 
 
-<div class="note">The State and Workflow Process for an object are also included on the Summary tab. These are built-in Nuxeo features we see as potentially useful, but we haven't fully built them out just yet. For now, you can mostly ignore those sections, but they may provide useful functionality in future releases.</div>
+<div class="note">The State and Workflow Process for an object are also included on the Summary tab. These are built-in Nuxeo features we see as potentially useful, but we haven't fully built them out just yet. For now, you can pretty much ignore those sections, but they may provide useful functionality in future releases.</div>
 
-- **Publish** - The publish tab is a built-in Nuxeo feature. Currently, no accounts are set up to allow publishing to any sections. We anticipate this tab will allow you to publish content to Merritt for preservation, and/or to the new Calisphere interface. This tab will be developed in future releases. 
+**Publish** - The publish tab is a built-in Nuxeo feature. Currently, no accounts are set up to allow publishing to any sections. We anticipate this tab will allow you to publish content to Merritt for preservation, and/or to the new Calisphere interface. This tab will be developed in future releases. 
 
-- **Comments** - The comment tab is a place to view and write comments on an object. 
+**Comments** - The comment tab is a place to view and write comments on an object. 
 
-- **History** - An ongoing record of the object's history: when it was created, when it was modified, and who performed the action. 
+**History** - An ongoing record of the object's history: when it was created, when it was modified, and who performed the action. 
 
-- **Manage** - On the Manage tab, you'll be able to see who has what level of access to your object. Access restrictions are inherited, unless the 'Block permissions inheritance' checkbox is checked, so these same restrictions apply for all children in the hierarchy.
+**Manage** - On the Manage tab, you'll be able to see who has what level of access to your object. Access restrictions are inherited, unless the 'Block permissions inheritance' checkbox is checked, so these same restrictions apply for all children in the hierarchy.
 
-<ul>
-  <li>
-    <b>View (Picture objects only)</b> - This tab shows the various derivatives of an image content file: Medium, Original, Small, Thumbnail, and OriginalJpeg. The derivatives produced are all JPEGs in various sizes.
+**View (Picture objects only)** - This tab shows the various derivatives of an image content file: Medium, Original, Small, Thumbnail, and OriginalJpeg. The derivatives produced are all JPEGs in various sizes.
+<div>
     <ul>
       <li>'Original' is the original file's size and file format.</li>
       <li>'OriginalJpeg' is the JPEG version of the original file, maintaining width and height values.</li>
       <li>'Medium', 'Small' and 'Thumbnail' are all JPEG derivatives of specific width and height values.</li>
     </ul>
-    You can select a derivative and press the download button to download the content file to your computer. Any user with a minimum of Read permissions for an object can download the associated content file. If the user has write access, the View tab provides 90° rotation options for the image file. 
-  </li>
-</ul>
+</div>
+You can select a derivative and press the download button to download the content file to your computer. Any user with a minimum of Read permissions for an object can download the associated content file. If the user has write access, the View tab provides 90° rotation options for the image file.
 
-- **Picture Metadata (Picture objects only)** - This tab shows any metadata that was embedded in the image content file on upload. 
+**Picture Metadata (Picture objects only)** - This tab shows any metadata that was embedded in the image content file on upload. 
 
-<div class="walkthrough">Banana Slug Features Walkthrough</div>
+<div class="walkthrough">Banana Slug Walkthrough</div>
 
-## Editing an Object
+### Editing an Object
 
 Let's navigate through the hierarchy back to the first image object we created: Root > Asset Library > Your campus folder > Banana Slug > Simple image object. 
 
