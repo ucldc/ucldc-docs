@@ -74,7 +74,7 @@ strong, b {font-weight: bold;}
     margin: 0 7px;
 }
 
-.site-nav li, .prev, .next {
+.site-nav li, .prev, .next, .button {
     padding: 5px 15px;
     background-color: #D4D4D4;
     border-radius: 3px;
