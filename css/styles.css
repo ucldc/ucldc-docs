@@ -87,7 +87,7 @@ strong, b {font-weight: bold;}
     border-radius: 3px;
 }
 
-a.special-button:hover {color: #e3e3e3;}
+a.special-button:hover {color: #e3e3e3 !important;}
 
 .site-date {
     background-color: #fff !important;
