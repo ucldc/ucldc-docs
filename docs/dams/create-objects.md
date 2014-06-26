@@ -4,6 +4,7 @@ title: Creating Simple Objects
 next_section: dams/complex-objects
 prev_section: dams/organization
 permalink: /create-objects/
+breadcrumbs: DAMS User Guide
 ---
 
 ### Digital objects: some definitions

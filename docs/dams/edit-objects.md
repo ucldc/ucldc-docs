@@ -4,6 +4,7 @@ title: Viewing and Editing Objects
 next_section: 
 prev_section: dams/complex-objects
 permalink: /edit-objects/
+breadcrumbs: DAMS User Guide
 ---
 
 ### Viewing objects

@@ -4,6 +4,7 @@ title: Organizing Objects with Project Folders
 next_section: dams/create-objects
 prev_section: dams/index
 permalink: /organization/
+breadcrumbs: DAMS User Guide
 ---
 
 ### Project folders: a paradigm

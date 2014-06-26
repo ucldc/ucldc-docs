@@ -3,6 +3,7 @@ layout: doc
 title: DAMS Overview
 next_section: dams/organization
 permalink: /index/
+breadcrumbs: DAMS User Guide
 ---
 
 ### What is the DAMS?

@@ -4,6 +4,7 @@ title: Project Folder Access Restrictions & Other Tabs
 next_section: 
 prev_section: dams/edit-objects/
 permalink: /permissions/
+breadcrumbs: DAMS User Guide
 ---
 
 Now that we have a sample project folder with some content, let's return to the Project Folder to take a closer look at its Content, Manage, and other tabs: 

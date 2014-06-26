@@ -4,6 +4,7 @@ title: Creating Complex Objects
 next_section: dams/edit-objects
 prev_section: dams/create-objects
 permalink: /complex-objects/
+breadcrumbs: DAMS User Guide
 ---
 
 ### Complex objects in the DAMS
