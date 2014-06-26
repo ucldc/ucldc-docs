@@ -16,11 +16,13 @@ A tool for object-level metadata and associated content file management. Use the
   </a>  <a href="{{ site.url }}{{site.baseurl}}/docs/dams/index/" class="special-button">User Guide</a>
 </p>
 
+
 Collection Registry
 ===================
 A tool for collection-level metadata management. Use the Registry to input information about collections (whether in the DAMS or in another system), indicate harvest URLs, and possibly plan future digitization projects. This tool is in the initial stages of development as we build the harvest infrastructure.
 
+
 Calisphere
 ================
 
-A publicly accessible interface for collection and object discovery. We are building a new website that will support UCLDC requirements but continue Calisphere's exceptional end-user experience. To be released in 2015 and subsume the current Calisphere website shortly thereafter.
+A publicly accessible interface for collection and object discovery. We are building a new website that will support UCLDC requirements but continue [Calisphere](http://www.calisphere.universityofcalifornia.edu)'s tradition of exceptional end-user experience. The site is currently in development and will be released in 2015.
