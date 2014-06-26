@@ -16,7 +16,7 @@ It is important to understand that the Nuxeo project folder is a purely internal
 ## Using project folders for collections
 We anticipate that a common way of using project folders will be to organize digital objects into collections. Collections might be defined by provenance (as in the case of many archival collections), by topic, or by other characteristics determined by your library. We have demonstrated this use of the project folder with the existing collections we've pre-loaded into the DAMS. You'll notice that for each existing collection, we have created a project folder with the same name of the collection, and all of the digital objects in that collection are contained within the corresponding folder.
 
-<div class="note">In order to show the association of objects with collections in Calisphere, be sure to add the requisite metadata to each object in the 'Collection/Institution' field. In the future, we plan to enhance this field so you can pull this data directly from the Collection Registry.</div>
+<div class="note">In order to show the association of objects with collections in Calisphere, be sure to add the requisite metadata to each object in the '<a href="{{ site.url }}{{ site.baseurl }}/docs/dams/metadata-model/#Collection" class="notelink">Collection</a>' and '<a href="{{ site.url }}{{ site.baseurl }}/docs/dams/metadata-model/#CampusUnit" class="notelink">Campus/Unit</a>' fields. In the future, we plan to enhance this field so you can pull this data directly from the Collection Registry.</div>
 
 ## Other use cases
 Project folders don't necessarily have to represent collections. Here are a few other ways you might use them:
