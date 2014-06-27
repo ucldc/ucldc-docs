@@ -9,7 +9,7 @@ breadcrumbs: DAMS User Guide
 
 ## Digital objects: some definitions
 
-Before we go on, let's stop to define "digital object": a digital object is a content file(s) and affiliated metadata record(s). <b>Simple objects</b> comprise one file and one metadata record. <b>Complex objects</b> comprise multiple files and even multiple metadata records which are "bundled" together. In the DAMS, these are represented as objects with child-level components. We'll discuss [Complex Objects]({{ site.url }}{{ site.baseurl }}/docs/dams/complex-objects/) more in a later section. 
+Before we go on, let's stop to define "digital object": a digital object is a content file(s) and affiliated metadata record(s). "Simple objects" comprise one file and one metadata record. "Complex objects" comprise multiple files and even multiple metadata records which are bundled together. In the DAMS, these are represented as objects with child-level components. We'll discuss [Complex Objects]({{ site.url }}{{ site.baseurl }}/docs/dams/complex-objects/) more in a later section. 
 
 
 ## Understanding document types
@@ -27,7 +27,7 @@ Each document type can function as a complex object and can contain child-level 
 
 ## Metadata model and input
 
-Each of these document types has the same metadata model. The [metadata model]({{ site.url }}{{ site.baseurl }}/docs/dams/metadata-model/) follows Dublin Core standards, and includes Descriptive, Technical, and Rights Information.
+Each of these document types has the same metadata model. The [metadata model]({{ site.url }}{{ site.baseurl }}/docs/dams/metadata-model/) follows Dublin Core standards, and is optimized for descriptive and rights information.
 
 The Nuxeo DAMS supports the input, storage, search, and display of characters in Unicode. You can input Unicode characters using several methods, such as using Unicode character inputs that are available through Windows or Mac OS systems, using a Unicode-enabled keyboard, or copying-and-pasting Unicode characters from other sources into Nuxeo fields.
 
@@ -47,7 +47,7 @@ We'll start by creating a simple object using the Picture document type.
 |---------------------|------------------|---------------------|----------------------------------|-------|
 | ark:/13030/c8w66nzb | 5585817          | Simple image object | UC Davis Student Farm photograph | Image |
 
-<div class="note"><p><b>Local Identifier</b> and <b>Alternative Title</b> are both repeatable fields, meaning there can be multiple per object. Press the plus button to add a Local Identifier and an Alternative Title.</p><p><b>Date</b> and <b>Creator</b> are both repeatable groups of fields, these are denoted by a light grey border. Press the plus button to see the fields in a group.</p></div>
+<div class="note"><p><a class="notelink" href="http://ucldc.github.io/ucldc-docs/docs/dams/metadata-model/#LocalIdentifier">Local Identifier</a> and <a class="notelink" href="http://ucldc.github.io/ucldc-docs/docs/dams/metadata-model/#AlternativeTitle">Alternative Title</a> are both repeatable fields, meaning there can be multiple per object. Press the plus button to add a Local Identifier and an Alternative Title.</p><p><a class="notelink" href="http://ucldc.github.io/ucldc-docs/docs/dams/metadata-model/#Date">Date</a> and <a class="notelink" href="http://ucldc.github.io/ucldc-docs/docs/dams/metadata-model/#Creator">Creator</a> are both repeatable groups of fields, these are denoted by a light grey border. Press the plus button to see the fields in a group.</p></div>
 
 <ol start="6">
   <li>Add the date and creator data to the object:</li>
