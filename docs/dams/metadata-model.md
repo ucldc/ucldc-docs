@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Metadata Model
+title: Metadata Scheme
 permalink: /metadata-model/
 breadcrumbs: DAMS Appendix
 ---
