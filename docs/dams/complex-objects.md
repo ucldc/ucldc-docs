@@ -19,7 +19,7 @@ Any of the document types (Picture, File, Audio, Video) can contain any number o
 
 Or hierarchical, like this:
 
-- Modavi Center 2010-2011 season promotional materials (Picture type)
+- Mondavi Center 2010-2011 season promotional materials (Picture type)
   - Photographs (Picture type, no content file)
     - Photograph 1 (Picture type)
     - Photograph 2 (Picture type)
@@ -31,7 +31,7 @@ Or hierarchical, like this:
 There is no limit on the number of child-level components for a given complex object, and they are orderable via the 'Summary' tab for the parent-level component.
 
 ## Not all components need files
-Despite the fact that the parent-level component must have a document type, it does not necessarily have to have a content file. In the hierarchical example above, the "Modavi Center 2010-2011 season promotional materials" component contains a visual representation of the object's contents, while the "Photographs" and "Documents" child-level components contain no content files, and the components at the bottom of the hierarchical tree (Photograph 1-3, Document 1-2) contain the actual content files. 
+Despite the fact that the parent-level component must have a document type, it does not necessarily have to have a content file. In the hierarchical example above, the "Mondavi Center 2010-2011 season promotional materials" component contains a visual representation of the object's contents, while the "Photographs" and "Documents" child-level components contain no content files, and the components at the bottom of the hierarchical tree (Photograph 1-3, Document 1-2) contain the actual content files. 
 
 <div class="walkthrough">Banana Slug Walkthrough</div>
 

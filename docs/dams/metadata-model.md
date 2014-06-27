@@ -31,7 +31,7 @@ breadcrumbs: DAMS Appendix
 </div>
 
 <div class="note">
-  The contents of the Campus/Unit field are <em>crucial</em> to how an object will appear in Calisphere. Both campuses and units will have a unique URL assigned to each via the Collection Registry. Populating an object's Campus/Unit field with this URL is how an object will be linked to a campus or unit and displayed appropriately in Calisphere. For now, if you are adding new objects to the DAMS, please consult with <a href="mailto:ucldc@ucop.edu" class="notelink">ucldc@ucop.edu</a>.
+  The contents of the Campus/Unit field are <em>crucial</em> to how an object will appear in Calisphere. Both campuses and units will have a unique URL assigned to each via the Collection Registry. Populating an object's Campus/Unit field with this URL is how an object will be linked to a campus or unit and displayed appropriately in Calisphere. In subsequent releases, this field will be integrated with the Collection Registry. For now, if you are adding new objects to the DAMS, please consult with <a href="mailto:ucldc@ucop.edu" class="notelink">ucldc@ucop.edu</a> and we can work with you to populate this field.
 </div>
 
 <a class="label" id="Title">Title</a> - A formal or supplied title for the resource.
@@ -185,15 +185,21 @@ breadcrumbs: DAMS Appendix
 
 <div class="example">
   <u>Example:</u>
-  <br/>copyrighted
-  <br/>public domain
-  <br/>unknown
+<br/>unknown
+<br/>public domain
+<br/>copyrighted
 </div>
 
 <a class="label" id="CopyrightStatement">Copyright Statement</a> - Statement summarizing the copyright status of the resource 
 
 <div class="example">
-  <u>Example:</u>
+  <u>Example (status "unknown"):</u>
+  <br/>Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.). In addition, the reproduction, and/or commercial use, of some materials may be restricted by gift or purchase agreements, donor restrictions, privacy and publicity rights, licensing agreement(s), and/or trademark rights. Distribution or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners. To the extent other restrictions apply, permission for distribution or reproduction from the applicable rights holder is also required. Responsibility for obtaining permissions, and for any use rests exclusively with the user.
+  <br/>
+  <br/> <u>Example (status "public domain"):</u>
+  <br/>Material in the public domain. No restrictions on use.
+  <br/>
+  <br/><u>Example (status "copyrighted"):</u>
   <br/>Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owner. Responsibility for any use rests exclusively with the user
 </div>
 
@@ -273,7 +279,7 @@ breadcrumbs: DAMS Appendix
 </div>
 
 <div class="note">
-  The contents of the Collection field are <em>crucial</em> to how an object will appear in Calisphere. You will be able to define collections in the Collection Registry, which will assign each collection a unique URL. Populating an object's Collection field with this URL is how an object will be linked to a collection and displayed appropriately in Calisphere. For now, if you are adding new objects to the DAMS, please consult with <a href="mailto:ucldc@ucop.edu" class="notelink">ucldc@ucop.edu</a>.
+  The contents of the Collection field are <em>crucial</em> to how an object will appear in Calisphere. You will be able to define collections in the Collection Registry, which will assign each collection a unique URL. Populating an object's Collection field with this URL is how an object will be linked to a collection and displayed appropriately in Calisphere. In subsequent releases, this field will be integrated with the Collection Registry. For now, if you are adding new objects to the DAMS, please consult with <a href="mailto:ucldc@ucop.edu" class="notelink">ucldc@ucop.edu</a> and we can work with you to populate this field.
 </div>
 
 <a class="label" id="RelatedResource">Related Resource</a> - Reference to other related resources (by theme, topic, collection, etc.)
