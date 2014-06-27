@@ -20,7 +20,7 @@ A tool for object-level metadata and associated content file management. Use the
 
 Collection Registry
 ===================
-A tool for collection-level metadata management. Use the Registry to input information about collections (whether in the DAMS or in another system), indicate harvest URLs, and possibly plan future digitization projects. This tool is in the initial stages of development as we build the harvest infrastructure.
+A tool for collection-level metadata management. Use the Registry to input information about collections (whether in the DAMS or in another system), indicate harvest URLs, and plan future digitization projects. This tool is in the initial stages of development as we build the harvest infrastructure.
 
 
 Calisphere
