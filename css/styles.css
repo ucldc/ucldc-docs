@@ -234,7 +234,7 @@ div .note::before {
 }
 
 div .walkthrough {
-    padding: 4px 15px 4px 59px;
+    padding: 4px 15px 4px 50px;
 /*    border-bottom: 1px solid #e7e7e7;
     border-top: 1px solid #e7e7e7;
 */
@@ -260,7 +260,7 @@ div .walkthrough {
 div .walkthrough::before {
     content: url('/ucldc-docs/images/slug-45.png');
     position: absolute;
-    top: 1px;
+    top: -5px;
     left: 10px;
 }
 
