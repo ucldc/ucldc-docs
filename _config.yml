@@ -6,7 +6,7 @@ date: June 26, 2014
 email: ucldc@ucop.edu
 description: ""
 baseurl: "/ucldc-docs"
- -url: "http://ucldc.github.io"
+url: "http://ucldc.github.io"
 username: ucldc
 
 # Build settings
