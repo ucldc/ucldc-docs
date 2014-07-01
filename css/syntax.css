@@ -1,3 +1,16 @@
+.highlight {
+    overflow: auto;
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.lineno {
+    border-right: 1px solid #888888;
+    padding-right: 3px;
+    padding-bottom: 7px;
+}
+
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */

@@ -5,6 +5,10 @@ permalink: /metadata-model/
 breadcrumbs: DAMS Appendix
 ---
 
+<a href="{{ site.url }}{{ site.baseurl }}/docs/dams/ucldc-schema/">
+  <span class="glyphicon glyphicon-file"></span> View the metadata scheme's xsd file.
+</a>
+
 ### Basic Information
 
 
