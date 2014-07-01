@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Create an Account
+title: Request an Account
 permalink: /create-account/
 ---
 
