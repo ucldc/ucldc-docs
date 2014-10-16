@@ -9,7 +9,7 @@ breadcrumbs: DAMS User Guide
 
 You can edit simple and complex objects of any type in bulk as long as they exist in the same project folder, are children of the same parent complex object, or appear in the same search result set. 
 
-In each of these cases, there is a [content listing]() displaying the contents of the project folder, complex object, or search result set. From this content listing, you can select the relevant objects in the content listing for editing. The bulk edit form includes all the fields in the metadata scheme for an object.
+In each of these cases, there is a content listing displaying the contents of the project folder, complex object, or search result set. From this content listing, you can select the relevant objects in the content listing for editing. The bulk edit form includes all the fields in the metadata scheme for an object.
 
 ## Some Notes on Selecting Objects and Pagination
 
