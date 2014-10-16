@@ -142,7 +142,7 @@ breadcrumbs: DAMS Appendix
 
 ### Content and Characteristics
 
-<a class="label" id="FormatPhysicalDescription">Format/Physical Description</a> - Description or statement indicating the extent, size, or duration of the resource.
+<a class="label" id="FormatPhysicalDescription">Format/Physical Description</a> - A description of the physical or digital manifestation of the resource. Typically, this may include an indicator of the size and duration.
 
 <div class="example">
   <u>Example:</u>
@@ -151,18 +151,25 @@ breadcrumbs: DAMS Appendix
   <br/>1 leaflet : ill. ; 21.5 x 38.5 cm., folded to 21.5 x 10 cm. [Note: derived according to Graphic Materials]
 </div>
 
-<a class="label" id="Description">Description</a> - A descriptive statement that characterizes more fully the scope or content of the resource.
+<div style="position: relative"><span class="badge" style="left: -157px; padding-left: 70px; padding-right: 5px;">Now <br/>Multivalued</span></div> 
+
+<a class="label" id="Description">Description</a> - Descriptive statements that characterize more fully the scope or content of the resource.
 
 <div class="example">
   <u>Example:</u>
   <br/>Depicts unknown automobile driver stopping at roadside to add water to engine on all-day drive from Chico to Sacramento. Exact location unknown. Verso stamped with 596; manuscript note indicates car owned by “N.E.R.”
 </div>
 
-<a class="label" id="TemporalCoverage">Temporal Coverage</a> - Temporal characteristics of the resource
+<div style="position: relative"><span class="badge">New <br/>Field</span></div> 
+
+<a class="label" id="DescriptionType">Description Type</a> - Qualifier identifying the kind of description
+
+<div style="position: relative"><span class="badge">New <br/>Field</span></div> <a class="label" id="Extent">Extent</a> - A more specific statement of the size or duration of the resource (if not specified in Format/Physical Description)
 
 <div class="example">
   <u>Example:</u>
-  <br/>Surveyed 4/1/1931
+  <br/>9 x 14 cm.
+  <br/>21.5 x 38.5 cm., folded to 21.5 x 10 cm.
 </div>
 
 <a class="label" id="Language">Language</a> - Languages significantly represented in or by the resource
@@ -172,6 +179,20 @@ breadcrumbs: DAMS Appendix
   <br/>eng [Note: use for English]
   <br/>vie [Note: use for Vietnamese]
   <br/>ger [Note: use for German]
+</div>
+
+<a class="label" id="TemporalCoverage">Temporal Coverage</a> - Temporal characteristics of the resource
+
+<div class="example">
+  <u>Example:</u>
+  <br/>Surveyed 4/1/1931
+</div>
+
+<div style="position: relative"><span class="badge">New <br/> Field</span></div> <a class="label" id="Transcription">Transcription</a> - A transcription of textual information, for resources that are text-based or document formats
+
+<div class="example">
+  <u>Example:</u>
+  <br/>Martinez California December 31, 1893. My dear Sister Mary, I wish you a happy New Year, You and all yours. Heaven bless you all. Ever affectionately Your brother John Muir.
 </div>
 
 ### Conditions of Access and Use
