@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Viewing and Editing Objects
-next_section: 
+next_section: dams/bulk-edit
 prev_section: dams/complex-objects
 permalink: /edit-objects/
 breadcrumbs: DAMS User Guide
@@ -37,11 +37,11 @@ You can select a derivative and press the download button to download the conten
 
 **Picture Metadata (Picture objects only)** - This tab shows any metadata that was embedded in the image content file on upload. 
 
-<div class="walkthrough">Banana Slug Walkthrough</div>
+<div class="walkthrough">Walkthrough</div>
 
 ## Editing an Object
 
-Let's navigate through the hierarchy back to the first image object we created: Root > Asset Library > Your campus folder > Banana Slug > Simple image object. 
+Let's navigate through the hierarchy back to the first image object we created: Root > Asset Library > Your campus folder > Your Sample Project Folder > Simple image object. 
 
 1. On the Summary tab, scroll down to 'Metadata' and press the 'Edit' button. 
 2. Under the Content and Characteristics heading, input the following metadata. 

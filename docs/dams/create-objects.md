@@ -31,14 +31,14 @@ Each of these document types has the same metadata scheme. The [metadata scheme]
 
 The Nuxeo DAMS supports the input, storage, search, and display of characters in Unicode. You can input Unicode characters using several methods, such as using Unicode character inputs that are available through Windows or Mac OS systems, using a Unicode-enabled keyboard, or copying-and-pasting Unicode characters from other sources into Nuxeo fields.
 
-<div class="walkthrough">Banana Slug Walkthrough</div>
+<div class="walkthrough">Walkthrough</div>
 
 ## Creating a New Simple Object
 
 We'll start by creating a simple object using the Picture document type.
 
 1. Download <a href="{{ site.url }}{{ site.baseurl }}/images/Medium_uc-davis-student-farm-49.jpg" download>this sample image</a> and put it somewhere easy-to-find on your computer
-2. Navigate to the Banana Slug project folder within your campus folder. 
+2. Navigate to your sample project folder within your campus folder. If you don't yet have a sample project folder, create one by following the walkthrough in [Organizing Objects with Project Folders]({{ site.url }}{{ site.baseurl }}/docs/dams/organization/). 
 3. Click on the 'Content' tab if it is not already selected by default, and press 'New'.
 4. Since our content file is an image, select the Picture document type. 
 5. Fill out the Basic Information metadata fields with the following data: 
@@ -78,7 +78,7 @@ We'll start by creating a simple object using the Picture document type.
   <li>Scroll down and press 'Create'.</li>
 </ol>
 
-<p>You should then be directed to that object's page, with the 'Summary' tab selected, as shown in the below screenshot. In the hierarchy sidebar, you should see your new object underneath the Banana Slug folder. Under the metadata section of the Summary tab, you should see the metadata you inputted. The next section discusses editing objects in the DAMS.</p>
+<p>You should then be directed to that object's page, with the 'Summary' tab selected, as shown in the below screenshot. In the hierarchy sidebar, you should see your new object underneath your sample project folder. Under the metadata section of the Summary tab, you should see the metadata you inputted. The next section discusses editing objects in the DAMS.</p>
 
 <a class="img-popup-tall" href="{{ site.url }}{{ site.baseurl }}/images/3_simple-object.png">
   <img src="{{ site.url }}{{ site.baseurl }}/images/3_simple-object.png" alt="Screenshot after logging in" style="width: 500px">

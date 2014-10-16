@@ -12,7 +12,7 @@ Now that we have a sample project folder with some content, let's return to the 
 ## Content Tab
 
 <a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/banana-slug-content.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/banana-slug-content.png" alt="Banana Slug Project Folder - Content Tab" style="width: 500px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/banana-slug-content.png" alt="Sample Project Folder - Content Tab" style="width: 500px">
 </a>
 <br>(click to enlarge)
 
@@ -35,7 +35,7 @@ A project folder's summary tab reveals common folder metadata such as Created an
 </a>
 <br>(click to enlarge)
 
-<div class="note">In the above screenshot, I've used the UCOP folder rather than the Banana Slug folder to provide a more robust example of permissions.</div>
+<div class="note">In the above screenshot, I've used the UCOP folder rather than the sample project folder to provide a more robust example of permissions.</div>
 
 The manage tab enables users with management rights to set and modify user permissions for that project folder. For any given user or user group, a user with management rights can grant or deny 'Read', 'Write', 'Remove', and 'Manage everything' permissions. 
 

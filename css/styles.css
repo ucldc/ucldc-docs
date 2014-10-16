@@ -234,7 +234,7 @@ div .note::before {
 }
 
 div .walkthrough {
-    padding: 4px 15px 4px 50px;
+    padding: 4px 15px 4px 30px;
 /*    border-bottom: 1px solid #e7e7e7;
     border-top: 1px solid #e7e7e7;
 */
@@ -257,8 +257,12 @@ div .walkthrough {
 /*    font-weight: 400;*/
 }
 
-div .walkthrough::before {
-    content: url('/ucldc-docs/images/slug-45.png');
+div .walkthrough.new {
+    padding-left: 130px;
+}
+
+div .walkthrough.new::before {
+    content: url('/ucldc-docs/images/bear.png');
     position: absolute;
     top: -5px;
     left: 10px;
@@ -329,4 +333,36 @@ a.notelink:hover {
     font-size: 14px;
     letter-spacing: .5px;
     color: #fff;
+}
+
+div .badge::before {
+    content: url('/ucldc-docs/images/bear-flag.png');
+    position: absolute;
+    left: 5px;
+}
+
+.badge {
+    display: inline-block; 
+    position: absolute; 
+    left: -120px;
+    top: 3px; 
+    padding: 3px 0px 3px 56px;
+    min-width: 56px;
+    border-radius: 5px; 
+    
+    font-size: 14px; 
+    color: rgb(255, 255, 255); 
+    font-weight: 700; 
+    text-align: center; 
+    line-height: 1; 
+    vertical-align: baseline; 
+    
+    background: #1295d8; /* Old browsers */
+    background: -moz-linear-gradient(left,  #1295d8 0%, #72cdf4 90%, #72cdf4 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1295d8), color-stop(90%,#72cdf4), color-stop(100%,#72cdf4)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #1295d8 0%,#72cdf4 90%,#72cdf4 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #1295d8 0%,#72cdf4 90%,#72cdf4 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #1295d8 0%,#72cdf4 90%,#72cdf4 100%); /* IE10+ */
+    background: linear-gradient(to right,  #1295d8 0%, #72cdf4 90%,#72cdf4 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1295d8', endColorstr='#72cdf4',GradientType=1 ); /* IE6-9 */
 }

@@ -33,7 +33,7 @@ There is no limit on the number of child-level components for a given complex ob
 ## Not all components need files
 Despite the fact that the parent-level component must have a document type, it does not necessarily have to have a content file. In the hierarchical example above, the "Mondavi Center 2010-2011 season promotional materials" component contains a visual representation of the object's contents, while the "Photographs" and "Documents" child-level components contain no content files, and the components at the bottom of the hierarchical tree (Photograph 1-3, Document 1-2) contain the actual content files. 
 
-<div class="walkthrough">Banana Slug Walkthrough</div>
+<div class="walkthrough">Walkthrough</div>
 
 ## Create a Complex Object
 For this exercise, you use the following sample files. Download them and place them somewhere easy-to-find.
@@ -42,7 +42,7 @@ For this exercise, you use the following sample files. Download them and place t
 - Another content file for a component: <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-44.jpg" download>Original_anr2_UCOP-44.jpg</a>
 - Another content file for a component: <a href="{{ site.url }}{{ site.baseurl }}/images/Original_anr2_UCOP-45.jpg" download>Original_anr2_UCOP-45.jpg</a>
 
-1. From within your Banana Slug project folder, create a new Picture object. 
+1. From within your sample project folder, create a new Picture object. (See [Organizing Objects with Project Folders]({{ site.url }}{{ site.baseurl }}/docs/dams/organization/) to create a sample project folder, if you haven't already.)
 2. On the create object form, fill out the following metadata, upload the content file Original_complex-flat.jpg, and press the 'Create' button as described in the [create objects section]({{ site.url }}{{ site.baseurl }}/docs/dams/create-objects/).
 
 <table>
@@ -83,7 +83,7 @@ For this exercise, you use the following sample files. Download them and place t
 
 Now the hierarchy sidebar should contain the following under your campus's name:
 
-- Banana Slug
+- Your Sample Project Folder
   - Complex object (flat)
     - Photograph 1
     - Photograph 2
@@ -93,4 +93,4 @@ Now the hierarchy sidebar should contain the following under your campus's name:
 
 From any given parent object, you can order, reorder, and delete children by navigating to the 'Component Object' section on the Summary tab, selecting the checkbox next to the component object you would like to order or delete, and then pressing the 'Move to top', 'Move up', Move to bottom', 'Move down', or 'Delete' buttons accordingly. (By default, child-level components will appear in the order in which they're added.)
 
-<div class="note">Only the components of a complex object are orderable. Objects within project folders, such as 'Banana Slug' (your test folder) are not orderable. To delete an object in a Project Folder, navigate to the 'Content' tab on the Project Folder, select the checkbox next to the object you would like to delete, and press the 'Delete' button.</div>
+<div class="note">Only the components of a complex object are orderable. Objects within project folders, such as 'Your Sample Project Folder' (your test folder) are not orderable. To delete an object in a Project Folder, navigate to the 'Content' tab on the Project Folder, select the checkbox next to the object you would like to delete, and press the 'Delete' button.</div>

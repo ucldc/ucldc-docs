@@ -45,15 +45,15 @@ From within your campus folder, you can create as many project folders (and nest
 
 <div class="note">You'll notice that if you navigate to a campus folder for another campus, the 'New' button won't be present. That is because you have read-only access to other campus folders.</div>
 
-<div class="walkthrough">Banana Slug Walkthrough</div>
+<div class="walkthrough">Walkthrough</div>
 
 To create a new project folder 
 
 1. Navigate to your campus folder
 2. Click on the 'Content' tab if it is not already selected by default, and press 'New'.
 3. There is only one available document type for children of a campus folder - a project folder. Click 'Project Folder'. 
-4. For the required 'Title' field, input "Banana Slug".
-5. For the optional 'Description' field, input "A trial project folder for testing the features of the Banana Slug release." 
+4. For the required 'Title' field, input your name followed by "-Sample Project Folder".
+5. For the optional 'Description' field, input "A trial project folder for testing the features of the Nuxeo DAMS." 
 6. Then press 'Create'. 
 
-<p>You should then be directed to that project folder's page, with the 'Content' tab selected. In the hierarchy sidebar, you should see 'Banana Slug' underneath your campus's folder.</p>
+<p>You should then be directed to that project folder's page, with the 'Content' tab selected. In the hierarchy sidebar, you should see your sample project folder underneath your campus's folder.</p>
