@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Bulk Edit Objects
-next_section: dams/search
+next_section: dams/clipboard
 prev_section: dams/edit-objects
 permalink: /bulk-edit/
 breadcrumbs: DAMS User Guide
@@ -17,19 +17,21 @@ If you have lots of objects in your project folder, complex object, or search re
 
 Selecting an object is maintained while you paginate - ie, if you select the third object on the first page and the fifth object on the second page, both objects will remain selected for bulk editing. In order to select all objects on a given page, use the select all checkbox - located in the header of the content view next to 'Title'. This checkbox will _only_ select objects on a given page, though. To select _all_ objects in a given project folder, increase the number of objects displayed per page to 50 (the maximum setting) and then paginate through, checking the select all checkbox on each page of 50 objects.
 
+Object are deselected as soon as you navigate to a different project folder, or into an object. 
+
 <div class="walkthrough new">Bear Walkthrough</div>
 
 ## Editing Objects in Bulk
 
 1. Navigate to your example project folder within your campus folder that you created in the walkthrough in the <a href="{{ site.url }}{{ site.baseurl}}/docs/dams/organization">Organizing Objects with Project Folders</a> document. 
-2. Create a few simple objects in your example project folder as described in the walkthrough in the <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/create-objects">Creating Simple Objects</a> document. Give these simple objects an ID, but no title. 
+2. Create three simple objects in your example project folder as described in the walkthrough in the <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/create-objects">Creating Simple Objects</a> document. Give these simple objects an ID, but no title. 
 
 <div class="note"><p>If you don't give your objects a title, in your project folder you will see your objects referred to by the 36 character unique alpha-numeric string used internally by the Nuxeo system. </p></div>
 
 <ol start="3">
   <li>From within the project folder, select objects for bulk edit by checking the checkboxes to the left of the objects you just created.</li>
   <li>After selecting the objects for bulk edit, select the 'edit' button just below the object listing, on the left-hand side. A pop-up should appear displaying the same form you see for object creation and editing.</li>
-  <li>Modify the title in the Bulk Edit form. Input 'Golden Bear' in the title field and 'Bear Objects' in the alternative identifier field.</li>
+  <li>Modify the title in the Bulk Edit form. Input 'Golden Bear' in the title field and 'Bear Objects' in the alternative title field.</li>
 </ol>
 
 <div class="note">You'll notice a checkbox next to each field that is automatically checked when the corresponding field is modified. Any field with a checked checkbox next to it will be modified for all the selected objects. You can check a field's checkbox without entering anything into the field to delete that field's contents for multiple objects.</div>
