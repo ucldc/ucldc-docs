@@ -7,7 +7,7 @@ permalink: /docs/dams/clipboard/
 breadcrumbs: DAMS User Guide
 ---
 
-The Clipboard and Worklist, located at the bottom of the sidebar, are two temporary spaces where you can place objects you are currently working on or moving around in the project folder hierarchy. 
+The Clipboard and Worklist, located at the bottom of the sidebar, are two temporary spaces for placing objects currently in your workflow or objets you're moving in the project folder hierarchy. 
 
 ## The Clipboard
 
@@ -58,4 +58,4 @@ This walkthrough is meant to accompany the above clipboard walkthrough and assum
 11. Now click on the second Golden Bear object in the Worklist. The breadcrumbs should read: Asset Library > Your Campus > Your Sample Folder > Your Bear Collection > Golden Bear. 
 12. Add the alternative title "UC Berkeley". Scroll down and press the 'Save' button. 
 
-<div class="note"><p>You can also move and paste the contents of the Worklist into the current folder by clicking the 'Move in current folder' and 'Paste in current folder' links in the Worklist.</p></div>
+<div class="note"><p>The Worklist also has move and paste functionality. Click the 'Move in current folder' or 'Paste in current folder' links to move or paste the contents of the Worklist into the current folder.</p></div>
