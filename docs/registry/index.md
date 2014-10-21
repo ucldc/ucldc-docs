@@ -2,7 +2,7 @@
 layout: doc
 title: Registry Documentation
 next_section: dams/organization
-permalink: /index/
+permalink: /docs/registry/index/
 ---
 
 # Registry Documentation Home

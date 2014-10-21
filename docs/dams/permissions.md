@@ -3,7 +3,7 @@ layout: doc
 title: Project Folder Access Restrictions & Other Tabs
 next_section: 
 prev_section: dams/edit-objects/
-permalink: /permissions/
+permalink: /docs/dams/permissions/
 breadcrumbs: DAMS User Guide
 ---
 

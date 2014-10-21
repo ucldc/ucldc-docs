@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Metadata Scheme
-permalink: /metadata-model/
+permalink: /docs/dams/metadata-model/
 breadcrumbs: DAMS Appendix
 ---
 

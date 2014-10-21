@@ -3,7 +3,7 @@ layout: doc
 title: Organizing Objects with Project Folders
 next_section: dams/create-objects
 prev_section: dams/index
-permalink: /organization/
+permalink: /docs/dams/organization/
 breadcrumbs: DAMS User Guide
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Metadata Schema XSD
-permalink: /ucldc-schema/
+permalink: /docs/dams/ucldc-schema/
 breadcrumbs: DAMS Appendix
 ---
 

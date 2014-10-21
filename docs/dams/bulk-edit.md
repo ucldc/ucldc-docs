@@ -3,7 +3,7 @@ layout: doc
 title: Bulk Edit Objects
 next_section: dams/clipboard
 prev_section: dams/edit-objects
-permalink: /bulk-edit/
+permalink: /docs/dams/bulk-edit/
 breadcrumbs: DAMS User Guide
 ---
 
