@@ -2,7 +2,7 @@
 layout: doc
 title: DAMS Overview
 next_section: dams/organization
-permalink: /index/
+permalink: /docs/dams/index/
 breadcrumbs: DAMS User Guide
 ---
 
