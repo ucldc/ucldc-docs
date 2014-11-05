@@ -9,6 +9,11 @@ breadcrumbs: DAMS User Guide
 
 The Clipboard and Worklist, located at the bottom of the sidebar, are two temporary spaces for placing objects currently in your workflow or objets you're moving in the project folder hierarchy. 
 
+<a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/worklist-and-clipboard.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/worklist-and-clipboard.png" alt="Screenshot of the clipboard" style="width: 500px">
+</a>
+<br>(click to enlarge)
+
 ## The Clipboard
 
 In order to copy or move objects between different project folders, you'll use the Clipboard to gather up and temporarily store one or more objects, before navigating to the destination project folder to move or paste your objects in place. 

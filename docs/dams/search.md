@@ -15,6 +15,11 @@ The DAMS supports many different kinds of searching:
 - **Faceted Search**: Searches on keyword, like quick search, as well as a variety of other fields. Faceted Search, like Filter Search, also allows you to limit the search to a particular campus folder, project folder, or complex object. 
 - **Advanced Search**: Allows you to perform a very precise search by searching against more metadata elements than those available in faceted search. Advanced Search also allows you to customize the way search results are displayed. 
 
+<a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/search.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/search.png" alt="Screenshot of where to find search" style="width: 500px">
+</a>
+<br>(click to enlarge)
+
 <div class="note">The walkthroughs in this section assume you've completed the walkthroughs in <a class="notelink" href="{{ site.url }}{{ site.baseurl }}/docs/dams/clipboard/">Using the Clipboard and Worklist</a>. </div>
 
 ## Quick Search
@@ -73,8 +78,6 @@ Additionally, you can search for deleted documents, and perform a [full text sea
 Copyright End Date is the only field on advanced search that is not a full text search, but is an exact match search, instead. 
 
 Advanced search also allows you to customize which fields are displayed in the results listing. All of the following fields are selected by default. To remove a field from the search results listing, navigate to the 'Search Results' box below the 'Metadata Record History' box on the advanced search form, select the fields you don't want displayed in the search results under 'Selected Columns', and then press the left arrow button to move them out of 'Selected Columns' and into 'Available Columns'. Move a field back using the right arrow button. Reorder the columns using the up and down arrow buttons. 
-
-TODO: SCREENSHOT
 
 ## Full Text Search
 
