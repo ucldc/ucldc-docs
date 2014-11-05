@@ -21,7 +21,7 @@ The Nuxeo DAMS allows you to create four different kinds of digital objects, cal
 - **Audio:** use for sound recordings
 - **File:** use for text and document formats
 
-The document types vary in the type of content file you can upload and the kinds of derivatives Nuxeo automatically creates. As you can see from Nuxeo's documented <a href="http://doc.nuxeo.com/display/public/USERDOC/Supported+File+Formats" target="_blank">Supported File Formats</a>, the DAMS supports most common file types for each of these document types. 
+The document types vary in the type of content file you can upload and the kinds of derivatives Nuxeo automatically creates. As you can see from Nuxeo's documented <a href="http://doc.nuxeo.com/display/USERDOC/Supported+File+Formats" target="_blank">Supported File Formats</a>, the DAMS supports most common file types for each of these document types. 
 
 Each document type can function as a complex object and can contain child-level components of any of the four document types. Again, we'll talk more about complex objects later on, but for now it's just important to know that each of the document types can be used to create both simple and complex objects (and components therein).
 

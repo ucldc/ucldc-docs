@@ -35,7 +35,7 @@ Search the entire Nuxeo DAMS by keyword using the Quick Search in the top right 
 
 ## Filter Search
 
-From within a given campus folder, project folder, or complex object, Filter Search allows you to filter the contents by a [full text search]() on the title field. 
+From within a given campus folder, project folder, or complex object, Filter Search allows you to filter the contents by a [full text search]({{ site.url }}{{ site.baseurl }}/docs/dams/search/#FullTextSearch) on the title field. 
 
 <div class="walkthrough new">Bear Walkthrough</div>
 
@@ -48,7 +48,7 @@ From within a given campus folder, project folder, or complex object, Filter Sea
 The faceted search is located in the sidebar. Navigate to it by clicking the magnifying glass icon to the right of the hierarchy icon. Faceted search includes a small subset of fields to search on: 
 
 - **Keyword Search**: Keyword search behaves just like Quick Search. This searches a full-text index of all objects in the DAMS by keyword. 
-- **Field Search**: Field search is a [full text search]() on the following fields: Identifier, Local Identifier, Title, Creator Name, Contributor Name, Date, and Description. 
+- **Field Search**: Field search is a [full text search]({{ site.url }}{{ site.baseurl }}/docs/dams/search/#FullTextSearch) on the following fields: Identifier, Local Identifier, Title, Creator Name, Contributor Name, Date, and Description. 
 - **Project Folder**: Constrains the search to one or more campus or project folders in the DAMS. 
 - **Metadata Record History**: Username is an autocomplete field and allows you to search for objects a particular user has modified or created. Creation Date and Date Modified search by a date range for objects created or modified, respectively, in the given date range. 
 
@@ -68,7 +68,7 @@ The faceted search is located in the sidebar. Navigate to it by clicking the mag
 
 Find a link to advanced search in the top right corner, just to the right of quick search. Advanced search includes a keyword search, like quick search, the ability to constrain a search to one or more campus or project folders, like filter search and faceted search, and a search on the metadata record history, like faceted search. 
 
-Additionally, you can search for deleted documents, and perform a [full text search]() on all of the following fields: 
+Additionally, you can search for deleted documents, and perform a [full text search]({{ site.url }}{{ site.baseurl }}/docs/dams/search/#FullTextSearch) on all of the following fields: 
 
 * Basic Information: Identifier, Local Identifier, Title, Alternative Title, Date, Creator Name, Contributor Name, Type
 * Content and Characteristics: Description, Language
@@ -79,7 +79,7 @@ Copyright End Date is the only field on advanced search that is not a full text 
 
 Advanced search also allows you to customize which fields are displayed in the results listing. All of the following fields are selected by default. To remove a field from the search results listing, navigate to the 'Search Results' box below the 'Metadata Record History' box on the advanced search form, select the fields you don't want displayed in the search results under 'Selected Columns', and then press the left arrow button to move them out of 'Selected Columns' and into 'Available Columns'. Move a field back using the right arrow button. Reorder the columns using the up and down arrow buttons. 
 
-## Full Text Search
+<h1><a id="FullTextSearch">Full Text Search</a></h1>
 
 Objects are indexed using their full metadata record. Nuxeo's full text search uses stemming - a process used to reduce words to their word stem, or root form. Full text search will return objects with the same stem as the word entered in the search form, so searching for 'jogging' will return objects with 'jog', 'jogged', 'jogs', and 'jogging'. Additionally, full text searches are not case-specific - searching for 'submarine', 'SUBMARINE', or 'Submarine' will return the same results. 
 
