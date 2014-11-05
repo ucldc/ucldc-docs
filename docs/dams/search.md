@@ -79,7 +79,7 @@ Copyright End Date is the only field on advanced search that is not a full text 
 
 Advanced search also allows you to customize which fields are displayed in the results listing. All of the following fields are selected by default. To remove a field from the search results listing, navigate to the 'Search Results' box below the 'Metadata Record History' box on the advanced search form, select the fields you don't want displayed in the search results under 'Selected Columns', and then press the left arrow button to move them out of 'Selected Columns' and into 'Available Columns'. Move a field back using the right arrow button. Reorder the columns using the up and down arrow buttons. 
 
-<h1><a id="FullTextSearch">Full Text Search</a></h1>
+<h2><a id="FullTextSearch" style="color: black">Full Text Search</a></h2>
 
 Objects are indexed using their full metadata record. Nuxeo's full text search uses stemming - a process used to reduce words to their word stem, or root form. Full text search will return objects with the same stem as the word entered in the search form, so searching for 'jogging' will return objects with 'jog', 'jogged', 'jogs', and 'jogging'. Additionally, full text searches are not case-specific - searching for 'submarine', 'SUBMARINE', or 'Submarine' will return the same results. 
 
