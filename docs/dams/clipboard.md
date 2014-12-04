@@ -18,7 +18,7 @@ The Clipboard and Worklist, located at the bottom of the sidebar, are two tempor
 
 In order to copy or move objects between different project folders, you'll use the Clipboard to gather up and temporarily store one or more objects, before navigating to the destination project folder to move or paste your objects in place. 
 
-<div class="walkthrough new">Bear Walkthrough</div>
+<div class="walkthrough new">Bear Release Walkthrough</div>
 
 1. Navigate to your sample project folder within your campus folder. (Described in [Organizing Objects with Project Folders]({{ site.url }}{{ site.baseurl }}/docs/dams/organization/).)
 2. Create a second project folder inside your sample project folder. Call this project folder your name followed by "-Bear Collection"
@@ -46,7 +46,7 @@ In order to copy or move objects between different project folders, you'll use t
 
 The Worklist is like a temporary, personalized project folder. If you are, for example, working on entering metadata for a set of objects in different project folders, you can find all of the objects, and temporarily place them in the Worklist. 
 
-<div class="walkthrough new">Bear Walkthrough</div>
+<div class="walkthrough new">Bear Release Walkthrough</div>
 
 This walkthrough is meant to accompany the above clipboard walkthrough and assumes you have a sample project folder containing a second project folder called "Bear Collection" and one object with the title "Golden Bear" and the alternative title "Bear Objects". Within your Bear Collection project folder, you should have two objects, each with the title "Golden Bear" and the alternative title "Bear Objects".
 

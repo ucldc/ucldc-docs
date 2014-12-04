@@ -26,7 +26,7 @@ The DAMS supports many different kinds of searching:
 
 Search the entire Nuxeo DAMS by keyword using the Quick Search in the top right corner of the DAMS. This keyword search is performed over an index of all the metadata fields for an object, so this could potentially generate a lot of noise for ambiguous search terms. 
 
-<div class="walkthrough new">Bear Walkthrough</div>
+<div class="walkthrough new">Bear Release Walkthrough</div>
 
 1. Try entering the email address you use to sign in into the quick search text box. Click the magnifying glass or press enter to search. 
 2. You should see all the objects you have created in Nuxeo. 
@@ -37,7 +37,7 @@ Search the entire Nuxeo DAMS by keyword using the Quick Search in the top right 
 
 From within a given campus folder, project folder, or complex object, Filter Search allows you to filter the contents by a [full text search]({{ site.url }}{{ site.baseurl }}/docs/dams/search/#FullTextSearch) on the title field. 
 
-<div class="walkthrough new">Bear Walkthrough</div>
+<div class="walkthrough new">Bear Release Walkthrough</div>
 
 1. From within your sample folder in your campus folder, type 'Golden' into the filter box, and then press Filter. 
 2. You should see your 'Golden Bear' object in the content listing. 
@@ -52,7 +52,7 @@ The faceted search is located in the sidebar. Navigate to it by clicking the mag
 - **Project Folder**: Constrains the search to one or more campus or project folders in the DAMS. 
 - **Metadata Record History**: Username is an autocomplete field and allows you to search for objects a particular user has modified or created. Creation Date and Date Modified search by a date range for objects created or modified, respectively, in the given date range. 
 
-<div class="walkthrough new">Bear Walkthrough</div>
+<div class="walkthrough new">Bear Release Walkthrough</div>
 
 1. From anywhere within the Asset Library, shown in the breadcrumbs, select the faceted search by clicking the magnifying glass icon in the sidebar, next to the hierarchy icon. 
 2. Next to 'Alternative Title', click the 'Add' button. 
