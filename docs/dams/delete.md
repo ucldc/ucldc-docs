@@ -3,7 +3,7 @@ layout: doc
 title: Deleting an Object or Project Folder
 
 next_section: 
-prev_section: dams/search
+prev_section: dams/permissions
 permalink: /docs/dams/delete/
 breadcrumbs: DAMS User Guide
 ---

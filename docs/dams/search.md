@@ -2,7 +2,7 @@
 layout: doc
 title: Search
 
-next_section: dams/delete
+next_section: dams/permissions
 prev_section: dams/bulk-edit
 permalink: /docs/dams/search/
 breadcrumbs: DAMS User Guide

@@ -1,8 +1,8 @@
 ---
 layout: doc
-title: Project Folder Access Restrictions & Other Tabs
-next_section: 
-prev_section: dams/edit-objects/
+title: Setting User Permissions
+next_section: dams/delete
+prev_section: dams/search
 permalink: /docs/dams/permissions/
 breadcrumbs: DAMS User Guide
 ---
