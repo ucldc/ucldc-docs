@@ -11,33 +11,6 @@ breadcrumbs: DAMS Appendix
 
 ### Basic Information
 
-
-<a class="label" id="Identifier">Identifier</a> - A globally unique identifier for the resource.
-
-<div class="example">
-  <u>Example:</u>
-  <br/>ark.cdlib.org/ark:/13030/kt987021sv/
-</div>
-
-<a class="label" id="LocalIdentifier">Local Identifier</a> - A local item or call number for the resource.
-
-<div class="example">
-  <u>Example:</u>
-  <br/>calb_p3353
-  <br/>MSS 0124.144
-</div>
-
-<a class="label" id="CampusUnit">Campus/Unit</a> - URL reference to the Campus/Unit that is responsible for maintaining and curating the resource.
-
-<div class="example">
-  <u>Example:</u>
-  <br/>https://registry.cdlib.org/api/v1/repository/4/
-</div>
-
-<div class="note">
-  The contents of the Campus/Unit field are <em>crucial</em> to how an object will appear in Calisphere. Both campuses and units will have a unique URL assigned to each via the Collection Registry. Populating an object's Campus/Unit field with this URL is how an object will be linked to a campus or unit and displayed appropriately in Calisphere. In subsequent releases, this field will be integrated with the Collection Registry. For now, if you are adding new objects to the DAMS, please consult with <a href="mailto:ucldc@ucop.edu" class="notelink">ucldc@ucop.edu</a> and we can work with you to populate this field.
-</div>
-
 <a class="label" id="Title">Title</a> - A formal or supplied title for the resource.
 
 <div class="example">
@@ -60,6 +33,41 @@ breadcrumbs: DAMS Appendix
   <br/>Supplied titles
   <br/>Mitchell Bonner photograph of musicians performing at a cultural program 
   <br/>[Photograph of musicians performing at a cultural program]
+</div>
+
+<a class="label" id="Identifier">Identifier</a> - A globally unique identifier for the resource.
+
+<div class="example">
+  <u>Example:</u>
+  <br/>ark.cdlib.org/ark:/13030/kt987021sv/
+</div>
+
+<a class="label" id="LocalIdentifier">Local Identifier</a> - A local item or call number for the resource.
+
+<div class="example">
+  <u>Example:</u>
+  <br/>calb_p3353
+  <br/>MSS 0124.144
+</div>
+
+<a class="label" id="Type">Type</a> - A high-level characterizes of the resource type.
+
+<div class="example">
+  <u>Example:</u>
+  <br/>image
+  <br/>text
+  <br/>audio
+</div>
+
+<a class="label" id="CampusUnit">Campus/Unit</a> - URL reference to the Campus/Unit that is responsible for maintaining and curating the resource.
+
+<div class="example">
+  <u>Example:</u>
+  <br/>https://registry.cdlib.org/api/v1/repository/4/
+</div>
+
+<div class="note">
+  The contents of the Campus/Unit field are <em>crucial</em> to how an object will appear in Calisphere. Both campuses and units will have a unique URL assigned to each via the Collection Registry. Populating an object's Campus/Unit field with this URL is how an object will be linked to a campus or unit and displayed appropriately in Calisphere. In subsequent releases, this field will be integrated with the Collection Registry. For now, if you are adding new objects to the DAMS, please consult with <a href="mailto:ucldc@ucop.edu" class="notelink">ucldc@ucop.edu</a> and we can work with you to populate this field.
 </div>
 
 <a class="label" id="Date">Date</a> - A single date or inclusive dates indicating when the resource was created.
@@ -88,13 +96,13 @@ breadcrumbs: DAMS Appendix
   <br/>undated: circa mid 20th century = 1935~-1965~ [Note: if a resource is undated this can be stated but provide an estimate if possible; normalize as an interval, perhaps using the dates of the life of creator, etc.]
 </div>
 
-<a class="label" id="Type">Type</a> - A high-level characterizes of the resource type.
+<a class="label" id="PublicationInformation">Publication Information</a> - Publication statements and/or names of persons, families, or organizations responsible for publishing the resource.
 
 <div class="example">
   <u>Example:</u>
-  <br/>image
-  <br/>text
-  <br/>audio
+  <br/>Corporate name entry
+  <br/>American Philosophical Society 
+  <br/>Frasher Foto (Firm) 
 </div>
 
 <a class="label" id="Creator">Creator</a> - Names of persons, families, or organizations primarily responsible for creating the resource.
@@ -129,15 +137,6 @@ breadcrumbs: DAMS Appendix
   <br/>
   <br/>Families
   <br/>Robinson family
-</div>
-
-<a class="label" id="PublicationInformation">Publication Information</a> - Publication statements and/or names of persons, families, or organizations responsible for publishing the resource.
-
-<div class="example">
-  <u>Example:</u>
-  <br/>Corporate name entry
-  <br/>American Philosophical Society 
-  <br/>Frasher Foto (Firm) 
 </div>
 
 ### Content and Characteristics
