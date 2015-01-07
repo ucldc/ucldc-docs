@@ -5,43 +5,49 @@ permalink: /docs/dams/ucldc-schema/
 breadcrumbs: DAMS Appendix
 ---
 
-<a href="{{ site.url }}{{ site.baseurl }}/docs/dams/ucldc_schema.xsd" download><span class="glyphicon glyphicon-download"></span> Download the XSD</a>
+##Document Types and Schemas
+
+Each object type (Picture, Audio, Video, File, Complex) in the DAMS is referred to in Nuxeo as a **document type** under the hood. Nuxeo document types can have many schemas associated with them. In this case, the document types defining Picture, Audio, Video, File, and Complex objects all use the `ucldc_schema` to store metadata fields and the `extra_files` schema to store auxiliary content files and auxiliary file metadata. These document types also each use a schema defined to store their respective content file - a picture schema, audio schema, video schema, and file schema. The `ucldc_schema` and `extra_files` schema are described below:
+
+##`ucldc_schema` - used to store metadata
+
+<a href="{{ site.url }}{{ site.baseurl }}/docs/dams/ucldc_schema.xsd" download><span class="glyphicon glyphicon-download"></span> Download the ucldc\_schema.xsd</a>
 
 {% highlight xml+cheetah linenos %}
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:nxs="http://www.nuxeo.org/ecm/project/schemas/tingle-california-digita/ucldc_schema" targetNamespace="http://www.nuxeo.org/ecm/project/schemas/tingle-california-digita/ucldc_schema">
-  <!-- helper XSD definitions for list types -->
-  <xs:complexType name="content">
-    <xs:sequence>
-      <xs:element name="encoding" type="xs:string"/>
-      <xs:element name="mime-type" type="xs:string"/>
-      <xs:element name="data" type="xs:base64Binary"/>
-      <xs:element name="name" type="xs:string"/>
-      <xs:element name="length" type="xs:long"/>
-      <xs:element name="digest" type="xs:string"/>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:simpleType name="stringList">
-    <xs:list itemType="xs:string"/>
-  </xs:simpleType>
-  <xs:simpleType name="doubleList">
-    <xs:list itemType="xs:double"/>
-  </xs:simpleType>
-  <xs:simpleType name="dateList">
-    <xs:list itemType="xs:date"/>
-  </xs:simpleType>
-  <xs:simpleType name="integerList">
-    <xs:list itemType="xs:integer"/>
-  </xs:simpleType>
-  <xs:simpleType name="booleanList">
-    <xs:list itemType="xs:boolean"/>
-  </xs:simpleType>
-  <xs:complexType name="blobList">
-    <xs:sequence>
-      <xs:element name="item" type="nxs:content" minOccurs="0" maxOccurs="unbounded"/>
-    </xs:sequence>
-  </xs:complexType>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:nxs="http://www.nuxeo.org/ecm/project/schemas/tingle-california-digita/ucldc_schema" targetNamespace="http://www.nuxeo.org/ecm/project/schemas/tingle-california-digita/ucldc_schema">  
+  <!-- helper XSD definitions for list types -->  
+  <xs:complexType name="content"> 
+    <xs:sequence> 
+      <xs:element name="encoding" type="xs:string"/>  
+      <xs:element name="mime-type" type="xs:string"/>  
+      <xs:element name="data" type="xs:base64Binary"/>  
+      <xs:element name="name" type="xs:string"/>  
+      <xs:element name="length" type="xs:long"/>  
+      <xs:element name="digest" type="xs:string"/> 
+    </xs:sequence> 
+  </xs:complexType>  
+  <xs:simpleType name="stringList"> 
+    <xs:list itemType="xs:string"/> 
+  </xs:simpleType>  
+  <xs:simpleType name="doubleList"> 
+    <xs:list itemType="xs:double"/> 
+  </xs:simpleType>  
+  <xs:simpleType name="dateList"> 
+    <xs:list itemType="xs:date"/> 
+  </xs:simpleType>  
+  <xs:simpleType name="integerList"> 
+    <xs:list itemType="xs:integer"/> 
+  </xs:simpleType>  
+  <xs:simpleType name="booleanList"> 
+    <xs:list itemType="xs:boolean"/> 
+  </xs:simpleType>  
+  <xs:complexType name="blobList"> 
+    <xs:sequence> 
+      <xs:element name="item" type="nxs:content" minOccurs="0" maxOccurs="unbounded"/> 
+    </xs:sequence> 
+  </xs:complexType>  
   <xs:element name="accessrestrict" type="xs:string"/>
   <xs:element name="alternativetitle" type="nxs:stringList"/>
   <xs:element name="campusunit" type="nxs:stringList"/>
@@ -91,7 +97,19 @@ breadcrumbs: DAMS Appendix
       <xs:element name="single" type="xs:string"/>
     </xs:sequence>
   </xs:complexType>
-  <xs:element name="description" type="xs:string"/>
+  <xs:element name="description" type="nxs:ucldc_schema_descriptionListType"/>
+  <xs:complexType name="ucldc_schema_descriptionListType">
+    <xs:sequence>
+      <xs:element name="item" type="nxs:ucldc_schema_descriptionType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ucldc_schema_descriptionType">
+    <xs:sequence>
+      <xs:element name="type" type="xs:string" default="scopecontent"/>
+      <xs:element name="item" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="extent" type="xs:string"/>
   <xs:element name="formgenre" type="nxs:ucldc_schema_formgenreListType"/>
   <xs:complexType name="ucldc_schema_formgenreListType">
     <xs:sequence>
@@ -192,7 +210,63 @@ breadcrumbs: DAMS Appendix
     </xs:sequence>
   </xs:complexType>
   <xs:element name="temporalcoverage" type="nxs:stringList"/>
+  <xs:element name="transcription" type="xs:string"/>
   <xs:element name="type" type="xs:string"/>
+</xs:schema>
+
+{% endhighlight %}
+
+##`extra_files` - used to store auxiliary files and their metadata
+
+<a href="{{ site.url }}{{ site.baseurl }}/docs/dams/extra_files.xsd" download><span class="glyphicon glyphicon-download"></span> Download the extra\_files.xsd</a>
+
+{% highlight xml+cheetah linenos %}
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:nxs="http://www.nuxeo.org/ecm/project/schemas/tingle-california-digita/extra_files" targetNamespace="http://www.nuxeo.org/ecm/project/schemas/tingle-california-digita/extra_files">  
+  <!-- helper XSD definitions for list types -->  
+  <xs:complexType name="content"> 
+    <xs:sequence> 
+      <xs:element name="encoding" type="xs:string"/>  
+      <xs:element name="mime-type" type="xs:string"/>  
+      <xs:element name="data" type="xs:base64Binary"/>  
+      <xs:element name="name" type="xs:string"/>  
+      <xs:element name="length" type="xs:long"/>  
+      <xs:element name="digest" type="xs:string"/> 
+    </xs:sequence> 
+  </xs:complexType>  
+  <xs:simpleType name="stringList"> 
+    <xs:list itemType="xs:string"/> 
+  </xs:simpleType>  
+  <xs:simpleType name="doubleList"> 
+    <xs:list itemType="xs:double"/> 
+  </xs:simpleType>  
+  <xs:simpleType name="dateList"> 
+    <xs:list itemType="xs:date"/> 
+  </xs:simpleType>  
+  <xs:simpleType name="integerList"> 
+    <xs:list itemType="xs:integer"/> 
+  </xs:simpleType>  
+  <xs:simpleType name="booleanList"> 
+    <xs:list itemType="xs:boolean"/> 
+  </xs:simpleType>  
+  <xs:complexType name="blobList"> 
+    <xs:sequence> 
+      <xs:element name="item" type="nxs:content" minOccurs="0" maxOccurs="unbounded"/> 
+    </xs:sequence> 
+  </xs:complexType>  
+  <xs:element name="file" type="nxs:extra_files_fileListType"/>
+  <xs:complexType name="extra_files_fileListType">
+    <xs:sequence>
+      <xs:element name="item" type="nxs:extra_files_fileType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="extra_files_fileType">
+    <xs:sequence>
+      <xs:element name="type" type="xs:string"/>
+      <xs:element name="blob" type="nxs:content"/>
+    </xs:sequence>
+  </xs:complexType>
 </xs:schema>
 
 {% endhighlight %}
