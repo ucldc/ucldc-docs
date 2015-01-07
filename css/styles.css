@@ -258,11 +258,11 @@ div .walkthrough {
 }
 
 div .walkthrough.new {
-    padding-left: 130px;
+    padding-left: 80px;
 }
 
 div .walkthrough.new::before {
-    content: url('/ucldc-docs/images/bear.png');
+    content: url('/ucldc-docs/images/bobcat.png');
     position: absolute;
     top: -5px;
     left: 10px;
@@ -336,7 +336,7 @@ a.notelink:hover {
 }
 
 div .badge::before {
-    content: url('/ucldc-docs/images/bear-flag.png');
+    content: url('/ucldc-docs/images/bobcat-flag.png');
     position: absolute;
     left: 5px;
 }
@@ -344,9 +344,9 @@ div .badge::before {
 .badge {
     display: inline-block; 
     position: absolute; 
-    left: -120px;
+    left: -94px;
     top: 3px; 
-    padding: 3px 0px 3px 56px;
+    padding: 3px 0px 3px 30px;
     min-width: 56px;
     border-radius: 5px; 
     

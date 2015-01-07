@@ -13,7 +13,11 @@ breadcrumbs: DAMS Appendix
 
 <a class="label" id="MainContentFile">Main Content File</a> - The main resource file. Used to generate display files (main file, thumbnail, etc.) in the index and Calisphere once you "publish" the object.
 
-<a class="label" id="AuxiliaryFiles">Auxiliary Files</a> - Additional resource files including variant formats and derivative copies of the main content file. These files will not be published to the index or Calisphere. 
+<div style="position: relative"><span class="badge">New <br/>Field</span></div>
+
+<a class="label" id="AuxiliaryFiles">Auxiliary Files</a> - Additional resource files including variant formats and derivative copies of the main content file. These files will not be published to the index or Calisphere.
+
+<div style="position: relative"><span class="badge">New <br/>Field</span></div>
 
 <a class="label" id="AuxiliaryFileType">Auxiliary File Type</a> - Qualifier identifying the kind of auxiliary file.
 
@@ -158,8 +162,6 @@ breadcrumbs: DAMS Appendix
   <br/>1 leaflet : ill. ; 21.5 x 38.5 cm., folded to 21.5 x 10 cm. [Note: derived according to Graphic Materials]
 </div>
 
-<div style="position: relative"><span class="badge" style="left: -157px; padding-left: 70px; padding-right: 5px;">Now <br/>Multivalued</span></div> 
-
 <a class="label" id="Description">Description</a> - Descriptive statements that characterize more fully the scope or content of the resource.
 
 <div class="example">
@@ -167,11 +169,9 @@ breadcrumbs: DAMS Appendix
   <br/>Depicts unknown automobile driver stopping at roadside to add water to engine on all-day drive from Chico to Sacramento. Exact location unknown. Verso stamped with 596; manuscript note indicates car owned by “N.E.R.”
 </div>
 
-<div style="position: relative"><span class="badge">New <br/>Field</span></div> 
-
 <a class="label" id="DescriptionType">Description Type</a> - Qualifier identifying the kind of description
 
-<div style="position: relative"><span class="badge">New <br/>Field</span></div> <a class="label" id="Extent">Extent</a> - A more specific statement of the size or duration of the resource (if not specified in Format/Physical Description)
+<a class="label" id="Extent">Extent</a> - A more specific statement of the size or duration of the resource (if not specified in Format/Physical Description)
 
 <div class="example">
   <u>Example:</u>
@@ -195,7 +195,7 @@ breadcrumbs: DAMS Appendix
   <br/>Surveyed 4/1/1931
 </div>
 
-<div style="position: relative"><span class="badge">New <br/> Field</span></div> <a class="label" id="Transcription">Transcription</a> - A transcription of textual information, for resources that are text-based or document formats
+<a class="label" id="Transcription">Transcription</a> - A transcription of textual information, for resources that are text-based or document formats
 
 <div class="example">
   <u>Example:</u>

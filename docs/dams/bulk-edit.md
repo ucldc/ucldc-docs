@@ -24,7 +24,7 @@ Selecting an object is maintained while you paginate - ie, if you select the thi
 
 Object are deselected as soon as you navigate to a different project folder, or into an object. 
 
-<div class="walkthrough new">Bear Release Walkthrough</div>
+<div class="walkthrough">Walkthrough</div>
 
 ## Editing Objects in Bulk
 
