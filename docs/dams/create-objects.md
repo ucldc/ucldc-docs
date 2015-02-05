@@ -21,7 +21,7 @@ The Nuxeo DAMS allows you to create four different kinds of digital objects, cal
 - **Audio:** use for sound recordings
 - **File:** use for text and document formats
 
-The document types vary in the type of content file you can upload and the kinds of derivatives Nuxeo automatically creates. As you can see from Nuxeo's documented <a href="http://doc.nuxeo.com/display/USERDOC/Supported+File+Formats" target="_blank">Supported File Formats</a>, the DAMS supports most common file types for each of these document types. 
+The document types vary in the type of content file you can upload and the kinds of derivatives Nuxeo automatically creates. As you can see from Nuxeo's documented <a href="http://doc.nuxeo.com/display/NXDOC60/Supported+File+Formats" target="_blank">Supported File Formats</a>, the DAMS supports most common file types for each of these document types. 
 
 Each document type can function as a complex object and can contain child-level components of any of the four document types. Again, we'll talk more about complex objects later on, but for now it's just important to know that each of the document types can be used to create both simple and complex objects (and components therein).
 
@@ -47,7 +47,7 @@ We'll start by creating a simple object using the Picture document type.
 |---------------------|------------------|---------------------|----------------------------------|-------|
 | ark:/13030/c8w66nzb | 5585817          | Simple image object | UC Davis Student Farm photograph | Image |
 
-<div class="note"><p><a class="notelink" href="{{ site.url }}{{ site.baseurl }}/docs/dams/metadata-model/#LocalIdentifier">Local Identifier</a> and <a class="notelink" href="{{ site.url }}{{ site.baseurl }}/docs/dams/metadata-model/#AlternativeTitle">Alternative Title</a> are both repeatable fields, meaning there can be multiple per object. Press the plus button to add a Local Identifier and an Alternative Title.</p><p><a class="notelink" href="{{ site.url }}{{ site.baseurl }}/docs/dams/metadata-model/#Date">Date</a> and <a class="notelink" href="{{ site.url }}{{ site.baseurl }}/docs/dams/metadata-model/#Creator">Creator</a> are both repeatable groups of fields, these are denoted by a light grey border. Press the plus button to see the fields in a group.</p></div>
+<div class="note"><p><a class="notelink" href="{{ site.url }}{{ site.baseurl }}/docs/dams/metadata-model/#LocalIdentifier">Local Identifier</a> and <a class="notelink" href="{{ site.url }}{{ site.baseurl }}/docs/dams/metadata-model/#AlternativeTitle">Alternative Title</a> are both repeatable fields, meaning there can be multiple per object. Press the add button to add a Local Identifier and an Alternative Title.</p><p><a class="notelink" href="{{ site.url }}{{ site.baseurl }}/docs/dams/metadata-model/#Date">Date</a> and <a class="notelink" href="{{ site.url }}{{ site.baseurl }}/docs/dams/metadata-model/#Creator">Creator</a> are both repeatable groups of fields, these are denoted by a light grey border. Press the add button to see the fields in a group.</p></div>
 
 <ol start="6">
   <li>Add the date and creator data to the object:</li>
