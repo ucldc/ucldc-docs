@@ -18,7 +18,7 @@ In each of these cases, there is a **_content listing_** displaying the contents
 
 ## Some Notes on Selecting Objects and Pagination
 
-If there are many objects in your project folder, complex object, or search result set you'll notice that they don't all appear on one page. In order to see all the objects, you will have to paginate through the content listing via the forwards and backwards arrows above and below the content listing. Select a larger number of objects to be shown per page from the drop down at the top right labeled 'Items/page'. The default value is 10. 
+If there are many objects in your project folder, complex object, or search result set you'll notice that they don't all appear on one page. In order to see all the objects, you will have to paginate through the content listing via the forwards and backwards arrows above and below the content listing. Select a larger number of objects to be shown per page from the drop down at the top right labeled 'Items/page'. The default value is 20. 
 
 Selecting an object is maintained while you paginate - ie, if you select the third object on the first page and the fifth object on the second page, both objects will remain selected for bulk editing. In order to select all objects on a given page, use the select all checkbox - located in the header of the content view next to 'Title'. This checkbox will _only_ select objects on a given page, though. To select _all_ objects in a given project folder, increase the number of objects displayed per page to 50 (the maximum setting) and then paginate through, checking the select all checkbox on each page of 50 objects.
 
