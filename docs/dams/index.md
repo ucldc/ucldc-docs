@@ -42,7 +42,8 @@ Take a moment to familiarize yourself with the DAMS interface. Here are some of 
 
 - Navigation Bar
   - Home: use this to return to the default landing page for the DAMS.
-  - Document Management: this is the primary, functional area of the DAMS for creating and managing digital objects.
+  - Workspace: this is the primary, functional area of the DAMS for creating and managing digital objects.
+  - Search: this is the search module of the DAMS and is discussed further in the [search]({{ site.url }}{{ site.baseurl }}/docs/dams/search/) documentation. 
 - Sidebar
   - Digital objects within the DAMS are hierarchically organized. By default, the sidebar displays this hierarchy.
 - Current object or project folder and its tabs: These tabs change depending on the kind of object or folder you are viewing and will be discussed in subsequent sections for [project folders]({{ site.url }}{{ site.baseurl }}/docs/dams/organization/) and [objects]({{ site.url }}{{ site.baseurl }}/docs/dams/edit-objects/).
