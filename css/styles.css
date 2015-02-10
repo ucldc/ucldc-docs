@@ -262,7 +262,7 @@ div .walkthrough.new {
 }
 
 div .walkthrough.new::before {
-    content: url('/ucldc-docs/images/bobcat.png');
+    content: url('/ucldc-docs/images/bruin.png');
     position: absolute;
     top: -5px;
     left: 10px;
@@ -335,11 +335,11 @@ a.notelink:hover {
     color: #fff;
 }
 
-div .badge::before {
-    content: url('/ucldc-docs/images/bobcat-flag.png');
+/*div .badge::before {
+    content: url('/documentation/images/bobcat-flag.png');
     position: absolute;
     left: 5px;
-}
+}*/
 
 .badge {
     display: inline-block; 

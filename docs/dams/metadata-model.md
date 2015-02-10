@@ -13,11 +13,9 @@ breadcrumbs: DAMS Appendix
 
 <a class="label" id="MainContentFile">Main Content File</a> - The main resource file. Used to generate display files (main file, thumbnail, etc.) in the index and Calisphere once you "publish" the object.
 
-<div style="position: relative"><span class="badge">New <br/>Field</span></div>
-
 <a class="label" id="AuxiliaryFiles">Auxiliary Files</a> - Additional resource files including variant formats and derivative copies of the main content file. These files will not be published to the index or Calisphere.
 
-<div style="position: relative"><span class="badge">New <br/>Field</span></div>
+<!-- <div style="position: relative"><span class="badge">New <br/>Field</span></div> -->
 
 <a class="label" id="AuxiliaryFileType">Auxiliary File Type</a> - Qualifier identifying the kind of auxiliary file.
 
