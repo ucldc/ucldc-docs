@@ -13,7 +13,7 @@ The DAMS will also provide workflows for publishing digital objects to Calispher
 
 <div class="walkthrough new">New in Bruin</div>
 
-In our most recent release, named after UCLA's bruin, we primarily upgraded the underlying Nuxeo software from version 5.8 to version 6. This upgrade included a refreshed UI, an 'Import' button, and a [spreadsheet-style editor]({{ site.url }}{{ site.baseurl }}/docs/dams/spreadsheet-view/).  
+In our most recent release, named after UCLA's bruin, we primarily upgraded the underlying Nuxeo software from version 5.8 to version 6. This upgrade included a refreshed UI, a [bulk importer]({{ site.url }}{{ site.baseurl }}/docs/dams/bulk-import/), and a [spreadsheet-style editor]({{ site.url }}{{ site.baseurl }}/docs/dams/spreadsheet-view/).  
 
 ## Getting in
 You need an account to access the DAMS. If you have an account already, use your Single Sign-On account to login at [https://nuxeo.cdlib.org/nuxeo/](https://nuxeo.cdlib.org/nuxeo/). If you do not already have an account, please [create one]({{ site.url }}{{ site.baseurl }}/docs/create-account/).
