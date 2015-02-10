@@ -33,7 +33,7 @@ Select relevant metadata fields using the Edit Result Columns button, then open 
 </a>
 <br>(click to enlarge)
 
-<div class="walkthrough">Walkthrough</div>
+<div class="walkthrough new">New in Bruin</div>
 
 ## Editing Objects in the Spreadsheet Editor
 
