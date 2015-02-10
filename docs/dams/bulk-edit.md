@@ -2,7 +2,7 @@
 layout: doc
 title: Bulk Edit Objects
 next_section: dams/spreadsheet-view
-prev_section: dams/edit-objects
+prev_section: dams/bulk-import
 permalink: /docs/dams/bulk-edit/
 breadcrumbs: DAMS User Guide
 ---
