@@ -9,10 +9,15 @@ breadcrumbs: DAMS User Guide
 
 Simple and complex objects of any type can be edited in spreadsheet view as long as they exist in the same project folder, are children of the same parent complex object, or appear in the same search result set. 
 
-In each of these cases, there is a **_content listing_** displaying the contents of the project folder, complex object, or search result set. From this content listing, select relevant metadata fields to view and edit in the spreadsheet editor, then open the spreadsheet editor. 
-
 <a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/spreadsheet-view.png">
   <img src="{{ site.url }}{{ site.baseurl }}/images/spreadsheet-view.png" alt="Screenshot of the spreadsheet view" style="width: 500px">
+</a>
+<br>(click to enlarge)
+
+In each of these cases, there is a **_content listing_** displaying the contents of the project folder, complex object, or search result set. From this content listing, you can select relevant metadata fields to view and edit in the spreadsheet editor, then open the spreadsheet editor. Do this by using the Edit Result Columns button, then open the spreadsheet by pressing the Spreadsheet button. 
+
+<a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/spreadsheet-buttons.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/spreadsheet-buttons.png" alt="Screenshot of the spreadsheet buttons" style="width: 500px">
 </a>
 <br>(click to enlarge)
 
@@ -26,14 +31,7 @@ Only non-repeating metadata fields can be edited in spreadsheet view, since thes
 - **Related Materials**: Source
 - **Administrative Information**: Physical Location
 
-Select relevant metadata fields using the Edit Result Columns button, then open the spreadsheet by pressing the Spreadsheet button. 
-
-<a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/spreadsheet-buttons.png">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/spreadsheet-buttons.png" alt="Screenshot of the spreadsheet buttons" style="width: 500px">
-</a>
-<br>(click to enlarge)
-
-<div class="walkthrough new">New in Bruin</div>
+<div class="walkthrough new">Walkthrough - Spreadsheet Editor</div>
 
 ## Editing Objects in the Spreadsheet Editor
 
