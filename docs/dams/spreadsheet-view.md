@@ -40,14 +40,22 @@ Only non-repeating metadata fields can be edited in spreadsheet view, since thes
 3. You'll notice the default columns listed in the content view are 'Title', 'Local Identifier', and 'Modified'. Click the Edit Result Columns button on the top right of the content listing to add more columns. 
 4. In the overlay that pops up, under 'Available Columns' find and select 'Identifier'. 
 5. Click the right single arrow to move 'Identifier' from the 'Available Columns' to 'Selected Columns' list. 
-6. Repeat steps 4 and 5 for 'Type'. 
-7. Press the 'Save' button. 
-8. You'll notice 'Identifier' and 'Type' columns appear in the content listing. 
-9. Click the Spreadsheet button. 
-10. You should see a spreadsheet with the columns 'Title', 'Modified', 'Identifier', and 'Type'. You'll notice that even though 'Local Identifier' was included in the content listing, it is not in the spreadsheet because it is a repeating field. 
-11. In the first row, under the 'Type' column, type 'image'. The cell will turn a darker color blue to indicate it has been modified. 
-12. With the cell you just modified selected, click on the square located in the bottom right corner, and drag down one row. You should see the second row populated with the value 'image'. 
-13. In the first row, under the 'Identifier' column, type '1'. 
-14. In the second row, under the 'Identifier' column, type '2'. 
-15. You should now have four modified cells. 
-16. Press the 'Save' button. You should see the content listing update to display values in the columns for 'Identifier' and 'Type'. 
+
+<a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/edit-results-columns.png">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/edit-results-columns.png" alt="Screenshot of the edit result columns interface" style="width: 500px">
+</a>
+<br>(click to enlarge)
+
+<ol start="6">
+<li>Repeat steps 4 and 5 for 'Type'. </li>
+<li>Press the 'Save' button. </li>
+<li>You'll notice 'Identifier' and 'Type' columns appear in the content listing. </li>
+<li>Click the Spreadsheet button. </li>
+<li>You should see a spreadsheet with the columns 'Title', 'Modified', 'Identifier', and 'Type'. You'll notice that even though 'Local Identifier' was included in the content listing, it is not in the spreadsheet because it is a repeating field. </li>
+<li>In the first row, under the 'Type' column, type 'image'. The cell will turn a darker color blue to indicate it has been modified. </li>
+<li>With the cell you just modified selected, click on the square located in the bottom right corner, and drag down one row. You should see the second row populated with the value 'image'. </li>
+<li>In the first row, under the 'Identifier' column, type '1'. </li>
+<li>In the second row, under the 'Identifier' column, type '2'. </li>
+<li>You should now have four modified cells. </li>
+<li>Press the 'Save' button. You should see the content listing update to display values in the columns for 'Identifier' and 'Type'. </li>
+</ol>
