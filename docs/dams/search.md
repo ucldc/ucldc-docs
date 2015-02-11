@@ -8,23 +8,26 @@ permalink: /docs/dams/search/
 breadcrumbs: DAMS User Guide
 ---
 
-The DAMS supports many different kinds of searching: 
+The DAMS supports many different kinds of searching. 
 
 Search from anywhere in the DAMS Workspace: 
-- **Quick Search**: Allows you to quickly find objects throughout the DAMS using only keywords. 
-- **Filter Search**: Restricts searching to the current campus folder, project folder, or complex object. A filter search only searches against the title of an object. 
+
+- <b><a href="{{ site.url }}{{ site.baseurl }}/docs/dams/search/#quick-search">Quick Search</a></b>: Allows you to quickly find objects throughout the DAMS using only keywords. 
+- <b><a href="{{ site.url }}{{ site.baseurl }}/docs/dams/search/#filter-search">Filter Search</a></b>: Restricts searching to the current campus folder, project folder, or complex object. A filter search only searches against the title of an object. 
 
 Search from the Search Module - Allows you to choose from a few different custom search forms:
-- **Custom Faceted Search**: Searches on keyword, like quick search, as well as a variety of other fields. Custom Faceted Search, like Filter Search, also allows you to limit the search to a particular campus folder, project folder, or complex object. 
-- **Custom Advanced Search**: Allows you to perform a very precise search by searching against more metadata elements than those available in faceted search. 
+
+- <b><a href="{{ site.url }}{{ site.baseurl }}/docs/dams/search/#custom-faceted-search">Custom Faceted Search</a></b>: Searches on keyword, like quick search, as well as a variety of other fields. Custom Faceted Search, like Filter Search, also allows you to limit the search to a particular campus folder, project folder, or complex object. 
+- <b><a href="{{ site.url }}{{ site.baseurl }}/docs/dams/search/#custom-advanced-search">Custom Advanced Search</a></b>: Allows you to perform a very precise search by searching against more metadata elements than those available in faceted search. 
 
 Click the image to see where each of these search options are located. Each search method is described in more depth below. 
+
 <a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/search.png">
   <img src="{{ site.url }}{{ site.baseurl }}/images/search.png" alt="Screenshot of where to find search" style="width: 500px">
 </a>
 <br>(click to enlarge)
 
-## Search from anywhere
+## Search from Anywhere
 
 ### Quick Search
 
