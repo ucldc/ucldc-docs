@@ -10,26 +10,29 @@ breadcrumbs: DAMS User Guide
 
 The DAMS supports many different kinds of searching: 
 
+Search from anywhere in the DAMS Workspace: 
 - **Quick Search**: Allows you to quickly find objects throughout the DAMS using only keywords. 
 - **Filter Search**: Restricts searching to the current campus folder, project folder, or complex object. A filter search only searches against the title of an object. 
-- **Search Module**: Allows you to choose from a few different custom search forms, namely Custom Faceted Search and Custom Advanced Search. 
-  - **Custom Faceted Search**: Searches on keyword, like quick search, as well as a variety of other fields. Custom Faceted Search, like Filter Search, also allows you to limit the search to a particular campus folder, project folder, or complex object. 
-  - **Custom Advanced Search**: Allows you to perform a very precise search by searching against more metadata elements than those available in faceted search. 
 
+Search from the Search Module - Allows you to choose from a few different custom search forms:
+- **Custom Faceted Search**: Searches on keyword, like quick search, as well as a variety of other fields. Custom Faceted Search, like Filter Search, also allows you to limit the search to a particular campus folder, project folder, or complex object. 
+- **Custom Advanced Search**: Allows you to perform a very precise search by searching against more metadata elements than those available in faceted search. 
+
+Click the image to see where each of these search options are located. Each search method is described in more depth below. 
 <a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/search.png">
   <img src="{{ site.url }}{{ site.baseurl }}/images/search.png" alt="Screenshot of where to find search" style="width: 500px">
 </a>
 <br>(click to enlarge)
 
-## Quick Search
+## Search from anywhere
+
+### Quick Search
 
 Search the entire Nuxeo DAMS by keyword using the Quick Search in the top right corner of the DAMS. This keyword search is performed over an index of all the metadata fields for an object, so this could potentially generate a lot of noise for ambiguous search terms. 
 
-## Filter Search
+### Filter Search
 
 From within a given campus folder, project folder, or complex object, Filter Search allows you to filter the contents by a [full text search]({{ site.url }}{{ site.baseurl }}/docs/dams/search/#FullTextSearch) on the title field. 
-
-<div class="walkthrough new">New in Bruin</div>
 
 ## Search Module
 
@@ -46,18 +49,16 @@ Select 'customFacetedSearch' from the drop down at the top of the sidebar in the
 - **Project Folder**: Constrains the search to one or more campus or project folders in the DAMS. 
 - **Metadata Record History**: Username is an autocomplete field and allows you to search for objects a particular user has modified or created. Creation Date and Date Modified search by a date range for objects created or modified, respectively, in the given date range. 
 
-<div class="walkthrough">Walkthrough</div>
+<div class="walkthrough new">Walkthrough - Custom Faceted Search</div>
 
-1. From anywhere within the Asset Library, shown in the breadcrumbs, navigate to the Search Module by clicking 'Search' in the navigation bar. 
+1. From any page, navigate to the Search Module by clicking 'Search' in the navigation bar. 
 2. Select the Custom Faceted Search form in the drop down in the sidebar by selecting 'customFacetedSearch'
-2. In the form that appears in the sidebar, next to 'Alternative Title', click the 'Add' button. 
-3. In the field that appears, type 'UC Berkeley'
-4. Next to 'Project Folder', click the 'Add' button. 
-5. In the hierarchy overlay that appears, navigate to your sample project folder, within your campus folder, by clicking the + and - buttons to the left of the folder names. 
-6. Click the name of your sample project folder. If the faceted search is still visible behind the overlay, you should see the name of your sample project folder appear there. 
+3. Next to 'Project Folder', click the 'Add' button. 
+4. In the hierarchy overlay that appears, navigate to a project folder, within your campus folder, by clicking the + and - buttons to the left of the folder names. 
+5. Click the name of the project folder. If the faceted search is still visible behind the overlay, you should see the name of the project folder appear there. 
 7. Click the 'x' in the top right corner of the overlay to close it. 
 8. Click the 'Filter' button. 
-9. You should see your Golden Bear object in the search results. 
+9. You should see the contents of the project folder in the search results. 
 
 ### Custom Advanced Search
 
