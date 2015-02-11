@@ -42,7 +42,7 @@ The number and size of the files you can upload in bulk is constrained by the li
 <li>Select your files from your Desktop or open Folder window, either as a group, or one at a time, and drag and drop them into the drop zone next to the 'Files' label. </li>
 </ol>
 
-<div class="note"><p>If you drag and drop more than three files, the first three will appear immediately in the drop zone, but the remaining files will appear one-by-one only after all prior files have been uploaded successfully. Even though a file may be successfully uploaded in the importer, you still have to press the 'Import' button at the bottom of the form **_before your Shibboleth session times out_** to successfully import an object. For all of the above reasons, we generally suggest you use the importer for small batches of files.</p></div>
+<div class="note"><p>If you drag and drop more than three files, the first three will appear immediately in the drop zone, but the remaining files will appear one-by-one only after all prior files have been uploaded successfully. Even though a file may be successfully uploaded in the importer, you still have to press the 'Import' button at the bottom of the form <b><i>before your Shibboleth session times out</i></b> to successfully import an object. For all of the above reasons, we generally suggest you use the importer for small batches of files.</p></div>
 
 <ol start="7"> <li>In the 'Title' field, type 'bulk-import'.</li></ol>
 
