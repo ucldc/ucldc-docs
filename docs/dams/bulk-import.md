@@ -18,6 +18,8 @@ The bulk importer allows you to upload multiple files at a time via a drag-and-d
 
 The number and size of the files you can upload in bulk is constrained by the limits of your internet speed and Shibboleth. You may try to run a bulk import, only to receive an error message that your Shibboleth session timed out because the files could not be uploaded fast enough. At this point, you'll have to run the upload again, in smaller batches. We encourage you to test the importer with various files to guage your local capactiy. If you have a fairly consistent internet connection and upload speed, the amount of files you can upload before Shibboleth times out should stay fairly consistent. 
 
+If you drag and drop more than three files, the first three will appear immediately in the drop zone, but the remaining files will appear one-by-one only after all prior files have been uploaded successfully. Even though a file may be successfully uploaded in the importer, you still have to press the 'Import' button at the bottom of the form <b><i>before your Shibboleth session times out</i></b> to successfully import an object. For all of the above reasons, we generally suggest you use the importer for small batches of files.
+
 <div class="walkthrough new">New in Bruin</div>
 
 ## Creating Objects in Bulk
@@ -42,7 +44,7 @@ The number and size of the files you can upload in bulk is constrained by the li
 <li>Select your files from your Desktop or open Folder window, either as a group, or one at a time, and drag and drop them into the drop zone next to the 'Files' label. </li>
 </ol>
 
-<div class="note"><p>If you drag and drop more than three files, the first three will appear immediately in the drop zone, but the remaining files will appear one-by-one only after all prior files have been uploaded successfully. Even though a file may be successfully uploaded in the importer, you still have to press the 'Import' button at the bottom of the form <b><i>before your Shibboleth session times out</i></b> to successfully import an object. For all of the above reasons, we generally suggest you use the importer for small batches of files.</p></div>
+<div class="note"><p>As mentioned above in <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/bulk-import/#some-notes-on-uploading-files">Some Notes on Uploading Files</a>, if you upload more than three files, the first three will immediately appear in the drop zone, and the remaining files will appear one-by-one after all prior files have been uploaded. Additionally, you still have to press the 'Import' button at the bottom of the form <b><i>before your Shibboleth session times out</i></b>!</p></div>
 
 <ol start="7"> <li>In the 'Title' field, type 'bulk-import'.</li></ol>
 
