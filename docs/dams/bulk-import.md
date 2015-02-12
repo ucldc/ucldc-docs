@@ -44,7 +44,7 @@ If you drag and drop more than three files, the first three will appear immediat
 <li>Select your files from your Desktop or open Folder window, either as a group, or one at a time, and drag and drop them into the drop zone next to the 'Files' label. </li>
 </ol>
 
-<div class="note"><p>As mentioned above in <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/bulk-import/#some-notes-on-uploading-files">Some Notes on Uploading Files</a>, if you upload more than three files, the first three will immediately appear in the drop zone, and the remaining files will appear one-by-one after all prior files have been uploaded. Additionally, you still have to press the 'Import' button at the bottom of the form <b><i>before your Shibboleth session times out</i></b>!</p></div>
+<div class="note"><p>As mentioned above in <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/bulk-import/#some-notes-on-uploading-files" class="notelink">Some Notes on Uploading Files</a>, if you upload more than three files, the first three will immediately appear in the drop zone, and the remaining files will appear one-by-one after all prior files have been uploaded. Additionally, you still have to press the 'Import' button at the bottom of the form <b><i>before your Shibboleth session times out</i></b>!</p></div>
 
 <ol start="7"> <li>In the 'Title' field, type 'bulk-import'.</li></ol>
 
