@@ -27,8 +27,8 @@ And here is an example of a multi-page item, where the sequence of pages is impo
 
 There is no limit on the number of child-level components for a given complex object, and they are orderable via the 'Summary' tab for the parent-level component.
 
-## Not all components need files
-Despite the fact that the parent-level component must have a document type, it does not necessarily have to have a content file. In the hierarchical example above, the "Mondavi Center 2010-2011 season promotional materials" component contains a visual representation of the object's contents, while the "Photographs" and "Documents" child-level components contain no content files, and the components at the bottom of the hierarchical tree (Photograph 1-3, Document 1-2) contain the actual content files. 
+## Parent-level components do not need files
+Despite the fact that the parent-level component must have a document type, it does not necessarily have to have a content file. Components, however, should contain references to actual content files.  For example, in the "Mondavi Center 2010-2011 season promotional brochure" object referenced above, only the components need to contain a visual representation of each page, while the parent-level metadata record does not need to contain a visual representation of the entire object. 
 
 <div class="walkthrough">Walkthrough</div>
 
