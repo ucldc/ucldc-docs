@@ -10,23 +10,20 @@ breadcrumbs: DAMS User Guide
 ## Complex objects in the DAMS
 As mentioned earlier, complex objects comprise multiple files and even multiple metadata records which are “bundled” together. In the DAMS, these are represented as objects that have both parent-level and child-level components. You might think of them as objects-within-objects.
 
-Any of the document types (Picture, File, Audio, Video) can contain any number of component objects of any document type. This structure can be flat, like this: 
+Any of the document types (Picture, File, Audio, Video) can contain any number of component objects of any document type. While Nuxeo can be used to create a hierarchical component structure, this can present a number of complications for rendering and display in Calisphere and other access systems.  We hence recommend utilizing a flat, single-level hierarchical component structure.  Here is an example of a series of related photographs: 
 
 - UC Davis Oakville Experimental Vineyard photographs (Picture type)
   - Photograph 1 (Picture type)
   - Photograph 2 (Picture type)
   - Photograph 3 (Picture type)
 
-Or hierarchical, like this:
+And here is an example of a multi-page item, where the sequence of pages is important to preserve for rendering and display:
 
-- Mondavi Center 2010-2011 season promotional materials (Picture type)
-  - Photographs (Picture type, no content file)
-    - Photograph 1 (Picture type)
-    - Photograph 2 (Picture type)
-    - Photograph 3 (Picture type)
-  - Documents (File type, no content file)
-    - Document 1 (File type)
-    - Document 2 (File type)
+- Mondavi Center 2010-2011 season promotional brochure (Text type)
+  - Page 1
+  - Page 2
+  - Page 3
+  - Page 4
 
 There is no limit on the number of child-level components for a given complex object, and they are orderable via the 'Summary' tab for the parent-level component.
 
