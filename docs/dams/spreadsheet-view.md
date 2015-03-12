@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Spreadsheet Editor
-next_section: dams/clipboard
-prev_section: dams/bulk-edit
+next_section: dams/clipboard/
+prev_section: dams/bulk-edit/
 permalink: /docs/dams/spreadsheet-view/
 breadcrumbs: DAMS User Guide
 ---
@@ -35,7 +35,7 @@ Only non-repeating metadata fields can be edited in spreadsheet view, since thes
 
 ## Editing Objects in the Spreadsheet Editor
 
-1. Navigate to your example project folder within your campus folder that you created in the walkthrough in the <a href="{{ site.url }}{{ site.baseurl}}/docs/dams/organization">Organizing Objects with Project Folders</a> document. 
+1. Navigate to your example project folder within your campus folder that you created in the walkthrough in the <a href="{{ site.url }}{{ site.baseurl}}/docs/dams/organization/">Organizing Objects with Project Folders</a> document. 
 2. If there are no objects in your example project folder, create at least two objects and return to the project folder. 
 3. You'll notice the default columns listed in the content view are 'Title', 'Local Identifier', and 'Modified'. Click the Edit Result Columns button on the top right of the content listing to add more columns. 
 4. In the overlay that pops up, under 'Available Columns' find and select 'Identifier'. 

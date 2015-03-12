@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Bulk Importing Content Files
-next_section: dams/bulk-edit
-prev_section: dams/edit-objects
+next_section: dams/bulk-edit/
+prev_section: dams/edit-objects/
 permalink: /docs/dams/bulk-import/
 breadcrumbs: DAMS User Guide
 ---
@@ -25,7 +25,7 @@ If you drag and drop more than three files, the first three will appear immediat
 ## Creating Objects in Bulk
 
 1. Select at least two image files on your computer that you would like to upload. You will need to keep them displayed some place on your screen, which may mean making your browser window smaller so you can see them on your Desktop, or in an open Folder. 
-2. Make sure you have created either an example project folder like the one created in the walkthrough in the <a href="{{ site.url }}{{ site.baseurl}}/docs/dams/organization">Organizing Objects with Project Folders</a> document, or another other project folder you would like to upload to. 
+2. Make sure you have created either an example project folder like the one created in the walkthrough in the <a href="{{ site.url }}{{ site.baseurl}}/docs/dams/organization/">Organizing Objects with Project Folders</a> document, or another other project folder you would like to upload to. 
 3. In Nuxeo, press the Import button at the top left of the sidebar to launch the importer. 
 
 <a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/import-form.png">

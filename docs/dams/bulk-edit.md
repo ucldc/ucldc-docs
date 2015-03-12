@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Bulk Edit Objects
-next_section: dams/spreadsheet-view
-prev_section: dams/bulk-import
+next_section: dams/spreadsheet-view/
+prev_section: dams/bulk-import/
 permalink: /docs/dams/bulk-edit/
 breadcrumbs: DAMS User Guide
 ---
@@ -28,8 +28,8 @@ Object are deselected as soon as you navigate to a different project folder, or 
 
 ## Editing Objects in Bulk
 
-1. Navigate to your example project folder within your campus folder that you created in the walkthrough in the <a href="{{ site.url }}{{ site.baseurl}}/docs/dams/organization">Organizing Objects with Project Folders</a> document. 
-2. Create three simple objects in your example project folder as described in the walkthrough in the <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/create-objects">Creating Simple Objects</a> document. Give these simple objects an ID, but no title. 
+1. Navigate to your example project folder within your campus folder that you created in the walkthrough in the <a href="{{ site.url }}{{ site.baseurl}}/docs/dams/organization/">Organizing Objects with Project Folders</a> document. 
+2. Create three simple objects in your example project folder as described in the walkthrough in the <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/create-objects/">Creating Simple Objects</a> document. Give these simple objects an ID, but no title. 
 
 <div class="note"><p>If you don't give your objects a title, in your project folder you will see your objects referred to by the 36 character unique alpha-numeric string used internally by the Nuxeo system. </p></div>
 

@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Viewing and Editing Objects
-next_section: dams/bulk-import
-prev_section: dams/complex-objects
+next_section: dams/bulk-import/
+prev_section: dams/complex-objects/
 permalink: /docs/dams/edit-objects/
 breadcrumbs: DAMS User Guide
 ---

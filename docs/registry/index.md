@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Registry Documentation
-next_section: dams/organization
+next_section: dams/organization/
 permalink: /docs/registry/index/
 ---
 

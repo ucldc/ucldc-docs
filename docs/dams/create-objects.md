@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Creating Simple Objects
-next_section: dams/complex-objects
-prev_section: dams/organization
+next_section: dams/complex-objects/
+prev_section: dams/organization/
 permalink: /docs/dams/create-objects/
 breadcrumbs: DAMS User Guide
 ---

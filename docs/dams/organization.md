@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Organizing Objects with Project Folders
-next_section: dams/create-objects
-prev_section: dams/index
+next_section: dams/create-objects/
+prev_section: dams/index/
 permalink: /docs/dams/organization/
 breadcrumbs: DAMS User Guide
 ---
@@ -31,7 +31,7 @@ In short, project folders are flexible in order to accomodate your workflows for
 ## Project folder rules
 Project folders can contain both objects and other project folders. Every object must be contained within one, and only one, project folder. In order to contain an object in more than one project folder, the object must be duplicated. The duplicate _does not_ link back to the original in any way, so changes made to the duplicate will not be made to the original, and vice versa. We do not recommend duplicating objects.
 
-<div class="note">To view groups of objects stored in many folders, you can utilize the DAMS search capabilities to retrieve objects based on their metadata. Alternately, if you want to be able to group objects by characteristics not in their metadata, you can use <b>tags</b>, available on the <a href="{{ site.url }}{{ site.baseurl}}/docs/dams/edit-objects" class="notelink">summary tab</a> of an object or project folder.</div>
+<div class="note">To view groups of objects stored in many folders, you can utilize the DAMS search capabilities to retrieve objects based on their metadata. Alternately, if you want to be able to group objects by characteristics not in their metadata, you can use <b>tags</b>, available on the <a href="{{ site.url }}{{ site.baseurl}}/docs/dams/edit-objects/" class="notelink">summary tab</a> of an object or project folder.</div>
 
 You can grant read and/or write privileges to project folders as needed.
 
