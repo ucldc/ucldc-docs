@@ -5,7 +5,7 @@ project_wiki: https://wiki.library.ucsf.edu/display/UCLDC/UCLDC+Implementation
 date: Mar 2, 2015
 email: ucldc@ucop.edu
 description: ""
-baseurl: "/ucldc-docs/"
+baseurl: "/ucldc-docs"
 url: "http://ucldc.github.io"
 username: ucldc
 
