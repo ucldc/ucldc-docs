@@ -25,10 +25,17 @@ def fix_links(filename):
     """ rewrite the links """
     htmlDoc = open(filename, 'r')
     soup = BeautifulSoup(htmlDoc)
+
+    # fixup index.html links
     for link in soup.find_all(['a', 'link'], { 'href': True}):
         if link['href'].endswith('index.html'):
-            link['href'] = link['href'][:-10]
             print(link['href'])
+            link['href'] = link['href'][:-10]
+   
+    # we are serving pages on https 
+    for script in soup.find_all('script', { 'src': True }):
+        if script['src'].startswith('http://'):
+            script['src'] = script['src'][5:]
 
     htmlDoc.close()
 
