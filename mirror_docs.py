@@ -11,9 +11,9 @@ from pprint import pprint as pp
 
 def main(argv=None):
     """ mirror the files """
-    #print(subprocess.check_call(
-        #'wget -mkEpnp -N -w 1 http://ucldc.github.io/ucldc-docs/'.split()
-    #))
+    print(subprocess.check_call(
+        'wget -mkEpnp -N -w 1 http://ucldc.github.io/ucldc-docs/'.split()
+    ))
 
     for root, dirs, files in os.walk('ucldc.github.io'):
         for f in files:
