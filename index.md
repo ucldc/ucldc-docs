@@ -6,22 +6,21 @@ The UC Libraries Digital Collection (UCLDC) is a technology stack for managing a
 For all content owners / contributors:
 ==============================================================================
 
-<ul><li>Overview of the UCLDC stack</li>
-<li>Metadata rights and restrictions</li>
-<li>Metadata guidelines</li>
-<li>Calisphere collection development policy (coming soon)</li>
-<li>Calisphere metadata display specifications (coming soon)</li>
-<li>Collection Registry procedures (coming soon)</li></ul>
+- Overview of the UCLDC stack
+- Metadata rights and restrictions
+- Metadata guidelines
+- Calisphere collection development policy (coming soon)
+- Calisphere metadata display specifications (coming soon)
+- Collection Registry procedures (coming soon)
 
 For shared DAMS users:
 ==============================================================================
-<ul><li>Policies</li>
-<li>Request an account</li>
-<li>User guide</li>
+- Policies
+- Request an account
+- User guide
 
 For technologists:
 ==============================================================================
-<ul><li>Common Index API documentation</li>
-<li>Developer terms and conditions</li>
-<li>UCLDC technical information</li></ul>
-
+- Common Index API documentation
+- Developer terms and conditions
+- UCLDC technical information
