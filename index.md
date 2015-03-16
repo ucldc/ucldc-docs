@@ -1,29 +1,27 @@
 ---
 layout: page
 ---
+The UC Libraries Digital Collection (UCLDC) is a technology stack for managing and providing access to unique digital content. This site contains policies and procedures for content owners.
 
-The UC Libraries Digital Collection (UCLDC) comprises separate but related tools for managing and providing access to unique digital content within the UC Libraries.
-
-Nuxeo Digital Asset Management System (DAMS)
+For all content owners / contributors:
 ==============================================================================
 
-A tool for object-level metadata and associated content file management. Use the DAMS to build simple to complex objects -- images, texts, audio, video, etc. -- import or create metadata records, and import or upload content files.
+<ul><li>Overview of the UCLDC stack</li>
+<li>Metadata rights and restrictions</li>
+<li>Metadata guidelines</li>
+<li>Calisphere collection development policy (coming soon)</li>
+<li>Calisphere metadata display specifications (coming soon)</li>
+<li>Collection Registry procedures (coming soon)</li></ul>
 
-<p style="text-align: center">
-  <a class="button" target="_blank" href="https://nuxeo.cdlib.org/nuxeo/" style="margin-right: 5px;">
-    <span class="glyphicon glyphicon-new-window" style="margin-right: 8px;"></span>Nuxeo DAMS
-  </a> &nbsp;
-  <a href="{{ site.url }}{{ site.baseurl }}/docs/create-account/" class="button">Request Account</a> &nbsp;
-  <a href="{{ site.url }}{{site.baseurl}}/docs/dams/index/" class="special-button">User Guide</a>
-</p>
+For shared DAMS users:
+==============================================================================
+<ul><li>Policies</li>
+<li>Request an account</li>
+<li>User guide</li>
 
+For technologists:
+==============================================================================
+<ul><li>Common Index API documentation</li>
+<li>Developer terms and conditions</li>
+<li>UCLDC technical information</li></ul>
 
-Collection Registry
-===================
-A tool for collection-level metadata management. Use the Registry to input information about collections (whether in the DAMS or in another system), indicate harvest URLs, and plan future digitization projects. This tool is in the initial stages of development as we build the harvest infrastructure.
-
-
-Calisphere
-================
-
-A publicly accessible interface for collection and object discovery. We are building a new website that will support UCLDC requirements but continue [Calisphere](http://www.calisphere.universityofcalifornia.edu)'s tradition of exceptional end-user experience. The site is currently in development and will be released in 2015.
