@@ -16,8 +16,8 @@ ___
 ##For shared DAMS users:
 ___
 - Policies
-- [Request an account] (../docs/create-account)
-- [User guide] (../docs/dams/index/) 
+- [Request an account]({{ site.url }}{{site.baseurl}}/docs/create-account/)
+- [User guide]({{ site.url }}{{site.baseurl}}/docs/dams/index/) 
 
 ##For technologists:
 ___
