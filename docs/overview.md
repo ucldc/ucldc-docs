@@ -13,9 +13,9 @@ Data for all collections designated for public access—whether managed in the s
 ##Exposure to public access points
 CDL exposes all of the data in the common index to three public access points:
 
-•	The common index API, which can be used to query and display the data in custom interfaces
-•	The new Calisphere website (beta version to be released in Summer 2015)
-•	The Digital Public Library of America (DPLA) website and platform
+- The common index API, which can be used to query and display the data in custom interfaces
+- The new Calisphere website (beta version to be released in Summer 2015)
+- The Digital Public Library of America (DPLA) website and platform
 
 ##UCLDC Collection Administrators
 UCLDC Collection Administrators perform administrative functions in the DAMS and Collection Registry on behalf of—and in close consultation with—their respective institutions. Specific responsibilities include:
