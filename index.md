@@ -15,7 +15,7 @@ ___
 
 ##For shared DAMS users:
 ___
-- [Policies](../docs/dams-policies/)
+- [Policies]({{ site.url }}{{site.baseurl}}/docs/dams-policies/)
 - [Request an account]({{ site.url }}{{site.baseurl}}/docs/create-account/)
 - [User guide]({{ site.url }}{{site.baseurl}}/docs/dams/index/) 
 
