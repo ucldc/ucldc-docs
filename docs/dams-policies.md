@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: page
 title: Shared DAMS Policies
 permalink: /docs/dams-policies/
 ---
