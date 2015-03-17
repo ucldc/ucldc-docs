@@ -20,5 +20,5 @@ ___
 ##For technologists:
 ___
 - Common Index API documentation [Port this over?](https://wiki.library.ucsf.edu/display/UCLDC/Solr+API)
-- Common Index API terms and conditions
+- [Common Index API terms and conditions]({{ site.url }}{{site.baseurl}}/docs/api-terms/)
 - UCLDC technical information
