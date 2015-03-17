@@ -7,7 +7,7 @@ The UC Libraries Digital Collection (UCLDC) is a technology stack for managing a
 ___
 
 - Overview of the UCLDC stack (coming soon)
-- Calisphere contributor policies
+- [Calisphere contributor policies]({{ site.url }}{{site.baseurl}}/docs/access-policies/)
 - Calisphere metadata display specifications (coming soon)
 - Collection Registry procedures (coming soon)
 
