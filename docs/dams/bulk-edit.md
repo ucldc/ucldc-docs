@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: dams-doc
 title: Bulk Edit Objects
 next_section: dams/spreadsheet-view/
 prev_section: dams/bulk-import/

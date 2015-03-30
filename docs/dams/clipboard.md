@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: dams-doc
 title: Using the Clipboard and Worklist
 next_section: dams/search/
 prev_section: dams/spreadsheet-view/

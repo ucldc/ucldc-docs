@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: dams-doc
 title: Deleting an Object or Project Folder
 
 next_section: 

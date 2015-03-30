@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: dams-doc
 title: DAMS Overview
 next_section: dams/organization/
 permalink: /docs/dams/index/

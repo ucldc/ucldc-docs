@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: registry-doc
 title: Harvest / Public Access Policies
-permalink: /docs/access-policies/
+permalink: /docs/registry/access-policies/
+breadcrumbs: Calisphere Admin Guide
 ---
 
 ##Collection Development

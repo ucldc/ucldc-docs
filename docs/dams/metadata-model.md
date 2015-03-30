@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: dams-doc
 title: Metadata Scheme
 permalink: /docs/dams/metadata-model/
 breadcrumbs: DAMS Appendix

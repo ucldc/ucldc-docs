@@ -7,19 +7,17 @@ layout: default
 
 <div class="post">
 
-  {% if page.title %}
   <header class="post-header">
     <h1>{{ page.title }}</h1>
     <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
-  {% endif %}
 
   <div class="grid">
     <article class="post-content unit w-3-4">
       {{ content }}
     </article>
     <div class="unit w-1-4">
-      {% include sidebar.html %}
+      {% include dams-sidebar.html %}
     </div>
   </div>
 

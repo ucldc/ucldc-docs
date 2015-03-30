@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: dams-doc
 title: Spreadsheet Editor
 next_section: dams/clipboard/
 prev_section: dams/bulk-edit/

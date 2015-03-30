@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: dams-doc
 title: Creating Complex Objects
 next_section: dams/edit-objects/
 prev_section: dams/create-objects/

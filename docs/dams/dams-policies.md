@@ -1,7 +1,8 @@
 ---
-layout: doc
+layout: dams-doc
 title: Shared DAMS Policies
-permalink: /docs/dams-policies/
+permalink: /docs/dams/dams-policies/
+breadcrumbs: DAMS Appendix
 ---
 
 ##Criteria for inclusion

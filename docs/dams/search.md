@@ -1,9 +1,9 @@
 ---
-layout: doc
+layout: dams-doc
 title: Search
 
-next_section: dams/permissions/
-prev_section: dams/bulk-edit/
+next_section: dams/permissions
+prev_section: dams/bulk-edit
 permalink: /docs/dams/search/
 breadcrumbs: DAMS User Guide
 ---

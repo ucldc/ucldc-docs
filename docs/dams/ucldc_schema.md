@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: dams-doc
 title: Metadata Schema XSD
 permalink: /docs/dams/ucldc-schema/
 breadcrumbs: DAMS Appendix

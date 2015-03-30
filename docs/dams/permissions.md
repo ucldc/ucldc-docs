@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: dams-doc
 title: Setting User Permissions
 next_section: dams/delete/
 prev_section: dams/search/

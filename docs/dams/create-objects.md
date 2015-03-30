@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: dams-doc
 title: Creating Simple Objects
 next_section: dams/complex-objects/
 prev_section: dams/organization/

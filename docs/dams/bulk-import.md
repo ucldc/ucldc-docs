@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: dams-doc
 title: Bulk Importing Content Files
 next_section: dams/bulk-edit/
 prev_section: dams/edit-objects/
