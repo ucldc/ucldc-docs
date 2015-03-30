@@ -6,6 +6,4 @@ permalink: /docs/registry/index/
 breadcrumbs: Calisphere Admin Guide
 ---
 
-# Registry Documentation Home
-
-Registry Documentation Coming Soon
+Calisphere Administration Guide Coming Soon
