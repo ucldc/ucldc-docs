@@ -321,14 +321,16 @@ a.notelink:hover {
     margin-left: 20px;
 }
 
-.breadcrumbs {
-    display: inline;
+.nav-wrap {
     position: absolute;
     top: 0px;
+}
+
+.nav-item {
+    display: inline-block;
     
     padding: 5px 7px;
     border-radius: 0 0 3px 3px;
-    background-color: rgb(0, 85, 129);
     
     font-size: 14px;
     letter-spacing: .5px;

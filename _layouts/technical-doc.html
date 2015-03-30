@@ -2,7 +2,15 @@
 layout: default
 ---
 {% if page.breadcrumbs %}
-<div class="breadcrumbs" style="background-color: #FFB511">{{ page.breadcrumbs }}</div>
+<div class="breadcrumbs-wrap">
+  <div class="breadcrumbs" style="background-color: #FFB511">{{ page.breadcrumbs }}</div>
+  <div class="breadcrumbs" style="background-color: #F78F2F">
+    <a href="{{ site.url }}{{ site.baseurl }}/docs/registry/index/">Calisphere Administration Guide</a> 
+  </div>
+  <div class="breadcrumbs">
+    <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/index/">DAMS User Guide</a>
+  </div>
+</div>
 {% endif %}
 
 <div class="post">

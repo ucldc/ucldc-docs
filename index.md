@@ -1,5 +1,6 @@
 ---
 layout: doc
+title: UCLDC Overview
 ---
 
 The UC Libraries Digital Collection (UCLDC) is a technology stack for managing and providing access to unique digital content. This site contains policies and procedures for content owners. [Request an Account]({{ site.url }}{{ site.baseurl }}/docs/create-account/)

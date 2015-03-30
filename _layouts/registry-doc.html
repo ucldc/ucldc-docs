@@ -2,7 +2,17 @@
 layout: default
 ---
 {% if page.breadcrumbs %}
-<div class="breadcrumbs" style="background-color: #F78F2F">{{ page.breadcrumbs }}</div>
+<div class="nav-wrap">
+  <div class="nav-item" style="border-color: #F78F2F; border-width: 0 1px 1px 1px; border-style: solid">
+    <a href="{{ site.url }}{{ site.baseurl }}/docs/registry/index/" style="color: #F78F2F">Calisphere Admin Guide</a> 
+  </div>
+  <div class="nav-item" style="background-color: #FFB511">
+    <a href="{{ site.url }}{{ site.baseurl }}/docs/technical-docs/index/" style="color: white">Common Index API</a>
+  </div>
+  <div class="nav-item" style="background-color: #205caa;">
+    <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/index/" style="color: white">DAMS User Guide</a>
+  </div>
+</div>
 {% endif %}
 
 <div class="post">
