@@ -10,7 +10,7 @@ The UCLDC project is running a harvest of objects in collections in both the Nux
 
 The Metadata Schema
 ================
-The metadata schema was developed to be interoperable with the DPLA metadata schema, while also supporting the needs of the new Calisphere. This schema is still undergoing active development. Find the most up-to-date scheme on GitHub: [https://github.com/ucldc/solr_api/blob/master/dc-collection/conf/schema.xml](https://github.com/ucldc/solr_api/blob/master/dc-collection/conf/schema.xml) and subscribe to the [wiki page](https://wiki.library.ucsf.edu/display/UCLDC/Solr+API) to get an email update when changes are made. 
+The metadata schema was developed to be interoperable with the DPLA metadata schema, while also supporting the needs of the new Calisphere. This schema is still undergoing active development. Find the most up-to-date scheme on GitHub: <a href="https://github.com/ucldc/solr_api/blob/master/dc-collection/conf/schema.xml" target="_blank">github.com/ucldc/solr_api/</a> and subscribe to the <a href="https://wiki.library.ucsf.edu/display/UCLDC/Solr+API">wiki page</a> to get an email update when changes are made. 
 
 <table class="confluenceTable">
   <tbody>
