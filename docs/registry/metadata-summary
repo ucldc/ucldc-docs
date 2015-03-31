@@ -7,13 +7,14 @@ breadcrumbs: Calisphere Admin Guide
 
 All data harvested into the UCLDC common index must adhere to the metadata scheme available at [TBD], which was adapted from the DPLA Metadata Application Profile.  The following table summarizes data elements required for individual metadata records, in order to be accessible through Calisphere and DPLA:
 
+
 <table>
   <thead>
-    <th>Element Label</th>
-    <th>Property</th>
-    <th>Summary</th>
-    <th>Vocabulary Terms/Syntax</th>
-    <th>Example</th>
+    <th><b>Element Label</b></th>
+    <th><b>Property</b></th>
+    <th><b>Summary</b></th>
+    <th><b>Vocabulary Terms/Syntax</b></th>
+    <th><b>Example</b></th>
   </thead>
   <tr>
     <td><b>Title</b></td>
