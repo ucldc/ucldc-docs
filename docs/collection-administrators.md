@@ -13,3 +13,52 @@ UCLDC Collection Administrators perform administrative functions in the DAMS and
 - Authorizing editors of the Collection Registry (for adding and editing institution and collection data and harvest URLs)
 - Indicating when their institutions’ collections are ready for harvest into the UCLDC common index
 - Serving as first points of contact for CDL on issues and questions related to their respective institutions’ collections
+
+##Roster
+<table>
+  <thead>
+    <th>Campus/Unit</th>
+    <th>Administrator</th>
+  </thead>
+  <tr>
+    <td>UCB Libraries</td>
+    <td>[Lynne Grigsby](http://www.berkeley.edu/directory/results?u=191578)</td>
+  </tr>
+  <tr>
+    <td>UC Davis Libraries</td>
+    <td>Dale Snapp</td>
+  </tr>
+  <tr>
+    <td>UC Irvine Libraries</td>
+    <td>Audra Eagle Yun</td>
+  </tr>
+  <tr>
+    <td>UC Merced Library</td>
+    <td>Emily Lin</td>
+  </tr>
+  <tr>
+    <td>UCLA Library</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+    <td>UC Riverside Library</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+    <td>UC San Diego Library</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+    <td>UC San Francisco Library</td>
+    <td>Polina Ilieva</td>
+  </tr>
+  <tr>
+    <td>UC Santa Barbara Library</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+    <td>UC Santa Cruz</td>
+    <td>Sue Perry</td>
+  </tr>
+
+</table>
