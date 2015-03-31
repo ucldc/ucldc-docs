@@ -22,19 +22,19 @@ UCLDC Collection Administrators perform administrative functions in the DAMS and
   </thead>
   <tr>
     <td>UCB Libraries</td>
-    <td>[Lynne Grigsby](http://www.berkeley.edu/directory/results?u=191578)</td>
+    <td><a href="http://www.berkeley.edu/directory/results?u=191578">Lynne Grigsby</a></td>
   </tr>
   <tr>
     <td>UC Davis Libraries</td>
-    <td>Dale Snapp</td>
+    <td><a href="http://ucdavis.edu/search/directory_results.shtml?id=00148540">Dale Snapp</a></td>
   </tr>
   <tr>
     <td>UC Irvine Libraries</td>
-    <td>Audra Eagle Yun</td>
+    <td><a href="http://directory.uci.edu/?basic_keywords=yun%2C+audra&modifier=Starts+With&basic_submit=Search&checkbox_employees=Employees&checkbox_students=Students&checkbox_departments=Departments&form_type=basic_search">Audra Eagle Yun</a></td>
   </tr>
   <tr>
     <td>UC Merced Library</td>
-    <td>Emily Lin</td>
+    <td><a href="http://directory.ucmerced.edu/site/index/details/email/elin@ucmerced.edu">Emily Lin</a></td>
   </tr>
   <tr>
     <td>UCLA Library</td>
@@ -46,11 +46,11 @@ UCLDC Collection Administrators perform administrative functions in the DAMS and
   </tr>
   <tr>
     <td>UC San Diego Library</td>
-    <td>TBD</td>
+    <td><a href="http://www.ucsd.edu/directory/search?last=smith&first=roger&email=&title=&phone=&fax=&dept2=&mail=&searchType=0">Roger Smith</a></td>
   </tr>
   <tr>
     <td>UC San Francisco Library</td>
-    <td>Polina Ilieva</td>
+    <td><a href="http://profiles.ucsf.edu/polina.ilieva">Polina Ilieva</a></td>
   </tr>
   <tr>
     <td>UC Santa Barbara Library</td>
@@ -58,7 +58,7 @@ UCLDC Collection Administrators perform administrative functions in the DAMS and
   </tr>
   <tr>
     <td>UC Santa Cruz</td>
-    <td>Sue Perry</td>
+    <td><a href="http://campusdirectory.ucsc.edu/detail.php?type=people&uid=chesley">Sue Perry</a></td>
   </tr>
 
 </table>
