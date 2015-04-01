@@ -11,8 +11,8 @@ The Registry is an interface for campus library staff to manage and apply standa
 
 The collection registry is an essential part of the UCLDC system with a few different use cases. Specifically, it handles the following functions:
 
-- Serve as an authority file for collection and campus unit information
-- Provide campuses with a self-service dashboard for initiating metadata harvesting for collections
+- Serve as an authority file for collection and campus unit information.
+- Provide campuses with a self-service dashboard for initiating metadata harvesting for collections.
 - Drive some essential display requirements for the UCLDC public interface. For example, public interface end-users will be able to facet search results by campus unit.
 - Enable campuses to denote and track the status of digital collections, for example indicating the location of collections ready for harvest.
-- Provide a platform for collaborative digital collection development and/or digitization planning
+- Provide a platform for collaborative digital collection development and/or digitization planning.
