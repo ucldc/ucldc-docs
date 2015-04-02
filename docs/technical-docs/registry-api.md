@@ -6,7 +6,7 @@ permalink: /docs/technical-docs/registry-api/
 breadcrumbs: Registry API
 ---
 
-The Collection Registry has a [HATEOAS](http://en.wikipedia.org/wiki/HATEOAS) API powered by [Tasty Pie](http://tastypieapi.org)
+The Collection Registry has a [HATEOAS](http://en.wikipedia.org/wiki/HATEOAS) API powered by [Tasty Pie](http://tastypieapi.org).
 
 HATEOAS APIs attempt to be self describing.  All available endpoints may be discovered from the base URL: https://registry.cdlib.org/api/v1/
 
@@ -31,4 +31,4 @@ curl --silent "https://registry.cdlib.org/api/v1/?format=json" | jq .
 }
 ```
 
-The API is configured in django in [this file](https://github.com/ucldc/avram/blob/master/library_collection/api.py)
+The API is configured in django in [this file](https://github.com/ucldc/avram/blob/master/library_collection/api.py).
