@@ -1,26 +1,26 @@
 ---
 layout: doc
-title: UCLDC Overview
 ---
 
-The UC Libraries Digital Collection (UCLDC) is a technology stack for managing and providing access to unique digital content. This site contains policies and procedures for content owners. [Request an Account]({{ site.url }}{{ site.baseurl }}/docs/create-account/)
+The UC Libraries Digital Collection (UCLDC) is a technical platform for managing, aggregating, and sharing digital collections from libraries, archives, and museums at all ten UC campuses and across California. This site contains policies and procedures for content providers. Use the links at right and the guides above to navigate to topics of interest.
 
-Unique Digital Content
+Overview
 ==============================================================================
 
-Data for all collections designated for public access - whether managed in the shared DAMS or in other platforms - is harvested by CDL and stored in the UCLDC common index. "Data" includes item-level metadata and references to access copies of files, stored by CDL for the optimal display of content in public access points, such as Calisphere. 
+The UCLDC platform comprises two major components:
 
-Related policies and procedures to queue your collection for harvest are in the <a href="{{ site.url }}{{site.baseurl}}/docs/registry/index/">Calisphere Administration Guide</a> (coming soon).
+1. Harvest and dissemination
+-----------------------------------
+The UCLDC platform aggregates disparate digital collections across the State of California, by way of an item-level metadata harvest from host websites and repositories into a Common Index. It then exposes the data stored in the Common Index to three public access points: 
 
-Exposure to Public Access Points
-===================
-CDL exposes all the data in the common index to three public access points: 
+- The Calisphere BETA website (coming August 2015)
+- The [Digital Public Library of America](http://dp.la) website and platform
+- The [common index API]({{ site.url }}{{ site.baseurl }}/docs/technical-docs/index/), which can be used to query and display the data in custom interfaces.
 
-- The common index API, which can be used to query and display the data in custom interfaces - read more in the [Common Index API Documentation]({{ site.url }}{{ site.baseurl }}/docs/technical-docs/index/)
-- The new Calisphere website (beta version to be released in Summer 2015)
-- The Digital Public Library of America (DPLA) website and platform
+Content providers can work with CDL to provide data feeds for harvest from their own systems; UC Libraries may additionally elect to use the shared DAMS described below. Policies and procedures to queue your collections for harvest are in the [Calisphere Administration Guide]({{ site.url }}{{site.baseurl}}/docs/registry/index/).
 
-Nuxeo Digital Asset Management System (DAMS)
-================
+2. Shared digital asset management system (DAMS)
+-----------------------------------------------------
+At this time, the Shared DAMS is available for use only for libraries within the University of California system.
 
-Contributors can provide a data feed for harvest from their own systems, or use the shared DAMS provided as part of the UCLDC stack. The Nuxeo DAMS is a tool for object-level metadata and associated content file management. Use the DAMS to build simple to complex objects - images, texts, audio, video, etc. - import or create metadata records, and import or upload content files. Read the [DAMS User Guide]({{ site.url }}{{ site.baseurl }}/docs/dams/index/) for more information about managing content in the DAMS.
+The Nuxeo DAMS is a tool for object-level metadata and associated content file management. Use the DAMS to build simple and complex objects - including images, texts, audio, video, etc. - import or create metadata records, and import or upload content files. Read the [DAMS User Guide]({{ site.url }}{{ site.baseurl }}/docs/dams/index/) for more information about managing content in the DAMS.
