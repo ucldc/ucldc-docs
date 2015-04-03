@@ -3,11 +3,11 @@ layout: doc
 title: Overview
 ---
 
-The UC Libraries Digital Collection (UCLDC) is a technical platform for managing, aggregating, and sharing digital collections from libraries, archives, and museums at all ten UC campuses and across California. This site contains policies and procedures for content providers. Use the links at right and the guides above to navigate to topics of interest.
+The University of California Libraries Digital Collection (UCLDC) is a technical platform for managing, aggregating, and sharing digital collections from libraries, archives, and museums at all ten UC campuses and across California. This site contains policies and procedures for content providers. Use the links at right and the guides above to navigate to topics of interest.
 
 The UCLDC platform comprises two major components.
 
-Harvest and dissemination
+Harvest & Dissemination
 -------------------------------
 ***
 The UCLDC platform aggregates disparate digital collections across the State of California, by way of an item-level metadata harvest from host websites and repositories into a Common Index. It then exposes the data stored in the Common Index to three public access points: 
@@ -21,6 +21,6 @@ Content providers can work with CDL to provide data feeds for harvest from their
 Shared DAMS
 -----------------------------
 ***
-The Shared digital asset management system (DAMS) is a tool for object-level metadata and associated content file management, available for use by libraries within the University of California system. The DAMS is a customized implementation of the Nuxeo platform.
+The UCLDC Shared Digital Asset Management System (DAMS) is a tool for object-level metadata and associated content file management, available for use by libraries within the University of California system. The DAMS is a customized implementation of the Nuxeo platform.
 
 Use the DAMS to build simple and complex objects - including images, texts, audio, video, etc. - import or create metadata records, and import or upload content files. Content in the Shared DAMS is not public until you designate it for harvest. [Explore the DAMS User Guide]({{ site.url }}{{ site.baseurl }}/docs/dams/index/).
