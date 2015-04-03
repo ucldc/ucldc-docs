@@ -1,13 +1,11 @@
 ---
 layout: doc
+title: Overview
 ---
 
 The UC Libraries Digital Collection (UCLDC) is a technical platform for managing, aggregating, and sharing digital collections from libraries, archives, and museums at all ten UC campuses and across California. This site contains policies and procedures for content providers. Use the links at right and the guides above to navigate to topics of interest.
 
-Overview
-==============================================================================
-
-The UCLDC platform comprises two major components:
+The UCLDC platform comprises two major components.
 
 Harvest and dissemination
 -----------------------------------
