@@ -1,6 +1,6 @@
 ---
 layout: registry-doc
-title: Metadata Harvesting Scheme
+title: Metadata Harvesting Scheme and Crosswalk
 permalink: /docs/registry/metadata-harvest/
 breadcrumbs: Calisphere Admin Guide
 ---
