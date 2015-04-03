@@ -19,6 +19,6 @@ Content providers can work with CDL to provide data feeds for harvest from their
 
 Shared DAMS
 -----------------------------------------------------
-The Shared DAMS (Nuxeo) is a tool for object-level metadata and associated content file management, available for use by libraries within the University of California system. Use the DAMS to build simple and complex objects - including images, texts, audio, video, etc. - import or create metadata records, and import or upload content files. Content in the Shared DAMS is not public until you designated it for harvest as described above.
+The Shared digital asset management system (DAMS) is a tool for object-level metadata and associated content file management, available for use by libraries within the University of California system. The DAMS is a customized implementation of the Nuxeo platform. Use the DAMS to build simple and complex objects - including images, texts, audio, video, etc. - import or create metadata records, and import or upload content files. Content in the Shared DAMS is not public until you designated it for harvest as described above.
 
 Explore the [DAMS User Guide]({{ site.url }}{{ site.baseurl }}/docs/dams/index/) for more information about managing content in the DAMS.
