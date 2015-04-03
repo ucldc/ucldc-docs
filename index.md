@@ -9,7 +9,7 @@ Overview
 
 The UCLDC platform comprises two major components:
 
-1. Harvest and dissemination
+Harvest and dissemination
 -----------------------------------
 The UCLDC platform aggregates disparate digital collections across the State of California, by way of an item-level metadata harvest from host websites and repositories into a Common Index. It then exposes the data stored in the Common Index to three public access points: 
 
@@ -19,7 +19,7 @@ The UCLDC platform aggregates disparate digital collections across the State of 
 
 Content providers can work with CDL to provide data feeds for harvest from their own systems; UC Libraries may additionally elect to use the shared DAMS described below. Policies and procedures to queue your collections for harvest are in the [Calisphere Administration Guide]({{ site.url }}{{site.baseurl}}/docs/registry/index/).
 
-2. Shared digital asset management system (DAMS)
+Shared digital asset management system (DAMS)
 -----------------------------------------------------
 At this time, the Shared DAMS is available for use only for libraries within the University of California system.
 
