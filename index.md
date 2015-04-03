@@ -17,8 +17,8 @@ The UCLDC platform aggregates disparate digital collections across the State of 
 
 Content providers can work with CDL to provide data feeds for harvest from their own systems; UC Libraries may additionally elect to use the shared DAMS described below. Policies and procedures to queue your collections for harvest are in the [Calisphere Administration Guide]({{ site.url }}{{site.baseurl}}/docs/registry/index/).
 
-Shared digital asset management system (DAMS)
+Shared DAMS
 -----------------------------------------------------
-At this time, the Shared DAMS is available for use only for libraries within the University of California system.
+The Shared DAMS (Nuxeo) is a tool for object-level metadata and associated content file management, available for use by libraries within the University of California system. Use the DAMS to build simple and complex objects - including images, texts, audio, video, etc. - import or create metadata records, and import or upload content files. Content in the Shared DAMS is not public until you designated it for harvest as described above.
 
-The Nuxeo DAMS is a tool for object-level metadata and associated content file management. Use the DAMS to build simple and complex objects - including images, texts, audio, video, etc. - import or create metadata records, and import or upload content files. Read the [DAMS User Guide]({{ site.url }}{{ site.baseurl }}/docs/dams/index/) for more information about managing content in the DAMS.
+Explore the [DAMS User Guide]({{ site.url }}{{ site.baseurl }}/docs/dams/index/) for more information about managing content in the DAMS.
