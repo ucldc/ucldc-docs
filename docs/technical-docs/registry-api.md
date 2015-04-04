@@ -28,5 +28,7 @@ HATEOAS APIs attempt to be self describing.  All available endpoints may be disc
   * https://registry.cdlib.org/api/v1/campus/?format=json
     *  https://registry.cdlib.org/api/v1/campus/schema/?format=json
 
+## Institution JSON
+  * join `http://cdn.calisphere.org/institution-json/` with the `"ark":` in Repository or Campus to get address, phone number, email etc. from the voro dashboard.
 
 The API is configured in django in [this file](https://github.com/ucldc/avram/blob/master/library_collection/api.py).
