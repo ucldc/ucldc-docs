@@ -8,22 +8,25 @@ breadcrumbs: Registry API
 
 The Collection Registry has a [HATEOAS](http://en.wikipedia.org/wiki/HATEOAS) API powered by [Tasty Pie](http://tastypieapi.org).
 
-HATEOAS APIs attempt to be self describing.  All available endpoints may be discovered from the base URL: https://registry.cdlib.org/api/v1/
+HATEOAS APIs attempt to be self describing.  All available endpoints may be discovered from the base URL.
+
+## Format
+  The following formats are supported: ['json', 'jsonp', 'xml', 'yaml', 'plist']
 
 ## Base 
- * https://registry.cdlib.org/api/v1
+ * https://registry.cdlib.org/api/v1/?format=json
 
 ## Respostiry
- * https://registry.cdlib.org/api/v1/repository/
-   * https://registry.cdlib.org/api/v1/repository/schema/
+ * https://registry.cdlib.org/api/v1/repository/?format=json
+   * https://registry.cdlib.org/api/v1/repository/schema/?format=json
 
 ## Collection
- * https://registry.cdlib.org/api/v1/collection/
-   * https://registry.cdlib.org/api/v1/collection/schema/
+ * https://registry.cdlib.org/api/v1/collection/?format=json
+   * https://registry.cdlib.org/api/v1/collection/schema/?format=json
 
 ## Campus
-  * https://registry.cdlib.org/api/v1/campus/
-    *  https://registry.cdlib.org/api/v1/campus/schema/
+  * https://registry.cdlib.org/api/v1/campus/?format=json
+    *  https://registry.cdlib.org/api/v1/campus/schema/?format=json
 
 
 The API is configured in django in [this file](https://github.com/ucldc/avram/blob/master/library_collection/api.py).
