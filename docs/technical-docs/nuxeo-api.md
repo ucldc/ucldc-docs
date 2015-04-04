@@ -28,6 +28,7 @@ Nuxeo also supports token authentication.  [More information from Nuxeo](https:/
 The base URL for creating a token is `https://nuxeo.cdlib.org/nuxeo/authentication/token`
 
 The following parameters must be supplied:
+
   * `applicationName` -- name of the application using the token
   * `deviceId` -- id of the computer of device that will be using the token
   * `permission` -- permissions granted to the token, such as `r` or `rw`
