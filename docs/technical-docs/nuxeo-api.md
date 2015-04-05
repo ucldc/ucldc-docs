@@ -33,7 +33,7 @@ Base `https://nuxeo.cdlib.org`
 Please contact `ucldc@ucop.edu` to set up a nuxeo account with a password for use with Basic Authentication.
 
 ### Token Authentication
-Nuxeo also supports token authentication.  [More information from Nuxeo](https://github.com/nuxeo/nuxeo-platform-login/tree/master/nuxeo-platform-login-token)
+Nuxeo also supports token authentication.  [More information from Nuxeo](https://github.com/nuxeo/nuxeo-platform-login/tree/master/nuxeo-platform-login-token).
 
 The base URL for creating a token is `https://nuxeo.cdlib.org/nuxeo/authentication/token`.
 
