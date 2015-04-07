@@ -9,9 +9,9 @@ breadcrumbs: DAMS Appendix
   <span class="glyphicon glyphicon-file"></span> View the metadata scheme's xsd file.
 </a>
 
-### Content Files
-
-<a class="label" id="MainContentFile">Main Content File</a> - The main resource file. Used to generate display files (main file, thumbnail, etc.) in the index and Calisphere once you "publish" the object.
+## Content Files
+***
+<a class="label" id="MainContentFile">Main Content File</a> <b>REQUIRED</b> - The main resource file. Used to generate display files (main file, thumbnail, etc.) in the index and Calisphere once you "publish" the object.
 
 <a class="label" id="AuxiliaryFiles">Auxiliary Files</a> - Additional resource files including variant formats and derivative copies of the main content file. These files will not be published to the index or Calisphere.
 
@@ -19,8 +19,8 @@ breadcrumbs: DAMS Appendix
 
 <a class="label" id="AuxiliaryFileType">Auxiliary File Type</a> - Qualifier identifying the kind of auxiliary file.
 
-### Basic Information
-
+## Basic Information
+***
 <a class="label" id="Title">Title</a> - A formal or supplied title for the resource.
 
 <div class="example">
@@ -149,8 +149,8 @@ breadcrumbs: DAMS Appendix
   <br/>Robinson family
 </div>
 
-### Content and Characteristics
-
+## Content and Characteristics
+***
 <a class="label" id="FormatPhysicalDescription">Format/Physical Description</a> - A description of the physical or digital manifestation of the resource. Typically, this may include an indicator of the size and duration.
 
 <div class="example">
@@ -200,8 +200,8 @@ breadcrumbs: DAMS Appendix
   <br/>Martinez California December 31, 1893. My dear Sister Mary, I wish you a happy New Year, You and all yours. Heaven bless you all. Ever affectionately Your brother John Muir.
 </div>
 
-### Conditions of Access and Use
-
+## Conditions of Access and Use
+***
 <a class="label" id="AccessRestrictions">Access Restrictions</a> - Specifies level of access, for viewing resource in the UCLDC discovery/delivery system
 
 <div class="example">
@@ -299,8 +299,8 @@ breadcrumbs: DAMS Appendix
   <br/>Additional information about the copyright status of the resource
 </div>
 
-### Related Materials
-
+## Related Materials
+***
 <a class="label" id="Collection">Collection</a> - URL reference to associated collections
 
 <div class="example">
@@ -326,8 +326,8 @@ breadcrumbs: DAMS Appendix
   <br/>Selected photograph from page 12 of the Lawrence & Houseworth Photography Album (Item Number #MS R01 042).
 </div>
 
-### Access Points
-
+## Access Points
+***
 <a class="label" id="SubjectName">Subject (Name)</a> - Personal, corporate, or family names significantly represented in or by the resource.
 
 <div class="example">
@@ -372,8 +372,8 @@ breadcrumbs: DAMS Appendix
   <br/>Tintypes
 </div>
 
-### Administrative Information
-
+## Administrative Information
+***
 <a class="label" id="Provenance">Provenance</a> - Indicator of ownership and/or custody of the resource since its creation that are significant for its authenticity, integrity and interpretation. 
 
 <div class="example">
