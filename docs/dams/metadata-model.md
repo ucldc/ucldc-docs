@@ -7,8 +7,9 @@ breadcrumbs: DAMS Appendix
 
 <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/ucldc-schema/">
   <span class="glyphicon glyphicon-file"></span> View the DAMS metadata scheme's xsd file.
-</a>
+</a><br>
 \* = Required for publication in Calisphere
+
 
 ## Content Files
 ***
@@ -20,9 +21,10 @@ breadcrumbs: DAMS Appendix
 
 <a class="label" id="AuxiliaryFileType">Auxiliary File Type</a> - Qualifier identifying the kind of auxiliary file.
 
+
 ## Basic Information
 ***
-<a class="label" id="Title">Title</a> - A formal or supplied title for the resource.
+\* <a class="label" id="Title">Title</a> - A formal or supplied title for the resource.
 
 <div class="example">
   <u>Example:</u>
@@ -61,7 +63,7 @@ breadcrumbs: DAMS Appendix
   <br/>MSS 0124.144
 </div>
 
-<a class="label" id="Type">Type</a> - A high-level characterizes of the resource type.
+\* <a class="label" id="Type">Type</a> - A high-level characterizes of the resource type.
 
 <div class="example">
   <u>Example:</u>
@@ -70,7 +72,7 @@ breadcrumbs: DAMS Appendix
   <br/>audio
 </div>
 
-<a class="label" id="CampusUnit">Campus/Unit</a> - URL reference to the Campus/Unit that is responsible for maintaining and curating the resource.
+\* <a class="label" id="CampusUnit">Campus/Unit</a> - URL reference to the Campus/Unit that is responsible for maintaining and curating the resource.
 
 <div class="example">
   <u>Example:</u>
@@ -150,6 +152,7 @@ breadcrumbs: DAMS Appendix
   <br/>Robinson family
 </div>
 
+
 ## Content and Characteristics
 ***
 <a class="label" id="FormatPhysicalDescription">Format/Physical Description</a> - A description of the physical or digital manifestation of the resource. Typically, this may include an indicator of the size and duration.
@@ -201,6 +204,7 @@ breadcrumbs: DAMS Appendix
   <br/>Martinez California December 31, 1893. My dear Sister Mary, I wish you a happy New Year, You and all yours. Heaven bless you all. Ever affectionately Your brother John Muir.
 </div>
 
+
 ## Conditions of Access and Use
 ***
 <a class="label" id="AccessRestrictions">Access Restrictions</a> - Specifies level of access, for viewing resource in the UCLDC discovery/delivery system
@@ -212,7 +216,7 @@ breadcrumbs: DAMS Appendix
   <br/>UC campus only
 </div>
 
-<a class="label" id="CopyrightStatus">Copyright Status</a> - A coded designation for the copyright status of the resource, at the time the rights statement is recorded.
+\* <a class="label" id="CopyrightStatus">Copyright Status</a> - A coded designation for the copyright status of the resource, at the time the rights statement is recorded.
 
 <div class="example">
   <u>Example:</u>
@@ -221,7 +225,7 @@ breadcrumbs: DAMS Appendix
 <br/>copyrighted
 </div>
 
-<a class="label" id="CopyrightStatement">Copyright Statement</a> - Statement summarizing the copyright status of the resource 
+\* <a class="label" id="CopyrightStatement">Copyright Statement</a> - Statement summarizing the copyright status of the resource 
 
 <div class="example">
   <u>Example (status "unknown"):</u>
@@ -300,6 +304,7 @@ breadcrumbs: DAMS Appendix
   <br/>Additional information about the copyright status of the resource
 </div>
 
+
 ## Related Materials
 ***
 <a class="label" id="Collection">Collection</a> - URL reference to associated collections
@@ -326,6 +331,7 @@ breadcrumbs: DAMS Appendix
   <u>Example:</u>
   <br/>Selected photograph from page 12 of the Lawrence & Houseworth Photography Album (Item Number #MS R01 042).
 </div>
+
 
 ## Access Points
 ***
@@ -372,6 +378,7 @@ breadcrumbs: DAMS Appendix
   <br/>Aerial photographs
   <br/>Tintypes
 </div>
+
 
 ## Administrative Information
 ***
