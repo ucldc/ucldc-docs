@@ -7,7 +7,7 @@ breadcrumbs: DAMS Appendix
 
 <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/ucldc-schema/">
   <span class="glyphicon glyphicon-file"></span> View the DAMS metadata scheme's xsd file.
-</a><br><br>
+</a><br>
 
 
 ##Required Metadata
@@ -15,12 +15,12 @@ breadcrumbs: DAMS Appendix
 
 The following data elements must be present in each metadata record for harvest into the UCLDC Common Index. These elements are also denoted using an asterisk in the metadata scheme summary:
 
-* Main Content File
-* Title
-* Type
-* Campus/Unit
-* Rights status
-* Rights statement
+* <a class="label">Main Content File</a>
+* <a class="label">Title</a>
+* <a class="label">Type</a>
+* <a class="label">Campus/Unit</a>
+* <a class="label">Rights status</a>
+* <a class="label">Rights statement</a>
 
 
 ##The Metadata Scheme
