@@ -1,17 +1,18 @@
 ---
 layout: dams-doc
-title: Metadata Scheme
+title: DAMS Metadata Scheme
 permalink: /docs/dams/metadata-model/
 breadcrumbs: DAMS Appendix
 ---
 
 <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/ucldc-schema/">
-  <span class="glyphicon glyphicon-file"></span> View the metadata scheme's xsd file.
+  <span class="glyphicon glyphicon-file"></span> View the DAMS metadata scheme's xsd file.
 </a>
+\* = Required for publication in Calisphere
 
 ## Content Files
 ***
-<a class="label" id="MainContentFile">Main Content File</a> - The main resource file. Used to generate display files (main file, thumbnail, etc.) in the index and Calisphere once you "publish" the object.
+\* <a class="label" id="MainContentFile">Main Content File</a> - The main resource file. Used to generate display files (main file, thumbnail, etc.) in the index and Calisphere once you "publish" the object.
 
 <a class="label" id="AuxiliaryFiles">Auxiliary Files</a> - Additional resource files including variant formats and derivative copies of the main content file. These files will not be published to the index or Calisphere.
 
