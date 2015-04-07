@@ -5,7 +5,7 @@ permalink: /docs/registry/metadata-harvest/
 breadcrumbs: Calisphere Admin Guide
 ---
 
-All data harvested into the common index must adhere to the [UCLDC Metadata Harvesting Scheme and Crosswalk](https://docs.google.com/spreadsheets/d/1u2RE9PD0N9GkLQTFNJy3HiH9N5IbKDG52HjJ6JomC9I/edit#gid=265758929), which was adapted from the <a href="http://dp.la/info/wp-content/uploads/2013/04/DPLAMetadataPolicy.pdf">DPLA Metadata Application Profile.</a></p>
+All data harvested into the common index must adhere to the [UCLDC Metadata Harvesting Scheme and Crosswalk](https://docs.google.com/spreadsheets/d/1u2RE9PD0N9GkLQTFNJy3HiH9N5IbKDG52HjJ6JomC9I/edit#gid=265758929), which was adapted from the <a href="http://dp.la/info/wp-content/uploads/2013/04/DPLAMetadataPolicy.pdf">DPLA Metadata Application Profile.</a>
 
 ##Required Metadata
 ***
