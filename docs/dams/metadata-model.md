@@ -8,11 +8,26 @@ breadcrumbs: DAMS Appendix
 <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/ucldc-schema/">
   <span class="glyphicon glyphicon-file"></span> View the DAMS metadata scheme's xsd file.
 </a><br><br>
-\* = Required for publication in Calisphere
 
 
-## Content Files
+##Required Metadata
 ***
+
+The following data elements must be present in each metadata record for harvest into the UCLDC Common Index. These elements are also denoted using an asterisk in the metadata scheme summary:
+
+* Main Content File
+* Title
+* Type
+* Campus/Unit
+* Rights status
+* Rights statement
+
+
+##The Metadata Scheme
+***
+
+### Content Files
+
 \* <a class="label" id="MainContentFile">Main Content File</a> - The main resource file. Used to generate display files (main file, thumbnail, etc.) in the index and Calisphere once you "publish" the object.
 
 <a class="label" id="AuxiliaryFiles">Auxiliary Files</a> - Additional resource files including variant formats and derivative copies of the main content file. These files will not be published to the index or Calisphere.
@@ -22,8 +37,8 @@ breadcrumbs: DAMS Appendix
 <a class="label" id="AuxiliaryFileType">Auxiliary File Type</a> - Qualifier identifying the kind of auxiliary file.
 
 
-## Basic Information
-***
+### Basic Information
+
 \* <a class="label" id="Title">Title</a> - A formal or supplied title for the resource.
 
 <div class="example">
@@ -153,8 +168,8 @@ breadcrumbs: DAMS Appendix
 </div>
 
 
-## Content and Characteristics
-***
+### Content and Characteristics
+
 <a class="label" id="FormatPhysicalDescription">Format/Physical Description</a> - A description of the physical or digital manifestation of the resource. Typically, this may include an indicator of the size and duration.
 
 <div class="example">
@@ -205,8 +220,8 @@ breadcrumbs: DAMS Appendix
 </div>
 
 
-## Conditions of Access and Use
-***
+### Conditions of Access and Use
+
 <a class="label" id="AccessRestrictions">Access Restrictions</a> - Specifies level of access, for viewing resource in the UCLDC discovery/delivery system
 
 <div class="example">
@@ -305,8 +320,8 @@ breadcrumbs: DAMS Appendix
 </div>
 
 
-## Related Materials
-***
+### Related Materials
+
 <a class="label" id="Collection">Collection</a> - URL reference to associated collections
 
 <div class="example">
@@ -333,8 +348,8 @@ breadcrumbs: DAMS Appendix
 </div>
 
 
-## Access Points
-***
+### Access Points
+
 <a class="label" id="SubjectName">Subject (Name)</a> - Personal, corporate, or family names significantly represented in or by the resource.
 
 <div class="example">
@@ -380,8 +395,8 @@ breadcrumbs: DAMS Appendix
 </div>
 
 
-## Administrative Information
-***
+### Administrative Information
+
 <a class="label" id="Provenance">Provenance</a> - Indicator of ownership and/or custody of the resource since its creation that are significant for its authenticity, integrity and interpretation. 
 
 <div class="example">
