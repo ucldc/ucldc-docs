@@ -7,7 +7,7 @@ breadcrumbs: DAMS Appendix
 
 <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/ucldc-schema/">
   <span class="glyphicon glyphicon-file"></span> View the DAMS metadata scheme's xsd file.
-</a><br>
+</a><br><br>
 \* = Required for publication in Calisphere
 
 
