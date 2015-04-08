@@ -854,26 +854,24 @@ repository_url::repository_name
 The Solr API
 =================
 
-The Solr API can be accessed at http://107.21.228.130:8080/solr/#/dc-collection. Queries can be made to the select query handler: http://107.21.228.130:8080/solr/dc-collection/select (note that when querying the Solr API, the # is removed from the URL). The following are common query parameters. Consult the Solr documentation for a complete list of available query parameters. 
+In order to access the Solr API, you will have to obtain an API Authentication Token. Request a token by emailing <a href="mailto:ucldc@ucop.edu">ucldc@ucop.edu</a> or your [campus contact]({{ site.url }}{{ site.baseurl }}/docs/collection-admins/). 
 
-We use solrpy - a python library with Solr bindings - to hit Solr. 
+Queries can be made using curl, or any Solr library that supports authentication tokens: <code>curl -H 'X-Authentication-Token: xxxx-xxxx-xxxx-xxxx' "https://registry.cdlib.org/solr/query/?q=fred"</code> We're using solrpy - a python library with Solr bindings - to hit Solr: https://github.com/edsu/solrpy. 
+
+The following are common query parameters. Consult the Solr documentation for a complete list of available query parameters. 
 
 <p>
 <b>q</b> - default query parameter, searches the text field by default unless a different field is otherwise specified. Takes a comma separated list of field: search_string pairs:
 
 <ul>
   <li><code>q=*:*</code> - returns all objects in the index<br/>
-    <a href="http://107.21.228.130:8080/solr/dc-collection/select?q=*:*&wt=json&indent=true">
-      http://107.21.228.130:8080/solr/dc-collection/select?q=*:*&wt=json&indent=true
-    </a>
+      https://registry.cdlib.org/solr/query/?q=*:*&wt=json&indent=true
   </li>
   <li><code>q=mosswood park</code> - returns all objects in the index with an instance of mosswood park in their metadata<br/>
-    <a href="http://107.21.228.130:8080/solr/dc-collection/select?q=mosswood+park&wt=json&indent=true">
-      http://107.21.228.130:8080/solr/dc-collection/select?q=mosswood+park&wt=json&indent=true
-    </a>
+      https://registry.cdlib.org/solr/query/?q=mosswood+park&wt=json&indent=true
   </li>
   <li><code>q=title: "mosswood park", collection_name: "Parks in Oakland, California - Views"</code> - returns all objects with mosswood park in the title and a collection name of "Parks in Oakland, California - Views"<br/>
-    <a href="http://107.21.228.130:8080/solr/dc-collection/select?q=title: 'mosswood park', collection_name: 'Parks in Oakland, California - Views'&wt=json&indent=true">http://107.21.228.130:8080/solr/dc-collection/select?q=title: "mosswood park", collection_name: "Parks in Oakland, California - Views"&wt=json&indent=true</a>
+    https://registry.cdlib.org/solr/query/?q=title: "mosswood park", collection_name: "Parks in Oakland, California - Views"&wt=json&indent=true
   </li>
 </ul>
 </p>
@@ -882,9 +880,7 @@ We use solrpy - a python library with Solr bindings - to hit Solr.
 <b>rows</b> - number of objects to return, default value is 10
 <ul>
   <li><code>rows=6</code> - returns the first six objects in the index<br/>
-    <a href="http://107.21.228.130:8080/solr/dc-collection/select?q=*:*&rows=6&wt=json&indent=true">
-      http://107.21.228.130:8080/solr/dc-collection/select?q=*:*&rows=6&wt=json&indent=true
-    </a>
+      https://registry.cdlib.org/solr/query/?q=*:*&rows=6&wt=json&indent=true
   </li>
 </ul>
 </p>
@@ -893,9 +889,7 @@ We use solrpy - a python library with Solr bindings - to hit Solr.
 <b>start</b> - object to start on, default value is 0 - specifying start and rows together can create pagination
 <ul>
   <li><code>start=2</code> - returns the third object through the 13th in the index<br/>
-    <a href="http://107.21.228.130:8080/solr/dc-collection/select?q=*:*&start=2&wt=json&indent=true">
-      http://107.21.228.130:8080/solr/dc-collection/select?q=*:*&start=2&wt=json&indent=true
-    </a>
+      https://registry.cdlib.org/solr/query/?q=*:*&start=2&wt=json&indent=true
   </li>
 </ul>
 </p>
@@ -904,9 +898,7 @@ We use solrpy - a python library with Solr bindings - to hit Solr.
 <b>fq</b> - filter the query by specifying a value for a field. Filter on the string (_ss) version of the field to avoid tokenization and provide exact matches
 <ul>
   <li><code>fq=type_ss: image</code> - returns all objects with a type of 'image'<br/>
-    <a href="http://107.21.228.130:8080/solr/dc-collection/select?q=*:*&fq=type_ss: image&wt=json&indent=true">
-      http://107.21.228.130:8080/solr/dc-collection/select?q=*:*&fq=type_ss: image&wt=json&indent=true
-    </a>
+      https://registry.cdlib.org/solr/query/?q=*:*&fq=type_ss: image&wt=json&indent=true
   </li>
 </ul>
 </p>
