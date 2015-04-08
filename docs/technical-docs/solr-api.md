@@ -856,7 +856,10 @@ The Solr API
 
 In order to access the Solr API, you will have to obtain an API Authentication Token. Request a token by emailing <a href="mailto:ucldc@ucop.edu">ucldc@ucop.edu</a> or your [campus contact]({{ site.url }}{{ site.baseurl }}/docs/collection-admins/). 
 
-Queries can be made using curl, or any Solr library that supports authentication tokens: <code>curl -H 'X-Authentication-Token: xxxx-xxxx-xxxx-xxxx' "https://registry.cdlib.org/solr/query/?q=fred"</code> We're using solrpy - a python library with Solr bindings - to hit Solr: https://github.com/edsu/solrpy. 
+Queries can be made using curl, or any Solr library that supports authentication tokens: <br/>
+<code>curl -H 'X-Authentication-Token: xxxx-xxxx-xxxx-xxxx' "https://registry.cdlib.org/solr/query/?q=fred"</code> 
+
+We're using solrpy - a python library with Solr bindings - to hit Solr: [https://github.com/edsu/solrpy](https://github.com/edsu/solrpy).
 
 The following are common query parameters. Consult the Solr documentation for a complete list of available query parameters. 
 
