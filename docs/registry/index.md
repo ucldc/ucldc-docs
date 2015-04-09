@@ -1,6 +1,6 @@
 ---
 layout: registry-doc
-title: Calisphere Administration Overview
+title: Harvest and Access Overview
 next_section: registry/access-policies/
 permalink: /docs/registry/index/
 breadcrumbs: Calisphere Admin Guide
