@@ -16,7 +16,7 @@ The UCLDC platform aggregates disparate digital collections across the State of 
 - The [Digital Public Library of America](http://dp.la) website and platform.
 - The [Common Index API]({{ site.url }}{{ site.baseurl }}/docs/technical-docs/index/), which can be used to query and display the data in custom interfaces.
 
-Content providers can work with CDL to provide data feeds for harvest from their own systems; UC Libraries may additionally elect to use the shared DAMS described below. Learn more in the [Harvest and Access Guide]({{ site.url }}{{site.baseurl}}/docs/registry/index/).
+Content providers can work with CDL to provide data feeds for harvest from their own systems; UC Libraries may additionally elect to use the shared DAMS described below. 
 
 Shared DAMS
 -----------------------------
