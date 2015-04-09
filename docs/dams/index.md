@@ -1,6 +1,6 @@
 ---
 layout: dams-doc
-title: DAMS Overview
+title: Shared DAMS Overview
 next_section: dams/organization/
 permalink: /docs/dams/index/
 breadcrumbs: DAMS User Guide
