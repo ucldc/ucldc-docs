@@ -1,6 +1,6 @@
 ---
 layout: registry-doc
-title: Harvest & Dissemination Policies
+title: Harvest and Access Policies
 permalink: /docs/registry/access-policies/
 breadcrumbs: Calisphere Admin Guide
 ---
