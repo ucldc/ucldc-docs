@@ -1,6 +1,6 @@
 ---
 layout: technical-doc 
-title: Regsitry API 
+title: Collection Registry API 
 prev_section: technical-docs/index/
 permalink: /docs/technical-docs/registry-api/
 breadcrumbs: Registry API
