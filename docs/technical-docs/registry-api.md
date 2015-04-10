@@ -16,7 +16,7 @@ HATEOAS APIs attempt to be self describing.  All available endpoints may be disc
 ## Base 
  * https://registry.cdlib.org/api/v1/?format=json
 
-## Respostiry
+## Respository
  * https://registry.cdlib.org/api/v1/repository/?format=json
    * https://registry.cdlib.org/api/v1/repository/schema/?format=json
 
