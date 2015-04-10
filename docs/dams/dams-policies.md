@@ -7,7 +7,7 @@ breadcrumbs: DAMS Appendix
 
 ##Access to the DAMS
 
-Only authorized users—UC Libraries staff, student workers, and other individuals expressly designated by the UC Libraries—may access the Shared DAMS. An account is necessary for accessing the system; once an account is obtained, a user can authenticate with his/her single sign-on credentials via Shibboleth. The creation of accounts are authorized by UCLDC Collection Administrators ([learn more]({{ site.url }}{{ site.baseurl }}/docs/create-account/).
+Only authorized users—UC Libraries staff, student workers, and other individuals expressly designated by the UC Libraries—may access the Shared DAMS. An account is necessary for accessing the system; once an account is obtained, a user can authenticate with his/her single sign-on credentials via Shibboleth. The creation of accounts are authorized by UCLDC Collection Administrators ([learn more]({{ site.url }}{{ site.baseurl }}/docs/create-account/)).
 
 By default, all folders in the shared DAMS and the digital resources and metadata within them are “read only,” meaning any DAMS user can view but not edit all content in the system. UCLDC Collection Administrators can manually restrict the viewing and editing of particular folders and items, as necessary.
 
