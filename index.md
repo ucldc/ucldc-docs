@@ -24,3 +24,4 @@ Shared DAMS
 The UCLDC Shared Digital Asset Management System (DAMS) is a tool for object-level metadata and associated content file management, available for use by libraries within the University of California system. The DAMS is a customized implementation of the Nuxeo platform.
 
 Use the DAMS to build simple and complex objects - including images, texts, audio, video, and other formats - create metadata, and upload files. Content in the Shared DAMS is not public until you designate it for harvest. [Explore the DAMS User Guide]({{ site.url }}{{ site.baseurl }}/docs/dams/index/).
+
