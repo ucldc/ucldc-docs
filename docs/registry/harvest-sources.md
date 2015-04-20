@@ -2,7 +2,8 @@
 layout: registry-doc
 title: Setting up a target
 next_section: registry/access-policies/
-permalink: /docs/registry/harvest-sources/
+prev_section: /registry/index/
+permalink: /docs/registry/setup/
 breadcrumbs: Calisphere Admin Guide
 ---
 
