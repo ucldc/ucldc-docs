@@ -1,10 +1,11 @@
------------
+---
 layout: registry-doc
-title: Setting up a harvest target
+title: Setting up a harvest
 next_section: registry/access-policies/
 permalink: /docs/registry/index/
 breadcrumbs: Calisphere Admin Guide
-------------
+---
+
 ##Sources of data
 We can harvest metadata from a range of sources, and will work with content owners to define metadata mappings and the harvesting approach. There are currently four general sources of metadata from which we are harvesting:
 
