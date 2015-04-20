@@ -1,8 +1,8 @@
 ---
 layout: registry-doc
 title: Initiating a harvest
-next_section: registry/access-policies/
-permalink: /docs/registry/start/
+next_section: registry/q-a
+prev_section: registry/setup
 breadcrumbs: Calisphere Admin Guide
 ---
 
