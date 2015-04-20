@@ -6,10 +6,10 @@ permalink: /docs/registry/start-harvest/
 breadcrumbs: Calisphere Admin Guide
 ---
 
-Key Role: Collection Administrator
-
+##Key Role: Collection Administrator
 In order to simplify procedures and ensure coordination between local and systemwide processes, each data provider has a designated UCLDC Collection Administrator who will be primarily responsible for initiating and managing harvests, and communicating any key information to the CDL. Collection Administrators may be assigned at the campus or institution level, by each campus. Read more.
 
+##rough language below:
 - Collection Administrator contacts the CDL to determine which collection(s) should be harvested.  “Collections” may be defined in a few different ways. They may reside in the shared DAMS that is part of the UCLDC or they may be harvested from external sources (such as a campus' DAMS, a campus website, OAC/Calisphere, or other source) and brought into the UCLDC’s central index.
 
 - The CDL works with the Collection Administrator to establish the collection in the Collection Registry.  This includes basic information about the collection that will be used within the UCLDC public interface (e.g., title, description), as well as key information such as the method for harvesting the metadata.
