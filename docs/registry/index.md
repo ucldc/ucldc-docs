@@ -6,16 +6,15 @@ permalink: /docs/registry/index/
 breadcrumbs: Calisphere Admin Guide
 ---
 
-##What harvest? What access?
-The UCLDC platform is based on a harvesting system, which is used to import item-level metadata from a variety of systems into a Common Index. This allows for a single aggregation of data about and pointing to digital collections across California. (That's the harvest part.)
+##What harvest?
+The UCLDC platform is based on a harvesting system, which is used to import item-level metadata from a variety of systems into a Common Index. This allows for a single aggregation of data about and pointing to digital collections across California.
 
-We are then exposing the data stored in that Common Index to three public access points:
+##Then what?
+We are then exposing the data stored in the Common Index to three public access points:
 
 - The Calisphere BETA website (coming August 2015).
 - The [Digital Public Library of America](http://dp.la/) website and platform.
 - The [Common Index API]({{site.url}}{{site.baseurl}}/docs/technical-docs/solr-api/), which can be used to query and display the data in custom interfaces.
-
-(That's obviously the access part.)
 
 ##A note on timing
 The UCLDC platform is currently under development. The project team is working with the UC campus libraries to conduct initial harvests; the first exposure of this data to the public access points is expected to occur in August/September 2015.
