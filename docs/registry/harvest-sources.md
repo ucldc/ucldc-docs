@@ -1,6 +1,6 @@
 ---
 layout: registry-doc
-title: Setting up a harvest
+title: Setting up a target
 next_section: registry/access-policies/
 permalink: /docs/registry/index/
 breadcrumbs: Calisphere Admin Guide
