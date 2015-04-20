@@ -1,8 +1,8 @@
 ---
 layout: registry-doc
 title: Setting up a target
-next_section: registry/access-policies/
-prev_section: /registry/index/
+next_section: registry/start/
+prev_section: registry/index/
 permalink: /docs/registry/setup/
 breadcrumbs: Calisphere Admin Guide
 ---
