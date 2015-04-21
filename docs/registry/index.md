@@ -6,7 +6,7 @@ permalink: /docs/registry/index/
 breadcrumbs: Calisphere Admin Guide
 ---
 
-##What harvest?
+##What is the harvest?
 The UCLDC platform is based on a harvesting system, which is used to import item-level metadata from a variety of systems into a Common Index. This allows for a single aggregation of data about and pointing to digital collections across California.
 
 ##Then what?
@@ -21,7 +21,10 @@ The UCLDC platform is currently under development. The project team is working w
 
 At this time, therefore, this user guide describes the broad strokes of an envisioned process for the ongoing harvest and exposure of digital collections metadata. In many cases, we expect that the specifics of the process will change as the service evolves. We have tried to note both current and planned mechanisms.  
 
-<!-- ## Using the Digital Collection Registry
+<!--
+Here is old Registry info that I think we could either stash on another page or perhaps reduce to a comment on a different page, for now. But I'll leave it here for now since it's good language.
+
+Using the Digital Collection Registry
 The Registry is an interface for campus library staff to manage and apply standardized information about campus units and digital collections that are published in Calisphere, and also to define and initiate metadata harvests for those collections. "Collections" may be defined in a few different ways. They may reside in the shared DAMS that is part of the UCLDC or they may be harvested from external sources (such as a campus OAI feed, the Internet Archive, or OAC/Calisphere) and brought into the UCLDC's central index.
 
 The collection registry is an essential part of the UCLDC system with a few different use cases. Specifically, it handles the following functions:
