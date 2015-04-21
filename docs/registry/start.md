@@ -18,4 +18,15 @@ My campus has collections in the Shared DAMS.  How will we be able to harvest th
 
 We will be implementing a workflow whereby Campus Administrators will be able to specify and indicate which collections in the Shared DAMS are ready for publication, for subsequent harvesting.  The exact process will be developed and implemented prior to August 2015.
 
+##Potential call-out:
+We already have some digital collections in the legacy OAC/Calisphere METS repository, and those collections are also available in our campus' DAMS.  Will you harvest the metadata for those collections from both locations?  What if we want to feature the version of the collection in our campus DAMS?
+
+Collection Administrators can specify which collection should be privileged for harvesting.  We will then harvest the collection from the preferred source.
+
+
+We already have some digital collections in the legacy OAC/Calisphere METS repository, and those collections are also available in the shared DAMS.  How can we specify which one to privilege, for harvesting?
+
+Similar to the previous question, Collection Administrators can specify which collection should be privileged for harvesting.  We will then harvest the collection from the preferred source.
+
+
 <div class="note"><p>I think since the Registry is really limited right now to viewing collections, it could simply be a call out at this point to let people know it's coming and we'll eventually move in this more self-serve direction</p></div>
