@@ -14,19 +14,16 @@ Once you have identified a collection(s) to be harvested by the UCLDC platform, 
 ##Process
 1. The Collection Administrator works with others on campus/at the institution to determine that a collection(s) is ready for harvest and public access through the UCLDC platform, according to any local processes developed for decision-making.
 
-2. The Collection notifies the CDL about which collection(s) should be harvested, and out of which platform. (<i>Please note that this includes collections which are hosted in the UCLDC Shared DAMS.</i>) At this time, we request simply that the Collection Administrator [send us an email notification](mailto:ucldc@ucop.edu).
+2. The Collection Administrator notifies the CDL about which collection(s) should be harvested, and out of which platform. (<i>Please note that this includes collections which are hosted in the UCLDC Shared DAMS.</i>) At this time, we request simply that the Collection Administrator [send us an email notification](mailto:ucldc@ucop.edu).
 
 3. The CDL works with the Collection Administrator to establish the collection in the [Collection Registry](http://registry.cdlib.org). This includes basic information about the collection that will be used within the UCLDC public interface (e.g., title, description), as well as key information such as the method for harvesting the metadata.
 
-<div class="note"><p>The Collection Registry is an interface for content owners to manage and apply standardized information about campuses, institutions, and digital collections, and to define and initiate metadata harvests for those collections. In the future, we plan for these functions to become increasingly self-serve and automated; for the time being, however, we can work with you to edit information in the registry.</p></div>
+<div class="note"><p>The [Collection Registry](http://registry.cdlib.org) is an interface for content owners to define harvest targets for digital collections and to apply standardized information about campuses, institutions, and collections. We envision that it may eventually also support digital collection development and staging functions.</p></div>
 
-##Selecting a harvest target
-We are aware that in several cases, collections reside on multiple platforms.
+##Avoiding redundant harvest
+We are aware that some collections reside on multiple platforms. Most commonly, many collections reside in both the OAC/Calisphere METS repository (from which we are harvesting into the UCLDC platform) as well either the UCLDC Shared DAMS or a locally-managed solution.
 
-We already have some digital collections in the legacy OAC/Calisphere METS repository, and those collections are also available in our campus' DAMS.  Will you harvest the metadata for those collections from both locations?  What if we want to feature the version of the collection in our campus DAMS?
-
-Collection Administrators can specify which collection should be privileged for harvesting.  We will then harvest the collection from the preferred source.
-
+It is up to campuses and institutions to determine which version of the collection you want to harvest into the platform. We can simply re-direct the harvest of a given collection to a different target (e.g. a campus DAMS). Once the appropriate target has been determined for a given collection, the Collection Administrator can contact us and indicate the new source and URL for harvesting. We will then work with the Administrator to harvest the collection from the preferred source.
 
 We already have some digital collections in the legacy OAC/Calisphere METS repository, and those collections are also available in the shared DAMS.  How can we specify which one to privilege, for harvesting?
 
