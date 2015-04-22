@@ -6,19 +6,23 @@ prev_section: registry/setup
 breadcrumbs: Calisphere Admin Guide
 ---
 
-##Key Role: Collection Administrator
-In order to simplify procedures and ensure coordination between local and systemwide processes, each data provider has a designated UCLDC Collection Administrator who will be primarily responsible for initiating and managing harvests, and communicating any key information to the CDL. Collection Administrators may be assigned at the campus or institution level, by each campus. Read more.
+##Role of Collection Administrator
+In order to simplify procedures and ensure coordination between local and systemwide processes, each data provider has designated a UCLDC Collection Administrator who will be primarily responsible for initiating and managing harvests and communicating any key information to the CDL. Collection Administrators are assigned by the campus and/or institution. Read more.
 
-##rough language below:
-- Collection Administrator contacts the CDL to determine which collection(s) should be harvested.  “Collections” may be defined in a few different ways. They may reside in the shared DAMS that is part of the UCLDC or they may be harvested from external sources (such as a campus' DAMS, a campus website, OAC/Calisphere, or other source) and brought into the UCLDC’s central index.
+Once you have identified a collection(s) to be harvested by the UCLDC platform, please contact your Collection Administrator.
 
-- The CDL works with the Collection Administrator to establish the collection in the Collection Registry.  This includes basic information about the collection that will be used within the UCLDC public interface (e.g., title, description), as well as key information such as the method for harvesting the metadata.
+##Process
+1. The Collection Administrator works with others on campus/at the institution to determine that a collection(s) is ready for harvest and public access through the UCLDC platform, according to any local processes developed for decision-making.
 
-My campus has collections in the Shared DAMS.  How will we be able to harvest that metadata into the Common Index, so the objects can be published in Calisphere BETA in August 2015?
+2. The Collection notifies the CDL about which collection(s) should be harvested, and out of which platform. (<i>Please note that this includes collections which are hosted in the UCLDC Shared DAMS.</i>) At this time, we request simply that the Collection Administrator [send us an email notification](mailto:ucldc@ucop.edu).
 
-We will be implementing a workflow whereby Campus Administrators will be able to specify and indicate which collections in the Shared DAMS are ready for publication, for subsequent harvesting.  The exact process will be developed and implemented prior to August 2015.
+3. The CDL works with the Collection Administrator to establish the collection in the [Collection Registry](http://registry.cdlib.org). This includes basic information about the collection that will be used within the UCLDC public interface (e.g., title, description), as well as key information such as the method for harvesting the metadata.
 
-##Potential call-out:
+<div class="note"><p>The Collection Registry is an interface for content owners to manage and apply standardized information about campuses, institutions, and digital collections, and to define and initiate metadata harvests for those collections. In the future, we plan for these functions to become increasingly self-serve and automated; for the time being, however, we can work with you to edit information in the registry.</p></div>
+
+##Selecting a harvest target
+We are aware that in several cases, collections reside on multiple platforms.
+
 We already have some digital collections in the legacy OAC/Calisphere METS repository, and those collections are also available in our campus' DAMS.  Will you harvest the metadata for those collections from both locations?  What if we want to feature the version of the collection in our campus DAMS?
 
 Collection Administrators can specify which collection should be privileged for harvesting.  We will then harvest the collection from the preferred source.
@@ -29,4 +33,4 @@ We already have some digital collections in the legacy OAC/Calisphere METS repos
 Similar to the previous question, Collection Administrators can specify which collection should be privileged for harvesting.  We will then harvest the collection from the preferred source.
 
 
-<div class="note"><p>I think since the Registry is really limited right now to viewing collections, it could simply be a call out at this point to let people know it's coming and we'll eventually move in this more self-serve direction</p></div>
+
