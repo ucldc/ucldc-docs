@@ -25,9 +25,5 @@ We are aware that some collections reside on multiple platforms. Most commonly, 
 
 It is up to campuses and institutions to determine which version of the collection you want to harvest into the platform. We can simply re-direct the harvest of a given collection to a different target (e.g. a campus DAMS). Once the appropriate target has been determined for a given collection, the Collection Administrator can contact us and indicate the new source and URL for harvesting. We will then work with the Administrator to harvest the collection from the preferred source.
 
-We already have some digital collections in the legacy OAC/Calisphere METS repository, and those collections are also available in the shared DAMS.  How can we specify which one to privilege, for harvesting?
-
-Similar to the previous question, Collection Administrators can specify which collection should be privileged for harvesting.  We will then harvest the collection from the preferred source.
-
 
 
