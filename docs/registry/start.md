@@ -18,7 +18,7 @@ Once you have identified a collection(s) to be harvested by the UCLDC platform, 
 
 3. The CDL works with the Collection Administrator to establish the collection in the [Collection Registry](http://registry.cdlib.org). This includes basic information about the collection that will be used within the UCLDC public interface (e.g., title, description), as well as key information such as the method for harvesting the metadata.
 
-<div class="note"><p>The [Collection Registry](http://registry.cdlib.org) is an interface for content owners to define harvest targets for digital collections and to apply standardized information about campuses, institutions, and collections. We envision that it may eventually also support digital collection development and staging functions.</p></div>
+<div class="note"><p>The <a href="http://registry.cdlib.org">Collection Registry</a> is an interface for content owners to define harvest targets for digital collections and to apply standardized information about campuses, institutions, and collections. We envision that it may eventually also support digital collection development and staging functions.</p></div>
 
 ##Avoiding redundant harvest
 We are aware that some collections reside on multiple platforms. Most commonly, many collections reside in both the OAC/Calisphere METS repository (from which we are harvesting into the UCLDC platform) as well either the UCLDC Shared DAMS or a locally-managed solution.
