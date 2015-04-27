@@ -1,6 +1,6 @@
 ---
 layout: registry-doc
-title: Getting stats and data
+title: Getting Stats and Data
 prev_section: registry/updates
 permalink: /docs/registry/stats/
 breadcrumbs: Calisphere Admin Guide
