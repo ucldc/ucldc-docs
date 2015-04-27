@@ -1,6 +1,6 @@
 ---
 layout: registry-doc
-title: Making updates
+title: Making Updates
 next_section: registry/stats
 prev_section: registry/q-a
 permalink: /docs/registry/updates/
