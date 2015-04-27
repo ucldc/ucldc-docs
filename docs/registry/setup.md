@@ -29,7 +29,7 @@ For more information, see [Harvest and Access Policies]({{ site.url }}{{ site.ba
 
 <div class="note"><p>Here we could have a call-out box about how the metadata is item-level but the harvest happens on a collection-by-collection basis</p></div>
 
-##Metadata harvest protocols and formats
+##Harvest protocols and formats
 We are using the term "harvest" loosely to apply to a range of approaches that we are using to bring metadata into the Common Index.  Examples include:
 
 - Using the OAI-PMH protocol to harvest metadata from CONTENTdm (e.g., UCSC)
