@@ -9,14 +9,14 @@ breadcrumbs: Calisphere Admin Guide
 (COMING SOON, in consultation with SAG3)
 
 ##Metadata requirements
-All data harvested into the common index must include minimum metadata as specified by the [Metadata Harvesting Scheme and Crosswalk]({{site.url}}{{site.baseurl}}/docs/registry/metadata-harvest/).
+All data harvested into the Common Index must include minimum metadata as specified by the [Metadata Harvesting Scheme and Crosswalk]({{site.url}}{{site.baseurl}}/docs/registry/metadata-harvest/).
 
 This ensures the interoperability and display of data on the DPLA site, the Calisphere site, and any sites developed using the UCLDC API. CDL will work with collection owners to create any necessary metadata mappings from local systems, as well as potentially enhance metadata by reconciling it with third-party sources.
 
 CDL and the UC Libraries may determine in the future to create more restrictive requirements, should they substantially improve the user experience across the aggregation (for example, by enabling new facets).
 
 ##Metadata rights and restrictions
-All data in the UCLDC Common Index complies with [DPLA’s Policy Statement on Metadata](http://dp.la/info/wp-content/uploads/2013/04/DPLAMetadataPolicy.pdf). 
+All data in the Common Index complies with [DPLA’s Policy Statement on Metadata](http://dp.la/info/wp-content/uploads/2013/04/DPLAMetadataPolicy.pdf). 
 
 In brief, for all data in the Common Index:
 
