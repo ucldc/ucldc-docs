@@ -10,10 +10,10 @@ breadcrumbs: Calisphere Admin Guide
 ##Data sources
 We can harvest metadata from a range of sources. Currently, there are four general types of sources from which we are harvesting into the Common Index:
 
-- UC campus DAMS/repository systems
-- Other institution-managed platforms and websites with digital content
+- UC campus libraries' DAMS/repository systems
+- UC campus libraries' content published on other platforms and websites
 - The [UCLDC Shared DAMS]({{ site.url }}{{ site.baseurl }}/docs/dams/index/)
-- The Online Archive of California METS repository
+- The OAC/Calisphere METS repository
 
 We will work with content owners to define metadata mappings and the harvesting approach for each specific source/collection target, as described below and elsewhere in this guide.
 
