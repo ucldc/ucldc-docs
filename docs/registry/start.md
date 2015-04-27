@@ -12,7 +12,7 @@ In order to simplify procedures and ensure coordination between local and system
 Once you have identified a collection(s) to be harvested by the UCLDC platform, please contact your [Collection Administrator.]({{ site.url }}{{ site.baseurl }}/docs/collection-admins/)
 
 ##Process
-1. The Collection Administrator works with others on campus/at the institution to determine that a collection(s) is ready for harvest and public access through the UCLDC platform, according to any local processes developed for decision-making.
+1. The Collection Administrator works with others on campus/at the institution to determine that a collection(s) of digital objects is ready for harvest and public access through the UCLDC platform, according to any local processes developed for decision-making.
 
 2. The Collection Administrator notifies the CDL about which collection(s) should be harvested, and out of which platform. (<i>Please note that this includes collections which are hosted in the UCLDC Shared DAMS.</i>) At this time, we request simply that the Collection Administrator [send us an email notification](mailto:ucldc@ucop.edu).
 
