@@ -7,7 +7,7 @@ breadcrumbs: Calisphere Admin Guide
 ---
 
 ##Role of Collection Administrator
-In order to simplify procedures and ensure coordination between local and systemwide processes, each data provider has designated a UCLDC Collection Administrator who will be primarily responsible for initiating and managing harvests and communicating any key information to the CDL. Collection Administrators are assigned by the campus and/or institution.
+In order to simplify procedures and ensure coordination between local and systemwide processes, each data provider has designated a [UCLDC Collection Administrator.]({{ site.url }}{{ site.baseurl }}/docs/collection-admins/) who will be primarily responsible for initiating and managing harvests and communicating any key information to the CDL. Collection Administrators are assigned by the campus and/or institution.
 
 Once you have identified a collection(s) to be harvested by the UCLDC platform, please contact your [Collection Administrator.]({{ site.url }}{{ site.baseurl }}/docs/collection-admins/)
 
