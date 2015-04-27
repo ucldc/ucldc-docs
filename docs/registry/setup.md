@@ -1,6 +1,6 @@
 ---
 layout: registry-doc
-title: Setting up a target
+title: Setting up a Harvest Target
 next_section: registry/start
 prev_section: registry/index
 permalink: /docs/registry/setup/
