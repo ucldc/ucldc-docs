@@ -12,7 +12,7 @@ The UCLDC platform is based on a harvesting system, which is used to import item
 ##Then what?
 We are then exposing the data stored in the Common Index to three public access points:
 
-- The Calisphere BETA website (coming August 2015).
+- The [Calisphere BETA website](https://wiki.library.ucsf.edu/display/UCLDC/Calisphere+Design+Showroom) (coming August 2015).
 - The [Digital Public Library of America](http://dp.la/) website and platform.
 - The [Common Index API]({{site.url}}{{site.baseurl}}/docs/technical-docs/solr-api/), which can be used to query and display the data in custom interfaces.
 
