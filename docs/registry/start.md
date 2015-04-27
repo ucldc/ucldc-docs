@@ -1,6 +1,6 @@
 ---
 layout: registry-doc
-title: Initiating a harvest
+title: Initiating a Harvest
 next_section: registry/q-a
 prev_section: registry/setup
 breadcrumbs: Calisphere Admin Guide
