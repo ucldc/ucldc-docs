@@ -8,7 +8,7 @@ breadcrumbs: Calisphere Admin Guide
 ---
 
 ##Data sources
-We can harvest metadata from a range of sources. Currently, there are four general types of sources from which we are harvesting:
+We can harvest metadata from a range of sources. Currently, there are four general types of sources from which we are harvesting into the Common Index:
 
 - UC campus DAMS/repository systems
 - Other institution-managed platforms and websites with digital content
@@ -29,13 +29,13 @@ We are using the term "harvest" loosely to apply to a range of approaches that w
 We have been working with each content owner to determine their preferred method, and anticipate collaborating on utilizing other standardized methods to harvest metadata in the near future (e.g., using the ResourceSync protocol). 
 
 ##Content types
-We are currently able to harvest metadata for digital objects that meet the following criteria:
+We are currently able to harvest metadata for digital objects that generally meet the following criteria:
 
 - The object must be hosted in a system that provides a display of the metadata and associated digital file(s).
 - The object must be openly available for public viewing, downloading, and/or streaming (depending on the format), within its native context (i.e., from the harvest source). 
 - The object must have associated digital file(s). "Metadata only" records are not currently supported by the UCLDC platform.
 
-For more information, see [Harvest and Access Policies]({{ site.url }}{{ site.baseurl }}/docs/registry/access-policies/).
+There are no restrictions on file formats or metadata types.  For more information, see [Harvest and Access Policies]({{ site.url }}{{ site.baseurl }}/docs/registry/access-policies/).
 
 <div class="note"><p>Here we could have a call-out box about how the metadata is item-level but the harvest happens on a collection-by-collection basis</p></div>
 
