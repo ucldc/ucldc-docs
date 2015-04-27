@@ -35,8 +35,6 @@ We are currently able to harvest metadata for digital objects that generally mee
 - The object must be openly available for public viewing, downloading, and/or streaming (depending on the format), within its native context (i.e., from the harvest source). 
 - The object must have associated digital file(s). "Metadata only" records are not currently supported by the UCLDC platform.
 
-Digital objects 
-
 There are no restrictions on file formats or metadata types.  
 
 For more information, see [Harvest and Access Policies]({{ site.url }}{{ site.baseurl }}/docs/registry/access-policies/).
