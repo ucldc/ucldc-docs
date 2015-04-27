@@ -22,8 +22,9 @@ Please [contact us](mailto: ucldc@ucop.edu) if you have a new data source from w
 ##Content types
 We are currently able to harvest metadata for digital objects that meet the following criteria:
 
+- The object must be hosted in a system that provides a display of the metadata and associated digital file(s)
 - The object must be openly available for public viewing, downloading, and/or streaming (depending on the format), within its native context (i.e., from the harvest source). 
-- The object must include digital file(s) that users can view and access. "Metadata only" records are not currently supported by the UCLDC platform.
+- The object must have associated digital file(s). "Metadata only" records are not currently supported by the UCLDC platform.
 
 For more information, see [Harvest and Access Policies]({{ site.url }}{{ site.baseurl }}/docs/registry/access-policies/).
 
