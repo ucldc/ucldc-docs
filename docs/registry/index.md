@@ -17,9 +17,7 @@ We are then exposing the data stored in the Common Index to three public access 
 - The [Common Index API]({{site.url}}{{site.baseurl}}/docs/technical-docs/solr-api/), which can be used to query and display the data in custom interfaces.
 
 ##A note on timing
-The UCLDC platform is currently under development. The project team is working with the UC campus libraries to conduct initial harvests; the first exposure of this data to the public access points is expected to occur in August/September 2015.
-
-At this time, therefore, this user guide describes the broad strokes of a process for the ongoing harvest and exposure of digital collections metadata. We expect that the specifics of the process will change as the service evolves, and have tried to note both current and envisioned mechanisms.  
+The UCLDC platform is currently under development. The project team is working with the UC campus libraries to conduct initial harvests; the first exposure of this data to the public access points is expected to occur in late August. At this time, therefore, this user guide describes the broad strokes of a process for the ongoing harvest and exposure of digital collections metadata. We will be adding more to this guide over the coming weeks, as we continue development and formalize processes. (April 2015)
 
 <!--Here is old Registry info:
 
