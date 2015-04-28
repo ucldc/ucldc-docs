@@ -13,6 +13,7 @@ Once you have identified a collection(s) to be harvested by the UCLDC platform, 
 
 ##Process
 The process for initiating a harvest is as follows:
+
 1. The Collection Administrator works with others on campus/at the institution to determine that a collection(s) of digital objects is ready for harvest and public access through the UCLDC platform, according to any local processes developed for decision-making.
 
 2. The Collection Administrator notifies the CDL about which collection(s) should be harvested, and out of which platform. (Please note that this includes collections which are hosted in the UCLDC Shared DAMS.) At this time, we request simply that the Collection Administrator [send us an email notification](mailto:ucldc@ucop.edu).
