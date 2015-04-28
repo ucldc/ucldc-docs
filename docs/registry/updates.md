@@ -1,7 +1,7 @@
 ---
 layout: registry-doc
 title: Making Updates
-next_section: registry/stats
+next_section: registry/access
 prev_section: registry/q-a
 permalink: /docs/registry/updates/
 breadcrumbs: Calisphere Admin Guide
