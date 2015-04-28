@@ -33,11 +33,11 @@ In general, our objective is to obtain from your system whatever output is easie
 ##Digital object types
 We are currently able to harvest metadata for digital objects that generally meet the following criteria:
 
-- The object must be hosted in a system that provides a display of the metadata and associated digital file(s).
-- The object must be openly available for public viewing, downloading, and/or streaming (depending on the format), within its native context (i.e., from the harvest source). 
 - The object must have associated digital file(s). "Metadata only" records are not currently supported by the UCLDC platform.
+- The object must be hosted in a system that provides for the display of metadata and allows for viewing, downloading, and/or streaming (depending on the format) of digital files.
+- The files and metadata must be openly and publicly available. Currently, objects with restricted access are not supported by the UCLDC platform (but this is a future goal).
 
-<div class="note"><p>By “digital object”, we mean a content file(s) and affiliated metadata record(s) that represents an individual resource (e.g., a digitized or born-digital item).  Digital objects may be part of a broader collection.</p></div>
+<div class="note"><p>A “digital object” is a content file(s) and affiliated metadata record(s) that represent an individual resource (e.g., a digitized or born-digital item).  Digital objects may be part of a broader collection.</p></div>
 
 ##Metadata formats
 There are no restrictions on metadata formats that can be harvested.  However, the metadata must be mappable to a set of standardized data elements, which have been based on the DPLA Metadata Application Profile. A small number of data elements must also be present in each record that is harvested, to suppor use and discovery of the objects. These mappings and requirements are defined in the [Metadata Harvesting Scheme and Crosswalk]({{ site.url }}{{ site.baseurl }}/docs/registry/metadata-harvest/). For more information, see [Harvest and Access Policies]({{ site.url }}{{ site.baseurl }}/docs/registry/access-policies/).
