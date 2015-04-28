@@ -6,7 +6,7 @@ breadcrumbs: Common Index API
 ---
 The following terms and conditions apply to use of the UCLDC Common Index API:
 
-- **Authentication:** Users of the UCLDC API must be authenticated. The process for obtaining an API key is documented at [forthcoming].
+- **Authentication:** Users of the UCLDC API must be authenticated. To obtain an API key, see the [Common Index API]({{site.url}}{{site.baseurl}}/docs/technical-docs/solr-api/) documentation.
 
 - **Terms of use:** Users of the UCLDC API must adhere to the terms of use as stated at [http://www.calisphere.universityofcalifornia.edu/copyright-cs.html](http://www.calisphere.universityofcalifornia.edu/copyright-cs.html). Although the metadata made available through the API has been made available under a CC0 public domain dedication, the content described in the metadata is not. Content may be subject to copyright, rights of privacy, rights of publicity and other restrictions. It is the user’s responsibility to respect these rights and all other applicable laws.
 
