@@ -28,7 +28,7 @@ We are using the term "harvest" loosely to apply to a range of approaches that w
 
 We have been working with each content owner to determine their preferred method, and anticipate collaborating on utilizing other standardized methods to harvest metadata in the near future (e.g., using the ResourceSync protocol). 
 
-##Digital Object Types
+##Digital object types
 We are currently able to harvest metadata for digital objects that generally meet the following criteria:
 
 - The object must be hosted in a system that provides a display of the metadata and associated digital file(s).
@@ -37,7 +37,7 @@ We are currently able to harvest metadata for digital objects that generally mee
 
 <div class="note"><p>By “digital object”, we mean a content file(s) and affiliated metadata record(s) that represents an individual resource (e.g., a digitized or born-digital item).  Digital objects may be part of a broader collection.</p></div>
 
-##Metadata Formats
+##Metadata formats
 There are no restrictions on metadata formats that can be harvested.  However, the metadata must be mappable to a set of standardized data elements, which have been based on the DPLA Metadata Application Profile. A small number of data elements must also be present in each record that is harvested, to suppor use and discovery of the objects. These mappings and requirements are defined in the [Metadata Harvesting Scheme and Crosswalk]({{ site.url }}{{ site.baseurl }}/docs/registry/metadata-harvest/). 
 
 For more information, see [Harvest and Access Policies]({{ site.url }}{{ site.baseurl }}/docs/registry/access-policies/).
