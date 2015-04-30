@@ -38,11 +38,11 @@ UCLDC Collection Administrators perform administrative functions in the DAMS and
   </tr>
   <tr>
     <td>UCLA Library</td>
-    <td>TBD</td>
+    <td><a href="http://digital2.library.ucla.edu/contact.html">Kristian Allen</a></td>
   </tr>
   <tr>
     <td>UC Riverside Library</td>
-    <td>TBD</td>
+    <td><a href="http://www.ucr.edu/find_people.php?term=milenkiewicz&sa=Go&type=all">Eric Milenkiewicz</a></td>
   </tr>
   <tr>
     <td>UC San Diego Library</td>
