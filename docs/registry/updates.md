@@ -13,4 +13,4 @@ Updates to any data in a given collection--even for a single object--are handled
 <div class="note"><p>"How often do you harvest?" Currently, harvest is on-request. That is, we will harvest (or re-harvest) a given collection only when expressly notified by a Collection Administrator. However, eventually--and if there is interest--we could potentially set up a scheduled, periodic harvest of collections.</p></div>
 
 ##Takedown requests
-In cases where an institution needs to immediately remove metadata for a given object--for example, to comply with a copyright-related takedown request--Collection Administrators should contact us. We will remove the metadata from the Common Index (and subsequently, removed it from Calisphere) in a timely manner. We will also work with DPLA to do the same.
+In cases where an institution needs to immediately remove metadata for a given object--for example, to comply with a copyright-related takedown request--Collection Administrators should contact us. We will remove the metadata from the Common Index (and subsequently, remove it from Calisphere) in a timely manner. We will also work with DPLA to do the same.
