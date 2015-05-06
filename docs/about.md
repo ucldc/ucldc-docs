@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: doc
 title: About UCLDC
 permalink: /docs/about/
 ---
