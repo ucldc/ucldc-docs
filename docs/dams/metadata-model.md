@@ -316,7 +316,7 @@ The following data elements must be present in each metadata record for harvest 
 
 <div class="example">
   <u>Example:</u>
-  <br/>Additional information about the copyright status of the resource
+  <br/>Rights transferred to UC Regents by Dane Jo in 1980.
 </div>
 
 
@@ -340,7 +340,7 @@ The following data elements must be present in each metadata record for harvest 
   <br/>Series 1: Personal and Business Correspondence
 </div>
 
-<a class="label" id="Source">Source</a> - Referece to a resource from which the present resource is derived.
+<a class="label" id="Source">Source</a> - Reference to a resource from which the present resource is derived.
 
 <div class="example">
   <u>Example:</u>
