@@ -1,6 +1,6 @@
 ---
 layout: registry-doc
-title: Harvest and Access: Introduction
+title: "Harvest and Access: Introduction"
 next_section: registry/setup
 permalink: /docs/registry/index/
 breadcrumbs: Calisphere Admin Guide
