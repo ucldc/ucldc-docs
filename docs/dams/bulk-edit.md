@@ -39,7 +39,7 @@ Object are deselected as soon as you navigate to a different project folder, or 
   <li>Modify the title in the Bulk Edit form. Input 'Golden Bear' in the title field and 'Bear Objects' in the alternative title field.</li>
 </ol>
 
-<div class="note">You'll notice a checkbox next to each field that is automatically checked when the corresponding field is modified. Any field with a checked checkbox next to it will be modified for all the selected objects. Check a field's checkbox without entering anything into the field to delete that field's contents for multiple objects.</div>
+<div class="note">You'll notice a checkbox next to each field that is automatically checked when the corresponding field is modified. Any field with a checked checkbox next to it will be modified for all the selected objects. Check a field's checkbox without entering anything into the field to delete that field's contents for multiple objects.<br><br>It is important to note that the process does not add information to pre-existing metadata within a given field.  It instead replaces the existing field (as well as any repeated instances of the field, or subfields) with the new metadata provided.</div>
 
 <ol start="6">
   <li>Press the save button. You should see the content listing update to display the title 'Bear Objects' for all the objects you just bulk edited.</li>
