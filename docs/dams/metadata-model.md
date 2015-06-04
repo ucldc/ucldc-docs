@@ -444,8 +444,6 @@ The following data elements must be present in each metadata record for harvest 
             </td>
             <td class="confluenceTd">
                   American Philosophical Society 
-				  <br/>
- 				  Frasher Foto (Firm) 
             </td>
             <td class="confluenceTd">
                 <br/>
@@ -493,13 +491,10 @@ The following data elements must be present in each metadata record for harvest 
             <td class="confluenceTd">
                   <u>Personal name entry</u>
   <br/>Yamada, Mitsuye 
-  <br/>Chase, Alexander W. (Alexander Wells), 1843-1888 
-  <br/>White, Ira Johnson
   <br/>
   <br/>
   <u>Corporate name entry</u>
-  <br/>American Philosophical Society 
-  <br/>Frasher Foto (Firm) 
+  <br/>Frasher Foto
   <br/>
    <br/>
   <u>Families</u>
@@ -650,18 +645,15 @@ The following data elements must be present in each metadata record for harvest 
             </td>
             <td class="confluenceTd">
                   <u>Personal name entry</u>
-  <br/>Yamada, Mitsuye 
   <br/>Chase, Alexander W. (Alexander Wells), 1843-1888 
-  <br/>White, Ira Johnson
   <br/>
   <br/>
   <u>Corporate name entry</u>
-  <br/>American Philosophical Society 
-  <br/>Frasher Foto (Firm) 
+  <br/>Prescott Foundation
   <br/>
    <br/>
   <u>Families</u>
-  <br/>Robinson family
+  <br/>Thompson family
             </td>
             <td class="confluenceTd">
                 <br/>
@@ -860,7 +852,7 @@ The following data elements must be present in each metadata record for harvest 
                 Descriptive statements that characterize more fully the scope or content of the resource.
             </td>
             <td class="confluenceTd">
-                Depicts unknown automobile driver stopping at roadside to add water to engine on all-day drive from Chico to Sacramento. Exact location unknown. Verso stamped with 596; manuscript note indicates car owned by “N.E.R.”<br/>
+                Depicts unknown automobile driver stopping at roadside to add water to engine on all-day drive from Chico to Sacramento”<br/>
             </td>
             <td class="confluenceTd">
                 <br/>
@@ -1055,7 +1047,7 @@ The following data elements must be present in each metadata record for harvest 
                 A transcription of textual information, for resources that are text-based or document formats
             </td>
             <td class="confluenceTd">
-                Martinez California December 31, 1893. My dear Sister Mary, I wish you a happy New Year, You and all yours. Heaven bless you all. Ever affectionately Your brother John Muir.<br/>
+                Martinez California December 31, 1893. My dear Sister Mary, I wish you a happy New Year, You and all yours. Heaven bless you all. Ever affectionately Your brother John Muir
             </td>
             <td class="confluenceTd">
                 <br/>
@@ -1216,7 +1208,7 @@ The following data elements must be present in each metadata record for harvest 
                 Names of persons, families, or organizations holding copyright to the resource
             </td>
             <td class="confluenceTd">
-                <br/>
+                Boe, Janet<br/>
             </td>
             <td class="confluenceTd">
                 <br/>
@@ -1505,7 +1497,7 @@ The following data elements must be present in each metadata record for harvest 
                 No
             </td>
             <td class="confluenceTd">
-                URL reference to associated collections. The contents of the Collection field are <em>crucial</em> to how an object will appear in Calisphere. You will be able to define collections in the Collection Registry, which will assign each collection a unique URL. Populating an object's Collection field with this URL is how an object will be linked to a collection and displayed appropriately in Calisphere. In subsequent releases, this field will be integrated with the Collection Registry. For now, if you are adding new objects to the DAMS, please consult with <a href="mailto:ucldc@ucop.edu" class="notelink">ucldc@ucop.edu</a> and we can work with you to populate this field.
+                URL reference to associated collections. The contents of the Collection field are <em>crucial</em> to how an object will appear in Calisphere. You will be able to define collections in the Collection Registry, which will assign each collection a unique URL. Populating an object's Collection field with this URL is how an object will be linked to a collection and displayed appropriately in Calisphere. In subsequent releases, this field will be integrated with the Collection Registry. For now, if you are adding new objects to the DAMS, please consult with us and we can work with you to populate this field.
             </td>
             <td class="confluenceTd">
                 https://registry.cdlib.org/api/v1/collection/10/<br/>
@@ -1632,18 +1624,15 @@ The following data elements must be present in each metadata record for harvest 
             </td>
             <td class="confluenceTd">
                                   <u>Personal name entry</u>
-  <br/>Yamada, Mitsuye 
-  <br/>Chase, Alexander W. (Alexander Wells), 1843-1888 
   <br/>White, Ira Johnson
   <br/>
   <br/>
   <u>Corporate name entry</u>
-  <br/>American Philosophical Society 
-  <br/>Frasher Foto (Firm) 
+  <br/>Glacier Ice, Inc.
   <br/>
    <br/>
   <u>Families</u>
-  <br/>Robinson family
+  <br/>Swiss family
             </td>
             <td class="confluenceTd">
                 <br/>
