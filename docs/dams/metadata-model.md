@@ -1106,6 +1106,298 @@ The following data elements must be present in each metadata record for harvest 
 
 ### Content and Characteristics
 
+<table class="confluenceTable">
+    <tbody>
+        <tr>
+            <th class="confluenceTh">
+                Field Label
+            </th>
+            <th class="confluenceTh">
+                Subfield Label
+            </th>
+            <th class="confluenceTh">
+                Required (Calisphere)?
+            </th>
+            <th class="confluenceTh">
+		Summary
+            </th>
+            <th class="confluenceTh">
+		Examples
+            </th>
+            <th class="confluenceTh">
+                Vocabularies
+            </th>
+            <th class="confluenceTh">
+                Repeatable?
+            </th>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="FormatPhysicalDescription">Format/Physical Description</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                A description of the physical or digital manifestation of the resource. Typically, this may include an indicator of the size and duration.
+            </td>
+            <td class="confluenceTd">
+                1 photographic print
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="Description">Description</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Description
+            </td>
+            <td class="confluenceTd">
+                (Note)
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Descriptive statements that characterize more fully the scope or content of the resource.
+            </td>
+            <td class="confluenceTd">
+                Depicts unknown automobile driver stopping at roadside to add water to engine on all-day drive from Chico to Sacramento. Exact location unknown. Verso stamped with 596; manuscript note indicates car owned by “N.E.R.”<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr height="360">
+            <td height="360">
+                <a class="label" id="DescriptionType">Description Type</a>
+            </td>
+            <td class="confluenceTd">
+                Type
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Indicate the description type
+            </td>
+            <td class="confluenceTd">
+                Scope/Content<br/>
+            </td>
+            <td class="confluenceTd">
+                Scope/Content
+                <br/>
+                Acquisition
+                <br/>
+                Bibliography
+                <br/>
+                Biography/History
+                <br/>
+                Citation/Reference
+                <br/>
+                Conservation History
+                <br/>
+                Creation/Production Credits
+                <br/>
+                Date Note
+                <br/>
+                Exhibitions
+                <br/>
+                Funding
+                <br/>
+                Annotations/Markings
+                <br/>
+                Language
+                <br/>
+                Performers
+                <br/>
+                Preferred Citation
+                <br/>
+                Venue
+                <br/>
+                Condition
+                <br/>
+                Medium
+                <br/>
+                Technique
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="Extent">Extent</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                A more specific statement of the size or duration of the resource (if not specified in Format/Physical Description)
+            </td>
+            <td class="confluenceTd">
+                9 x 14 cm.
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="Language">Language</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Language
+            </td>
+            <td class="confluenceTd">
+                Language
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Languages significantly represented in or by the resource
+            </td>
+            <td class="confluenceTd">
+                English<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Language
+            </td>
+            <td class="confluenceTd">
+                Language Code
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                ISO-632b language code
+            </td>
+            <td class="confluenceTd">
+                eng<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="TemporalCoverage">Temporal Coverage</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Temporal characteristics of the resource
+            </td>
+            <td class="confluenceTd">
+                Surveyed 4/1/1931
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="Transcription">Transcription</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                A transcription of textual information, for resources that are text-based or document formats
+            </td>
+            <td class="confluenceTd">
+                Martinez California December 31, 1893. My dear Sister Mary, I wish you a happy New Year, You and all yours. Heaven bless you all. Ever affectionately Your brother John Muir.<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 ### Conditions of Access and Use
 
 ### Content and Characteristics
