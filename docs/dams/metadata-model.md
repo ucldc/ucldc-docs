@@ -1901,6 +1901,591 @@ The following data elements must be present in each metadata record for harvest 
 
 ### Access Points
 
+<table class="confluenceTable">
+    <tbody>
+        <tr>
+            <th class="confluenceTh">
+                Field Label
+            </th>
+            <th class="confluenceTh">
+                Subfield Label
+            </th>
+            <th class="confluenceTh">
+                Required (Calisphere)?
+            </th>
+            <th class="confluenceTh">
+		Summary
+            </th>
+            <th class="confluenceTh">
+		Examples
+            </th>
+            <th class="confluenceTh">
+                Vocabularies
+            </th>
+            <th class="confluenceTh">
+                Repeatable?
+            </th>
+        </tr>
+
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="SubjectName">Subject (Name)</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Subject (Name)
+            </td>
+            <td class="confluenceTd">
+                Name
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Personal, corporate, or family names significantly represented in or by the resource.
+            </td>
+            <td class="confluenceTd">
+                                  <u>Personal name entry</u>
+  <br/>Yamada, Mitsuye 
+  <br/>Chase, Alexander W. (Alexander Wells), 1843-1888 
+  <br/>White, Ira Johnson
+  <br/>
+  <br/>
+  <u>Corporate name entry</u>
+  <br/>American Philosophical Society 
+  <br/>Frasher Foto (Firm) 
+  <br/>
+   <br/>
+  <u>Families</u>
+  <br/>Robinson family
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Subject (Name)
+            </td>
+            <td class="confluenceTd">
+                Name Type
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify the identity type
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Corporate name
+                <br/>
+                Family name
+                <br/>
+                Personal name
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Subject (Name)
+            </td>
+            <td class="confluenceTd">
+                Role
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify the role of the identity
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Subject (Name)
+            </td>
+            <td class="confluenceTd">
+                Source
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify if the name heading was taken from one of these authority files
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                LCNAF
+                <br/>
+                Local
+                <br/>
+                ULAN
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Subject (Name)
+            </td>
+            <td class="confluenceTd">
+                Authority ID
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                If the name heading was taken from an authority file, specify the identifier
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="Place">Place</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Place
+            </td>
+            <td class="confluenceTd">
+                Name
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Names of geographic locations significantly represented in or by the resource.
+            </td>
+            <td class="confluenceTd">
+                San Mateo (county); California; United States<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Place
+            </td>
+            <td class="confluenceTd">
+                Coordinates
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Geographic coordinates
+            </td>
+            <td class="confluenceTd">
+                (-121Â° 35' 30"", 36Â° 47' 30"") (-122Â° 25' 00"", 37Â° 37' 00"")<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr height="100">
+            <td height="100">
+                Place
+            </td>
+            <td class="confluenceTd">
+                Source
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify if the name heading was taken from one of these authority files
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                LCSH
+                <br/>
+                TGN
+                <br/>
+                Geonames
+                <br/>
+                Local
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Place
+            </td>
+            <td class="confluenceTd">
+                Authority ID
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                If the name heading was taken from an authority file, specify the identifier
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="SubjectTopicFunctionOccupation)">Subject (Topic, Function, Occupation)</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Subject
+            </td>
+            <td class="confluenceTd">
+                Heading
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Topics or subjects (including concepts, events, etc.), functions, or occupations significantly represented in or by the resource.
+            </td>
+            <td class="confluenceTd">
+                  <br/>Viticulture
+  <br/>Surveyors
+  <br/>Street railroads
+  <br/>Agricultural laborers--Italian Americans
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr height="80">
+            <td height="80">
+                Subject
+            </td>
+            <td class="confluenceTd">
+                Heading Type
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify the type of subject heading
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Topic
+                <br/>
+                Function
+                <br/>
+                Occupation
+                <br/>
+                Title
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr height="80">
+            <td height="80">
+                Subject
+            </td>
+            <td class="confluenceTd">
+                Source
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify if the name heading was taken from one of these authority files
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                LCSH
+                <br/>
+                AAT
+                <br/>
+                TGM
+                <br/>
+                Local
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Subject
+            </td>
+            <td class="confluenceTd">
+                Authority ID
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                If the name heading was taken from an authority file, specify the identifier
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="FormGenre">Form/Genre</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Form/Genre
+            </td>
+            <td class="confluenceTd">
+                Heading
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Forms or genres of materials significantly represented in or by the resource.
+            </td>
+            <td class="confluenceTd">
+  <br/>Photographs
+  <br/>Aerial photographs
+  <br/>Tintypes
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr height="80">
+            <td height="80">
+                Form/Genre
+            </td>
+            <td class="confluenceTd">
+                Source
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify if the name heading was taken from one of these authority files
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                LCSH
+                <br/>
+                AAT
+                <br/>
+                TGM
+                <br/>
+                Local
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Form/Genre
+            </td>
+            <td class="confluenceTd">
+                Authority ID
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                If the name heading was taken from an authority file, specify the identifier
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 ### Administrative Information
 
 <table class="confluenceTable">
