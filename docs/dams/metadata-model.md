@@ -18,7 +18,6 @@ The following data elements must be present in each metadata record for harvest 
 * <a class="label">Main Content File</a>
 * <a class="label">Title</a>
 * <a class="label">Type</a>
-* <a class="label">Campus/Unit</a>
 * <a class="label">Rights status</a>
 * <a class="label">Rights statement</a>
 
