@@ -410,3 +410,708 @@ The following data elements must be present in each metadata record for harvest 
   <u>Example:</u>
   <br/>Map Case 1, Drawer 3
 </div>
+
+
+### Basic Information
+
+<table class="confluenceTable">
+    <tbody>
+        <tr>
+            <th class="confluenceTh">
+                Field Label
+            </th>
+            <th class="confluenceTh">
+                Subfield Label
+            </th>
+            <th class="confluenceTh">
+                Required (Calisphere)?
+            </th>
+            <th class="confluenceTh">
+		Summary
+            </th>
+            <th class="confluenceTh">
+		Examples
+            </th>
+            <th class="confluenceTh">
+                Vocabularies
+            </th>
+            <th class="confluenceTh">
+                Repeatable?
+            </th>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="Title">Title</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                A formal or supplied title for the resource.
+            </td>
+            <td class="confluenceTd">
+                <u>Formal titles</u>
+                <br/>
+                The Rocky Mountains, emigrants crossing the plains [graphic] / F.F. Palmer, del.
+                <br/>
+                <br/>
+                <u>Supplied titles</u>
+                <br/>
+                Mitchell Bonner photograph of musicians performing at a cultural program
+                <br/>
+                [Photograph of musicians performing at a cultural program]
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="AlternativeTitle">Alternative Title</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Alternative or additional titles for the resource.
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="Identifier">Identifier</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                An ARK identifier for the resource
+            </td>
+            <td class="confluenceTd">
+                ark.cdlib.org/ark:/13030/kt987021sv/
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="LocalIdentifier">Local Identifier</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                A local item or call number for the resource.
+            </td>
+            <td class="confluenceTd">
+                MSS 0124.144
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="Type">Type</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                A high-level characterizes of the resource type.
+            </td>
+            <td class="confluenceTd">
+                Image
+            </td>
+            <td class="confluenceTd">
+                Audio
+                <br/>
+                Dataset
+                <br/>
+                Image
+                <br/>
+                Software
+                <br/>
+                Text
+                <br/>
+                Video
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="CampusUnit">Campus/Unit</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                URL reference to the Campus/Unit that is responsible for maintaining and curating the resource. The contents of the Campus/Unit field are <em>crucial</em> to how an object will appear in Calisphere. Both campuses and units will have a unique URL assigned to each via the Collection Registry. Populating an object's Campus/Unit field with this URL is how an object will be linked to a campus or unit and displayed appropriately in Calisphere. In subsequent releases, this field will be integrated with the Collection Registry. For now, if you are adding new objects to the DAMS, please consult with <a href="mailto:ucldc@ucop.edu" class="notelink">ucldc@ucop.edu</a> and we can work with you to populate this field.
+            </td>
+            <td class="confluenceTd">
+                <a href="https://registry.cdlib.org/api/v1/repository/4/">https://registry.cdlib.org/api/v1/repository/4/ </a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="Date">Date</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Date
+            </td>
+            <td class="confluenceTd">
+                Date
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                A single date or inclusive dates indicating when the resource was created.
+            </td>
+            <td class="confluenceTd">
+  <u>Example:</u>
+  <br/>Single dates 
+  <br/>1901 = 1901
+  <br/>1901 January 3 = 19010103 
+  <br/>
+  <br/>Date spans 
+  <br/>1900-1950 = 1900-1950
+  <br/>1956 January-July = 19560100-19560700
+  <br/>1980s = 1980-1989 [Note: use an interval to indicate every year of the decade]
+  <br/>19th century = 1801-1900 
+  <br/>
+  <br/>Broken date spans
+  <br/>1924, 1956-1975 = 1924, 1956-1975 [Note: separate by a comma]
+  <br/>
+  <br/>Open date spans 
+  <br/>1911- = 1911-
+  <br/>-1911 = -1911
+  <br/>
+  <br/>Approximate dates
+  <br/>circa 1950 = 1950~ 
+  <br/>undated: circa mid 20th century = 1935~-1965~ [Note: if a resource is undated this can be stated but provide an estimate if possible; normalize as an interval, perhaps using the dates of the life of creator, etc.]
+			
+			
+			
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Date
+            </td>
+            <td class="confluenceTd">
+                Date Type
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Use to qualify date, for unpublished (created) vs. published (issued) materials
+            </td>
+            <td class="confluenceTd">
+                Created
+				<br/>
+            </td>
+            <td class="confluenceTd">
+                Created
+                <br/>
+                Issued
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Date
+            </td>
+            <td class="confluenceTd">
+                Single
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                ISO-8601 normalized single date
+            </td>
+            <td class="confluenceTd">
+                1979-05-14<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Date
+            </td>
+            <td class="confluenceTd">
+                Inclusive Start
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                ISO-8601 normalized start date (for date ranges)
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Date
+            </td>
+            <td class="confluenceTd">
+                Inclusive End
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                ISO-8601 normalized end date (for date ranges)
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="PublicationInformation">Publication Information</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Publication statements and/or names of persons, families, or organizations responsible for publishing the resource.
+            </td>
+            <td class="confluenceTd">
+                  American Philosophical Society 
+				  <br/>
+ 				  Frasher Foto (Firm) 
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="Creator">Creator</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Creator
+            </td>
+            <td class="confluenceTd">
+                Name
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Names of persons, families, or organizations primarily responsible for creating the resource.
+            </td>
+            <td class="confluenceTd">
+                  <u>Personal name entry</u>
+  <br/>Yamada, Mitsuye 
+  <br/>Chase, Alexander W. (Alexander Wells), 1843-1888 
+  <br/>White, Ira Johnson
+  <br/>
+  <br/>
+  <u>Corporate name entry</u>
+  <br/>American Philosophical Society 
+  <br/>Frasher Foto (Firm) 
+  <br/>
+   <br/>
+  <u>Families</u>
+  <br/>Robinson family
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Creator
+            </td>
+            <td class="confluenceTd">
+                Name Type
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify the identity type
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Corporate name
+                <br/>
+                Family name
+                <br/>
+                Personal name
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Creator
+            </td>
+            <td class="confluenceTd">
+                Role
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify the role of the identity
+            </td>
+            <td class="confluenceTd">
+                Photographer<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Creator
+            </td>
+            <td class="confluenceTd">
+                Source
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify if the name heading was taken from one of these authority files
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                LCNAF
+                <br/>
+                Local
+                <br/>
+                ULAN
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Creator
+            </td>
+            <td class="confluenceTd">
+                Authority ID
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                If the name heading was taken from an authority file, specify the identifier
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="Contributor">Contributor</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Contributor
+            </td>
+            <td class="confluenceTd">
+                Name
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Names of persons, families, or organizations responsible for contributing to the resource in some significant manner.
+            </td>
+            <td class="confluenceTd">
+                  <u>Personal name entry</u>
+  <br/>Yamada, Mitsuye 
+  <br/>Chase, Alexander W. (Alexander Wells), 1843-1888 
+  <br/>White, Ira Johnson
+  <br/>
+  <br/>
+  <u>Corporate name entry</u>
+  <br/>American Philosophical Society 
+  <br/>Frasher Foto (Firm) 
+  <br/>
+   <br/>
+  <u>Families</u>
+  <br/>Robinson family
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Contributor
+            </td>
+            <td class="confluenceTd">
+                Name Type
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify the identity type
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Corporate name
+                <br/>
+                Family name
+                <br/>
+                Personal name
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Contributor
+            </td>
+            <td class="confluenceTd">
+                Role
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify the role of the identity
+            </td>
+            <td class="confluenceTd">
+                Editor<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Contributor
+            </td>
+            <td class="confluenceTd">
+                Source
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify if the name heading was taken from one of these authority files
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                LCNAF
+                <br/>
+                Local
+                <br/>
+                ULAN
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Contributor
+            </td>
+            <td class="confluenceTd">
+                Authority ID
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                If the name heading was taken from an authority file, specify the identifier
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+### Content and Characteristics
+
+### Conditions of Access and Use
+
+### Content and Characteristics
+
+### Related Materials
+
+### Access Points
+
+### Administrative Information
