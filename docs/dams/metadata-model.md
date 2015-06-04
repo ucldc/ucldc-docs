@@ -306,20 +306,20 @@ The following data elements must be present in each metadata record for harvest 
   <br/>Single dates 
   <br/>1901 = 1901
   <br/>1901 January 3 = 19010103 
-  <br/>
+  <br/><br/>
   <u>Date spans</u>
   <br/>1900-1950 = 1900-1950
   <br/>1956 January-July = 19560100-19560700
   <br/>1980s = 1980-1989 [Note: use an interval to indicate every year of the decade]
   <br/>19th century = 1801-1900 
-  <br/>
+  <br/><br/>
   <u>Broken date spans</u>
   <br/>1924, 1956-1975 = 1924, 1956-1975 [Note: separate by a comma]
-  <br/>
+  <br/><br/>
   <u>Open date spans</u>
   <br/>1911- = 1911-
   <br/>-1911 = -1911
-  <br/>
+  <br/><br/>
   <u>>Approximate dates</u>
   <br/>circa 1950 = 1950~ 
   <br/>undated: circa mid 20th century = 1935~-1965~ [Note: if a resource is undated this can be stated but provide an estimate if possible; normalize as an interval, perhaps using the dates of the life of creator, etc.]
