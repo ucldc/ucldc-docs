@@ -1902,3 +1902,79 @@ The following data elements must be present in each metadata record for harvest 
 ### Access Points
 
 ### Administrative Information
+
+<table class="confluenceTable">
+    <tbody>
+        <tr>
+            <th class="confluenceTh">
+                Field Label
+            </th>
+            <th class="confluenceTh">
+                Subfield Label
+            </th>
+            <th class="confluenceTh">
+                Required (Calisphere)?
+            </th>
+            <th class="confluenceTh">
+		Summary
+            </th>
+            <th class="confluenceTh">
+		Examples
+            </th>
+            <th class="confluenceTh">
+                Vocabularies
+            </th>
+            <th class="confluenceTh">
+                Repeatable?
+            </th>
+        </tr>
+
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="Provenance">Provenance</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Indicator of ownership and/or custody of the resource since its creation that are significant for its authenticity, integrity and
+                interpretation.
+            </td>
+            <td class="confluenceTd">
+                Donated by Harold Grimm, 2004<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="PhysicalLocation">Physical Location</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Reference to the location of the resource
+            </td>
+            <td class="confluenceTd">
+                Map Case 1, Drawer 3<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+    </tbody>
+</table>
