@@ -604,7 +604,7 @@ The following data elements must be present in each metadata record for harvest 
                 <br/>
             </td>
             <td class="confluenceTd">
-                No
+                <br/>
             </td>
             <td class="confluenceTd">
                 <br/>
