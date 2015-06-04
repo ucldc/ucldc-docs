@@ -13,7 +13,7 @@ breadcrumbs: DAMS Appendix
 ##Required Metadata
 ***
 
-The following data elements must be present in each metadata record for harvest into the UCLDC Common Index. These elements are also denoted using an asterisk in the metadata scheme summary:
+The following data elements must be present in each metadata record for harvest into the UCLDC Common Index:
 
 * <a class="label">Main Content File</a>
 * <a class="label">Title</a>
