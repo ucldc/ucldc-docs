@@ -252,7 +252,7 @@ breadcrumbs: DAMS Appendix
                 No
             </td>
             <td class="confluenceTd">
-                URL reference to the Campus/Unit that is responsible for maintaining and curating the resource. The contents of the Campus/Unit field are <em>crucial</em> to how an object will appear in Calisphere. Both campuses and units will have a unique URL assigned to each via the Collection Registry. Populating an object's Campus/Unit field with this URL is how an object will be linked to a campus or unit and displayed appropriately in Calisphere. In subsequent releases, this field will be integrated with the Collection Registry. For now, if you are adding new objects to the DAMS, please consult with us and we can work with you to populate this field.
+                URL reference to the Campus/Unit that is responsible for maintaining and curating the resource. This unique URL is assigned via the Collection Registry. In subsequent releases, this field will be integrated with the Collection Registry. For now, if you are adding new objects to the DAMS, please consult with us and we can work with you to populate this field.
             </td>
             <td class="confluenceTd">
                 <a href="https://registry.cdlib.org/api/v1/repository/4/">https://registry.cdlib.org/api/v1/repository/4/ </a>
@@ -1496,7 +1496,7 @@ breadcrumbs: DAMS Appendix
                 No
             </td>
             <td class="confluenceTd">
-                URL reference to associated collections. The contents of the Collection field are <em>crucial</em> to how an object will appear in Calisphere. You will be able to define collections in the Collection Registry, which will assign each collection a unique URL. Populating an object's Collection field with this URL is how an object will be linked to a collection and displayed appropriately in Calisphere. In subsequent releases, this field will be integrated with the Collection Registry. For now, if you are adding new objects to the DAMS, please consult with us and we can work with you to populate this field.
+                URL reference to associated collections. This unique URL is assigned via the Collection Registry. In subsequent releases, this field will be integrated with the Collection Registry. For now, if you are adding new objects to the DAMS, please consult with us and we can work with you to populate this field.
             </td>
             <td class="confluenceTd">
                 https://registry.cdlib.org/api/v1/collection/10/<br/>
