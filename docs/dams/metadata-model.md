@@ -1852,8 +1852,6 @@ The following data elements must be present in each metadata record for harvest 
      </tbody>
 </table>
 
-### Content and Characteristics
-
 
 ### Related Materials
 
