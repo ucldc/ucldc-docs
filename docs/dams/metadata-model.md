@@ -1400,6 +1400,403 @@ The following data elements must be present in each metadata record for harvest 
 
 ### Conditions of Access and Use
 
+<table class="confluenceTable">
+    <tbody>
+        <tr>
+            <th class="confluenceTh">
+                Field Label
+            </th>
+            <th class="confluenceTh">
+                Subfield Label
+            </th>
+            <th class="confluenceTh">
+                Required (Calisphere)?
+            </th>
+            <th class="confluenceTh">
+		Summary
+            </th>
+            <th class="confluenceTh">
+		Examples
+            </th>
+            <th class="confluenceTh">
+                Vocabularies
+            </th>
+            <th class="confluenceTh">
+                Repeatable?
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <a class="label" id="AccessRestrictions">Access Restrictions</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specifies level of access, for viewing resource in the UCLDC discovery/delivery system
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Public
+                <br/>
+                UC systemwide
+                <br/>
+                UC campus only
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="CopyrightStatus">Copyright Status</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                A coded designation for the copyright status of the resource, at the time the rights statement is recorded.
+            </td>
+            <td class="confluenceTd">
+                Copyrighted<br/>
+            </td>
+            <td class="confluenceTd">
+                Copyrighted
+                <br/>
+                Public domain
+                <br/>
+                Copyright unknown
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="CopyrightStatement">Copyright Statement</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Statement summarizing the copyright status of the resource
+            </td>
+            <td class="confluenceTd">
+                 <u>Example (status "unknown"):</u>
+  <br/>Some materials in these collections may be protected by the U.S. Copyright Law (Title 17, U.S.C.). In addition, the reproduction, and/or commercial use, of some materials may be restricted by gift or purchase agreements, donor restrictions, privacy and publicity rights, licensing agreement(s), and/or trademark rights. Distribution or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners. To the extent other restrictions apply, permission for distribution or reproduction from the applicable rights holder is also required. Responsibility for obtaining permissions, and for any use rests exclusively with the user.
+  <br/>
+  <br/> <u>Example (status "public domain"):</u>
+  <br/>Material in the public domain. No restrictions on use.
+  <br/>
+  <br/><u>Example (status "copyrighted"):</u>
+  <br/>Transmission or reproduction of materials protected by copyright beyond that allowed by fair use requires the written permission of the copyright owners. Works not in the public domain cannot be commercially exploited without permission of the copyright owner. Responsibility for any use rests exclusively with the user
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="CopyrightHolder">Copyright Holder</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Copyright Holder
+            </td>
+            <td class="confluenceTd">
+                Name
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Names of persons, families, or organizations holding copyright to the resource
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Copyright Holder
+            </td>
+            <td class="confluenceTd">
+                Name Type
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify the identity type
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                Corporate name
+                <br/>
+                Family name
+                <br/>
+                Personal name
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Copyright Holder
+            </td>
+            <td class="confluenceTd">
+                Source
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Specify if the name heading was taken from one of these authority files
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                LCNAF
+                <br/>
+                Local
+                <br/>
+                ULAN
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                Copyright Holder
+            </td>
+            <td class="confluenceTd">
+                Authority ID
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                If the name heading was taken from an authority file, specify the identifier
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="CopyrightContact">Copyright Contact</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Information on who to contact, to clear copyright permissions
+            </td>
+            <td class="confluenceTd">
+                Consult Special Collections and Archives<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="CopyrightNotice">Copyright Notice</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Transcription of any formal copyright notice on the work
+            </td>
+            <td class="confluenceTd">
+                Copyright 1975<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="CopyrightDeterminationDate">Copyright Determination Date</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                The date that the copyright status recorded in Copyright Status was determined.
+            </td>
+            <td class="confluenceTd">
+                4/12/12<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="CopyrightStartDate">Copyright Start Date</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                The start date for which the copyright applies or is applied to the resource
+            </td>
+            <td class="confluenceTd">
+                1/1/32<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="CopyrightEndDate">Copyright End Date</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                The end date for which the copyright applies or is applied to the resource
+            </td>
+            <td class="confluenceTd">
+                12/31/21<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="CopyrightJurisdiction">Copyright Jurisdiction</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                The country whose copyright laws apply.
+            </td>
+            <td class="confluenceTd">
+                us<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="CopyrightNote">Copyright Note</a>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Additional information about the copyright status of the resource
+            </td>
+            <td class="confluenceTd">
+                Rights transferred to UC Regents by Dane Jo in 1980<br/>
+            </td>
+            <td class="confluenceTd">
+                <br/>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+        </tr>
+     </tbody>
+</table>
+
 ### Content and Characteristics
 
 ### Related Materials
