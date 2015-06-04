@@ -852,7 +852,7 @@ The following data elements must be present in each metadata record for harvest 
                 Descriptive statements that characterize more fully the scope or content of the resource.
             </td>
             <td class="confluenceTd">
-                Depicts unknown automobile driver stopping at roadside to add water to engine on all-day drive from Chico to Sacramento”<br/>
+                Depicts unknown automobile driver stopping at roadside to add water to engine on all-day drive from Chico to Sacramento<br/>
             </td>
             <td class="confluenceTd">
                 <br/>
