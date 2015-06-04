@@ -253,7 +253,7 @@ The following data elements must be present in each metadata record for harvest 
                 No
             </td>
             <td class="confluenceTd">
-                URL reference to the Campus/Unit that is responsible for maintaining and curating the resource. The contents of the Campus/Unit field are <em>crucial</em> to how an object will appear in Calisphere. Both campuses and units will have a unique URL assigned to each via the Collection Registry. Populating an object's Campus/Unit field with this URL is how an object will be linked to a campus or unit and displayed appropriately in Calisphere. In subsequent releases, this field will be integrated with the Collection Registry. For now, if you are adding new objects to the DAMS, please consult with <a href="mailto:ucldc@ucop.edu" class="notelink">ucldc@ucop.edu</a> and we can work with you to populate this field.
+                URL reference to the Campus/Unit that is responsible for maintaining and curating the resource. The contents of the Campus/Unit field are <em>crucial</em> to how an object will appear in Calisphere. Both campuses and units will have a unique URL assigned to each via the Collection Registry. Populating an object's Campus/Unit field with this URL is how an object will be linked to a campus or unit and displayed appropriately in Calisphere. In subsequent releases, this field will be integrated with the Collection Registry. For now, if you are adding new objects to the DAMS, please consult with us and we can work with you to populate this field.
             </td>
             <td class="confluenceTd">
                 <a href="https://registry.cdlib.org/api/v1/repository/4/">https://registry.cdlib.org/api/v1/repository/4/ </a>
