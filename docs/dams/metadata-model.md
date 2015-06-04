@@ -2437,52 +2437,6 @@ The following data elements must be present in each metadata record for harvest 
                 No
             </td>
         </tr>
-        <tr>
-            <td class="confluenceTd">
-                <br/>
-            </td>
-            <td class="confluenceTd">
-                <br/>
-            </td>
-            <td class="confluenceTd">
-                <br/>
-            </td>
-            <td class="confluenceTd">
-                <br/>
-            </td>
-            <td class="confluenceTd">
-                <br/>
-            </td>
-            <td class="confluenceTd">
-                <br/>
-            </td>
-            <td class="confluenceTd">
-                <br/>
-            </td>
-        </tr>
-        <tr>
-            <td class="confluenceTd">
-                <br/>
-            </td>
-            <td class="confluenceTd">
-                <br/>
-            </td>
-            <td class="confluenceTd">
-                <br/>
-            </td>
-            <td class="confluenceTd">
-                <br/>
-            </td>
-            <td class="confluenceTd">
-                <br/>
-            </td>
-            <td class="confluenceTd">
-                <br/>
-            </td>
-            <td class="confluenceTd">
-                <br/>
-            </td>
-        </tr>
     </tbody>
 </table>
 
