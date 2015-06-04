@@ -320,7 +320,7 @@ The following data elements must be present in each metadata record for harvest 
   <br/>1911-
   <br/>-1911
   <br/><br/>
-  <u>>Approximate dates</u>
+  <u>Approximate dates</u>
   <br/>circa 1950 
   <br/>undated: circa mid 20th century [Note: if a resource is undated this can be stated but provide an estimate if possible; normalize as an interval, perhaps using the dates of the life of creator, etc.]
 			
