@@ -13,13 +13,13 @@ breadcrumbs: DAMS Appendix
 ##Required Metadata
 ***
 
-The following data elements must be present in each metadata record for harvest into the UCLDC Common Index:
+<p>The following table summarizes data elements that must be present in each metadata record for harvest into the Common Index. Note that default values for <b>Type</b>, <b>Rights Status</b>, and <b>Rights Statement</b> can optionally be supplied and applied to individual metadata records at the time they are harvested, using the Collection Registry:</p>
 
 * <a class="label">Main Content File</a>
 * <a class="label">Title</a>
 * <a class="label">Type</a>
-* <a class="label">Rights status</a>
-* <a class="label">Rights statement</a>
+* <a class="label">Rights Status</a>
+* <a class="label">Rights Statement</a>
 
 
 ##The Metadata Scheme
