@@ -412,6 +412,110 @@ The following data elements must be present in each metadata record for harvest 
 </div>
 
 
+### Content Files
+
+<table class="confluenceTable">
+    <tbody>
+        <tr>
+            <th class="confluenceTh">
+                Field Label
+            </th>
+            <th class="confluenceTh">
+                Required (Calisphere)?
+            </th>
+            <th class="confluenceTh">
+		Summary
+            </th>
+        </tr>
+
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="MainContentFile">Main Content File</a>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+            <td class="confluenceTd">
+                The main resource file. Used to generate display files (main file, thumbnail, etc.) in the index and Calisphere once you “publish” the object.
+            </td>
+        </tr>
+  
+          <tr>
+            <td class="confluenceTd">
+                <a class="label" id="AuxiliaryFiles">Auxiliary Files</a>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Additional resource files including variant formats and derivative copies of the main content file. These files will not be published to the index or Calisphere.
+            </td>
+        </tr>
+		
+		        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="AuxiliaryFileType">Auxiliary File Type</a>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Qualifier identifying the kind of auxiliary file.
+            </td>
+        </tr>
+    </tbody>
+</table><table class="confluenceTable">
+    <tbody>
+        <tr>
+            <th class="confluenceTh">
+                Field Label
+            </th>
+            <th class="confluenceTh">
+                Required (Calisphere)?
+            </th>
+            <th class="confluenceTh">
+		Summary
+            </th>
+        </tr>
+
+        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="MainContentFile">Main Content File</a>
+            </td>
+            <td class="confluenceTd">
+                Yes
+            </td>
+            <td class="confluenceTd">
+                The main resource file. Used to generate display files (main file, thumbnail, etc.) in the index and Calisphere once you “publish” the object.
+            </td>
+        </tr>
+  
+          <tr>
+            <td class="confluenceTd">
+                <a class="label" id="AuxiliaryFiles">Auxiliary Files</a>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Additional resource files including variant formats and derivative copies of the main content file. These files will not be published to the index or Calisphere.
+            </td>
+        </tr>
+		
+		        <tr>
+            <td class="confluenceTd">
+                <a class="label" id="AuxiliaryFileType">Auxiliary File Type</a>
+            </td>
+            <td class="confluenceTd">
+                No
+            </td>
+            <td class="confluenceTd">
+                Qualifier identifying the kind of auxiliary file.
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 ### Basic Information
 
 <table class="confluenceTable">
