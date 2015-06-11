@@ -7,6 +7,52 @@ permalink: /docs/dams/bulk-import/
 breadcrumbs: DAMS User Guide
 ---
 
+You have two general options for bulk importing multiple content files into Nuxeo:
+
+* Install and use the Nuxeo File Uploader client
+* Use the Nuxeo drag-and-drop feature, within the web interface
+
+
+## Upload Multiple Files with the Nuxeo File Uploader
+
+### Initial Setup
+
+1.	Download the client: 
+
+*	Windows: <a href="http://dscl-dev.cdlib.org/nuxeo_client/uclNuxeoUpload.zip">download</a> and unzip the contents of the to a folder on your workstation
+*	Mac: <a href="http://dscl-dev.cdlib.org/nuxeo_client/uclNuxeoUpload.dmg">download</a> and install the .dmg file into your Applications folder
+
+2.	Run the client:
+
+ *	Windows: launch <b>uclNuxeoUpload.exe</b>.  Note that it may take a few moments for the client to open.
+ *	Mac: launch <b>uclNuxeoUpload</b> from Applications.
+
+3.	Select the wrench icon in the upper right ("Setup Nuxeo Connection"), for a one-time configuration of the client.  This will launch an Application Configuration window.
+4.	First, ensure that the following URL is in the Nuxeo Server field (note the https): <b>https://nuxeo.cdlib.org/nuxeo</b>
+5.	Next, you'll need to obtain a Nuxeo Token, to allow the client to authenticate and connect to Nuxeo.
+ *	Click "Sign-in and get a Nuxeo Access Token for this computer".  
+ *	You will then be prompted to login, using your single sign-on account.  
+ *	Once you login, you will receive a pop-up window indicating the Nuxeo Token.  Right-click and copy the alphanumeric string.
+ *	Close the pop-up window.
+
+6. In the Application Configuration window, paste the alphanumeric string into the Nuxeo Token field.	Optionally, in the Path Filter field, append your campus folder name (e.g., "asset-library/UCM").  Once you begin using the client, this will limit your upload target locations to Project Folders associated only with your campus.
+7. Last, double-check the Application Configuration window settings:
+
+ *	<b>Nuxeo Server</b>:		<b>https://nuxeo.cdlib.org/nuxeo</b>
+ *	<b>Nuxeo Token</b>: 		<b>(alphanumeric string)</b>
+ *	<b>Path Filter</b>:		<b>/asset-library/</b>  (optionally, campus folder name appended to the end)
+
+
+### Using the Client
+
+*	<b>Choose Files button</b>: click the Choose Files button to browse to and select files to upload to Nuxeo.  By default, uploaded files will result in the creation of simple objects in the target Project Folder.
+*	<b>Select Project Folder pull-down</b>: select the target Project Folder for uploading the files.
+*	<b>Start Upload button</b>: hit this button to once you've chosen files and selected a target Project Folder.
+*	Clear file and Project Folder selections using the reset button in the upper right corner.
+
+
+## Upload Multiple Files through the Nuxeo Interface
+
 The bulk importer allows you to upload multiple files at a time via a drag-and-drop interface, input common metadata, and select a project folder for all objects to be imported to. Press the 'Import' button in the top left of the sidebar on any page within the Workspace module to launch the importer. 
 
 <a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/import-button.png">
@@ -16,7 +62,9 @@ The bulk importer allows you to upload multiple files at a time via a drag-and-d
 
 ## Some Notes on Uploading Files
 
-The number and size of the files you can upload in bulk is constrained by the limits of your internet speed and Shibboleth. You may try to run a bulk import, only to receive an error message that your Shibboleth session timed out because the files could not be uploaded fast enough. At this point, you'll have to run the upload again, in smaller batches. We encourage you to test the importer with various files to guage your local capactiy. If you have a fairly consistent internet connection and upload speed, the amount of files you can upload before Shibboleth times out should stay fairly consistent. 
+We recommend using the Nuxeo File Uploader client, for the purpose of uploading large batches of files.  The client is optimized to maintain a dedicated connection to the Nuxeo server, and lacks some of the constraints with importing files through a web browser.
+
+In the case of the Nuxeo interface, the number and size of the files you can upload in bulk is constrained by the limits of your internet speed and Shibboleth. You may try to run a bulk import, only to receive an error message that your Shibboleth session timed out because the files could not be uploaded fast enough. At this point, you'll have to run the upload again, in smaller batches. We encourage you to test the importer with various files to guage your local capactiy. If you have a fairly consistent internet connection and upload speed, the amount of files you can upload before Shibboleth times out should stay fairly consistent. 
 
 If you drag and drop more than three files, the first three will appear immediately in the drop zone, but the remaining files will appear one-by-one only after all prior files have been uploaded successfully. Even though a file may be successfully uploaded in the importer, you still have to press the 'Import' button at the bottom of the form <b><i>before your Shibboleth session times out</i></b> to successfully import an object. For all of the above reasons, we generally suggest you use the importer for small batches of files.
 
