@@ -57,7 +57,7 @@ You have two general options for bulk importing multiple content files into Nuxe
 <ul>
 <li><b>Choose Files button</b>: click the Choose Files button to browse to and select files to upload to Nuxeo.  By default, uploaded files will result in the creation of simple objects in the target Project Folder.</li>
 <li><b>Select Project Folder pull-down</b>: select the target Project Folder for uploading the files.</li>
-<li><b>Start Upload button</b>: hit this button to once you've chosen files and selected a target Project Folder.
+<li><b>Start Upload button</b>: hit this button to once you've chosen files and selected a target Project Folder.</li>
 <li>Clear file and Project Folder selections using the reset button in the upper right corner.</li>
 </ul>
 
