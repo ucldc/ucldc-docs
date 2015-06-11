@@ -16,7 +16,7 @@ You have two general options for bulk importing multiple content files into Nuxe
 ## Upload Multiple Files with the Nuxeo File Uploader
 
 ### Initial Setup
-
+<br>
 <ol>
 <li>Download the client:</li>
 
