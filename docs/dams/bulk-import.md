@@ -19,8 +19,8 @@ You have two general options for bulk importing multiple content files into Nuxe
 
 1.	Download the client: 
 
-*	Windows: <a href="http://dscl-dev.cdlib.org/nuxeo_client/uclNuxeoUpload.zip">download</a> and unzip the contents of the to a folder on your workstation
-*	Mac: <a href="http://dscl-dev.cdlib.org/nuxeo_client/uclNuxeoUpload.dmg">download</a> and install the .dmg file into your Applications folder
+ *	Windows: <a href="http://dscl-dev.cdlib.org/nuxeo_client/uclNuxeoUpload.zip">download</a> and unzip the contents of the to a folder on your workstation
+ *	Mac: <a href="http://dscl-dev.cdlib.org/nuxeo_client/uclNuxeoUpload.dmg">download</a> and install the .dmg file into your Applications folder
 
 2.	Run the client:
 
