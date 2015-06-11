@@ -17,39 +17,49 @@ You have two general options for bulk importing multiple content files into Nuxe
 
 ### Initial Setup
 
-1.	Download the client: 
+<ol>
+<li>Download the client:</li>
 
- *	Windows: <a href="http://dscl-dev.cdlib.org/nuxeo_client/uclNuxeoUpload.zip">download</a> and unzip the contents of the to a folder on your workstation
- *	Mac: <a href="http://dscl-dev.cdlib.org/nuxeo_client/uclNuxeoUpload.dmg">download</a> and install the .dmg file into your Applications folder
+<ul>
+<li>Windows: <a href="http://dscl-dev.cdlib.org/nuxeo_client/uclNuxeoUpload.zip">download</a> and unzip the contents of the to a folder on your workstation</li>
+<li>Mac: <a href="http://dscl-dev.cdlib.org/nuxeo_client/uclNuxeoUpload.dmg">download</a> and install the .dmg file into your Applications folder</li>
+</ul>
 
-2.	Run the client:
+<li>Run the client:</li>
 
- *	Windows: launch <b>uclNuxeoUpload.exe</b>.  Note that it may take a few moments for the client to open.
- *	Mac: launch <b>uclNuxeoUpload</b> from Applications.
+<ul>
+<li>Windows: launch <b>uclNuxeoUpload.exe</b>.  Note that it may take a few moments for the client to open.</li>
+<li>Mac: launch <b>uclNuxeoUpload</b> from Applications.</li>
+</ul>
 
-3.	Select the wrench icon in the upper right ("Setup Nuxeo Connection"), for a one-time configuration of the client.  This will launch an Application Configuration window.
-4.	First, ensure that the following URL is in the Nuxeo Server field (note the https): <b>https://nuxeo.cdlib.org/nuxeo</b>
-5.	Next, you'll need to obtain a Nuxeo Token, to allow the client to authenticate and connect to Nuxeo.
- *	Click "Sign-in and get a Nuxeo Access Token for this computer".  
- *	You will then be prompted to login, using your single sign-on account.  
- *	Once you login, you will receive a pop-up window indicating the Nuxeo Token.  Right-click and copy the alphanumeric string.
- *	Close the pop-up window.
+<li>Select the wrench icon in the upper right ("Setup Nuxeo Connection"), for a one-time configuration of the client.  This will launch an Application Configuration window.</li>
+<li>First, ensure that the following URL is in the Nuxeo Server field (note the https): <b>https://nuxeo.cdlib.org/nuxeo</b></li>
+<li>Next, you'll need to obtain a Nuxeo Token, to allow the client to authenticate and connect to Nuxeo.</li>
+ <ul>
+ <li>Click "Sign-in and get a Nuxeo Access Token for this computer".</li>  
+ <li>You will then be prompted to login, using your single sign-on account.</li>  
+ <li>Once you login, you will receive a pop-up window indicating the Nuxeo Token.  Right-click and copy the alphanumeric string.</li>
+ <li>Close the pop-up window.</li>
+ </ul>
 
-6. In the Application Configuration window, paste the alphanumeric string into the Nuxeo Token field.	Optionally, in the Path Filter field, append your campus folder name (e.g., "asset-library/UCM").  Once you begin using the client, this will limit your upload target locations to Project Folders associated only with your campus.
-7. Last, double-check the Application Configuration window settings:
+<li>In the Application Configuration window, paste the alphanumeric string into the Nuxeo Token field.	Optionally, in the Path Filter field, append your campus folder name (e.g., "asset-library/UCM").  Once you begin using the client, this will limit your upload target locations to Project Folders associated only with your campus.</li>
+<li>Last, double-check the Application Configuration window settings:</li>
 
- *	<b>Nuxeo Server</b>:		<b>https://nuxeo.cdlib.org/nuxeo</b>
- *	<b>Nuxeo Token</b>: 		<b>(alphanumeric string)</b>
- *	<b>Path Filter</b>:		<b>/asset-library/</b>  (optionally, campus folder name appended to the end)
-
+<ul>
+<li><b>Nuxeo Server</b>:		<b>https://nuxeo.cdlib.org/nuxeo</b></li>
+<li><b>Nuxeo Token</b>: 		<b>(alphanumeric string)</b></li>
+<li><b>Path Filter</b>:		<b>/asset-library/</b>  (optionally, campus folder name appended to the end)</li>
+</ul>
+</ol>
 
 ### Using the Client
 
-*	<b>Choose Files button</b>: click the Choose Files button to browse to and select files to upload to Nuxeo.  By default, uploaded files will result in the creation of simple objects in the target Project Folder.
-*	<b>Select Project Folder pull-down</b>: select the target Project Folder for uploading the files.
-*	<b>Start Upload button</b>: hit this button to once you've chosen files and selected a target Project Folder.
-*	Clear file and Project Folder selections using the reset button in the upper right corner.
-
+<ul>
+<li><b>Choose Files button</b>: click the Choose Files button to browse to and select files to upload to Nuxeo.  By default, uploaded files will result in the creation of simple objects in the target Project Folder.</li>
+<li><b>Select Project Folder pull-down</b>: select the target Project Folder for uploading the files.</li>
+<li><b>Start Upload button</b>: hit this button to once you've chosen files and selected a target Project Folder.
+<li>Clear file and Project Folder selections using the reset button in the upper right corner.</li>
+</ul>
 
 ## Upload Multiple Files through the Nuxeo Interface
 
