@@ -44,6 +44,10 @@ UCLDC Collection Administrators perform administrative functions in the DAMS and
     <td>UC Riverside Library</td>
     <td><a href="http://www.ucr.edu/find_people.php?term=milenkiewicz&sa=Go&type=all">Eric Milenkiewicz</a></td>
   </tr>
+    <tr>
+    <td>UC Riverside Library</td>
+    <td><a href="http://www.ucr.edu/find_people.php?term=kudo&sa=Go&type=all">Yoko Kudo</a></td>
+  </tr>
   <tr>
     <td>UC San Diego Library</td>
     <td><a href="http://www.ucsd.edu/directory/search?last=smith&first=roger&email=&title=&phone=&fax=&dept2=&mail=&searchType=0">Roger Smith</a></td>
