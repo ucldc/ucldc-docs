@@ -2,6 +2,7 @@
 layout: registry-doc
 title: Access Points
 prev_section: registry/updates
+next_section: registry/stats
 permalink: /docs/registry/access/
 breadcrumbs: Calisphere Admin Guide
 ---
