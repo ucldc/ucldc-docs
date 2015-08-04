@@ -9,9 +9,11 @@ breadcrumbs: Calisphere Admin Guide
 Currently, all of the data harvested into and stored in the UCLDC Common Index is exposed to three public access points. As development continues on this part of the platform, we will be adding more information to this site.
 
 ##Calisphere
-The Calisphere BETA website is expected to launch in late August 2015, with an earlier soft launch in late June/early July.
+The Calisphere BETA website is currently in a "soft launch" phase, during which time we are soliciting feedback and quality assurance from UC Libraries partners. We have released a testing URL for these purposes: http://calisphere-test.cdlib.org.
 
-We are currently working on metadata display specifications, as well as developing the site proper. In the meantime, please feel free to [review the Calisphere BETA designs](https://wiki.library.ucsf.edu/display/UCLDC/Calisphere+Design+Showroom). (Content owners may want to pay particular attention to the display of various digital object types.)
+More information is available--in both video and written form--in the [https://wiki.library.ucsf.edu/pages/viewpage.action?pageId=364384160](soft launch release notes). If you'd like to help test and provide feedback on the site, please also refer to the [https://wiki.library.ucsf.edu/display/UCLDC/Product+Stakeholder+Group+Workspace#ProductStakeholderGroupWorkspace-QA_instructions](QA instructions). 
+
+We aim to release the Calisphere BETA website to the public in early September 2015.
 
 ##DPLA
 Please visit the [DPLA project wiki](https://wiki.library.ucsf.edu/display/DPLA/Calisphere%3A+Broadening+Access+through+DPLA) for more information about this part of the platform. (Information from the wiki will be ported over to this site shortly.)
