@@ -16,17 +16,17 @@ We are able to support contributor statistics in the following way:
 ###What we need from you
 In order to collect usage statistics for your institution, we need the following information, as provided by a UCLDC Collection Administrator or other designated staff member:
 
-*1. Google Analytics tracker ID*
+**1. Google Analytics tracker ID**
 
 A Google Analytics tracker ID is generated when you open a new Google Analytics Account or Property. It will result in a separate report for usage of your collections on Calisphere BETA. If you would like some assistance in setting up a Google Analytics Account or Property, please don't hesitate to contact us.
 
-*2. Assignment of tracker IDs to institutions*
+**2. Assignment of tracker IDs to institutions**
 
 We need to know to what institution(s) the tracker ID should be applied. Campuses with more than one contributing institution to Calisphere BETA (defined as a "unit" in the UCLDC Collection Registry) can elect to apply different tracker IDs to different institutions (resulting in a separate report for each institution) or apply the same tracker ID to multiple institutions (resulting in a single Google Analytics report for those institutions).
 
 Simply let us know which tracker ID should be applied to which institutions on your campus.
 
-*3. Preferred collection label*
+**3. Preferred collection label**
 
 Each Google Analytics report for Calisphere BETA will allow contributors to filter by collection. This means that you can see the usage stats for a given collection as defined on Calisphere BETA.
 
