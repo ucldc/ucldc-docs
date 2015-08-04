@@ -11,7 +11,7 @@ We are using Google Analytics for tracking usage of objects on the new Calispher
 We are able to support contributor statistics through Google Analytics as follows:
 
 + Separate Google Analytics reports for separate institutions. (Campuses can elect to "roll-up" institutions into a single report if so desired; see below.) Data is collected on each institution's digital objects, collection landing pages, and institution landing pages.
-+ Filtering by collection, within a given report.
++ Filtering usage data by collection, within a given report.
 
 CDL does not plan to engineer any custom events for content owners’ usage reports, unless this is surfaced as a need. This means that the typical (but extensive!) suite of usage data from Google Analytics will be reported in the areas of Audience, Acquisition, and Behavior. Please let us know if you have additional requirements and we will try to accommodate them.
 
