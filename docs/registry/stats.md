@@ -16,7 +16,7 @@ We are able to support contributor statistics through Google Analytics as follow
 CDL does not plan to engineer any custom events for content owners’ usage reports, unless this is surfaced as a need. This means that the typical (but extensive!) suite of usage data from Google Analytics will be reported in the areas of Audience, Acquisition, and Behavior. Please let us know if you have additional requirements and we will try to accommodate them.
 
 ##What we need from you
-In order to collect usage statistics for your institution, we need the following information, as provided by a UCLDC Collection Administrator or other designated staff member:
+In order to collect usage statistics for your institution, we need the following information, as provided by a UCLDC Collection Administrator or other designated staff member. We'll store this information in the Collection Registry.
 
 **1. Provide a Google Analytics tracker ID**
 
