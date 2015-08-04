@@ -5,39 +5,32 @@ prev_section: registry/access
 permalink: /docs/registry/stats/
 breadcrumbs: Calisphere Admin Guide
 ---
-We are using Google Analytics for tracking usage of objects on the new Calisphere beta site. We are able to support contributor statistics in the following way:
--Separate reports for separate institutions. (Campuses can elect to "roll-up" institutions into a single report if so desired.) Data is collected on each institution's digital objects, collection landing pages, and institution landing pages.
-- Filtering by collection, within a given report.
+We are using Google Analytics for tracking usage of objects on the new Calisphere beta site.
 
+###What's supported
+We are able to support contributor statistics in the following way:
+
+-Separate Google Analytics reports for separate institutions. (Campuses can elect to "roll-up" institutions into a single report if so desired; see below.) Data is collected on each institution's digital objects, collection landing pages, and institution landing pages.
+-Filtering by collection, within a given report.
+
+###What we need from you
 In order to collect usage statistics for your institution, we need the following information, as provided by a UCLDC Collection Administrator or other designated staff member:
 
-*1. Google Analytics Tracker ID*
+*1. Google Analytics tracker ID*
 
-A Google Analytics Tracker ID is generated when you open a new Google Analytics Account or Property. It will result in a separate report for usage of your collections on Calisphere BETA. If you would like some assistance in setting up a Google Analytics Account or Property, please don't hesitate to contact us.
+A Google Analytics tracker ID is generated when you open a new Google Analytics Account or Property. It will result in a separate report for usage of your collections on Calisphere BETA. If you would like some assistance in setting up a Google Analytics Account or Property, please don't hesitate to contact us.
 
-*2. Assignment of IDs to institutions*
+*2. Assignment of tracker IDs to institutions*
 
-We need to know to what institution the Tracker ID should be applied. Campuses with more than one contributing institution or department (defined as a "unit" in the UCLDC Collection Registry) can elect to create separate Tracker IDs and apply them to each institution--this will result in separate reports for each institution. Or, they can elect to create just one Tracker ID and apply it to more than one institution--this will result in one report that has "rolled-up" the data for the specified institutions.
+We need to know to what institution(s) the tracker ID should be applied. Campuses with more than one contributing institution to Calisphere BETA (defined as a "unit" in the UCLDC Collection Registry) can elect to apply different tracker IDs to different institutions (resulting in a separate report for each institution) or apply the same tracker ID to multiple institutions (resulting in a single Google Analytics report for those institutions).
 
-3. 
-4. He/she could elect to apply the same Tracker ID to all of the units (resulting in a single Google Analytics report for all units at the campus) or could paste different Tracker IDs into the different units (resulting in a separate report for each unit).
+Simply let us know which tracker ID should be applied to which institutions on your campus.
 
-How would content owners’ stats reports be set up?
+*3. Preferred collection label*
 
-Stats reports would be set up by “unit,” as defined in the UCLDC Collection Registry.
+Each Google Analytics report for Calisphere BETA will allow contributors to filter by collection. This means that you can see the usage stats for a given collection as defined on Calisphere BETA.
 
-Each unit record in the Registry would have a field in which to input a Google Analytics Tracker ID. 
+We've heard that some institutions want to specify how collections are labelled within the Google Analytics report, for example by Name or Collection Number. If you have a particular way you want your collections to appear in the report, let us know. For collections that have corresponding finding aids on the OAC, by default the value in this field will be the Collection Number.
 
-
-
-What data would be collected, and on which pages?
-
-CDL does not plan to engineer any custom events for content owners’ usage reports, unless this is surfaced as a need. This means that the typical (but extensive!) suite of usage data from Google Analytics would be reported in the areas of Audience, Acquisition, and Behavior.
-
-Data would be reported on each unit's digital objects, collection landing pages, and institution landing page.
-
-What about filtering by collection?
-
-Filtering by collection would be enabled within a given Google Analytics report.
-
-Campuses/units would be able to decide how they want to see different collections represented in the report (for example, by collection number or name). There would be some kind of "collection ID" field on every collection record in the UCLDC Collection Registry. Here, the UCLDC Collection Administrator could input any unique identifier they want in order to see the collection in the stats report. For collections that have corresponding finding aids, by default the value in this field will be the collection number.
+###What's being counted
+CDL does not plan to engineer any custom events for content owners’ usage reports, unless this is surfaced as a need. This means that the typical (but extensive!) suite of usage data from Google Analytics will be reported in the areas of Audience, Acquisition, and Behavior. Please let us know if you have additional requirements and we will try to accommodate them.
