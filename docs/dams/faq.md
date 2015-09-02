@@ -57,6 +57,7 @@ At this time, the shared DAMS is open only to digital content owned and/or stewa
 
 ## Background: How We Got Here
 ***
+
 ### <a name="faq5">5. What was the vision for a systemwide DAMS and where did it come from?</a>
  
 The vision for a systemwide DAMS--as well as for the UCLDC platform as a whole--was arrived at through a systemwide planning process over approximately six years and comprising various task forces and committees (DLSTF1, DLSTF2, NGTS New Modes of Access, and NGTS POT1).
@@ -93,6 +94,7 @@ Only three major requirements will not be met on the two-year timeline: controll
 
 ## Current Implementation
 ***
+
 ### <a name="faq8">8. What does Nuxeo offer the UC Libraries right now (September 2015)?</a>
 
 The CDL implementation of Nuxeo currently meets a majority of the requirements defined by the POT1 lightning team, for example:
@@ -146,6 +148,7 @@ We are interested in the potential for linked data and open to exploring with th
 
 ## Looking Ahead
 ***
+
 ### <a name="faq14">14.  What plans are in place to enhance Nuxeo, to meet any additional or new use cases or requirements?</a>
 
 For requirements that are not anticipated to be met this summer, Nuxeo provides promising solutions (and, indeed, we see some of these requirements explicitly on the product’s roadmap). It is overwhelmingly the case that some requirements were not met this summer simply because they require more systemwide discussion than could be accomplished on the project’s ambitious timeframe. CDL anticipates working with the Libraries to further unpack, prioritize, and add new requirements to this service offering, whether we meet these requirements within Nuxeo or with another product. To view our Nuxeo development work queue, see our Pivotal Tracker site.
