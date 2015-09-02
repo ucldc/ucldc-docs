@@ -25,7 +25,7 @@ breadcrumbs: DAMS User Guide
 <a href="#faq18">18. If CDL and the Libraries decide to move to another platform for the shared DAMS, is there a strategy for migrating content out of Nuxeo to the new solution?</a><br>
 <br>
 
-<br>
+
 # The Basics
 
 ## <a name="faq1">1. What is the UCLDC?</a>
