@@ -28,6 +28,7 @@ breadcrumbs: DAMS User Guide
 
 ## The Basics
 ***
+
 ### <a name="faq1">1. What is the UCLDC?</a>
 
 The UC Libraries Digital Collection (UCLDC) is a technical stack for managing, aggregating, and providing access to digital resources owned by institutions across the libraries and the state. It provides:
