@@ -5,6 +5,26 @@ permalink: /docs/dams/faq/
 breadcrumbs: DAMS User Guide
 ---
 
+<a href="#faq1">1. What is the UCLDC?</a>
+<a href="#faq2">2. What is the UCLDC shared DAMS?</a>
+<a href="#faq3">3. Who can use and access the shared DAMS?</a>
+<a href="#faq4">4. What kinds of resources can be managed in it?</a>
+<a href="#faq5">5. What was the vision for a systemwide DAMS and where did it come from?</a> 
+<a href="#faq6">6. How was the UCLDC model determined and why was Nuxeo selected as the shared DAMS?</a>
+<a href="#faq7">7. How long did it take to implement the DAMS and make it available to the Libraries?</a>
+<a href="#faq8">8. What does Nuxeo offer the UC Libraries right now (September 2015)?</a>
+<a href="#faq9">9. What does Nuxeo offer in the way of support for the Libraries?</a>
+<a href="#faq10">10. What kind of metadata schemes does Nuxeo support?</a>
+<a href="#faq11">11.  What are the technical components of Nuxeo?</a>
+<a href="#faq12">12.  Are the metadata records and files (that are stored in Nuxeo) backed up?</a>
+<a href="#faq13">13. Does Nuxeo/the current UCLDC stack support linked data?</a>
+<a href="#faq14">14.  What plans are in place to enhance Nuxeo, to meet any additional or new use cases or requirements?</a>
+<a href="#faq15">15. Does the shared DAMS and UCLDC allow for co-development or other collaboration opportunities with the campus libraries?</a>
+<a href="#faq16">16. Does CDL plan to charge for use of the Nuxeo DAMS?</a>
+<a href="#faq17">17. Is CDL exploring other options beyond Nuxeo?</a>	
+<a href="#faq18">18. If CDL and the Libraries decide to move to another platform for the shared DAMS, is there a strategy for migrating content out of Nuxeo to the new solution?</a>
+<br>
+
 # The Basics
 
 ## <a name="faq1">1. What is the UCLDC?</a>
