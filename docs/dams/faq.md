@@ -22,19 +22,19 @@ More information about the UCLDC is available at our documentation site. An “a
 
 One component of the larger UCLDC framework, the shared DAMS (digital asset management system) is a tool for creating and managing object-level metadata and content files. It also provides workflows for, if desired, publishing digital objects to Calisphere (for public access) and/or depositing them in Merritt (for long-term preservation). The shared DAMS is a customized implementation of Nuxeo, an enterprise platform that is used by a variety of organizations–from media companies to CollectionSpace (developed by UC Berkeley and the Museum of the Moving Image)–for their content management needs. Learn more about the DAMS.
 
-## 3. <a name="faq3">Who can use and access the shared DAMS?</a>
+## <a name="faq3">3. Who can use and access the shared DAMS?</a>
 
 Only authorized users—UC Libraries staff, student workers, and other individuals expressly designated by the UC Libraries—may use the shared DAMS. The libraries can control permissions for their staff for performing various functions in the system such as creating objects and editing metadata. For more information...
 
 Note that in the UCLDC model, the shared DAMS does not provide public access to end-users. Rather, the public interface (Calisphere) is a separate layer of the UCLDC stack, which allows us to aggregate and display collections from both the DAMS and other sources such as campus Fedora-based systems.
 
-## 4. <a name="faq4">What kinds of resources can be managed in it?</a>
+## <a name="faq4">4. What kinds of resources can be managed in it?</a>
 
 At this time, the shared DAMS is open only to digital content owned and/or stewarded by the UC Libraries. The initial use cases for the software have focused on unique materials held and digitized by the UC Libraries, although there is the potential to provide the service more broadly. Nuxeo supports a wide range of file formats--including images, text documents, audio files, video files, and beyond--and metadata options. Files and metadata may be modeled into both simple and complex objects. Learn more about specific file formats and the metadata scheme that we have implemented.
 
 # Background: How We Got Here
 
-## 5. <a name="faq5">What was the vision for a systemwide DAMS and where did it come from?</a>
+## <a name="faq5">5. What was the vision for a systemwide DAMS and where did it come from?</a>
  
 The vision for a systemwide DAMS--as well as for the UCLDC platform as a whole--was arrived at through a systemwide planning process over approximately six years and comprising various task forces and committees (DLSTF1, DLSTF2, NGTS New Modes of Access, and NGTS POT1).
 
