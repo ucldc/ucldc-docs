@@ -25,6 +25,7 @@ breadcrumbs: DAMS User Guide
 <a href="#faq18">18. If CDL and the Libraries decide to move to another platform for the shared DAMS, is there a strategy for migrating content out of Nuxeo to the new solution?</a><br>
 <br>
 
+<br>
 # The Basics
 <br>
 
@@ -53,6 +54,7 @@ Note that in the UCLDC model, the shared DAMS does not provide public access to 
 
 At this time, the shared DAMS is open only to digital content owned and/or stewarded by the UC Libraries. The initial use cases for the software have focused on unique materials held and digitized by the UC Libraries, although there is the potential to provide the service more broadly. Nuxeo supports a wide range of file formats--including images, text documents, audio files, video files, and beyond--and metadata options. Files and metadata may be modeled into both simple and complex objects. Learn more about specific file formats and the metadata scheme that we have implemented.
 
+<br>
 # Background: How We Got Here
 <br>
 
@@ -89,6 +91,7 @@ The soft launch of the Calisphere beta site in July 2015 (which will be open onl
 
 Only three major requirements will not be met on the two-year timeline: controlled vocabularies in the DAMS; support for “on-the-fly” creation of topical collections on Calisphere; and restricted access to content through Calisphere. Prioritization was necessary given the short timeline for the multi-layered project, and, in consultation with campus partners, these three requirements were deemed lower priorities for launch. Now that the pipeline is in place, we could work on implementing these and other more advanced features that the Libraries need and want.
  
+<br>
 # Current Implementation
 <br>
 
@@ -142,7 +145,7 @@ The UCLDC harvesting infrastructure, meanwhile -- which harvests and aggregates 
 
 We are interested in the potential for linked data and open to exploring with the Libraries additional use cases for incorporating it throughout the UCLDC stack. That said, we believe that linked data opportunities are not dependent on using RDF as a primary data store--.. and that we should focus specifically on the linked data opportunities that promote efficiencies and/or advance access to the Libraries’ collections. 
 
-
+<br>
 # Looking Ahead
 <br>
 
