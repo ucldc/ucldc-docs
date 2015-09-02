@@ -69,7 +69,12 @@ This situation was seen as a serious threat not only to the libraries’ ability
 ### <a name="faq6">6. How was the UCLDC model determined and why was Nuxeo selected as the shared DAMS?</a>
  
 Under NGTS POT1, a number of systemwide “lightning teams” were formed to work on different aspects of the UCLDC vision. Two teams in particular most directly shaped the specific direction of the model and the technologies now being implemented. Those teams were focused on establishing the requirements and the technical model for the UCLDC project.
- 	
+
+<ul>
+<li><b>Requirements</b>: Lightning Team 1A surveyed staff across the libraries to determine requirements for a systemwide DAMS (as well as for a harvest component and a public access layer).<br><br>
+
+The requirements heavily emphasized functionality necessary for campus libraries to perform management functions as relate to common workflows for digitization and metadata creation. The team did not include advanced technical requirements, such as linked data capabilities, in its report.</li><br>
+ 
 <li><b>Technical Model</b>: Lightning Team 1C, which included technologists from 4 campuses and CDL, put forth a technical model for the UCLDC and recommended a platform for the DAMS. The team based these decisions on an analysis of vetted systems and a comparison of the systems relative to the requirements put forth by LT1A (described above). The team determined that Nuxeo held the greatest possibility for meeting the most requirements on the quickest possible timeline. Thus, they recommended it be implemented “as the first step towards a systemwide digital asset management system strategy.”<br><br>
 
 Meanwhile, mindful of growing interest on the campuses of participating in community development in this space, and particularly around the Fedora framework, the team recommended an additional “long-term strategy of participating in the library-specific Project Hydra and Islandora communities utilizing the Fedora (or Fedora Futures) repository framework.” (see page 10, http://libraries.universityofcalifornia.edu/groups/files/POT1_LT1C_finalreport_08Feb2012.pdf).</li>
