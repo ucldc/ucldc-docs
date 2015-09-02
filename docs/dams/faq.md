@@ -27,7 +27,6 @@ breadcrumbs: DAMS User Guide
 
 <br>
 # The Basics
-<br>
 
 ## <a name="faq1">1. What is the UCLDC?</a>
 
@@ -56,7 +55,6 @@ At this time, the shared DAMS is open only to digital content owned and/or stewa
 
 <br>
 # Background: How We Got Here
-<br>
 
 ## <a name="faq5">5. What was the vision for a systemwide DAMS and where did it come from?</a>
  
@@ -93,7 +91,6 @@ Only three major requirements will not be met on the two-year timeline: controll
  
 <br>
 # Current Implementation
-<br>
 
 ## <a name="faq8">8. What does Nuxeo offer the UC Libraries right now (September 2015)?</a>
 
@@ -147,7 +144,6 @@ We are interested in the potential for linked data and open to exploring with th
 
 <br>
 # Looking Ahead
-<br>
 
 ## <a name="faq14">14.  What plans are in place to enhance Nuxeo, to meet any additional or new use cases or requirements?</a>
 
