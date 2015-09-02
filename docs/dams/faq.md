@@ -38,21 +38,21 @@ The UC Libraries Digital Collection (UCLDC) is a technical stack for managing, a
 * A DAMS for creating and storing digital content and metadata
 * A registry for planning future initiatives
 
-More information about the UCLDC is available at our documentation site. An “about” page is currently under development there, but in the meantime our wiki has some older but still-relevant information about the technical model.
+<a href="https://wiki.library.ucsf.edu/display/UCLDC/UCLDC+Model+and+Major+Components">Our project wiki</a> has some older but still-relevant information about the technical model.
 
 ### <a name="faq2">2. What is the UCLDC shared DAMS?</a>
 
-One component of the larger UCLDC framework, the shared DAMS (digital asset management system) is a tool for creating and managing object-level metadata and content files. It also provides workflows for, if desired, publishing digital objects to Calisphere (for public access) and/or depositing them in Merritt (for long-term preservation). The shared DAMS is a customized implementation of Nuxeo, an enterprise platform that is used by a variety of organizations–from media companies to CollectionSpace (developed by UC Berkeley and the Museum of the Moving Image)–for their content management needs. Learn more about the DAMS.
+One component of the larger UCLDC framework, the shared DAMS (digital asset management system) is a tool for creating and managing object-level metadata and content files. It also provides workflows for, if desired, publishing digital objects to Calisphere (for public access) and/or depositing them in Merritt (for long-term preservation). The shared DAMS is a customized implementation of <a href="http://www.nuxeo.com/">Nuxeo</a>, an enterprise platform that is used by a variety of organizations–from media companies to CollectionSpace (developed by UC Berkeley and the Museum of the Moving Image)–for their content management needs. <a href="https://registry.cdlib.org/documentation/docs/dams/index/">Learn more about the DAMS...</a>.
 
 ### <a name="faq3">3. Who can use and access the shared DAMS?</a>
 
-Only authorized users—UC Libraries staff, student workers, and other individuals expressly designated by the UC Libraries—may use the shared DAMS. The libraries can control permissions for their staff for performing various functions in the system such as creating objects and editing metadata. For more information...
+Only authorized users—UC Libraries staff, student workers, and other individuals expressly designated by the UC Libraries—may use the shared DAMS. The libraries can control permissions for their staff for performing various functions in the system such as creating objects and editing metadata. <a href="https://registry.cdlib.org/documentation/docs/dams/dams-policies/">For more information...</a>
 
 Note that in the UCLDC model, the shared DAMS does not provide public access to end-users. Rather, the public interface (Calisphere) is a separate layer of the UCLDC stack, which allows us to aggregate and display collections from both the DAMS and other sources such as campus Fedora-based systems.
 
 ### <a name="faq4">4. What kinds of resources can be managed in it?</a>
 
-At this time, the shared DAMS is open only to digital content owned and/or stewarded by the UC Libraries. The initial use cases for the software have focused on unique materials held and digitized by the UC Libraries, although there is the potential to provide the service more broadly. Nuxeo supports a wide range of file formats--including images, text documents, audio files, video files, and beyond--and metadata options. Files and metadata may be modeled into both simple and complex objects. Learn more about specific file formats and the metadata scheme that we have implemented.
+At this time, the shared DAMS is open only to digital content owned and/or stewarded by the UC Libraries. The initial use cases for the software have focused on unique materials held and digitized by the UC Libraries, although there is the potential to provide the service more broadly. Nuxeo supports a wide range of file formats--including images, text documents, audio files, video files, and beyond--and metadata options. Files and metadata may be modeled into both simple and complex objects. <a href="https://registry.cdlib.org/documentation/docs/dams/dams-policies/">Learn more about specific file formats and the metadata scheme that we have implemented...</a>
 
 
 ## Background: How We Got Here
@@ -60,11 +60,11 @@ At this time, the shared DAMS is open only to digital content owned and/or stewa
 
 ### <a name="faq5">5. What was the vision for a systemwide DAMS and where did it come from?</a>
  
-The vision for a systemwide DAMS--as well as for the UCLDC platform as a whole--was arrived at through a systemwide planning process over approximately six years and comprising various task forces and committees (DLSTF1, DLSTF2, NGTS New Modes of Access, and NGTS POT1).
+The vision for a systemwide DAMS--as well as for the UCLDC platform as a whole--was arrived at through a systemwide planning process over approximately six years and comprising various task forces and committees (<a href="http://libraries.universityofcalifornia.edu/sopag/activities-and-groups">DLSTF1, DLSTF2, NGTS New Modes of Access, and NGTS POT1</a>).
 
 By 2009-2010, broad consensus had emerged that a systemwide solution was needed for the description and management of digital content, with a particular and acute urgency around unique digital content owned and stewarded by the libraries: images, texts, and A/V materials predominantly (but by no means entirely) held by special collections and archives. Without such a solution, several of the libraries had found that they were unable to generate, steward, and provide access to their digital collections on an ongoing basis.
  
-This situation was seen as a serious threat not only to the libraries’ ability to independently serve their researchers, but also to the vision of a “UC Libraries Digital Collection”: a coordinated, combined digital collection that would showcase the riches of the libraries to users worldwide, as envisioned in a paper by the UC Libraries Collection Development Committee.
+This situation was seen as a serious threat not only to the libraries’ ability to independently serve their researchers, but also to the vision of a “UC Libraries Digital Collection”: a coordinated, combined digital collection that would showcase the riches of the libraries to users worldwide, as envisioned in <a href="http://libraries.universityofcalifornia.edu/groups/files/cdc/docs/uc_collection_concept_paper_endorsed_ULs_2009.08.13.pdf">a paper by the UC Libraries Collection Development Committee</a>.
 
 ### <a name="faq6">6. How was the UCLDC model determined and why was Nuxeo selected as the shared DAMS?</a>
  
@@ -77,7 +77,7 @@ The requirements heavily emphasized functionality necessary for campus libraries
  
 <li><b>Technical Model</b>: Lightning Team 1C, which included technologists from 4 campuses and CDL, put forth a technical model for the UCLDC and recommended a platform for the DAMS. The team based these decisions on an analysis of vetted systems and a comparison of the systems relative to the requirements put forth by LT1A (described above). The team determined that Nuxeo held the greatest possibility for meeting the most requirements on the quickest possible timeline. Thus, they recommended it be implemented “as the first step towards a systemwide digital asset management system strategy.”<br><br>
 
-Meanwhile, mindful of growing interest on the campuses of participating in community development in this space, and particularly around the Fedora framework, the team recommended an additional “long-term strategy of participating in the library-specific Project Hydra and Islandora communities utilizing the Fedora (or Fedora Futures) repository framework.” (see page 10, http://libraries.universityofcalifornia.edu/groups/files/POT1_LT1C_finalreport_08Feb2012.pdf).</li>
+Meanwhile, mindful of growing interest on the campuses of participating in community development in this space, and particularly around the Fedora framework, the team recommended an additional “long-term strategy of participating in the library-specific Project Hydra and Islandora communities utilizing the Fedora (or Fedora Futures) repository framework.” (<a href="http://libraries.universityofcalifornia.edu/groups/files/POT1_LT1C_finalreport_08Feb2012.pdf">POT1 Lightning Team 1C report, p. 10</a>).</li>
 
 
 </ul>
@@ -112,17 +112,17 @@ The CDL implementation of Nuxeo currently meets a majority of the requirements d
  
 Note that these and other requirements are specific to library needs and workflows (and, indeed, to UC library needs and workflows). Despite the fact that Nuxeo is a generic DAMS product, it has been easily customized to support and meet the unique needs of UC library users.
  
-For a detailed account of POT1 requirements and the extent to which they are anticipated to be met by Nuxeo and the UCLDC model at the project’s conclusion (August 2015), please see https://wiki.library.ucsf.edu/download/attachments/101285936/2015-03-06_ucldc_requirements.xlsx?api=v2.
+For a detailed account of POT1 requirements and the extent to which they are anticipated to be met by Nuxeo and the UCLDC model at the project’s conclusion (August 2015), please see our <a href="https://wiki.library.ucsf.edu/download/attachments/101285936/2015-03-06_ucldc_requirements.xlsx?api=v2">requirements summary</a>.
 
 ### <a name="faq9">9. What does Nuxeo offer in the way of support for the Libraries?</a>
 
 The way that the current service is structured, there are effectively two “layers” of support for libraries using the DAMS: Nuxeo and CDL.
 
-CDL has a support contract and service level agreement ("Silver level") with Nuxeo, which provides us with ready access to Nuxeo's technical team -- as well as access to the latest hotfixes, service packs, and upgrades to the platform. We have been impressed with the rapid response that we've received from Nuxeo to help us implement and customize the product. As a recent example, the Nuxeo team helped us troubleshoot and enhance the product to support importing of PCD (photo compact disc) format files--as required by UC Irvine--within the span of a few days. Nuxeo has also been responsive to incorporating enhancements that we've requested into their development roadmap, such as updates to Studio (an online tool that makes it easy for us to configure and customize the software without expending development resources).  Read more about our service level agreement.
+CDL has a support contract and service level agreement ("Silver level") with Nuxeo, which provides us with ready access to Nuxeo's technical team -- as well as access to the latest hotfixes, service packs, and upgrades to the platform. We have been impressed with the rapid response that we've received from Nuxeo to help us implement and customize the product. As a recent example, the Nuxeo team helped us troubleshoot and enhance the product to support importing of PCD (photo compact disc) format files--as required by UC Irvine--within the span of a few days. Nuxeo has also been responsive to incorporating enhancements that we've requested into their <a href="http://roadmap.nuxeo.com/">development roadmap</a>, such as updates to Studio (an online tool that makes it easy for us to configure and customize the software without expending development resources).  <a href="http://www.nuxeo.com/products/support/#maintenance">Read more about our service level agreement...</a>
 
 Nuxeo’s open-source code base, myriad plug-ins, and extension points allow CDL to provide a second layer of support for the Libraries. The software has proven flexible and customizable enough for us to meet the requirements identified by POT1 as well as new needs identified by the UC Libraries. For example, a number of campus libraries expressed a desire for bulk importing large numbers of files into Nuxeo without CDL’s mediation. (Although Nuxeo does latently support bulk upload through the user interface, it is necessarily limited by bandwidth.) Within a matter of weeks, we were able to leverage Nuxeo’s API to rapidly prototype and develop a client application, which campus users could install on their desktops. Campus users have been using the client for the past few months to successfully upload batches of files on a self-serve basis. 
 
-More information about specific UCLDC Shared DAMS functionality is available on our user guide.
+More information about specific UCLDC Shared DAMS functionality is available on our <a href="https://registry.cdlib.org/documentation/docs/dams/index/">user guide</a>.
 
 ### <a name="faq10">10. What kind of metadata schemes does Nuxeo support?</a>
 
@@ -140,13 +140,13 @@ The software is patched using .jar files. Customizations can be applied using St
 
 ### <a name="faq12">12.  Are the metadata records and files (that are stored in Nuxeo) backed up?</a>
 
-Yes. We are using the Amazon Web Service (AWS) Simple Storage Service (S3) to store content files and the AWS Relational Database Service (RDS) to store the backend Nuxeo databases/metadata records. The S3 "Standard Storage" tier that we are utilizing includes secure cross-region replication of files and version services. RDS also includes automated backup, database snapshots, and data recovery services. 
+Yes. We are using the <a href="http://aws.amazon.com/">Amazon Web Service (AWS) Simple Storage Service (S3)</a> to store content files and the <a href="http://aws.amazon.com/rds/">AWS Relational Database Service (RDS)</a> to store the backend Nuxeo databases/metadata records. The S3 "Standard Storage" tier that we are utilizing includes secure cross-region replication of files and version services. RDS also includes automated backup, database snapshots, and data recovery services. 
 
 ### <a name="faq13">13. Does Nuxeo/the current UCLDC stack support linked data?</a>
 
 Although the metadata managed within Nuxeo is not natively stored in the RDF format, both Nuxeo specifically and the UCLDC stack generally support Linked Open Data use cases. Within Nuxeo, for example, we believe it would be both immediately advantageous and relatively straightforward to integrate linked data controlled vocabularies. The UCLDC scheme in Nuxeo anticipates drawing on name authorities, thesauri, and other controlled vocabularies that are available as linked data, and we could create a “picker” in the user interface to make it easy for library staff to find and add this metadata to their objects.  
 
-The UCLDC harvesting infrastructure, meanwhile -- which harvests and aggregates metadata from Nuxeo as well as other platforms maintained across the UC Libraries -- latently incorporates linked data elements. For example, harvested metadata is normalized and structured based on the Digital Public Library of America's (DPLA) Metadata Application Profile; the harvested metadata is subsequently expressed as JSON-LD and shared with DPLA. The harvested metadata is also being stored in the UCLDC Common Index (Solr), for exposure through an API as well as schema.org encodings in the forthcoming Calisphere BETA site.  
+The UCLDC harvesting infrastructure, meanwhile -- which harvests and aggregates metadata from Nuxeo as well as other platforms maintained across the UC Libraries -- latently incorporates linked data elements. For example, harvested metadata is normalized and structured based on the Digital Public Library of America's (DPLA) Metadata Application Profile; the harvested metadata is subsequently expressed as JSON-LD and shared with DPLA. The harvested metadata is also being stored in the UCLDC Common Index (Solr), for exposure <a href="https://registry.cdlib.org/documentation/docs/technical-docs/solr-api/">through an API</a> as well as schema.org encodings in the forthcoming Calisphere BETA site.  
 
 We are interested in the potential for linked data and open to exploring with the Libraries additional use cases for incorporating it throughout the UCLDC stack. That said, we believe that linked data opportunities are not dependent on using RDF as a primary data store--.. and that we should focus specifically on the linked data opportunities that promote efficiencies and/or advance access to the Libraries’ collections. 
 
@@ -156,13 +156,13 @@ We are interested in the potential for linked data and open to exploring with th
 
 ### <a name="faq14">14.  What plans are in place to enhance Nuxeo, to meet any additional or new use cases or requirements?</a>
 
-For requirements that are not anticipated to be met this summer, Nuxeo provides promising solutions (and, indeed, we see some of these requirements explicitly on the product’s roadmap). It is overwhelmingly the case that some requirements were not met this summer simply because they require more systemwide discussion than could be accomplished on the project’s ambitious timeframe. CDL anticipates working with the Libraries to further unpack, prioritize, and add new requirements to this service offering, whether we meet these requirements within Nuxeo or with another product. To view our Nuxeo development work queue, see our Pivotal Tracker site.
+For requirements that are not anticipated to be met this summer, Nuxeo provides promising solutions (and, indeed, we see some of these requirements explicitly on the product’s roadmap). It is overwhelmingly the case that some requirements were not met this summer simply because they require more systemwide discussion than could be accomplished on the project’s ambitious timeframe. CDL anticipates working with the Libraries to further unpack, prioritize, and add new requirements to this service offering, whether we meet these requirements within Nuxeo or with another product. To view our Nuxeo development work queue, <a href="https://www.pivotaltracker.com/n/projects/935010">see our Pivotal Tracker site.</a>
 
 ### <a name="faq15">15. Does the shared DAMS and UCLDC allow for co-development or other collaboration opportunities with the campus libraries?</a>
 
-Nuxeo is a flexible platform with a well-documented API, offering a range of opportunities for co-developing new features and integrations with other systems. As an example, staff from the UC Santa Cruz Libraries and CDL Nuxeo team developed a strategy for integrating data between Omeka and Nuxeo; UC Santa Cruz subsequently created a plug-in for Omeka that allows users to import content from Nuxeo into Omeka, utilizing the APIs from each platform; the content can then subsequently be published through Omeka, leveraging Omeka to create a tailored or customized view of that content (e.g., as part of an exhibit). 
+Nuxeo is a flexible platform with a well-documented API, offering a range of opportunities for co-developing new features and integrations with other systems. As an example, staff from the UC Santa Cruz Libraries and CDL Nuxeo team developed a strategy for integrating data between Omeka and Nuxeo; UC Santa Cruz subsequently created a <a href="https://github.com/UCSCLibrary">plug-in for Omeka</a> that allows users to import content from Nuxeo into Omeka, utilizing the APIs from each platform; the content can then subsequently be published through Omeka, leveraging Omeka to create a tailored or customized view of that content (e.g., as part of an exhibit). 
 
-More broadly, the UCLDC platform also supports a range of opportunities for co-development, leveraging the suite of APIs that are available.
+More broadly, the UCLDC platform also supports a range of opportunities for co-development, leveraging the <a href="https://registry.cdlib.org/documentation/docs/technical-docs/index/">suite of APIs</a> that are available.
 
 We welcome opportunities to work with the UC Libraries to identify and develop other enhancements to Nuxeo and the broader UCLDC platform. For example, we anticipate that Nuxeo could be extended to integrate shared name authority and thesaurus data, potentially using linked open data techniques; this type of functionality could benefit from co-development approaches. If there is a particular area of the platform that you would like to extend, and are interested in collaborating with us on development work, please contact us! 
 
@@ -184,4 +184,4 @@ The timing and move to new technologies should be a systemwide conversation that
 
 ### <a name="faq18">18. If CDL and the Libraries decide to move to another platform for the shared DAMS, is there a strategy for migrating content out of Nuxeo to the new solution?</a>
 
-Nuxeo supports batch exporting of metadata, with references to associated content files in Amazon S3, through its administrative user interface as well as through its API. Hence, we have flexible options for migrating content from Nuxeo to another platform.
+Nuxeo supports batch exporting of metadata, with references to associated content files in Amazon S3, through its administrative user interface as well as <a href="https://registry.cdlib.org/documentation/docs/technical-docs/nuxeo-api/">through its API</a>. Hence, we have flexible options for migrating content from Nuxeo to another platform.
