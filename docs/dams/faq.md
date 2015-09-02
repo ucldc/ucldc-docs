@@ -126,17 +126,17 @@ More information about specific UCLDC Shared DAMS functionality is available on 
 
 ### <a name="faq10">10. What kind of metadata schemes does Nuxeo support?</a>
 
-Nuxeo's metadata scheme is highly customizable and extensible, and can be modified using the Studio tool rather than requiring developer time. To date, we have configured Nuxeo to support a specific metadata schema (UCLDC), which was developed in consultation with the UCLDC Project Stakeholder Group. The schema adapts Dublin Core-based elements, and was intentionally designed to account for a broad range of content types and to support discovery and use. So far this schema has proved appropriate and effective for the Libraries’ content, and it accommodates repeating fields, multi-valued fields, complex objects, etc.
+Nuxeo's metadata scheme is highly customizable and extensible, and can be modified using the Studio tool rather than requiring developer time. To date, we have configured Nuxeo to support a specific metadata schema (UCLDC), which was developed in consultation with the UCLDC Project Stakeholder Group. The schema adapts Dublin Core-based elements (which in turn have analogs with other standard data structure schemes such as VRA Core, MODS, and MARC). The schema was intentionally designed to account for a broad range of content types and to support discovery and use. So far this schema has proved appropriate and effective for the Libraries’ content, and it accommodates repeating fields, multi-valued fields, complex objects, etc.
 
-If a campus library requires a custom metadata schema, we have the option to modify the UCLDC schema or add additional schemas. For example, over the course of using Nuxeo, we have extended particular metadata fields (e.g., Description) to address needs voiced by campus libraries. It is also possible to integrate external vocabularies into the schema for ease of cataloging and authority control.
+If a campus library requires a custom metadata schema, we have the option to modify the UCLDC schema or add additional schemas. For example, over the course of using Nuxeo, we have extended particular metadata fields (e.g., Description) to address needs voiced by campus libraries to have more granular types of descriptive notes in their metadata -- which can then be available for indexing and display. It is also possible to integrate external vocabularies into the schema for ease of cataloging and authority control.
 
-The metadata records in Nuxeo can be obtained in the form of XML; the XML can then be transformed into other outputs (e.g., JSON, Dublin Core XML).
+The metadata records in Nuxeo can be obtained in the form of XML; the XML can then be transformed into other outputs (e.g., JSON, Dublin Core XML) using standard transformation tools such as XSLT. Hence, if there is a scenario where a particular output is required by a campus library, the Nuxeo XML output is highly adaptable.
 
 ### <a name="faq11">11.  What are the technical components of Nuxeo?</a>
 
 The technology stack utilizes Apache Tomcat with Redis, Postgres, and Elasticsearch components. The core repository utilizes CMIS/Visible Content Store. For file storage, we are utilizing Amazon Web Service's (AWS) Simple Storage Service (S3). S3 is dynamically provisioned, so we can scale to any volume without pre-provisioning capacity.
 
-The software is patched using .jar files. Customizations can be applied using Studio, an online platform that generates .jar configuration files.  
+The software is updated using .jar files. Customizations can be applied using Studio, an online platform that generates .jar configuration files.  
 
 ### <a name="faq12">12.  Are the metadata records and files (that are stored in Nuxeo) backed up?</a>
 
