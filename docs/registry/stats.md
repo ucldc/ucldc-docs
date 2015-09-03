@@ -27,7 +27,7 @@ These steps are described in more detail below.
 
 ###1. Create a new Google Analytics "property" for Calisphere BETA
 
-A new property in Google Analytics correlates to a new report. We highly recommend that you "start fresh" and create a new property for Calisphere BETA, so your stats on your content in Calisphere BETA are separate from your stats on other sites. To learn how to set up a new property, [read the instructions here.](https://support.google.com/analytics/answer/1042508?hl=en&vid=1-635768324944661236-1858192804) Note that you will automatically create a new property if you choose to create a whole separate account.
+A new property in Google Analytics correlates to a new report. We highly recommend that you "start fresh" and create a new property for Calisphere BETA, so your stats on your content in Calisphere BETA are separate from your stats on other sites. To learn how to set up a new property, [read the instructions here.](https://support.google.com/analytics/answer/1042508?hl=en&vid=1-635768324944661236-1858192804) The URL for your new property should be http://calisphere.cdlib.org. Note that you will automatically create a new property if you choose to create a whole separate account.
 
 ###2. Provide CDL with your property's tracker ID
 
