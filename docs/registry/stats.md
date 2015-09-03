@@ -19,7 +19,7 @@ CDL does not plan to engineer any custom events for content owners’ usage repo
 In order to collect usage statistics, the UCLDC Collection Administrator or other designated staff member at your institution will need to complete 4 steps.
 
 ###1. Create a new Google Analytics "property" for Calisphere BETA
-A new property in Google Analytics correlates to a new report. We highly recommend that you "start fresh" and create a new property for Calisphere BETA, so your stats on your content in Calisphere BETA are separate from your stats on other sites. To learn how to set up a new property, [https://support.google.com/analytics/answer/1042508?hl=en&vid=1-635768324944661236-1858192804](read the instructions here.) Note that you will automatically create a new property if you choose to create a whole separate account.
+A new property in Google Analytics correlates to a new report. We highly recommend that you "start fresh" and create a new property for Calisphere BETA, so your stats on your content in Calisphere BETA are separate from your stats on other sites. To learn how to set up a new property, [read the instructions here.](https://support.google.com/analytics/answer/1042508?hl=en&vid=1-635768324944661236-1858192804) Note that you will automatically create a new property if you choose to create a whole separate account.
 
 ###2. Provide CDL with your property's tracker ID
 A Google Analytics tracker ID will be generated when you create a new property and click "get tracker ID." The tracker ID will be a 9-character string beginning with the letters "UA." Please copy this tracker ID and send it to us at [ucldc@ucop.edu](ucldc@ucop.edu). We will place it in the Collection Registry, on the institutions to which it should apply (see next bullet).
@@ -32,13 +32,13 @@ In making this decision, it is best to remember that one tracker ID correlates w
 ###4. Create "custom dimensions" for collections and institutions
 This last step is very important for allowing you to filter your Calisphere BETA stats by collection and institution.
 
-You will need to create something called "custom dimensions" in your property. Google Analytics has laid this out very nicely in [https://support.google.com/analytics/answer/2709829?vid=1-635766362504332403-2648225428](this help documentation). Follow the eight steps under "Set up custom dimensions," first for collections. When you get to Step 5, name the dimension "collections." Then, if you have applied this tracker ID to multiple institutions, go through the steps one more time. This time, name your dimension "institutions." **Please note that it is important that you create your dimensions in this order: dimension 1 should be collections, and dimension 2 should be institutions. This matches the code we have engineered on our side and will ensure your data comes through.**
+You will need to create something called "custom dimensions" in your property. Google Analytics has laid this out very nicely in [this help documentation](https://support.google.com/analytics/answer/2709829?vid=1-635766362504332403-2648225428). Follow the eight steps under "Set up custom dimensions," first for collections. When you get to Step 5, name the dimension "collections." Then, if you have applied this tracker ID to multiple institutions, go through the steps one more time. This time, name your dimension "institutions." **Please note that it is important that you create your dimensions in this order: dimension 1 should be collections, and dimension 2 should be institutions. This matches the code we have engineered on our side and will ensure your data comes through.**
 
 ##How to view your stats
 Now comes the exciting part: getting your data!
 
 ###Filter by collection/institution
-To filter by collection and/or institution, you'll be making use of something called "custom dimensions." Dimensions are really just "things you can filter on," and these happen to be custom because you created them back in setup step #4. [https://support.google.com/analytics/answer/1033861?vid=1-635768343290685965-123999013](Read more about dimensions here.) You can make use of your custom dimensions anytime you're given the option in your report, but a particularly handy one is in the "site content" view:
+To filter by collection and/or institution, you'll be making use of something called "custom dimensions." Dimensions are really just "things you can filter on," and these happen to be custom because you created them back in setup step #4. [Read more about dimensions here.](https://support.google.com/analytics/answer/1033861?vid=1-635768343290685965-123999013) You can make use of your custom dimensions anytime you're given the option in your report, but a particularly handy one is in the "site content" view:
 
 - Using the left-side navigation, click on Behavior to expand your report options
 - Click on Site Content
