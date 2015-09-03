@@ -10,26 +10,45 @@ We are using Google Analytics for tracking usage of objects on the new Calispher
 ##What's supported
 We are able to support contributor statistics through Google Analytics as follows:
 
-+ Separate Google Analytics reports for separate institutions. (Campuses can elect to "roll-up" institutions into a single report if so desired; see below.) Data is collected on each institution's digital objects, collection landing pages, and institution landing pages.
++ Filtering usage data by institution (e.g. library department), within a given report. Data is collected on each institution's digital objects, collection landing pages, and institution landing pages.
 + Filtering usage data by collection, within a given report.
 
 CDL does not plan to engineer any custom events for content owners’ usage reports, unless this is surfaced as a need. This means that the typical (but extensive!) suite of usage data from Google Analytics will be reported in the areas of Audience, Acquisition, and Behavior. Please let us know if you have additional requirements and we will try to accommodate them.
 
-##What we need from you
-In order to collect usage statistics for your institution, we need the following information, as provided by a UCLDC Collection Administrator or other designated staff member. We'll store this information in the Collection Registry.
+##How to set up stats
+In order to collect usage statistics, the UCLDC Collection Administrator or other designated staff member at your institution will need to complete 4 steps.
 
-**1. Provide a Google Analytics tracker ID**
+**1. Create a new Google Analytics "property" for Calisphere BETA**
+A new property in Google Analytics correlates to a new report. We highly recommend that you "start fresh" and create a new property for Calisphere BETA, so your stats on your content in Calisphere BETA are separate from your stats on other sites. To learn how to set up a new property, [https://support.google.com/analytics/answer/1042508?hl=en&vid=1-635768324944661236-1858192804](read the instructions here.) Note that you will automatically create a new property if you choose to create a whole separate account.
 
-A Google Analytics tracker ID is generated when you open a new Google Analytics Account or Property. It will result in a separate report for usage of your collections on Calisphere BETA. If you would like some assistance in setting up a Google Analytics Account or Property, please don't hesitate to contact us.
+**2. Provide CDL with your property's tracker ID**
+A Google Analytics tracker ID will be generated when you create a new property and click "get tracker ID." The tracker ID will be a 9-character string beginning with the letters "UA." Please copy this tracker ID and send it to us at [ucldc@ucop.edu](ucldc@ucop.edu). We will place it in the Collection Registry, on the institutions to which it should apply (see next bullet).
 
-**2. Indicate which institutions should have the tracker ID**
+**3. Tell us which institutions should have the tracker ID**
+We need to know to what institution(s) the tracker ID should be applied. Please send this information with the tracker ID.
 
-We need to know to what institution(s) the tracker ID should be applied. Campuses with more than one contributing institution to Calisphere BETA can elect to apply different tracker IDs to different institutions (resulting in a separate report for each institution) or apply the same tracker ID to multiple institutions (resulting in a single Google Analytics report for those institutions).
+In making this decision, it is best to remember that one tracker ID correlates with one report in Google Analytics. Do you want to get stats for multiple institutions (for example different library departments) within a single report? If so, you should tell us to apply that one tracker ID to those institutions. Do you have some institutions on campus (e.g. a museum or affiliated library) that will want its own, separate report? In those cases, separate tracker IDs should be created and then applied to the different institutions.
 
-Simply let us know which tracker ID should be applied to which institutions on your campus.
+**4. Create "custom dimensions" for collections and institutions**
+This last step is very important for allowing you to filter your Calisphere BETA stats by collection and institution.
 
-**3. Provide a preferred collection label (optional)**
+You will need to create something called "custom dimensions" in your property. Google Analytics has laid this out very nicely in [https://support.google.com/analytics/answer/2709829?vid=1-635766362504332403-2648225428](this help documentation). Follow the eight steps under "Set up custom dimensions," first for collections. When you get to Step 5, name the dimension "collections." Then, if you have applied this tracker ID to multiple institutions, go through the steps one more time. This time, name your dimension "institutions." *Please note that it is important that you create your dimensions in this order: dimension 1 should be collections, and dimension 2 should be institutions. This matches the code we have engineered on our side and will ensure your data comes through.*
 
-Each Google Analytics report for Calisphere BETA will allow contributors to filter by collection. This means that you can see the usage stats for a given collection as defined on Calisphere BETA.
+##How to view your stats
+Now comes the exciting part: getting your data!
 
-We've heard that some institutions want to specify how collections are labelled within the Google Analytics report, for example by Name or Collection Number. If you have a particular way you want your collections to appear in the report, let us know. For collections that have corresponding finding aids on the OAC, by default the value in this field will be the Collection Number.
+**Filter by collection/institution**
+To filter by collection and/or institution, you'll be making use of something called "custom dimensions." Dimensions are really just "things you can filter on," and these happen to be custom because you created them back in setup step #4. [https://support.google.com/analytics/answer/1033861?vid=1-635768343290685965-123999013](Read more about dimensions here.) You can make use of your custom dimensions anytime you're given the option in your report, but a particularly handy one is in the "site content" view:
+
+- Using the left-side navigation, click on Behavior to expand your report options
+- Click on Site Content
+- Click on All Pages
+- In the table in the bottom half of the report, find the button called "Secondary Dimension"
+- Click on "Custom Dimension"
+- Click on "collections" or "institutions" 
+
+You should now see all of the collections and/or institutions with which a given page is affiliated. You can then do fancy things like sort your pages by collection (click on the "collections" or "institutions" column), or create an advanced filter using a collection name to see all your stats for a given collection (click on the "advanced" link next to the magnifying glass on the right side).
+
+**Additional stats support**
+Generally speaking, we will not be providing additional support in navigating and interpreting your usage reports, as Google Analytics already provides [https://support.google.com/analytics?vid=1-635768324944661236-1858192804#topic=3544906](extensive help documentation). That said, we are happy to consult to the extent we can, especially if need more information about Calisphere BETA in order to understand your stats. Please feel free to contact us.
+
