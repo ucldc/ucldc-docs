@@ -18,6 +18,13 @@ CDL does not plan to engineer any custom events for content owners’ usage repo
 ##How to set up stats
 In order to collect usage statistics, the UCLDC Collection Administrator or other designated staff member at your institution will need to complete 4 steps.
 
+1. Create a new Google Analytics property for Calisphere BETA
+2. Provie CDL with your property's tracker ID
+3. Tell us which institutions should have the tracker ID applied
+4. Create "custom dimensions" for collections and institutions
+ 
+These steps are described in more detail below.
+
 ###1. Create a new Google Analytics "property" for Calisphere BETA
 
 A new property in Google Analytics correlates to a new report. We highly recommend that you "start fresh" and create a new property for Calisphere BETA, so your stats on your content in Calisphere BETA are separate from your stats on other sites. To learn how to set up a new property, [read the instructions here.](https://support.google.com/analytics/answer/1042508?hl=en&vid=1-635768324944661236-1858192804) Note that you will automatically create a new property if you choose to create a whole separate account.
@@ -26,7 +33,7 @@ A new property in Google Analytics correlates to a new report. We highly recomme
 
 A Google Analytics tracker ID will be generated when you create a new property and click "get tracker ID." The tracker ID will be a 9-character string beginning with the letters "UA." Please copy this tracker ID and send it to us at [ucldc@ucop.edu](ucldc@ucop.edu). We will place it in the Collection Registry, on the institutions to which it should apply (see next bullet).
 
-###3. Tell us which institutions should have the tracker ID
+###3. Tell us which institutions should have the tracker ID applied
 
 We need to know to what institution(s) the tracker ID should be applied. Please send this information with the tracker ID.
 
