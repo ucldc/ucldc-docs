@@ -10,7 +10,9 @@ Thanks for visiting our Documentation site. This page is under construction. Soo
 </a>
 <br>(click to enlarge)
 
-For now, we recommend you visit our [project wiki](https://wiki.library.ucsf.edu/display/UCLDC/Overview+of+UCLDC+Implementation) for general information about the UCLDC model and technical stack. For specific information about the Nuxeo Shared DAMS, <a href="http://ucldc.github.io/ucldc-docs/docs/dams/faq/">see our FAQ</a>.
+For now, we recommend you visit our [project wiki](https://wiki.library.ucsf.edu/display/UCLDC/Overview+of+UCLDC+Implementation) for general information about the UCLDC model and technical stack.
+
+We have also recently drafted an <a href="http://ucldc.github.io/ucldc-docs/docs/dams/faq/">FAQ about the Shared DAMS</a>.
 
 
 <!-- 
