@@ -31,7 +31,7 @@ A new property in Google Analytics correlates to a new report. We highly recomme
 
 ###2. Provide CDL with your property's tracker ID
 
-A Google Analytics tracker ID will be generated when you create a new property and click "get tracker ID." The tracker ID will be a 9-character string beginning with the letters "UA." Please copy this tracker ID and send it to us at [ucldc@ucop.edu](ucldc@ucop.edu). We will place it in the Collection Registry, on the institutions to which it should apply (see next bullet).
+A Google Analytics tracker ID will be generated when you create a new property and click "get tracker ID." The tracker ID will be a 9-character string beginning with the letters "UA." Please copy this tracker ID and send it to us at [ucldc@ucop.edu](mailto:ucldc@ucop.edu). We will place it in the Collection Registry, on the institutions to which it should apply (see next bullet).
 
 ###3. Tell us which institutions should have the tracker ID applied
 
