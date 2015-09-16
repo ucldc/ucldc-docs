@@ -62,7 +62,7 @@ UCLDC Collection Administrators perform administrative functions in the DAMS and
   </tr>
   <tr>
     <td>UC Santa Cruz</td>
-    <td><a href="http://campusdirectory.ucsc.edu/detail.php?type=people&uid=chesley">Sue Perry</a></td>
+    <td><a href="http://campusdirectory.ucsc.edu/cd_detail?uid=jaffer">Rachel Jaffe</a></td>
   </tr>
 
 </table>
