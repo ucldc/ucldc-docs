@@ -87,24 +87,24 @@ This scheme is still undergoing active development. Find the most up-to-date sch
 
 <table class="confluenceTable">
  <tr>
-  <td class="confluenceTd">
+  <th class="confluenceTh">
   <p><b>Name </b></p>
-  </td>
-  <td class="confluenceTd">
+  </th>
+  <th class="confluenceTh">
   <p><b>Type </b></p>
-  </td>
-  <td class="confluenceTd">
+  </th>
+  <th class="confluenceTh">
   <p><b>Comments </b></p>
-  </td>
-  <td class="confluenceTd">
+  </th>
+  <th class="confluenceTh">
   <p><b>Multi-Valued </b></p>
-  </td>
-  <td class="confluenceTd">
+  </th>
+  <th class="confluenceTh">
   <p><b>Indexed?</b></p>
-  </td>
-  <td class="confluenceTd">
+  </th>
+  <th class="confluenceTh">
   <p><b>Stored?</b></p>
-  </td>
+  </th>
  </tr>
  <tr>
   <td class="confluenceTd">
