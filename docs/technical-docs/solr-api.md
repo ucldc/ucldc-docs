@@ -1156,8 +1156,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   <p>string</p>
   </td>
   <td>
-  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-  line-height:normal'>Pixel width:height.</p>
+  <p>Pixel width:height.</p>
   </td>
   <td>
   <p>no</p>
@@ -1177,8 +1176,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   <p>string </p>
   </td>
   <td>
-  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-  line-height:normal'>not indexed; holds the md5 of the best image found for image
+  <p>not indexed; holds the md5 of the best image found for image
   objects this will then be passed to the thumbnail server for nicely sized
   images. For now you can use md5s3stash to calculate url
   to image </p>
@@ -1219,11 +1217,9 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   <p>string </p>
   </td>
   <td>
-  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-  line-height:normal'>Only present for
+  <p>Only present for
   “deep content” (nuxeo harvested items) </p>
-  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-  line-height:normal'><span style='color:#C00000'><a
+  <p><span style='color:#C00000'><a
   href="https://github.com/ucldc/ucldc-docs/wiki/media.json">https://github.com/ucldc/ucldc-docs/wiki/media.json</a></p>
   </td>
   <td>
