@@ -85,92 +85,1667 @@ This scheme is still undergoing active development. Find the most up-to-date sch
 * <b>Indexed</b>: indicates if the value of the field can be used in queries to retrieve matching documents
 * <b>Stored</b>: indicates if the value of the field is stored in the index, and the value of the field can be retrieved by queries
 
-
-| Name                                                                                                                                                           | Type             | Comments                                                                                                                                                                                                                                                                        | Multi-Valued | Indexed? | Stored? |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|----------|---------|
-| General and administrative fields                                                                                                                              |                  |                                                                                                                                                                                                                                                                                 |              |          |         |
-| created                                                                                                                                                        | date             | refers to creation of the metadata document, not creation of the Solr document, nor creation of the content object                                                                                                                                                              | no           | yes      | yes     |
-| created_s                                                                                                                                                      | string           | string variant of created for wildcard searching                                                                                                                                                                                                                                | no           | yes      | yes     |
-| id                                                                                                                                                             | string           | Unique identifier assigned by CDL to the object, derived from identifier (if the value is an ARK) or otherwise auto-generated. This value also is also used within the context of the URL for the object in Calisphere.                                                         | no           | yes      | yes     |
-| last_modified                                                                                                                                                  | date             | refers to the date the metadata document was last modified                                                                                                                                                                                                                      | no           | yes      | yes     |
-| last_modified_s                                                                                                                                                | string           | string variant of last_modified for wildcard searching                                                                                                                                                                                                                          | no           | yes      | yes     |
-| text                                                                                                                                                           | text_general     | not stored; catchall text field for keyword search that indexes tokens - for each object, contains the following fields: title, contributor, creator, coverage, date, description, extent, format, identifier, language, publisher, relation, rights, source, subject, and type | yes          | yes      | no      |
-| text_rev                                                                                                                                                       | text_general_rev | not stored; the same as the text field, but in reverse for efficient leading wildcard queries                                                                                                                                                                                   | yes          | yes      | no      |
-| timestamp                                                                                                                                                      | date             | timestamp on the Solr document - default value is NOW, ie the time of object creation in the Solr index.                                                                                                                                                                        | no           | yes      | yes     |
-| Metadata fields (supplied through the Collection Registry; all multivalued so an object can be related to more than one Campus, Repository, and/or Collection) |                  |                                                                                                                                                                                                                                                                                 |              |          |         |
-| campus                                                                                                                                                         | string           | campus stores the URL to the registry API campus object                                                                                                                                                                                                                         | yes          | yes      | yes     |
-| campus_data                                                                                                                                                    | string           | campus_name::campus_url                                                                                                                                                                                                                                                         | yes          | yes      | yes     |
-| campus_name                                                                                                                                                    | string           | campus_name stores the name of the campus, so that clients don’t need to look up against the registry API                                                                                                                                                                       | yes          | yes      | yes     |
-| campus_url                                                                                                                                                     | string           | campus_url stores the URL to the registry API campus object                                                                                                                                                                                                                     | yes          | yes      | yes     |
-| collection_data                                                                                                                                                | string           | collection_url::collection_name                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| collection_name                                                                                                                                                | string           | collection_name stores the name of the collection, so that clients don’t need to look up against the registry API                                                                                                                                                               | yes          | yes      | yes     |
-| collection_url                                                                                                                                                 | string           | collection stores the URL to the registry API collection object                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| repository_data                                                                                                                                                | string           | repository_url::repository_name                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| repository_name                                                                                                                                                | string           | repository_name stores the name of the repository, so that clients don’t need to look up against the registry API                                                                                                                                                               | yes          | yes      | yes     |
-| repository_url                                                                                                                                                 | string           | repository stores the URL to the registry API repository object                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| sort_collection_data                                                                                                                                           | string           | collection data with a normalized collection name for sorting                                                                                                                                                                                                                   | yes          | yes      | yes     |
-| Metadata fields (stored and indexed as tokenized text)                                                                                                         |                  |                                                                                                                                                                                                                                                                                 |              |          |         |
-| alternative_title                                                                                                                                              | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| contributor                                                                                                                                                    | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| coverage                                                                                                                                                       | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| creator                                                                                                                                                        | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| date                                                                                                                                                           | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| description                                                                                                                                                    | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| extent                                                                                                                                                         | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| facet_decade                                                                                                                                                   | string           |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| format                                                                                                                                                         | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| genre                                                                                                                                                          | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| identifier                                                                                                                                                     | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| language                                                                                                                                                       | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| location                                                                                                                                                       | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| provenance                                                                                                                                                     | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| publisher                                                                                                                                                      | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| relation                                                                                                                                                       | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| rights                                                                                                                                                         | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| rights_holder                                                                                                                                                  | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| rights_note                                                                                                                                                    | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| rights_date                                                                                                                                                    | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| sort_date_start                                                                                                                                                | date             |                                                                                                                                                                                                                                                                                 | no           | yes      | yes     |
-| sort_date_end                                                                                                                                                  | date             |                                                                                                                                                                                                                                                                                 | no           | yes      | yes     |
-| sort_title                                                                                                                                                     | alphaSpaceSort   | Version of title used for lexical ordering                                                                                                                                                                                                                                      | no           | yes      | yes     |
-| source                                                                                                                                                         | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| subject                                                                                                                                                        | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| temporal                                                                                                                                                       | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| transcription                                                                                                                                                  | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| title                                                                                                                                                          | text_general     | only required field                                                                                                                                                                                                                                                             | yes          | yes      | yes     |
-| type                                                                                                                                                           | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| Content file fields                                                                                                                                            |                  |                                                                                                                                                                                                                                                                                 |              |          |         |
-| url_item                                                                                                                                                       | string           | best guess at home url for the item. Filled in by akara? currently indexed to search for items with it filled in, but will likely not be indexed in final release                                                                                                               | no           | yes      | yes     |
-| reference_image_dimensions                                                                                                                                     | string           | Pixel width:height.                                                                                                                                                                                                                                                             | no           | yes      | yes     |
-| reference_image_md5                                                                                                                                            | string           | not indexed; holds the md5 of the best image found for image objects this will then be passed to the thumbnail server for nicely sized images. For now you can use md5s3stash to calculate url to image                                                                         | no           | yes      | yes     |
-| structmap_text                                                                                                                                                 | string           |                                                                                                                                                                                                                                                                                 | no           | yes      | no      |
-| structmap_url                                                                                                                                                  | string           | Only present for “deep content” (nuxeo harvested items)                                                                                                                                                                                                                         |              |          |         |
-| https://github.com/ucldc/ucldc-docs/wiki/media.json                                                                                                            |                  |                                                                                                                                                                                                                                                                                 |              |          |         |
-| no                                                                                                                                                             | yes              | yes                                                                                                                                                                                                                                                                             |              |          |         |
-| Metadata fields (stored and indexed as strings, instead of tokenized text)                                                                                     |                  |                                                                                                                                                                                                                                                                                 |              |          |         |
-| alternative_title_ss                                                                                                                                           | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| contributor_ss                                                                                                                                                 | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| coverage_ss                                                                                                                                                    | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| creator_ss                                                                                                                                                     | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| date_ss                                                                                                                                                        | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| description_ss                                                                                                                                                 | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| extent_ss                                                                                                                                                      | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| format_ss                                                                                                                                                      | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| genre_ss                                                                                                                                                       | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| identifier_ss                                                                                                                                                  | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| language_ss                                                                                                                                                    | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| location_ss                                                                                                                                                    | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| provenance_ss                                                                                                                                                  | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| publisher_ss                                                                                                                                                   | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| relation_ss                                                                                                                                                    | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| rights_ss                                                                                                                                                      | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| rights_holder_ss                                                                                                                                               | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| rights_note_ss                                                                                                                                                 | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| rights_date_ss                                                                                                                                                 | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| source_ss                                                                                                                                                      | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| subject_ss                                                                                                                                                     | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| temporal_ss                                                                                                                                                    | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| transcription_ss                                                                                                                                               | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-| title_ss                                                                                                                                                       | text_general     | only required field                                                                                                                                                                                                                                                             | yes          | yes      | yes     |
-| type_ss                                                                                                                                                        | text_general     |                                                                                                                                                                                                                                                                                 | yes          | yes      | yes     |
-
+<table border=1 cellpadding=0>
+ <tr>
+  <td>
+  <p><b>Name </b></p>
+  </td>
+  <td>
+  <p><b>Type </b></p>
+  </td>
+  <td>
+  <p><b>Comments </b></p>
+  </td>
+  <td>
+  <p><b>Multi-Valued </b></p>
+  </td>
+  <td>
+  <p><b>Indexed?</b></p>
+  </td>
+  <td>
+  <p><b>Stored?</b></p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p><b>General and administrative fields</b></p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>created</p>
+  </td>
+  <td>
+  <p>date </p>
+  </td>
+  <td>
+  <p>refers to creation
+  of the metadata document, not creation of the Solr
+  document, nor creation of the content object </p>
+  </td>
+  <td>
+  <p>no </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td>
+  <p>created_s</p>
+  </td>
+  <td>
+  <p>string </p>
+  </td>
+  <td>
+  <p>string variant of created for wildcard searching </p>
+  </td>
+  <td>
+  <p>no </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>id</p>
+  </td>
+  <td>
+  <p>string</p>
+  </td>
+  <td>
+  <p>Unique identifier assigned by CDL to the
+  object, derived from identifier (if the value is an ARK) or otherwise
+  auto-generated. This value also is also used within the context of the URL
+  for the object in Calisphere.</p>
+  </td>
+  <td>
+  <p>no</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>last_modified</p>
+  </td>
+  <td>
+  <p>date </p>
+  </td>
+  <td>
+  <p>refers to the date
+  the metadata document was last modified </p>
+  </td>
+  <td>
+  <p>no </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td>
+  <p>last_modified_s</p>
+  </td>
+  <td>
+  <p>string </p>
+  </td>
+  <td>
+  <p>string variant of last_modifiedfor wildcard searching </p>
+  </td>
+  <td>
+  <p>no </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td>
+  <p>text</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>not stored; catchall
+  text field for keyword search that indexes tokens - for each object, contains
+  the following fields: title, contributor, creator, coverage, date, description, extent, format, identifier, language, publisher, relation, rights, source, subject, and type </p>
+  </td>
+  <td>
+  <p>yes </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>no</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td>
+  <p>text_rev</p>
+  </td>
+  <td>
+  <p>text_general_rev</p>
+  </td>
+  <td>
+  <p>not stored; the same
+  as the textfield, but in reverse for efficient leading
+  wildcard queries </p>
+  </td>
+  <td>
+  <p>yes </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>no</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td>
+  <p>timestamp</p>
+  </td>
+  <td>
+  <p>date </p>
+  </td>
+  <td>
+  <p>timestampon the Solr
+  document - default value is NOW, ie the time of
+  object creation in the Solr index. </p>
+  </td>
+  <td>
+  <p>no </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td colspan=4>
+  <p><b>Metadata fields (supplied
+  through the Collection Registry; all multivalued so an object can be related
+  to more than one Campus, Repository, and/or Collection</b>)</p>
+  </td>
+  <td>
+  <p><b></b></p>
+  </td>
+  <td>
+  <p><b></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>campus</p>
+  </td>
+  <td>
+  <p>string </p>
+  </td>
+  <td>
+  <p>campus stores the URL to the registry API campus object </p>
+  </td>
+  <td>
+  <p>yes </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>campus_data</p>
+  </td>
+  <td>
+  <p>string</p>
+  </td>
+  <td>
+  <p>campus_name::campus_url</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>campus_name</p>
+  </td>
+  <td>
+  <p>string </p>
+  </td>
+  <td>
+  <p>campus_namestores the name of the campus, so that
+  clients don’t need to look up against the registry API </p>
+  </td>
+  <td>
+  <p>yes </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:14'>
+  <td>
+  <p>campus_url</p>
+  </td>
+  <td>
+  <p>string</p>
+  </td>
+  <td>
+  <p>campus_url stores the URL to the
+  registry API campus object</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>collection_data</p>
+  </td>
+  <td>
+  <p>string </p>
+  </td>
+  <td>
+  <p>collection_url::collection_name</p>
+  </td>
+  <td>
+  <p>yes </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>collection_name</p>
+  </td>
+  <td>
+  <p>string </p>
+  </td>
+  <td>
+  <p>collection_namestores the name of the collection, so that
+  clients don’t need to look up against the registry API </p>
+  </td>
+  <td>
+  <p>yes </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>collection_url</p>
+  </td>
+  <td>
+  <p>string </p>
+  </td>
+  <td>
+  <p>collection stores the URL to the registry API collection object </p>
+  </td>
+  <td>
+  <p>yes </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>repository_data</p>
+  </td>
+  <td>
+  <p>string </p>
+  </td>
+  <td>
+  <p>repository_url::repository_name</p>
+  </td>
+  <td>
+  <p>yes </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>repository_name</p>
+  </td>
+  <td>
+  <p>string </p>
+  </td>
+  <td>
+  <p>repository_namestores the name of the repository, so that
+  clients don’t need to look up against the registry API </p>
+  </td>
+  <td>
+  <p>yes </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>repository_url</p>
+  </td>
+  <td>
+  <p>string </p>
+  </td>
+  <td>
+  <p>repository stores the URL to the registry API repository object </p>
+  </td>
+  <td>
+  <p>yes </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>sort_collection_data</p>
+  </td>
+  <td>
+  <p>string</p>
+  </td>
+  <td>
+  <p>collection
+  data with a normalized collection name for sorting</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=4>
+  <p><b>Metadata fields
+  (stored and indexed as tokenized text</b>)</p>
+  </td>
+  <td>
+  <p><b></b></p>
+  </td>
+  <td>
+  <p><b></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>alternative_title</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>contributor </p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>coverage</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>creator</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>date</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>description </p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>extent</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>facet_decade</p>
+  </td>
+  <td>
+  <p>string</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>format</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>genre</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>identifier </p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>language</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>location</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>provenance</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>publisher</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>relation</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>rights</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>rights_holder</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>rights_note</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>rights_date</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>sort_date_start</p>
+  </td>
+  <td>
+  <p>date</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>no</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>sort_date_end</p>
+  </td>
+  <td>
+  <p>date</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>no</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>sort_title</p>
+  </td>
+  <td>
+  <p>alphaSpaceSort</p>
+  </td>
+  <td>
+  <p>Version of title
+  used for lexical ordering</p>
+  </td>
+  <td>
+  <p>no</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>source</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>subject</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>temporal</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>transcription</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>title</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>only required field </p>
+  </td>
+  <td>
+  <p>yes </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>type</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=4>
+  <p><b>Content file fields</b></p>
+  </td>
+  <td>
+  <p><b></b></p>
+  </td>
+  <td>
+  <p><b></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>url_item</p>
+  </td>
+  <td>
+  <p>string </p>
+  </td>
+  <td>
+  <p>bestguess at home url
+  for the item. Filled in by akara? currently indexed
+  to search for items with it filled in, but will likely not be indexed in
+  final release </p>
+  </td>
+  <td>
+  <p>no </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>reference_image_dimensions</p>
+  </td>
+  <td>
+  <p>string</p>
+  </td>
+  <td>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  line-height:normal'>Pixel width:height.</p>
+  </td>
+  <td>
+  <p>no</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>reference_image_md5</p>
+  </td>
+  <td>
+  <p>string </p>
+  </td>
+  <td>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  line-height:normal'>not indexed; holds the md5 of the best image found for image
+  objects this will then be passed to the thumbnail server for nicely sized
+  images. For now you can use md5s3stash to calculate url
+  to image </p>
+  </td>
+  <td>
+  <p>no</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>structmap_text</p>
+  </td>
+  <td>
+  <p>string </p>
+  </td>
+  <td></td>
+  <td>
+  <p>no </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>no</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>structmap_url</p>
+  </td>
+  <td>
+  <p>string </p>
+  </td>
+  <td>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  line-height:normal'>Only present for
+  “deep content” (nuxeo harvested items) </p>
+  <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+  line-height:normal'><span style='color:#C00000'><a
+  href="https://github.com/ucldc/ucldc-docs/wiki/media.json">https://github.com/ucldc/ucldc-docs/wiki/media.json</a></p>
+  </td>
+  <td>
+  <p>no </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=4>
+  <p><b>Metadata fields
+  (stored and indexed as strings, instead of tokenized text</b>)</p>
+  </td>
+  <td>
+  <p><b></b></p>
+  </td>
+  <td>
+  <p><b></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>alternative_title_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:60'>
+  <td>
+  <p>contributor_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>coverage_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>creator_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>date_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>description_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>extent_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>format_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>genre_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>identifier_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>language_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>location_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>provenance_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>publisher_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>relation_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>rights_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>rights_holder_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>rights_note_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>rights_date_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>source_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>subject_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>temporal_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>transcription_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p></p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>title_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>only required field </p>
+  </td>
+  <td>
+  <p>yes </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>type_ss</p>
+  </td>
+  <td>
+  <p>text_general</p>
+  </td>
+  <td>
+  <p>&nbsp; </p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+  <td>
+  <p>yes</p>
+  </td>
+ </tr>
+</table>
