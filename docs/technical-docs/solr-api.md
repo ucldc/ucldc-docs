@@ -133,7 +133,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   <p>yes</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:3'>
+ <tr>
   <td class="confluenceTd">
   <p>created_s</p>
   </td>
@@ -283,17 +283,11 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   <p>yes</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:10'>
+ <tr>
   <td class="confluenceTd">
   <p><b>Metadata fields (supplied
   through the Collection Registry; all multivalued so an object can be related
   to more than one Campus, Repository, and/or Collection</b>)</p>
-  </td>
-  <td class="confluenceTd">
-  <p><b></b></p>
-  </td>
-  <td class="confluenceTd">
-  <p><b></b></p>
   </td>
  </tr>
  <tr>
@@ -1118,12 +1112,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   <td class="confluenceTd">
   <p><b>Content file fields</b></p>
   </td>
-  <td class="confluenceTd">
-  <p><b></b></p>
-  </td>
-  <td class="confluenceTd">
-  <p><b></b></p>
-  </td>
+ 
  </tr>
  <tr>
   <td class="confluenceTd">
@@ -1237,12 +1226,6 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   <p><b>Metadata fields
   (stored and indexed as strings, instead of tokenized text</b>)</p>
   </td>
-  <td class="confluenceTd">
-  <p><b></b></p>
-  </td>
-  <td class="confluenceTd">
-  <p><b></b></p>
-  </td>
  </tr>
  <tr>
   <td class="confluenceTd">
@@ -1264,7 +1247,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   <p>yes</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:60'>
+ <tr>
   <td class="confluenceTd">
   <p>contributor_ss</p>
   </td>
