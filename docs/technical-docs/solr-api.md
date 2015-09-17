@@ -284,7 +284,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   </td>
  </tr>
  <tr style='mso-yfti-irow:10'>
-  <td colspan=4>
+  <td>
   <p><b>Metadata fields (supplied
   through the Collection Registry; all multivalued so an object can be related
   to more than one Campus, Repository, and/or Collection</b>)</p>
@@ -522,7 +522,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   </td>
  </tr>
  <tr>
-  <td colspan=4>
+  <td>
   <p><b>Metadata fields
   (stored and indexed as tokenized text</b>)</p>
   </td>
@@ -1115,7 +1115,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   </td>
  </tr>
  <tr>
-  <td colspan=4>
+  <td>
   <p><b>Content file fields</b></p>
   </td>
   <td>
@@ -1219,7 +1219,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   <td>
   <p>Only present for
   “deep content” (nuxeo harvested items) </p>
-  <p><span style='color:#C00000'><a
+  <p><a
   href="https://github.com/ucldc/ucldc-docs/wiki/media.json">https://github.com/ucldc/ucldc-docs/wiki/media.json</a></p>
   </td>
   <td>
@@ -1233,7 +1233,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   </td>
  </tr>
  <tr>
-  <td colspan=4>
+  <td>
   <p><b>Metadata fields
   (stored and indexed as strings, instead of tokenized text</b>)</p>
   </td>
