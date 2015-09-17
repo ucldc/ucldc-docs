@@ -107,9 +107,9 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   </th>
  </tr>
  <tr>
-
+  <td class="confluenceTd">
   <p><b>General and administrative fields</b></p>
-
+  </td>
  </tr>
  <tr>
   <td class="confluenceTd">
