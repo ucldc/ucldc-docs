@@ -113,7 +113,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>created</p>
+  <p><b>created</b></p>
   </td>
   <td class="confluenceTd">
   <p>date </p>
@@ -135,13 +135,13 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>created_s</p>
+  <p><b>created_s</b></p>
   </td>
   <td class="confluenceTd">
   <p>string </p>
   </td>
   <td class="confluenceTd">
-  <p>string variant of created for wildcard searching </p>
+  <p>string variant of <b>created</b> for wildcard searching </p>
   </td>
   <td class="confluenceTd">
   <p>no </p>
@@ -155,14 +155,14 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>id</p>
+  <p><b>id</b></p>
   </td>
   <td class="confluenceTd">
   <p>string</p>
   </td>
   <td class="confluenceTd">
   <p>Unique identifier assigned by CDL to the
-  object, derived from identifier (if the value is an ARK) or otherwise
+  object, derived from <b>identifier</b> (if the value is an ARK) or otherwise
   auto-generated. This value also is also used within the context of the URL
   for the object in Calisphere.</p>
   </td>
@@ -178,7 +178,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>last_modified</p>
+  <p><b>last_modified</b></p>
   </td>
   <td class="confluenceTd">
   <p>date </p>
@@ -199,13 +199,13 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr style='mso-yfti-irow:6'>
   <td class="confluenceTd">
-  <p>last_modified_s</p>
+  <p><b>last_modified_s</b></p>
   </td>
   <td class="confluenceTd">
   <p>string </p>
   </td>
   <td class="confluenceTd">
-  <p>string variant of last_modifiedfor wildcard searching </p>
+  <p>string variant of <b>last_modified</b> for wildcard searching </p>
   </td>
   <td class="confluenceTd">
   <p>no </p>
@@ -219,7 +219,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr style='mso-yfti-irow:7'>
   <td class="confluenceTd">
-  <p>text</p>
+  <p><b>text</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -227,7 +227,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   <td class="confluenceTd">
   <p>not stored; catchall
   text field for keyword search that indexes tokens - for each object, contains
-  the following fields: title, contributor, creator, coverage, date, description, extent, format, identifier, language, publisher, relation, rights, source, subject, and type </p>
+  the following fields: <b>title</b>, <b>contributor</b>, <b>creator</b>, <b>coverage</b>, <b>date</b>, <b>description</b>, <b>extent</b>, <b>format</b>, <b>identifier</b>, <b>language</b>, <b>publisher</b>, <b>relation</b>, <b>rights</b>, <b>source</b>, <b>subject</b>, and <b>type</b> </p>
   </td>
   <td class="confluenceTd">
   <p>yes </p>
@@ -241,14 +241,14 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr style='mso-yfti-irow:8'>
   <td class="confluenceTd">
-  <p>text_rev</p>
+  <p><b>text_rev</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general_rev</p>
   </td>
   <td class="confluenceTd">
   <p>not stored; the same
-  as the textfield, but in reverse for efficient leading
+  as the <b>text</b> field, but in reverse for efficient leading
   wildcard queries </p>
   </td>
   <td class="confluenceTd">
@@ -263,7 +263,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr style='mso-yfti-irow:9'>
   <td class="confluenceTd">
-  <p>timestamp</p>
+  <p><b>timestamp</b></p>
   </td>
   <td class="confluenceTd">
   <p>date </p>
@@ -292,7 +292,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>campus</p>
+  <p><b>campus</b></p>
   </td>
   <td class="confluenceTd">
   <p>string </p>
@@ -312,13 +312,13 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>campus_data</p>
+  <p><b>campus_data</b></p>
   </td>
   <td class="confluenceTd">
   <p>string</p>
   </td>
   <td class="confluenceTd">
-  <p>campus_name::campus_url</p>
+  <p><b>campus_name</b>::<b>campus_url</b></p>
   </td>
   <td class="confluenceTd">
   <p>yes</p>
@@ -332,13 +332,13 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>campus_name</p>
+  <p><b>campus_name</b></p>
   </td>
   <td class="confluenceTd">
   <p>string </p>
   </td>
   <td class="confluenceTd">
-  <p>campus_namestores the name of the campus, so that
+  <p>Stores the name of the campus, so that
   clients don’t need to look up against the registry API </p>
   </td>
   <td class="confluenceTd">
@@ -351,15 +351,15 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   <p>yes</p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:14'>
+ <tr>
   <td class="confluenceTd">
-  <p>campus_url</p>
+  <p><b>campus_url</b></p>
   </td>
   <td class="confluenceTd">
   <p>string</p>
   </td>
   <td class="confluenceTd">
-  <p>campus_url stores the URL to the
+  <p>Stores the URL to the
   registry API campus object</p>
   </td>
   <td class="confluenceTd">
@@ -374,13 +374,13 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>collection_data</p>
+  <p><b>collection_data</b></p>
   </td>
   <td class="confluenceTd">
   <p>string </p>
   </td>
   <td class="confluenceTd">
-  <p>collection_url::collection_name</p>
+  <p><b>collection_url</b>::<b>collection_name</b></p>
   </td>
   <td class="confluenceTd">
   <p>yes </p>
@@ -394,13 +394,13 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>collection_name</p>
+  <p><b>collection_name</b></p>
   </td>
   <td class="confluenceTd">
   <p>string </p>
   </td>
   <td class="confluenceTd">
-  <p>collection_namestores the name of the collection, so that
+  <p>Stores the name of the collection, so that
   clients don’t need to look up against the registry API </p>
   </td>
   <td class="confluenceTd">
@@ -415,13 +415,13 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>collection_url</p>
+  <p><b>collection_url</b></p>
   </td>
   <td class="confluenceTd">
   <p>string </p>
   </td>
   <td class="confluenceTd">
-  <p>collection stores the URL to the registry API collection object </p>
+  <p>Stores the URL to the registry API collection object </p>
   </td>
   <td class="confluenceTd">
   <p>yes </p>
@@ -435,13 +435,13 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>repository_data</p>
+  <p><b>repository_data</b></p>
   </td>
   <td class="confluenceTd">
   <p>string </p>
   </td>
   <td class="confluenceTd">
-  <p>repository_url::repository_name</p>
+  <p><b>repository_url</b>::<b>repository_name</b></p>
   </td>
   <td class="confluenceTd">
   <p>yes </p>
@@ -455,13 +455,13 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>repository_name</p>
+  <p><b>repository_name</b></p>
   </td>
   <td class="confluenceTd">
   <p>string </p>
   </td>
   <td class="confluenceTd">
-  <p>repository_namestores the name of the repository, so that
+  <p>Stores the name of the repository, so that
   clients don’t need to look up against the registry API </p>
   </td>
   <td class="confluenceTd">
@@ -476,13 +476,13 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>repository_url</p>
+  <p><b>repository_url</b></p>
   </td>
   <td class="confluenceTd">
   <p>string </p>
   </td>
   <td class="confluenceTd">
-  <p>repository stores the URL to the registry API repository object </p>
+  <p>Stores the URL to the registry API repository object </p>
   </td>
   <td class="confluenceTd">
   <p>yes </p>
@@ -496,7 +496,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>sort_collection_data</p>
+  <p><b>sort_collection_data</b></p>
   </td>
   <td class="confluenceTd">
   <p>string</p>
@@ -520,16 +520,10 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   <p><b>Metadata fields
   (stored and indexed as tokenized text</b>)</p>
   </td>
-  <td class="confluenceTd">
-  <p><b></b></p>
-  </td>
-  <td class="confluenceTd">
-  <p><b></b></p>
-  </td>
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>alternative_title</p>
+  <p><b>alternative_title</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -549,7 +543,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>contributor </p>
+  <p><b>contributor</b> </p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -569,7 +563,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>coverage</p>
+  <p><b>coverage</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -589,7 +583,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>creator</p>
+  <p><b>creator</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -609,7 +603,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>date</p>
+  <p><b>date</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -629,7 +623,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>description </p>
+  <p><b>description</b> </p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -649,7 +643,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>extent</p>
+  <p><b>extent</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -669,7 +663,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>facet_decade</p>
+  <p><b>facet_decade</b></p>
   </td>
   <td class="confluenceTd">
   <p>string</p>
@@ -689,7 +683,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>format</p>
+  <p><b>format</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -709,7 +703,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>genre</p>
+  <p><b>genre</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -729,7 +723,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>identifier </p>
+  <p><b>identifier</b> </p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -749,7 +743,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>language</p>
+  <p><b>language</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -769,7 +763,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>location</p>
+  <p><b>location</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -789,7 +783,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>provenance</p>
+  <p><b>provenance</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -809,7 +803,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>publisher</p>
+  <p><b>publisher</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -829,7 +823,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>relation</p>
+  <p><b>relation</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -849,7 +843,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>rights</p>
+  <p><b>rights</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -869,7 +863,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>rights_holder</p>
+  <p><b>rights_holder</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -889,7 +883,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>rights_note</p>
+  <p><b>rights_note</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -909,7 +903,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>rights_date</p>
+  <p><b>rights_date</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -929,7 +923,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>sort_date_start</p>
+  <p><b>sort_date_start</b></p>
   </td>
   <td class="confluenceTd">
   <p>date</p>
@@ -949,7 +943,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>sort_date_end</p>
+  <p><b>sort_date_end</b></p>
   </td>
   <td class="confluenceTd">
   <p>date</p>
@@ -969,7 +963,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>sort_title</p>
+  <p><b>sort_title</b></p>
   </td>
   <td class="confluenceTd">
   <p>alphaSpaceSort</p>
@@ -990,7 +984,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>source</p>
+  <p><b>source</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1010,7 +1004,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>subject</p>
+  <p><b>subject</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1030,7 +1024,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>temporal</p>
+  <p><b>temporal</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1050,7 +1044,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>transcription</p>
+  <p><b>transcription</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1070,7 +1064,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>title</p>
+  <p><b>title</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1090,7 +1084,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>type</p>
+  <p><b>type</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1115,16 +1109,15 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>url_item</p>
+  <p><b>url_item</b></p>
   </td>
   <td class="confluenceTd">
   <p>string </p>
   </td>
   <td class="confluenceTd">
-  <p>bestguess at home url
-  for the item. Filled in by akara? currently indexed
-  to search for items with it filled in, but will likely not be indexed in
-  final release </p>
+  <p>bestguess at home URL
+  for the item. Filled in at time of harvesting, currently indexed
+  to search for items with it filled in</p>
   </td>
   <td class="confluenceTd">
   <p>no </p>
@@ -1138,7 +1131,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>reference_image_dimensions</p>
+  <p><b>reference_image_dimensions</b></p>
   </td>
   <td class="confluenceTd">
   <p>string</p>
@@ -1158,7 +1151,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>reference_image_md5</p>
+  <p><b>reference_image_md5</b></p>
   </td>
   <td class="confluenceTd">
   <p>string </p>
@@ -1166,7 +1159,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
   <td class="confluenceTd">
   <p>not indexed; holds the md5 of the best image found for image
   objects this will then be passed to the thumbnail server for nicely sized
-  images. For now you can use md5s3stash to calculate url
+  images. For now you can use <b>md5s3stash</b> to calculate the URL
   to image </p>
   </td>
   <td class="confluenceTd">
@@ -1181,7 +1174,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>structmap_text</p>
+  <p><b>structmap_text</b></p>
   </td>
   <td class="confluenceTd">
   <p>string </p>
@@ -1199,14 +1192,13 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>structmap_url</p>
+  <p><b>structmap_url</b></p>
   </td>
   <td class="confluenceTd">
   <p>string </p>
   </td>
   <td class="confluenceTd">
-  <p>Only present for
-  “deep content” (nuxeo harvested items) </p>
+  <p>Only present for objects harvested from Nuxeo </p>
   <p><a
   href="https://github.com/ucldc/ucldc-docs/wiki/media.json">https://github.com/ucldc/ucldc-docs/wiki/media.json</a></p>
   </td>
@@ -1228,7 +1220,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>alternative_title_ss</p>
+  <p><b>alternative_title_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1248,7 +1240,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>contributor_ss</p>
+  <p><b>contributor_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1268,7 +1260,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>coverage_ss</p>
+  <p><b>coverage_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1288,7 +1280,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>creator_ss</p>
+  <p><b>creator_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1308,7 +1300,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>date_ss</p>
+  <p><b>date_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1328,7 +1320,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>description_ss</p>
+  <p><b>description_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1348,7 +1340,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>extent_ss</p>
+  <p><b>extent_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1368,7 +1360,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>format_ss</p>
+  <p><b>format_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1388,7 +1380,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>genre_ss</p>
+  <p><b>genre_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1408,7 +1400,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>identifier_ss</p>
+  <p><b>identifier_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1428,7 +1420,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>language_ss</p>
+  <p><b>language_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1448,7 +1440,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>location_ss</p>
+  <p><b>location_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1468,7 +1460,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>provenance_ss</p>
+  <p><b>provenance_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1488,7 +1480,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>publisher_ss</p>
+  <p><b>publisher_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1508,7 +1500,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>relation_ss</p>
+  <p><b>relation_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1528,7 +1520,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>rights_ss</p>
+  <p><b>rights_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1548,7 +1540,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>rights_holder_ss</p>
+  <p><b>rights_holder_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1568,7 +1560,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>rights_note_ss</p>
+  <p><b>rights_note_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1588,7 +1580,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>rights_date_ss</p>
+  <p><b>rights_date_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1608,7 +1600,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>source_ss</p>
+  <p><b>source_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1628,7 +1620,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>subject_ss</p>
+  <p><b>subject_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1648,7 +1640,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>temporal_ss</p>
+  <p><b>temporal_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1668,7 +1660,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>transcription_ss</p>
+  <p><b>transcription_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1688,7 +1680,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>title_ss</p>
+  <p><b>title_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
@@ -1708,7 +1700,7 @@ This scheme is still undergoing active development. Find the most up-to-date sch
  </tr>
  <tr>
   <td class="confluenceTd">
-  <p>type_ss</p>
+  <p><b>type_ss</b></p>
   </td>
   <td class="confluenceTd">
   <p>text_general</p>
