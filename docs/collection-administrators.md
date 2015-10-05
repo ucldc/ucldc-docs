@@ -58,7 +58,7 @@ UCLDC Collection Administrators perform administrative functions in the DAMS and
   </tr>
   <tr>
     <td>UC Santa Barbara Library</td>
-    <td><a href="http://www.library.ucsb.edu/users/jmartorana">Janet Martorana</a></td>
+    <td><a href="http://www.library.ucsb.edu/users/crissmeyer">Chrissy Rissmeyer</a></td>
   </tr>
   <tr>
     <td>UC Santa Cruz</td>
