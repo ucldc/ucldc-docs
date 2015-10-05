@@ -28,7 +28,7 @@ We are using the term "harvest" loosely to apply to a range of approaches to bri
 - Using an API to access a Solr index underlying a library's discovery system 
 - Obtaining a metadata export, such as in the MARCXML format.
 
-In general, our objective is to obtain from your system whatever output is easiest for you. We will work with you to determine your preferred method. In the future, we plan to investigate other standardized methods of harvesting that make it even easier to send and sync data, for example using the ResourceSynce protocol. 
+In general, our objective is to obtain from your system whatever output is easiest for you. We will work with you to determine your preferred method. In the future, we plan to investigate other standardized methods of harvesting that make it even easier to send and sync data, for example using the ResourceSync protocol. 
 
 ##Digital object types
 We are currently able to harvest metadata for digital objects that generally meet the following criteria:
