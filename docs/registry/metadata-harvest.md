@@ -12,8 +12,8 @@ All data harvested into the Common Index must adhere to the [UCLDC Metadata Harv
 <p>The following table summarizes data elements that must be present in each metadata record for harvest into the Common Index. Note that default values for <b>Type</b>, <b>Rights (Status)</b>, and <b>Rights (Statement)</b> can optionally be supplied and applied to individual metadata records at the time they are harvested, using the Collection Registry:</p>
 
 * <a class="label">Title</a>
-* <a class="label">Type</a>
-* <a class="label">Rights (Status)</a>
-* <a class="label">Rights (Statement)</a>
+* <a class="label">Type indicator, based on <a href="http://dublincore.org/documents/dcmi-type-vocabulary/">DCMI Type Vocabulary</a></a>
+* <a class="label">Rights Status indicator (public domain, copyrighted, copyright unknown)</a>
+* <a class="label">Rights Statement (narrative statement that provides users with information about any copyright restrictions pertaining to use and re-use of the digital object)</a>
 * <a class="label">Is Shown At (URL to a publicly-accessible view of the digital object)</a>
 * <a class="label">Object (URL to a thumbnail image or service file suitable for public display, which can be used for display within the context of Calisphere and DPLA object views and search/browse results)</a>
