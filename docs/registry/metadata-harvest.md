@@ -15,5 +15,5 @@ All data harvested into the Common Index must adhere to the [UCLDC Metadata Harv
 * <a class="label">Type</a>
 * <a class="label">Rights (Status)</a>
 * <a class="label">Rights (Statement)</a>
-* <a class="label">Is Shown At (URL to object view)</a>
-* <a class="label">Object (URL to object view)</a>
+* <a class="label">Is Shown At (URL to a publicly-accessible view of the digital object)</a>
+* <a class="label">Object (URL to a thumbnail image or service file suitable for public display, which can be used for display within the context of Calisphere and DPLA object views and search/browse results)</a>
