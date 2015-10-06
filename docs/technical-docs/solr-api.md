@@ -85,1636 +85,1636 @@ This scheme is still undergoing active development. Find the most up-to-date sch
 * <b>Indexed</b>: indicates if the value of the field can be used in queries to retrieve matching documents
 * <b>Stored</b>: indicates if the value of the field is stored in the index, and the value of the field can be retrieved by queries
 
-<table class="confluenceTable">
- <tr>
-  <th class="confluenceTh">
+<table>
+ <tr style="background-color:DarkGray">
+  <th>
   <p><b>Name </b></p>
   </th>
-  <th class="confluenceTh">
+  <th>
   <p><b>Type </b></p>
   </th>
-  <th class="confluenceTh">
+  <th>
   <p><b>Comments </b></p>
   </th>
-  <th class="confluenceTh">
+  <th>
   <p><b>Multi-Valued </b></p>
   </th>
-  <th class="confluenceTh">
+  <th>
   <p><b>Indexed?</b></p>
   </th>
-  <th class="confluenceTh">
+  <th>
   <p><b>Stored?</b></p>
   </th>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td colspan="6" style="background-color:LightGray">
   <p><b>General and administrative fields</b></p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>created</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>date </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>refers to creation
   of the metadata document, not creation of the Solr
   document, nor creation of the content object </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>created_s</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string variant of <b>created</b> for wildcard searching </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>id</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>Unique identifier assigned by CDL to the
   object, derived from <b>identifier</b> (if the value is an ARK) or otherwise
   auto-generated. This value also is also used within the context of the URL
   for the object in Calisphere.</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>last_modified</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>date </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>refers to the date
   the metadata document was last modified </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:6'>
-  <td class="confluenceTd">
+  <td>
   <p><b>last_modified_s</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string variant of <b>last_modified</b> for wildcard searching </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:7'>
-  <td class="confluenceTd">
+  <td>
   <p><b>text</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>not stored; catchall
   text field for keyword search that indexes tokens - for each object, contains
   the following fields: <b>title</b>, <b>contributor</b>, <b>creator</b>, <b>coverage</b>, <b>date</b>, <b>description</b>, <b>extent</b>, <b>format</b>, <b>identifier</b>, <b>language</b>, <b>publisher</b>, <b>relation</b>, <b>rights</b>, <b>source</b>, <b>subject</b>, and <b>type</b> </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:8'>
-  <td class="confluenceTd">
+  <td>
   <p><b>text_rev</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general_rev</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>not stored; the same
   as the <b>text</b> field, but in reverse for efficient leading
   wildcard queries </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:9'>
-  <td class="confluenceTd">
+  <td>
   <p><b>timestamp</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>date </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>timestampon the Solr
   document - default value is NOW, ie the time of
   object creation in the Solr index. </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td colspan="6" style="background-color:LightGray">
   <p><b>Metadata fields (supplied
   through the Collection Registry; all multivalued so an object can be related
   to more than one Campus, Repository, and/or Collection</b>)</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>campus</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>campus stores the URL to the registry API campus object </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>campus_data</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p><b>campus_name</b>::<b>campus_url</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>campus_name</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>Stores the name of the campus, so that
   clients don’t need to look up against the registry API </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>campus_url</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>Stores the URL to the
   registry API campus object</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>collection_data</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p><b>collection_url</b>::<b>collection_name</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>collection_name</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>Stores the name of the collection, so that
   clients don’t need to look up against the registry API </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>collection_url</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>Stores the URL to the registry API collection object </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>repository_data</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p><b>repository_url</b>::<b>repository_name</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>repository_name</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>Stores the name of the repository, so that
   clients don’t need to look up against the registry API </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>repository_url</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>Stores the URL to the registry API repository object </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>sort_collection_data</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>collection
   data with a normalized collection name for sorting</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td colspan="6" style="background-color:LightGray">
   <p><b>Metadata fields
   (stored and indexed as tokenized text</b>)</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>alternative_title</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>contributor</b> </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>coverage</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>creator</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>date</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>description</b> </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>extent</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>facet_decade</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>format</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>genre</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>identifier</b> </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>language</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>location</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>provenance</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>publisher</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>relation</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>rights</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>rights_holder</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>rights_note</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>rights_date</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>sort_date_start</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>date</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>sort_date_end</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>date</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>sort_title</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>alphaSpaceSort</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>Version of title
   used for lexical ordering</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>source</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>subject</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>temporal</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>transcription</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>title</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>only required field </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>type</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td colspan="6" style="background-color:LightGray">
   <p><b>Content file fields</b></p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>url_item</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>bestguess at home URL
   for the item. Filled in at time of harvesting, currently indexed
   to search for items with it filled in</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>reference_image_dimensions</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>Pixel width:height.</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>reference_image_md5</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>not indexed; holds the md5 of the best image found for image
   objects this will then be passed to the thumbnail server for nicely sized
   images. For now you can use <b>md5s3stash</b> to calculate the URL
   to image </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>structmap_text</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string </p>
   </td>
-  <td class="confluenceTd"></td>
-  <td class="confluenceTd">
+  <td></td>
+  <td>
   <p>no </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>structmap_url</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>string </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>Only present for objects harvested from Nuxeo </p>
   <p><a
   href="https://github.com/ucldc/ucldc-docs/wiki/media.json">https://github.com/ucldc/ucldc-docs/wiki/media.json</a></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>no </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td colspan="6" style="background-color:LightGray">
   <p><b>Metadata fields
   (stored and indexed as strings, instead of tokenized text</b>)</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>alternative_title_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>contributor_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>coverage_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>creator_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>date_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>description_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>extent_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>format_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>genre_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>identifier_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>language_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>location_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>provenance_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>publisher_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>relation_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>rights_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>rights_holder_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>rights_note_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>rights_date_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>source_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>subject_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>temporal_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>transcription_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>title_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>only required field </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
  <tr>
-  <td class="confluenceTd">
+  <td>
   <p><b>type_ss</b></p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>text_general</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>&nbsp; </p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
-  <td class="confluenceTd">
+  <td>
   <p>yes</p>
   </td>
  </tr>
