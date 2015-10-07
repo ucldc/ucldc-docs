@@ -231,6 +231,8 @@ breadcrumbs: DAMS Appendix
                 <br/>
                 Image
                 <br/>
+                Physical Object
+                <br/>
                 Software
                 <br/>
                 Text
