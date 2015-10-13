@@ -231,6 +231,8 @@ breadcrumbs: DAMS Appendix
                 <br/>
                 Image
                 <br/>
+                Physical Object
+                <br/>
                 Software
                 <br/>
                 Text
@@ -1818,15 +1820,17 @@ breadcrumbs: DAMS Appendix
             <td>
                 Specify if the name heading was taken from one of these authority files
             </td>
+            <td></td>
             <td>
-                <br/>
-            </td>
-            <td>
-                LCSH
-                <br/>
                 AAT
                 <br/>
-                TGM
+                LCSH
+                <br/>
+                RBGENR
+                <br/>
+                TGMI
+                <br/>
+                TMGII
                 <br/>
                 Local
             </td>
@@ -1903,15 +1907,17 @@ breadcrumbs: DAMS Appendix
             <td>
                 Specify if the name heading was taken from one of these authority files
             </td>
+            <td></td>
             <td>
-                <br/>
-            </td>
-            <td>
-                LCSH
-                <br/>
                 AAT
                 <br/>
-                TGM
+                LCSH
+                <br/>
+                RBGENR
+                <br/>
+                TGMI
+                <br/>
+                TMGII
                 <br/>
                 Local
             </td>
