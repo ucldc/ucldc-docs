@@ -20,7 +20,10 @@ Navigate to the folder I'm using to develop these pages in:
 
 Set up a local ruby environment in this folder:
 
-    rbenv local 1.9.3-p125
+NOTE: as of Oct. 6, 2015 the github-pages gem requires ruby version 2.0 or
+greater, the gem public_suffix require 2.0
+
+    rbenv local 2.0.0-p647
     rbenv rehash
 
 Then I followed the instructions [here](https://help.github.com/articles/using-jekyll-with-pages) (https://help.github.com/articles/using-jekyll-with-pages) to get jekyll up and running. This uses Bundler and the github-pages gem, to ensure your setup most closely resembles how GitHub Pages works to host your Jekyll site. 
@@ -45,7 +48,7 @@ checkout the gh-pages branch:
 
     git checkout -b gh-pages origin/gh-pages
 
-modify the url line of _config.yml from "http://ucldc.github.io/ucldc-docs" to "localhost:4000"
+comment out the url line of _config.yml by putting hash (#) in front of it: so  'url: "http://ucldc.github.io"' becomes '#url: "http://ucldc.github.io"'
 
 Finally, run the Jekyll server:
 
