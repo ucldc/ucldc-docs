@@ -7,7 +7,9 @@ breadcrumbs: Calisphere Admin Guide
 ---
 
 ##Harvesting by Collection
-Although we are harvesting item-level metadata into the UCLDC Common Index, our process for doing so is on a collection-by-collection basis. Collections are groups of digital objects which are hosted in the same source, can be harvested according to the same protocol, and which you'd like to appear together as a set within the Calisphere interface. You can define your collections in the [Collection Registry](http://registry.cdlib.org).
+Although we are harvesting item-level metadata into the UCLDC Common Index, our process for doing so is on a collection-by-collection basis. Collections are groups of digital objects which are hosted in the same source, can be harvested according to the same protocol, and which you'd like to appear together as a set within the Calisphere interface. 
+
+You can define your collections in the [Collection Registry](http://registry.cdlib.org). To add or update information for your listings in the Collection Registry, please request changes <a href="https://docs.google.com/forms/d/1ETVSMuRu1YlsDwp2iFRJTEp59ZulqvsoEoIcgJ09QZg/viewform">using this form</a>.
 
 <div class="note"><p>The Collection Registry is an interface for content owners to define collections, specify the harvest targets and protocols for those collections, and apply standardized information about collections which will appear in the Calisphere interface. More documentation on the Registry is coming soon.</p></div>
 
