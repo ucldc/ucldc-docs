@@ -8,7 +8,7 @@ permalink: /docs/dams/publish/
 breadcrumbs: DAMS User Guide
 ---
 
-Publishing objects from the DAMS is handled through a metadata harvesting process.  Your Collection Administrator can initiate harvests for collections in Nuxeo that are ready for publication.  In order to be harvested, items in the collection should meet the following criteria:
+Publishing objects from the DAMS to the Common Index (and subsequently, to key access points such as Calisphere) is handled through a metadata harvesting process.  Your Collection Administrator can initiate harvests for collections in Nuxeo that are ready for publication.  In order to be harvested, items in the collection should meet the following criteria:
 
 <p>1. The objects must be organized within a Project Folder.  (The Project Folder can, in turn, have nested Project Folders; in this scenario, all of the objects within the nested Project Folders will also be harvested).</p>
 
