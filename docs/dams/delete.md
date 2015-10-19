@@ -8,7 +8,7 @@ permalink: /docs/dams/delete/
 breadcrumbs: DAMS User Guide
 ---
 
-Delete object(s) by selecting the object(s) you want to delete from a content listing containing the object(s) and pressing the 'delete' button below the content listing. In general, content listings are used to display project folder contents, complex object contents, and search results. As long as you have appropriate permissions, you can delete objects, complex objects, and project folders. 
+Delete object and/or project folders by selecting the items you want to delete from a content listing containing the object(s) and pressing the 'delete' button below the content listing. In general, content listings are used to display project folder contents, complex object contents, and search results. As long as you have appropriate permissions, you can delete objects, complex objects, and project folders. 
 
 <div class="note">More information can be found on content listings on the <a class="notelink" href="{{ site.url }}{{ site.baseurl }}/docs/dams/bulk-edit/">bulk edit</a> page.</div>
 
@@ -17,3 +17,9 @@ Delete object(s) by selecting the object(s) you want to delete from a content li
 1. From within your sample project folder in your campus folder, select your 'Golden Bear' object by clicking the checkbox to the left of the name.
 2. Click the 'Delete' button below the content listing. 
 3. Your sample project folder should now contain only your Bear Collection project folder. 
+
+Note that deleted items can be subsequently restored, or permanently deleted at this point:
+
+4. On the manage tab, select the Trash sub-tab.
+5. Check the box next to the name of the item from the results list.
+6. Click on the <b>Permanent delete</b> or <b>Restore button</b>.
