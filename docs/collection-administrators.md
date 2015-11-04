@@ -30,7 +30,7 @@ UCLDC Collection Administrators perform administrative functions in the DAMS and
   </tr>
   <tr>
     <td>UC Irvine Libraries</td>
-    <td><a href="http://directory.uci.edu/?basic_keywords=yun%2C+audra&modifier=Starts+With&basic_submit=Search&checkbox_employees=Employees&checkbox_students=Students&checkbox_departments=Departments&form_type=basic_search">Audra Eagle Yun</a></td>
+    <td><a href="https://www.lib.uci.edu/about/contact/library-staff-directory.html">Laura Smart</a></td>
   </tr>
   <tr>
     <td>UC Merced Library</td>
