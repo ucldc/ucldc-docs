@@ -36,7 +36,7 @@ Object are deselected as soon as you navigate to a different project folder, or 
 
 Once you've selected the objects, select the "Export Options" function from the toolbar.  You then have the option to select an export format.  The "XML Export" comprises the metadata in the source Nuxeo XML format.  The "ZIP Tree XML Export" and "ZIP Binary Export" include the metadata in Nuxeo XML format, along with associated content files.
 
-## Editing metadata in Excel format
+## Exporting metadata in Excel format
 
 You can export metadata for a single object or multiple objects in Excel format.
 
