@@ -2,7 +2,7 @@
 layout: dams-doc
 title: Publishing Objects
 
-next_section: 
+next_section: dams/exports/
 prev_section: dams/delete/
 permalink: /docs/dams/publish/
 breadcrumbs: DAMS User Guide
