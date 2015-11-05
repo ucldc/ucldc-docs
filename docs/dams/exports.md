@@ -12,7 +12,7 @@ Objects can be exported from Nuxeo one at a time, or as a batch. Additionally, y
 
 To export records for an individual object, select the "Export Options" function from the toolbar.
 
-<a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/4_bulk-edit.png">
+<a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/export.png">
   <img src="{{ site.url }}{{ site.baseurl }}/images/export.png" alt="Export Options" style="width: 500px">
 </a>
 
