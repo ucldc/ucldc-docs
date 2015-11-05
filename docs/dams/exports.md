@@ -16,7 +16,10 @@ To export records for an individual object, locate the object and then select th
   <img src="{{ site.url }}{{ site.baseurl }}/images/export.png" alt="Export Options" style="width: 500px">
 </a>
 
-You then have the option to select an export format.  The "XML Export" comprises the metadata in the source Nuxeo XML format.  The "ZIP Tree XML Export" and "ZIP Binary Export" include the metadata in Nuxeo XML format, along with associated content files.
+You then have the option to select an export format: 
+
+* The "XML Export" comprises the metadata in the source Nuxeo XML format.  
+* The "ZIP Tree XML Export" and "ZIP Binary Export" include the metadata in Nuxeo XML format, along with associated content files.
 
 
 ## Exporting multiple objects: Nuxeo XML metadata and content files
@@ -34,7 +37,10 @@ Selecting an object is maintained while you paginate - ie, if you select the thi
 
 Object are deselected as soon as you navigate to a different project folder, or into an object. 
 
-Once you've selected the objects, select the "Export Options" function from the toolbar.  You then have the option to select an export format.  The "XML Export" comprises the metadata in the source Nuxeo XML format.  The "ZIP Tree XML Export" and "ZIP Binary Export" include the metadata in Nuxeo XML format, along with associated content files.
+Once you've selected the objects, select the "Export Options" function from the toolbar.  You then have the option to select an export format:
+
+* The "XML Export" comprises the metadata in the source Nuxeo XML format.  
+* The "ZIP Tree XML Export" and "ZIP Binary Export" include the metadata in Nuxeo XML format, along with associated content files.
 
 ## Exporting metadata in Excel format
 
