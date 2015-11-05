@@ -8,7 +8,7 @@ breadcrumbs: DAMS User Guide
 
 Objects can be exported from Nuxeo one at a time, or as a batch. Additionally, you can opt to export the metadata records only, or the entire object -- i.e., metadata records plus associated content files.
 
-<h2>Exporting individual objects: Nuxeo XML metadata and content files</h2>
+## Exporting individual objects: Nuxeo XML metadata and content files
 
 To export records for an individual object, select the "Export Options" function from the toolbar.
 
@@ -19,7 +19,7 @@ To export records for an individual object, select the "Export Options" function
 You then have the option to select an export format.  The "XML Export" comprises the metadata in the source Nuxeo XML format.  The "ZIP Tree XML Export" and "ZIP Binary Export" include the metadata in Nuxeo XML format, along with associated content files.
 
 
-<h2>Exporting multiple objects: Nuxeo XML metadata and content files</h2>
+## Exporting multiple objects: Nuxeo XML metadata and content files
 
 To export records for multiple objects, select the relevant objects from the content listing.
 
@@ -36,7 +36,7 @@ Object are deselected as soon as you navigate to a different project folder, or 
 
 Once you've selected the objects, select the "Export Options" function from the toolbar.  You then have the option to select an export format.  The "XML Export" comprises the metadata in the source Nuxeo XML format.  The "ZIP Tree XML Export" and "ZIP Binary Export" include the metadata in Nuxeo XML format, along with associated content files.
 
-<h2>Editing metadata in Excel format</h2>
+## Editing metadata in Excel format
 
 You can export metadata for a single object or multiple objects in Excel format.
 
