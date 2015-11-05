@@ -10,7 +10,7 @@ Objects can be exported from Nuxeo one at a time, or as a batch. Additionally, y
 
 ## Exporting individual objects: Nuxeo XML metadata and content files
 
-To export records for an individual object, select the "Export Options" function from the toolbar.
+To export records for an individual object, locate the object and then select the "Export Options" function from the toolbar.
 
 <a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/export.png">
   <img src="{{ site.url }}{{ site.baseurl }}/images/export.png" alt="Export Options" style="width: 500px">
