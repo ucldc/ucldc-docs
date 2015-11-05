@@ -44,7 +44,7 @@ First, follow the instructions for selecting all of the relevant metadata fields
 
 Once you've selected the fields and they are displaying in the content view, select the "Excel Export" option to generate the Excel file.
 
-<a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/4_bulk-edit.png">
+<a class="img-popup" href="{{ site.url }}{{ site.baseurl }}/images/excel.png">
   <img src="{{ site.url }}{{ site.baseurl }}/images/excel.png" alt="Excel export" style="width: 500px">
 </a>
 <br>(click to enlarge)
