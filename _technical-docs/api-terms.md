@@ -1,8 +1,5 @@
 ---
-layout: technical-doc
 title: API Terms and Conditions
-permalink: /docs/technical-docs/api-terms/
-breadcrumbs: Common Index API
 ---
 The following terms and conditions apply to use of the UCLDC Common Index API:
 

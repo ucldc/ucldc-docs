@@ -1,7 +1,5 @@
 ---
-layout: doc
 title: UCLDC Collection Administrators
-permalink: /docs/collection-admins/
 ---
 
 UCLDC Collection Administrators perform administrative functions in the DAMS and Collection Registry on behalf of—and in close consultation with—their respective institutions. Specific responsibilities include:

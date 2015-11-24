@@ -1,9 +1,7 @@
 ---
-layout: technical-doc 
 title: Overview of the UCLDC APIs
 next_section: technical-docs/solr-api/
 permalink: /docs/technical-docs/index/
-breadcrumbs: Common Index API
 ---
 
 There are three different APIs associated with the UCLDC project:

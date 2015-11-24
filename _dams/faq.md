@@ -1,8 +1,5 @@
 ---
-layout: dams-doc
 title: Shared DAMS FAQ
-permalink: /docs/dams/faq/
-breadcrumbs: DAMS User Guide
 ---
 
 <a href="#faq1">1. What is the UCLDC?</a><br>

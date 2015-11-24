@@ -1,9 +1,6 @@
 ---
-layout: registry-doc
 title: Getting Usage Stats
 prev_section: registry/access
-permalink: /docs/registry/stats/
-breadcrumbs: Calisphere Admin Guide
 ---
 We are using Google Analytics for tracking usage of objects on the new Calisphere beta site.
 

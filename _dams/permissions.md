@@ -1,10 +1,7 @@
 ---
-layout: dams-doc
 title: Setting User Permissions
 next_section: dams/delete/
 prev_section: dams/search/
-permalink: /docs/dams/permissions/
-breadcrumbs: DAMS User Guide
 ---
 
 ## Manage Tab

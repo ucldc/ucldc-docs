@@ -1,9 +1,6 @@
 ---
-layout: technical-doc 
 title: Nuxeo API 
 prev_section: technical-docs/index/
-permalink: /docs/technical-docs/nuxeo-api/
-breadcrumbs: Nuxeo API
 ---
 
 *See also the [Nuxeo documentation for more information on the Nuxeo REST API](http://doc.nuxeo.com/display/NXDOC/REST+API).*

@@ -1,7 +1,5 @@
 ---
-layout: doc
 title: Request an Account
-permalink: /docs/create-account/
 ---
 
 At this time, accounts are limited to UCLDC Implementation Project collaborators (members of SAG2 and the UCLDC Product Stakeholder Group and their designees). Members of these groups can request UCLDC accounts using the following steps:

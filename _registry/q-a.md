@@ -1,10 +1,7 @@
 ---
-layout: registry-doc
 title: Metadata Mapping and Q/A
 next_section: registry/updates
 prev_section: registry/start
-permalink: /docs/registry/q-a/
-breadcrumbs: Calisphere Admin Guide
 ---
 Once the source and target URL are established for a collection, CDL will work with institutions to ensure that required metadata is present, that it is mapped correctly, and that it appears in Calisphere correctly. Steps in this stage include the following: 
 

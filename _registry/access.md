@@ -1,10 +1,7 @@
 ---
-layout: registry-doc
 title: Access Points
 prev_section: registry/updates
 next_section: registry/stats
-permalink: /docs/registry/access/
-breadcrumbs: Calisphere Admin Guide
 ---
 Currently, all of the data harvested into and stored in the UCLDC Common Index is exposed to three public access points. As development continues on this part of the platform, we will be adding more information to this site.
 

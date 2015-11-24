@@ -1,7 +1,5 @@
 ---
-layout: doc
 title: About UCLDC
-permalink: /docs/about/
 ---
 Thanks for visiting our Documentation site. This page is under construction. Soon, we'll have some general information about the UCLDC technical model and major components illustrated below.
 

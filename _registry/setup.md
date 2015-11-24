@@ -1,10 +1,7 @@
 ---
-layout: registry-doc
 title: Supported Harvest Sources and Formats
 next_section: registry/start
 prev_section: registry/index
-permalink: /docs/registry/setup/
-breadcrumbs: Calisphere Admin Guide
 ---
 
 ##Data sources

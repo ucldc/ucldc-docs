@@ -1,9 +1,6 @@
 ---
-layout: dams-doc
 title: Shared DAMS Overview
 next_section: dams/organization/
-permalink: /docs/dams/index/
-breadcrumbs: DAMS User Guide
 ---
 
 ## What is the DAMS?

@@ -1,10 +1,7 @@
 ---
-layout: registry-doc
 title: Making Updates
 next_section: registry/access
 prev_section: registry/q-a
-permalink: /docs/registry/updates/
-breadcrumbs: Calisphere Admin Guide
 ---
 Digital collections evolve; items are added and deleted and metadata changes. Our aim is to reflect local changes to your collections as quickly as possible in the UCLDC platform.
 
