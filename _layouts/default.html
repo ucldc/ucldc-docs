@@ -9,6 +9,27 @@
 
       <div class="page-content">
         <div class="wrap">
+          <div class="nav-wrap">
+            <div class="nav-item nav-registry {% if page.collection == 'registry' %}nav-registry--selected{% endif %}">
+              <a href="{{ site.url }}{{ site.baseurl }}/docs/registry/index/">Harvest and Access</a> 
+            </div>
+            <div class="nav-item nav-dams {% if page.collection == 'dams' %}nav-dams--selected{% endif %}">
+              <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/index/">Shared DAMS</a>
+            </div>
+            <div class="nav-item nav-technical {% if page.collection == 'technical' %}nav-technical--selected{% endif %}">
+              <a href="{{ site.url }}{{ site.baseurl }}/docs/technical/index/">For Developers</a>
+            </div>
+          </div>
+
+          <div class="search-wrap">
+            <!-- Html Elements for Search -->
+            <div class="nav-item" style="float: right">
+              <div id="search-container">
+              <input type="text" id="search-input" placeholder="search...">
+              <ul id="results-container"></ul>
+              </div>
+            </div>
+          </div>
           {{ content }}
         </div>
       </div>
@@ -16,4 +37,12 @@
       {% include footer.html %}
 
     </body>
+    <script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      searchResultTemplate: '<a href="{url}" style="color: white"><li class="result-{collection}">{title}</li></a>'
+    });
+    </script>
 </html>

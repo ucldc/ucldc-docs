@@ -16,7 +16,7 @@ We aim to release the Calisphere BETA website to the public in early September 2
 Please visit the [DPLA project wiki](https://wiki.library.ucsf.edu/display/DPLA/Calisphere%3A+Broadening+Access+through+DPLA) for more information about this part of the platform. (Information from the wiki will be ported over to this site shortly.)
 
 ##UCLDC Common Index API
-The UCLDC Common Index API is under development, along with the index itself. Developers may wish to [explore the API]({{ site.url }}{{ basesite.url }}//docs/technical-docs/solr-api/), with the understanding that it will change in the next several weeks.
+The UCLDC Common Index API is under development, along with the index itself. Developers may wish to [explore the API]({{ site.url }}{{ basesite.url }}//docs/technical/solr-api/), with the understanding that it will change in the next several weeks.
 
 <!--Once harvested, how do I get to our metadata records in the Common Index?
 You can access the metadata through the API.  For more information...

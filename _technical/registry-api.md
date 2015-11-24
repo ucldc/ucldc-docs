@@ -1,6 +1,6 @@
 ---
 title: Collection Registry API 
-prev_section: technical-docs/index/
+prev_section: technical/index/
 ---
 
 The Collection Registry has a [HATEOAS](http://en.wikipedia.org/wiki/HATEOAS) API powered by [Tasty Pie](http://tastypieapi.org).

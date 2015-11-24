@@ -1,8 +1,5 @@
 ---
-layout: dams-doc
 title: Shared DAMS Policies
-permalink: /docs/dams/dams-policies/
-breadcrumbs: DAMS Appendix
 ---
 
 ##Access to the DAMS

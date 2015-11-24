@@ -1,8 +1,5 @@
 ---
-layout: dams-doc
 title: DAMS Metadata Scheme
-permalink: /docs/dams/metadata-model/
-breadcrumbs: DAMS Appendix
 ---
 
 <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/ucldc-schema/">

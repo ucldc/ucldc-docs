@@ -337,6 +337,19 @@ a.notelink:hover {
     color: #fff;
 }
 
+.nav-wrap a {color: #fff;}
+
+.nav-registry { background-color: #F78F2F; }
+.nav-dams { background-color: #205caa; }
+.nav-technical { background-color: #FFB511; }
+
+.nav-registry--selected {border-color: #F78F2F; border-width: 0 1px 1px 1px; border-style: solid; background-color: #fff;}
+.nav-registry--selected a {color: #F78F2F;}
+.nav-dams--selected {border-color: #205caa; border-width: 0 1px 1px 1px; border-style: solid; background-color: #fff;}
+.nav-dams--selected a {color: #205caa;}
+.nav-technical--selected {border-color: #FFB511; border-width: 0 1px 1px 1px; border-style: solid; background-color: #fff;}
+.nav-technical--selected a {color: #FFB511;}
+
 /*div .badge::before {
     content: url('/documentation/images/bobcat-flag.png');
     position: absolute;
@@ -367,4 +380,56 @@ a.notelink:hover {
     background: -ms-linear-gradient(left,  #1295d8 0%,#72cdf4 90%,#72cdf4 100%); /* IE10+ */
     background: linear-gradient(to right,  #1295d8 0%, #72cdf4 90%,#72cdf4 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1295d8', endColorstr='#72cdf4',GradientType=1 ); /* IE6-9 */
+}
+
+.search-wrap {
+  position: relative; 
+  top: -25px;
+}
+
+#search-input {
+  width: 250px;
+  padding: 3px 5px;
+  border: 1px solid #333;
+  
+  font-size: 14px;
+  background-color: #FFF;
+  color: black;
+}
+
+#results-container {
+  position: absolute;
+  width: 262px;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+#results-container li {
+  padding: 6px 10px;
+  border-left: 1px solid black; 
+  border-right: 1px solid black;
+}
+
+#results-container li:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.result-docs {
+  background-color: rgb(85,85,85);
+}
+
+.result-registry {
+  background-color: rgb(247,143,47);
+  color: #fff;
+}
+
+.result-dams {
+  background-color: #205caa;
+  color: #fff;
+}
+
+.result-technical {
+  background-color: #FFB511;
+  color: #FFF;
 }

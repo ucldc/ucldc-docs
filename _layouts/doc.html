@@ -1,19 +1,6 @@
 ---
 layout: default
 ---
-
-<div class="nav-wrap">
-  <div class="nav-item" style="background-color: #F78F2F;">
-    <a href="{{ site.url }}{{ site.baseurl }}/docs/registry/index/" style="color: white">Harvest and Access</a> 
-  </div>
-  <div class="nav-item" style="background-color: #205caa">
-    <a href="{{ site.url }}{{ site.baseurl }}/docs/dams/index/" style="color: white">Shared DAMS</a>
-  </div>
-  <div class="nav-item" style="background-color: #FFB511">
-    <a href="{{ site.url }}{{ site.baseurl }}/docs/technical-docs/index/" style="color: white">For Developers</a>
-  </div>
-</div>
-
 <div class="post">
 
   {% if page.title %}
@@ -28,7 +15,11 @@ layout: default
       {{ content }}
     </article>
     <div class="unit w-1-4">
-      {% include sidebar.html %}
+      {% if page.collection %}
+      {% include {{ page.collection }}-sidebar.html %}
+      {% else %}
+      {% include docs-sidebar.html %}
+      {% endif %}
     </div>
   </div>
 

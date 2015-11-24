@@ -1,11 +1,7 @@
 ---
-layout: dams-doc
 title: Deleting an Object or Project Folder
-
 next_section: 
 prev_section: dams/permissions/
-permalink: /docs/dams/delete/
-breadcrumbs: DAMS User Guide
 ---
 
 Delete object and/or project folders by selecting the items you want to delete from a content listing containing the object(s) and pressing the 'delete' button below the content listing. In general, content listings are used to display project folder contents, complex object contents, and search results. As long as you have appropriate permissions, you can delete objects, complex objects, and project folders. 

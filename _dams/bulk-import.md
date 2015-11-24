@@ -1,10 +1,7 @@
 ---
-layout: dams-doc
 title: Bulk Importing Content Files
 next_section: dams/bulk-edit/
 prev_section: dams/edit-objects/
-permalink: /docs/dams/bulk-import/
-breadcrumbs: DAMS User Guide
 ---
 
 You have two general options for bulk importing multiple content files into Nuxeo:

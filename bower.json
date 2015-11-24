@@ -1,0 +1,8 @@
+{
+  "name": "ucldc-docs",
+  "private": true,
+  "dependencies": {
+    "simple-jekyll-search": "~1.0.8",
+    "magnific-popup": "~1.0.0"
+  }
+}

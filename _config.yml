@@ -5,10 +5,10 @@ project_wiki: https://wiki.library.ucsf.edu/display/UCLDC/UCLDC+Implementation
 date: November 4, 2015
 email: ucldc@ucop.edu
 description: ""
-# baseurl: ""
-baseurl: "/ucldc-docs"
-# url: "http://0.0.0.0:4000"
-url: "http://ucldc.github.io"
+baseurl: ""
+# baseurl: "/ucldc-docs"
+url: "http://0.0.0.0:4000"
+# url: "http://ucldc.github.io"
 username: ucldc
 
 # Build settings
@@ -26,9 +26,9 @@ collections:
   registry:
     output: true
     permalink: /docs/registry/:path/
-  technical-docs:
+  technical:
     output: true
-    permalink: /docs/technical-docs/:path/
+    permalink: /docs/technical/:path/
 
 defaults:
   - scope:
@@ -40,17 +40,14 @@ defaults:
       path: ""
       type: dams
     values:
-      layout: dams-doc
-      breadcrumbs: DAMS User Guide
+      layout: doc
   - scope:
       path: ""
       type: registry
     values:
-      layout: registry-doc
-      breadcrumbs: Calisphere Admin Guide
+      layout: doc
   - scope:
       path: ""
-      type: technical-docs
+      type: technical
     values:
-      layout: technical-doc
-      breadcrumbs: Common Index API
+      layout: doc

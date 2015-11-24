@@ -1,9 +1,6 @@
 ---
-layout: dams-doc
 title: Exporting Objects
 prev_section: dams/publish/
-permalink: /docs/dams/exports/
-breadcrumbs: DAMS User Guide
 ---
 
 Objects can be exported from Nuxeo one at a time, or as a batch. Additionally, you can opt to export the metadata records only, or the entire object -- i.e., metadata records plus associated content files.

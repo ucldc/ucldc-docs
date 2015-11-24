@@ -1,10 +1,7 @@
 ---
-layout: dams-doc
 title: Using the Clipboard and Worklist
 next_section: dams/search/
 prev_section: dams/spreadsheet-view/
-permalink: /docs/dams/clipboard/
-breadcrumbs: DAMS User Guide
 ---
 
 The Clipboard and Worklist, located at the bottom of the sidebar, are two temporary spaces for placing objects currently in your workflow.  They can also be used to move (or copy) project folders and/or objects. 

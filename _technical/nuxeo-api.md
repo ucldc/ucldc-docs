@@ -1,6 +1,6 @@
 ---
 title: Nuxeo API 
-prev_section: technical-docs/index/
+prev_section: technical/index/
 ---
 
 *See also the [Nuxeo documentation for more information on the Nuxeo REST API](http://doc.nuxeo.com/display/NXDOC/REST+API).*
