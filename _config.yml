@@ -17,33 +17,49 @@ permalink: pretty
 highlighter: pygments
 
 collections:
-  docs:
+  getting-started:
     output: true
-    permalink: /docs/:path/
+    permalink: /getting-started/:path/
+  calisphere:
+    output: true
+    permalink: /calisphere/:path/
+  dpla: 
+    output: true
+    permalink: /dpla/:path/
+  oac:
+    output: true
+    permalink: /oac/:path/
   dams:
     output: true
-    permalink: /docs/dams/:path/
-  registry:
-    output: true
-    permalink: /docs/registry/:path/
+    permalink: /dams/:path/
   technical:
     output: true
-    permalink: /docs/technical/:path/
-    
+    permalink: /technical/:path/
+
 defaults:
   - scope:
       path: ""
-      type: docs
+      type: getting-started
+    values:
+      layout: doc
+  - scope:
+      path: ""
+      type: calisphere
+    values:
+      layout: doc
+  - scope:
+      path: ""
+      type: dpla
+    values:
+      layout: doc
+  - scope:
+      path: ""
+      type: oac
     values:
       layout: doc
   - scope:
       path: ""
       type: dams
-    values:
-      layout: doc
-  - scope:
-      path: ""
-      type: registry
     values:
       layout: doc
   - scope:

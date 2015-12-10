@@ -1,7 +1,5 @@
 ---
 title: Overview of the UCLDC APIs
-next_section: technical/solr-api/
-permalink: /docs/technical/index/
 ---
 
 There are three different APIs associated with the UCLDC project:

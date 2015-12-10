@@ -18,7 +18,7 @@ title: Get Answers.
 
     <a href="{{ site.url }}{{ site.baseurl }}{{ collection-data.index }}" class="homepage__guide-link">
       <div class="col-md-4" style="margin: 15px 0;">
-        <img src="{{ collection[1].icon-url }}" class="homepage__icon {{ collection[1].label }}"/>
+        <div class="homepage__icon {{ collection[1].label }}{% if collection[1].label == 'getting-started' %} glyphicon glyphicon-pencil" style="font-size: 70px; padding: 15px;{% endif %}"></div>
         <h3 class="homepage__header">{{ collection-data.display-title }}</h3>
         {{ collection-data.description }}<br>
       </div>

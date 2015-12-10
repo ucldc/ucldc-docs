@@ -75,7 +75,6 @@ h3.homepage__header {
 
 .homepage__guide-link:hover div {
   color: #000;
-  text-decoration: underline;
 }
 
 .homepage__icon {
@@ -84,6 +83,9 @@ h3.homepage__header {
   background-color: grey; 
   float: left; 
   margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
 }
 
 .sidebar-navigation {
@@ -109,23 +111,41 @@ h3.homepage__header {
   line-height: 1.1;
 }
 
-.docs {
+.getting-started {
   background-color: #60497d;
   color: #fff;
 }
 
-.dams {
-  background-color: #4f81be;
-  color: #fff;
+{% for collection in site.collections %}
+{% assign collection-data-tuple = site.data.sidebars | where:"collection",collection[1].label %}
+{% assign collection-data = collection-data-tuple[0] %}
+.homepage__icon.{{ collection-data.collection }} {
+  background-image: url("{{ site.url }}{{ site.baseurl }}/images/new-docs/{{ collection-data.icon-url }}");
 }
+{% endfor %}
 
-.registry {
+.calisphere {
   background-color: #FF8F28; 
   color: #fff;
 }
 
+.dpla {
+  background-color: #6592a6;
+  color: #fff;
+}
+
+.oac {
+  background-color: #00778B;
+  color: #fff;
+}
+
+.dams {
+  background-color: #005581;
+  color: #fff;
+}
+
 .technical {
-  background-color: #00A3Ad;
+  background-color: #DBD5CD;
   color: #fff;
 }
 
