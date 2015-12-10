@@ -27,7 +27,7 @@
 }
 
 .homepage__banner {
-  background-image: url({{ url }}{{ baseurl }}/images/new-docs/ucb_day3-33.jpg); 
+  background-image: url({{ site.url }}{{ site.baseurl }}/images/new-docs/ucb_day3-33.jpg); 
   background-size: 100%; 
   background-position: right bottom -65px; 
   background-repeat: no-repeat; 
