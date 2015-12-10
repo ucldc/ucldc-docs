@@ -1,21 +1,24 @@
-<header class="site-header">
+<header class="global-header">
 
-  <div class="wrap">
-    
-    <div class="pull-left">
-      <span class="site-project-title">{{ site.project_title }}</span><br>
-      <a class="site-title" href="https://registry.cdlib.org/documentation/">{{ site.title }}</a>
+  <div class="container-fluid global-header__container">
+    <div class="row">
+      <a href="{{ site.url }}{{ site.baseurl }}">
+      <div class="global-header__logo">
+        OAC/Calisphere Contributor Help Center
+      </div>
+      </a>
+      <div class="global-header__search-component">
+        <div id="search-container" class="input-group">
+          <input type="text" class="form-control" id="search-input" placeholder="Search the help center...">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>
+        </div>
+        <ul id="results-container"></ul>
+      </div>
     </div>
-    
-    <nav class="pull-right">
-      <ul class="site-nav">
-        <li class="site-date">Last updated {{ site.date }}</li>
-        <!-- <li><a href="{{ site.url }}{{ site.baseurl }}/docs/dams/index/">DAMS User Guide</a></li>
-        <li><a href="#">Registry</a></li>
-        <li><a href="#">Calisphere</a></li> -->
-      </ul>
-    </nav>
-    
   </div>
-
+  
 </header>

@@ -1,0 +1,100 @@
+- collection: 'docs'
+  display-title: "Getting Started"
+  description: "Learn about our free(!) services and hit the ground running."
+  guide-title: "Getting Started"
+  icon-url: ""
+  index: '/docs/index/'
+  toc:
+    - { title: 'Overview', url: '/docs/index/' }
+    - section: 'The Basics'
+      articles:
+        - { title: 'About UCLDC', url: '/docs/about/' }
+        - { title: 'Getting Started', url: '/docs/create-account/' }
+        - { title: 'Contact us', url: 'mailto:ucldc@ucop.edu', display: external-link }
+    - section: 'Policy Quick Links'
+      articles:
+        - { title: 'Harvest and Access Policies', url: '/docs/registry/access-policies/' }
+        - { title: 'Shared DAMS Policies', url: '/docs/dams/dams-policies/' }
+        - { title: 'Developer Terms and Conditions', url: '/docs/technical/api-terms/' }
+    - section: 'Metadata Quick Links'
+      articles:
+        - { title: 'Metadata Harvesting Scheme and Crosswalk', url: '/docs/registry/metadata-harvest/' }
+        - { title: 'Metadata Display Specs', url: 'https://drive.google.com/open?id=0B0u7vIrviMsaUUhySXJWTEpvMzQ', display: external-link }
+        - { title: 'DAMS Metadata Scheme', url: '/docs/dams/metadata-model/' }
+      
+- collection: 'dams'
+  display-title: "Shared DAMS"
+  description: "Create metadata and manage your digital assets (available to UC Libraries only)."
+  guide-title: "Shared DAMS User Guide"
+  icon-url: ""
+  index: '/docs/dams/index/'
+  toc:
+    - section: 'About'
+      articles:
+        - { title: 'Shared DAMS FAQ', url: '/docs/dams/faq/' }
+    - section: 'Shared DAMS User Guide'
+      articles: 
+        - { title: 'Shared DAMS Overview', url: '/docs/dams/index/' }
+        - { title: 'Organizing Objects with Project Folders', url: '/docs/dams/organization/' }
+        - { title: 'Creating Simple Objects', url: '/docs/dams/create-objects/' }
+        - { title: 'Creating Complex Objects', url: '/docs/dams/complex-objects/' }
+        - { title: 'Viewing and Editing Objects', url: '/docs/dams/edit-objects/' }
+        - { title: 'Bulk Importing Content Files', url: '/docs/dams/bulk-import/' }
+        - { title: 'Bulk Edit Objects', url: '/docs/dams/bulk-edit/' }
+        - { title: 'Spreadsheet Editor', url: '/docs/dams/spreadsheet-view/' }
+        - { title: 'Using the Clipboard and Worklist', url: '/docs/dams/clipboard/' }
+        - { title: 'Search', url: '/docs/dams/search/' }
+        - { title: 'Setting User Permissions', url: '/docs/dams/permissions/' }
+        - { title: 'Deleting an Object or Project Folder', url: '/docs/dams/delete/' }
+        - { title: 'Publishing Objects', url: '/docs/dams/publish/' }
+        - { title: 'Exporting Objects', url: '/docs/dams/exports/' }
+    - section: 'Policies'
+      articles: 
+        - { title: 'Shared DAMS Policies', url: '/docs/dams/dams-policies/' }
+    - section: 'Metadata'
+      articles: 
+        - { title: 'DAMS Metadata Scheme', url: '/docs/dams/metadata-model/' }
+        - { title: 'DAMS Metadata Schema XSD', url: '/docs/dams/ucldc-schema/' }
+
+- collection: registry
+  display-title: "Calisphere"
+  description: "Contribute digital content (images, texts, video, and sound) to the statewide aggregation."
+  guide-title: "Harvest and Access"
+  icon-url: ""
+  index: '/docs/registry/index/'
+  service-url: "http://calisphere.cdlib.org"
+  service-title: "Calisphere"
+  toc: 
+    - section: 'Harvest User Guide'
+      articles:
+        - { title: 'Introduction', url: '/docs/registry/index/' }
+        - { title: 'Supported Harvest Sources and Formats', url: '/docs/registry/setup/' }
+        - { title: 'Initiating a Harvest', url: '/docs/registry/start/' }
+        - { title: 'Metadata Mapping and Q/A', url: '/docs/registry/q-a/' }
+        - { title: 'Making Updates', url: '/docs/registry/updates/' }
+        - { title: 'Access Points', url: '/docs/registry/access/' }
+        - { title: 'Getting Stats', url: '/docs/registry/stats/' }
+    - section: 'Policies'
+      articles:
+        - { title: 'Harvest and Access Policies', url: '/docs/registry/access-policies/' }
+    - section: 'Metadata'
+      articles:
+        - { title: 'Metadata Harvesting Scheme and Crosswalk', url: '/docs/registry/metadata-harvest' }
+        - { title: 'Metadata Display Specs', url: 'https://drive.google.com/open?id=0B0u7vIrviMsaUUhySXJWTEpvMzQ', display: external-url }
+  
+- collection: technical
+  display-title: "Technical Docs"
+  description: "Technical Docs"
+  guide-title: "Technical Docs"
+  icon-url: ""
+  index: '/docs/technical/index/'
+  toc:
+    - section: 'UCLDC APIs'
+      articles:
+        - { title: 'Overview of the UCLDC APIs', url: '/docs/technical/index/' }
+        - { title: 'Common Index API', url: '/docs/technical/solr-api/' }
+        - { title: 'Collection Registry API', url: '/docs/technical/registry-api/' }
+        - { title: 'Nuxeo API', url: '/docs/technical/nuxeo-api/' }
+    - section: 'Policy'
+      articles: 
+        - { title: 'API Terms and Conditions', url: '/docs/technical/api-terms/' }

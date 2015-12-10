@@ -1,29 +1,76 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="container-fluid">
+  <div class="row">
+    {% if page.collection %}
+      {% assign collection-data-tuple = site.data.sidebars | where:"collection",page.collection %}
+      {% assign collection-data = collection-data-tuple[0] %}
+      <div class="col-md-12 {{ page.collection }}">
+        <div style="float: left">
+          <h1 class="guide-title">{{ collection-data.guide-title }}</h1>
+        </div>
+        {% if collection-data.service-url %}
+          <div style="float: right; margin-top: 30px;">
+            <a href="{{ collection-data.service-url }}" class="service-link">
+              {{ collection-data.service-title }} <span class="glyphicon glyphicon-log-out"></span>
+            </a>
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</div>
 
-  {% if page.title %}
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-  {% endif %}
+<div class="container-fluid">
+  <div class="row">
 
-  <div class="grid">
-    <article class="post-content unit w-3-4">
-      {{ content }}
-    </article>
-    <div class="unit w-1-4">
-      {% if page.collection %}
-      {% include {{ page.collection }}-sidebar.html %}
-      {% else %}
-      {% include docs-sidebar.html %}
+    {% if page.collection %}
+      {% assign collection-data-tuple = site.data.sidebars | where:"collection",page.collection %}
+      {% assign collection-data = collection-data-tuple[0] %}
+      <div class="col-md-4 sidebar-navigation">
+        <div class="sidebar-navigation__borders">
+          {% for item in collection-data.toc %}
+
+            {% if item.title %}
+              {% if item.url == page.url %}
+                <div class="sidebar-navigation__items {{ page.collection }}">{{ item.title }}</div>
+              {% elsif item.display == 'external-link' %}
+                <a class="sidebar-navigation__items" href="{{ item.url }}">{{ item.title }}</a>
+              {% else %}
+                <a class="sidebar-navigation__items" href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+              {% endif %}
+
+            {% elsif item.section %}
+              <div class="sidebar-navigation__section-heading">{{ item.section }}</div>
+              {% for article in item.articles %}
+                {% if article.url == page.url %}
+                  <div class="sidebar-navigation__items {{ page.collection }}">{{ article.title }}</div>
+                {% elsif article.display == 'external-link' %}
+                  <a class="sidebar-navigation__items" href="{{ article.url }}">{{ article.title }}</a>
+                {% else %}
+                  <a class="sidebar-navigation__items" href="{{ site.url }}{{ site.baseurl }}{{ article.url }}">{{ article.title }}</a>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+
+          {% endfor %}<br/>
+        </div>
+      </div>
+      <div class="col-md-8">
+    {% else %}
+      <div class="col-md-12">
+    {% endif %}
+
+      {% if page.title %}
+        <h1>{{ page.title }}</h1>
       {% endif %}
+      {% if page.date %}
+      <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      {% endif %}
+
+      {{ content }}
+
     </div>
   </div>
-
-  {% include section_nav.html %}
-
-
 </div>

@@ -29,7 +29,7 @@ collections:
   technical:
     output: true
     permalink: /docs/technical/:path/
-
+    
 defaults:
   - scope:
       path: ""
