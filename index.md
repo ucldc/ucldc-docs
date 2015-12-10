@@ -4,7 +4,7 @@ title: Get Answers.
 ---
 
 <header class="homepage__banner">
-  <h1 class="homepage__header">Get Answers. :)</h1>
+  <h1 class="homepage__header">Get Answers.</h1>
 </header>
 
 <div class="container-fluid">
