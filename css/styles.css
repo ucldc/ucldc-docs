@@ -111,11 +111,6 @@ h3.homepage__header {
   line-height: 1.1;
 }
 
-.getting-started {
-  background-color: #60497d;
-  color: #fff;
-}
-
 {% for collection in site.collections %}
 {% assign collection-data-tuple = site.data.sidebars | where:"collection",collection[1].label %}
 {% assign collection-data = collection-data-tuple[0] %}
@@ -124,29 +119,42 @@ h3.homepage__header {
 }
 {% endfor %}
 
-.calisphere {
+.getting-started, .sidebar-navigation__items--getting-started:hover {
+  background-color: #60497d;
+  color: #fff;
+}
+
+.calisphere, .sidebar-navigation__items--calisphere:hover {
   background-color: #FF8F28; 
   color: #fff;
 }
 
-.dpla {
+.dpla, .sidebar-navigation__items--dpla:hover {
   background-color: #6592a6;
   color: #fff;
 }
 
-.oac {
+.oac, .sidebar-navigation__items--oac:hover {
   background-color: #00778B;
   color: #fff;
 }
 
-.dams {
+.dams, .sidebar-navigation__items--dams:hover {
   background-color: #005581;
   color: #fff;
 }
 
-.technical {
+.technical, .sidebar-navigation__items-technical:hover {
   background-color: #DBD5CD;
   color: #fff;
+}
+
+a {
+  color: #7C7E7F;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .service-link {

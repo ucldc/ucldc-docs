@@ -38,7 +38,7 @@ layout: default
               {% elsif item.display == 'external-link' %}
                 <a class="sidebar-navigation__items" href="{{ item.url }}">{{ item.title }}</a>
               {% else %}
-                <a class="sidebar-navigation__items" href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                <a class="sidebar-navigation__items sidebar-navigation__items--{{ page.collection }}" href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
               {% endif %}
 
             {% elsif item.section %}
@@ -49,7 +49,7 @@ layout: default
                 {% elsif article.display == 'external-link' %}
                   <a class="sidebar-navigation__items" href="{{ article.url }}">{{ article.title }}</a>
                 {% else %}
-                  <a class="sidebar-navigation__items" href="{{ site.url }}{{ site.baseurl }}{{ article.url }}">{{ article.title }}</a>
+                  <a class="sidebar-navigation__items sidebar-navigation__items--{{ page.collection }}" href="{{ site.url }}{{ site.baseurl }}{{ article.url }}">{{ article.title }}</a>
                 {% endif %}
               {% endfor %}
             {% endif %}
