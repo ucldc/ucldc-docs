@@ -21,13 +21,13 @@ The following are common query parameters. Consult the Solr documentation for a 
 
 <ul>
   <li><code>q=*:*</code> - returns all objects in the index<br/>
-      https://ucldc-solr-stage.elasticbeanstalk.com/solr/query/?q=*:*&wt=json&indent=true
+      https://solr.calisphere.org/solr/query/?q=*:*&wt=json&indent=true
   </li>
   <li><code>q=mosswood park</code> - returns all objects in the index with an instance of mosswood park in their metadata<br/>
-      https://ucldc-solr-stage.elasticbeanstalk.com/solr/query/?q=mosswood+park&wt=json&indent=true
+      https://solr.calisphere.org/solr/query/?q=mosswood+park&wt=json&indent=true
   </li>
   <li><code>q=title: "mosswood park", collection_name: "Parks in Oakland, California - Views"</code> - returns all objects with mosswood park in the title and a collection name of "Parks in Oakland, California - Views"<br/>
-    https://ucldc-solr-stage.elasticbeanstalk.com/solr/query/?q=title: "mosswood park", collection_name: "Parks in Oakland, California - Views"&wt=json&indent=true
+    https://solr.calisphere.org/solr/query/?q=title: "mosswood park", collection_name: "Parks in Oakland, California - Views"&wt=json&indent=true
   </li>
 </ul>
 </p>
@@ -36,7 +36,7 @@ The following are common query parameters. Consult the Solr documentation for a 
 <b>rows</b> - number of objects to return, default value is 10
 <ul>
   <li><code>rows=6</code> - returns the first six objects in the index<br/>
-      https://ucldc-solr-stage.elasticbeanstalk.com/solr/query/?q=*:*&rows=6&wt=json&indent=true
+      https://solr.calisphere.org/solr/query/?q=*:*&rows=6&wt=json&indent=true
   </li>
 </ul>
 </p>
@@ -45,7 +45,7 @@ The following are common query parameters. Consult the Solr documentation for a 
 <b>start</b> - object to start on, default value is 0 - specifying start and rows together can create pagination
 <ul>
   <li><code>start=2</code> - returns the third object through the 13th in the index<br/>
-      https://ucldc-solr-stage.elasticbeanstalk.com/solr/query/?q=*:*&start=2&wt=json&indent=true
+      https://solr.calisphere.org/solr/query/?q=*:*&start=2&wt=json&indent=true
   </li>
 </ul>
 </p>
@@ -54,7 +54,7 @@ The following are common query parameters. Consult the Solr documentation for a 
 <b>fq</b> - filter the query by specifying a value for a field. Filter on the string (_ss) version of the field to avoid tokenization and provide exact matches
 <ul>
   <li><code>fq=type_ss: image</code> - returns all objects with a type of 'image'<br/>
-      https://ucldc-solr-stage.elasticbeanstalk.com/solr/query/?q=*:*&fq=type_ss: image&wt=json&indent=true
+      https://solr.calisphere.org/solr/query/?q=*:*&fq=type_ss: image&wt=json&indent=true
   </li>
 </ul>
 </p>
