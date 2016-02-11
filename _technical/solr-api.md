@@ -10,7 +10,7 @@ The UCLDC project is running a harvest of objects in collections in both the Nux
 In order to access the Solr API, you will have to obtain an API Authentication Token. Request a token by emailing <a href="mailto:ucldc@ucop.edu">ucldc@ucop.edu</a> or your [campus contact]({{ site.url }}{{ site.baseurl }}/docs/collection-admins/). 
 
 Queries can be made using curl, or any Solr library that supports authentication tokens: <br/>
-<code>curl -H 'X-Authentication-Token: xxxx-xxxx-xxxx-xxxx' "https://ucldc-solr-stage.elasticbeanstalk.com/solr/query/?q=fred"</code> 
+<code>curl -H 'X-Authentication-Token: xxxx-xxxx-xxxx-xxxx' "https://solr.calisphere.org/solr/query/?q=fred"</code> 
 
 We're using solrpy - a python library with Solr bindings - to hit Solr: [https://github.com/edsu/solrpy](https://github.com/edsu/solrpy).
 
