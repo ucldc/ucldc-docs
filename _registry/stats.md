@@ -1,7 +1,9 @@
 ---
-title: Getting Usage Stats
+title: Getting Stats
 prev_section: registry/access
 ---
+
+## Usage Stats
 We are using Google Analytics for tracking usage of objects on the new Calisphere beta site.
 
 ##What's supported
@@ -62,3 +64,7 @@ You should now see all of the collections and/or institutions with which a given
 
 Generally speaking, we will not be providing additional support in navigating and interpreting your usage reports, as Google Analytics already provides [extensive help documentation](https://support.google.com/analytics?vid=1-635768324944661236-1858192804#topic=3544906). That said, we are happy to consult to the extent we can, especially if need more information about Calisphere BETA in order to understand your stats. Please feel free to contact us.
 
+
+## Extent Stats
+
+Extent statistics for the number of objects published in Calisphere are available at <a href="https://voro.cdlib.org/calisphere.org/">https://voro.cdlib.org/calisphere.org/</a>. 
